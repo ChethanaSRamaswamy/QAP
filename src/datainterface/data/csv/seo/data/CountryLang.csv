@@ -1,0 +1,342 @@
+﻿tt,Brand,Region,URL,Type,Country,Language,CountryCode,LangCode,CountryLang
+1,Aveda,APAC,https://www.aveda.com.au/,Stand alone,AU,English,AU,EN,en-au
+1,Aveda,APAC,https://www.aveda.jp,Stand alone,JP,Japanese,JP,JA,ja-jp
+1,Aveda,APAC,https://www.avedakorea.com/,Stand alone,KR,Korean,KR,KO,ko-kr
+1,Aveda,EMEA,https://www.aveda.de/,Stand alone,DE,German,DE,DE,de-de
+1,Aveda,EMEA,https://www.aveda.it/,Stand alone,IT,Italian,IT,IT,it-it
+0,Aveda,EMEA,https://www.aveda.eu,Hub,EU,,,,-
+1,Aveda,EMEA,https://www.aveda.eu/be/en/,Hub,Belgium,English,BE,EN,en-be
+1,Aveda,EMEA,https://www.aveda.eu/be/nl/,Hub,Belgium,Dutch,BE,NL,nl-be
+1,Aveda,EMEA,https://www.aveda.eu/be/fr/,Hub,Belgium,French,BE,FR,fr-be
+1,Aveda,EMEA,https://www.aveda.eu/es/es/,Hub,Spain,Spanish,ES,ES,es-es
+1,Aveda,EMEA,https://www.aveda.eu/es/en/,Hub,Spain,English,ES,EN,en-es
+1,Aveda,EMEA,https://www.aveda.eu/nl/en/,Hub,Netherlands,English,NL,EN,en-nl
+1,Aveda,EMEA,https://www.aveda.eu/nl/nl/,Hub,Netherlands,Dutch,NL,NL,nl-nl
+1,Aveda,EMEA,https://www.aveda.eu/fr/fr/,Hub,France,French,FR,FR,fr-fr
+1,Aveda,EMEA,https://www.aveda.eu/fr/en/,Hub,France,English,FR,EN,en-fr
+1,Aveda,EMEA,https://www.aveda.eu/at/en/,Hub,Austria,English,AT,EN,en-at
+1,Aveda,EMEA,https://www.aveda.eu/at/de/,Hub,Austria,Deutsch,AT,DE,de-at
+1,Aveda,EMEA,https://www.aveda.eu/ch/en/,Hub,Switzerland,English,CH,EN,en-ch
+1,Aveda,EMEA,https://www.aveda.eu/ch/it/,Hub,Switzerland,Italian,CH,IT,it-ch
+1,Aveda,EMEA,https://www.aveda.eu/ch/fr/,Hub,Switzerland,French,CH,FR,fr-ch
+1,Aveda,EMEA,https://www.aveda.eu/ch/de/,Hub,Switzerland,Deutsch,CH,DE,de-ch
+1,Aveda,EMEA,https://www.aveda.com.tr,Standalone,Turkey,Turkish,TR,,-
+1,Aveda,NA,www.aveda.ca,Standalone,Canada,English,CA,EN,en-ca
+1,Aveda,NA,https://fr.aveda.ca/,Standalone,Canada,French,CA,FR,fr-ca
+1,Aveda,NA,www.aveda.com,Standalone,United States,English,US,EN,en-us
+1,Aveda,UK,https://www.aveda.co.uk,Standalone,UK,English,GB,EN,en-gb
+1,Becca,NA,https://www.beccacosmetics.com/,Hub,United States,English,US,EN,en-us
+1,Becca,APAC,https://www.beccacosmetics.com/au/en,Hub,Australia,English,AU,EN,en-au
+1,Becca,NA,https://www.beccacosmetics.com/ca/fr,Hub,Canada,French,CA,FR,fr-ca
+1,Becca,NA,https://www.beccacosmetics.com/ca/en,Hub,Canada,English,CA,EN,en-ca
+1,Becca,EMEA,https://www.beccacosmetics.com/fr/fr,Hub,France,French,FR,FR,fr-fr
+1,Becca,EMEA,https://www.beccacosmetics.com/fr/en,Hub,France,English,FR,EN,en-fr
+1,Becca,EMEA,https://www.beccacosmetics.com/de/de,Hub,Germany,German,DE,DE,de-de
+1,Becca,EMEA,https://www.beccacosmetics.com/de/en,Hub,Germany,English,DE,EN,en-de
+1,Becca,EMEA,https://www.beccacosmetics.com/ie/en,Hub,Ireland,English,IE,EN,en-ie
+1,Becca,EMEA,https://www.beccacosmetics.com/se/en,Hub,Sweden,English,SE,EN,en-se
+1,Becca,EMEA,https://www.beccacosmetics.com/uk/en/,Hub,United Kingdom,English,GB,EN,en-gb
+1,BobbiBrown,APAC,https://www.bobbibrown.com.au,Standalone,AU,English,AU,EN,en-au
+1,BobbiBrown,APAC,https://www.bobbibrown.com.cn,Standalone,China,Chinese,CN,ZH,zh-cn
+1,BobbiBrown,APAC,https://www.bobbibrown.com.hk,Standalone,Hong Kong,Chinese,HK,ZH,zh-hk
+1,BobbiBrown,APAC,https://www.bobbibrown.com.hk/en-hk/,Standalone,Hong Kong,English,HK,EN,en-hk
+1,BobbiBrown,APAC,https://www.bobbibrown.jp,Standalone,Japan,Japanese,JP,JA,ja-jp
+1,BobbiBrown,APAC,https://www.bobbibrown.co.kr/,Standalone,Korea,Korean,KR,KO,ko-kr
+1,BobbiBrown,APAC,www.bobbibrown.co.th,Standalone,Thailand,Thai,TH,TH,th-th
+1,BobbiBrown,APAC,https://www.bobbibrown.com.tw,Standalone,Taiwan,Chinese,TW,CN,cn-tw
+1,BobbiBrown,EMEA,https://www.bobbibrown.at,Standalone,Austria,German,AT,DE,de-at
+1,BobbiBrown,EMEA,www.bobbibrown.ch,Standalone,Switzerland,German,CH,DE,de-ch
+1,BobbiBrown,EMEA,https://www.bobbibrown.ch/fr-e-SWI/,Standalone,Switzerland,French,CH,FR,fr-ch
+1,BobbiBrown,EMEA,www.bobbibrown.de,Standalone,Germany,German,DE,DE,de-de
+1,BobbiBrown,EMEA,www.bobbibrown.es,Standalone,Spain,Spanish,ES,ES,es-es
+1,BobbiBrown,EMEA,www.bobbibrowncosmetics.fr,Standalone,France,French,FR,FR,fr-fr
+1,BobbiBrown,EMEA,https://www.bobbibrown.co.il,Standalone,Israel,Hebrew,IL,HE,he-il
+1,BobbiBrown,EMEA,https://www.bobbibrown.it,Standalone,Italy,Italian,IT,IT,it-it
+1,BobbiBrown,EMEA,www.bobbibrown.nl,Standalone,Netherlands,Dutch,NL,NL,nl-nl
+1,BobbiBrown,EMEA,https://www.bobbibrown.ru,Standalone,Russia,Russian,RU,RU,ru-ru
+1,BobbiBrown,EMEA,https://www.bobbibrown.com.tr,Standalone,Turkey,Turkish,TR,TR,tr-tr
+1,BobbiBrown,EMEA,https://www.bobbibrown.co.za,Standalone,South Africa,English,ZA,EN,en-za
+1,BobbiBrown,LATAM,https://www.bobbibrown.com.mx,Standalone,Mexico,Stardust Spanish,MX,ES,es-mx
+1,BobbiBrown,NA,https://www.bobbibrowncosmetics.ca,Standalone,Canada,English,CA,EN,en-ca
+1,BobbiBrown,NA,https://fr.bobbibrowncosmetics.ca,Standalone,Canada,French,CA,FR,fr-ca
+1,BobbiBrown,NA,https://www.bobbibrowncosmetics.com,Standalone,US,English,US,EN,en-us
+1,BobbiBrown,UK,https://www.bobbibrown.co.uk,Standalone,UK,English,GB,EN,en-gb
+1,BumbleandBumble,NA,https://www.bumbleandbumble.ca,Standalone,Canada,English,CA,EN,en-ca
+1,BumbleandBumble,NA,https://fr.bumbleandbumble.ca,Standalone,Canada,French,CA,FR,fr-ca
+1,BumbleandBumble,NA,https://www.bumbleandbumble.com,Standalone,US,English,US,EN,en-us
+1,BumbleandBumble,UK,www.bumbleandbumble.co.uk,Standalone,UK,English,GB,EN,en-gb
+1,ByKilian,EMEA,https://www.bykilian.fr,Standalone,France,French,FR,FR,fr-fr
+1,ByKilian,EMEA,https://www.bykilian.ru,Standalone,Russia,Russian,RU,RU,ru-ru
+1,ByKilian,NA,https://www.bykilian.com,Standalone,US,English,US,EN,en-us
+1,ByKilian,UK,https://www.bykilian.co.uk,Standalone,UK,English,GB,EN,en-gb
+1,Clinique,APAC,https://www.clinique.com.au,Standalone,AU,English,AU,EN,en-au
+1,Clinique,APAC,https://www.clinique.com.cn,Standalone,China,Chinese,CN,ZH,zh-cn
+1,Clinique,APAC,https://www.clinique.com.hk/en-hk/,Standalone,Hong Kong,English,HK,EN,en-hk
+1,Clinique,APAC,https://www.clinique.com.hk,Standalone,Hong Kong,Chinese,HK,ZH,zh-hk
+1,Clinique,APAC,https://www.clinique.jp,Standalone,Japan,Japanese,JP,JA,ja-jp
+1,Clinique,APAC,https://www.cliniquekorea.co.kr,Standalone,Korea,Korean,KR,KO,ko-kr
+1,Clinique,APAC,https://www.clinique.com.my,Standalone,Malaysia,Malay,MY,MS,ms-my
+1,Clinique,APAC,https://www.clinique.co.nz,Standalone,New Zealand,English,NZ,EN,en-nz
+1,Clinique,APAC,https://www.clinique.co.th,Standalone,Thailand,Thai,TH,TH,th-th
+1,Clinique,APAC,https://www.clinique.com.tw,Standalone,Taiwan,Chinese,TW,ZH,zh-tw
+1,Clinique,EMEA,https://www.clinique.at,Standalone,Austria,German,AT,DE,de-at
+1,Clinique,EMEA,https://www.clinique.be/fr-BE/,Standalone,Belgium Netherlands,French,BE,FR,fr-be
+1,Clinique,EMEA,https://www.clinique.be/,Standalone,Belgium Netherlands,Dutch,BE,NL,nl-be
+1,Clinique,EMEA,https://www.ch.clinique.com/,Standalone,Switzerland,German,CH,DE,de-ch
+1,Clinique,EMEA,https://www.ch.clinique.com/,Standalone,Switzerland,French,CH,FR,fr-ch
+1,Clinique,EMEA,https://www.clinique.cz/,Standalone,Czech,Czech,CZ,CS,cs-cz
+1,Clinique,EMEA,www.clinique.de,Standalone,Germany,German,DE,DE,de-de
+1,Clinique,EMEA,https://www.clinique.es/,Standalone,Spain,Spanish,ES,ES,es-es
+1,Clinique,EMEA,https://www.fr.clinique.com,Standalone,France,French,FR,FR,fr-fr
+1,Clinique,EMEA,https://www.clinique.gr,Standalone,Greece,Greek,GR,EL,el-gr
+1,Clinique,EMEA,https://www.clinique.hu,Standalone,Hungary,Hungarian,HU,HU,hu-hu
+1,Clinique,EMEA,www.clinique.co.il,Standalone,Israel,Hebrew,IL,HE,he-il
+1,Clinique,EMEA,www.cliniqueitaly.it,Standalone,Italy,Italian,IT ,IT,it-it 
+1,Clinique,EMEA,https://www.clinique.nl,Standalone,Netherlands,Dutch,NL,NL,nl-nl
+1,Clinique,EMEA,https://www.clinique.dk,Standalone,Nordic/DK,Danish,DK,DA,da-dk
+1,Clinique,EMEA,https://www.clinique.no,Standalone,Nordic/NO,Norwegian,NO,NO,no-no
+1,Clinique,EMEA,https://www.clinique.se,Standalone,Nordic/SE,Swedish,SE,SV,sv-se
+1,Clinique,EMEA,https://www.clinique.com.pl,Standalone,Poland,Polish,PL,PL,pl-pl
+1,Clinique,EMEA,https://www.clinique.ru,Standalone,Russia,Russian,RU,RU,ru-ru
+1,Clinique,EMEA,https://www.clinique.com.tr,Standalone,Turkey,Turkish,TR,TR,tr-tr
+1,Clinique,EMEA,https://www.clinique.co.za,Standalone,South Africa,English,ZA,EN,en-za
+1,Clinique,LATAM,www.clinique.com.br,Standalone,Brazil,Portuguese,BR,PT,pt-br
+1,Clinique,LATAM,https://www.clinique.cl,Standalone,Chile,Spanish,CL,ES,es-cl
+1,Clinique,LATAM,https://www.clinique.com.mx,Standalone,MX,Spanish,MX,ES,es-mx
+1,Clinique,NA,www.clinique.ca,Standalone,Canada,English,CA,EN,en-ca
+1,Clinique,NA,https://fr.clinique.ca,Standalone,Canada,French,CA,FR,fr-ca
+1,Clinique,NA,https://www.clinique.com,Standalone,US,English,US,EN,en-us
+1,Clinique,UK,https://www.clinique.co.uk,Standalone,UK,English,GB,EN,en-gb
+1,Darphin,EMEA,https://www.darphin.eu/fr/en/,Standalone,FR,Perlgem English,FR,EN,en-fr
+1,Darphin,EMEA,https://www.darphin.eu/fr/fr/,Standalone,FR,French,FR,FR,fr-fr
+1,Darphin,NA,https://www.darphin.ca/,Standalone,CA,English,CA,EN,en-ca
+1,Darphin,NA,https://fr.darphin.ca/,Standalone,CA,French,CA,FR,fr-ca
+1,Darphin,NA,www.darphin.com,Standalone,US,English,US,EN,en-us
+1,Darphin,UK,www.darphin.co.uk,Standalone,UK,Perlgem English,GB,EN,en-gb
+1,EsteeLauder,APAC,https://www.esteelauder.com.au,Standalone,Australia,English,AU,EN,en-au
+1,EsteeLauder,APAC,https://www.esteelauder.com.cn,Standalone,China,Chinese,CN,ZH,zh-cn
+1,EsteeLauder,APAC,https://www.esteelauder.com.hk,Standalone,Hong Kong,Chinese,HK,ZH,zh-hk
+1,EsteeLauder,APAC,https://www.esteelauder.com.hk/en-hk,Standalone,Hong Kong,English,HK,EN,en-hk
+1,EsteeLauder,APAC,https://www.esteelauder.jp,Standalone,Japan,Japanese,JP,JA,ja-jp
+1,EsteeLauder,APAC,https://www.esteelauder.co.kr,Standalone,Korea,Korean,KR,KO,ko-kr
+1,EsteeLauder,APAC,https://www.esteelauder.com.my,Standalone,Malaysia,Malay,MY,MS,ms-my
+1,EsteeLauder,APAC,https://www.esteelauder.co.th,Standalone,Thailand,Thai,TH,TH,th-th
+1,EsteeLauder,APAC,https://www.esteelauder.com.tw,Standalone,Taiwan,Chinese,TW,ZH,zh-tw
+1,EsteeLauder,EMEA,https://www.esteelauder.at,Standalone,Austria,German,AT,DE,de-at
+1,EsteeLauder,EMEA,https://www.esteelauder.be/be/fr/,Standalone,Benelux/BE,French,BE,FR,fr-be
+1,EsteeLauder,EMEA,https://www.esteelauder.be/be/nl/,Standalone,Benelux/BE,Dutch,BE,NL,nl-be
+1,EsteeLauder,EMEA,https://www.esteelauder.ch/,Standalone,Switzerland,German,CH,DE,de-ch
+1,EsteeLauder,EMEA,https://www.esteelauder.ch/fr-SWI/,Standalone,Switzerland,French,CH,FR,fr-ch
+1,EsteeLauder,EMEA,https://www.esteelauder.cz,Standalone,Czech,Czech,CZ,CS,cs-cz
+1,EsteeLauder,EMEA,https://www.esteelauder.de,Standalone,Germany,German,DE,DE,de-de
+1,EsteeLauder,EMEA,https://www.esteelauder.dk,Standalone,Nordic/Denmark,Danish,DK,DA,da-dk
+1,EsteeLauder,EMEA,www.esteelauder.es,Standalone,Spain,Spanish,ES,ES,es-es
+1,EsteeLauder,EMEA,https://www.esteelauder.fr,Standalone,France,French,FR,FR,fr-fr
+1,EsteeLauder,EMEA,https://www.esteelauder.gr,Standalone,Greece,Greek,GR,EL,el-gr
+1,EsteeLauder,EMEA,https://www.esteelauder.hu,Standalone,Hungary,Hungarian,HU,HU,hu-hu
+1,EsteeLauder,EMEA,https://www.esteelauder.it,Standalone,Italy,Italian,IT,IT,it-it
+1,EsteeLauder,EMEA,https://www.esteelauder.co.il,Standalone,Israel,Hebrew,IL,HE,he-il
+1,EsteeLauder,EMEA,https://www.esteelauder.nl,Standalone,Benelux/NL,Dutch,NL,NL,nl-nl
+1,EsteeLauder,EMEA,https://www.esteelauder.no,Standalone,Nordic/NO,Norwegian,NO,NO,no-no
+1,EsteeLauder,EMEA,https://www.esteelauder.pl,Standalone,Poland,Polish,PL,PL,pl-pl
+1,EsteeLauder,EMEA,https://www.esteelauder.ru,Standalone,Russia,Russian,RU,RU,ru-ru
+1,EsteeLauder,EMEA,https://www.esteelauder.se,Standalone,Nordic/SE,Swedish,SE,SV,sv-se
+1,EsteeLauder,EMEA,https://www.esteelauder.com.tr,Standalone,Turkey,Turkish,TR,TR,tr-tr
+1,EsteeLauder,EMEA,https://www.esteelauder.co.za,Standalone,South Africa,English,ZA,EN,en-za
+1,EsteeLauder,LATAM,https://www.esteelauder.com.mx,Standalone,Mexico,Spanish,MX,ES,es-mx
+1,EsteeLauder,NA,https://www.esteelauder.ca,Standalone,Canada,English,CA,EN,en-ca
+1,EsteeLauder,NA,https://francais.esteelauder.ca,Standalone,Canada,French,CA,FR,fr-ca
+1,EsteeLauder,NA,https://www.esteelauder.com/,Standalone,US,English,US,EN,en-us
+1,EsteeLauder,UK,https://www.esteelauder.co.uk/,Standalone,UK,English,GB,EN,en-gb
+1,ELCBeautyPerks,NA,https://www.elcbeautyperks.com/,Standalone,US,English,US,EN,en-us
+1,Fredericmalle,EMEA,https://www.fredericmalle.eu,Hub,EU/UF,English,,EN,en-
+1,Fredericmalle,NA,https://www.fredericmalle.com,Standalone,US,English,US,EN,en-us
+1,Fredericmalle,UK,https://www.fredericmalle.co.uk,Standalone,UK,English,GB,EN,en-gb
+1,GlamGlow,APAC,www.glamglow.com.hk,Standalone,Hong Kong,Chinese,HK,ZH,zh-hk
+1,GlamGlow,APAC,https://www.glamglow.com.hk/en-hk/,Standalone,Hong Kong,English,HK,EN,en-hk
+1,GlamGlow,NA,https://www.glamglow.com,Standalone,US,English,US,EN,en-us
+1,GlamGlow,UK,https://www.glamglow.co.uk/,Standalone,UK,English,GB,EN,en-gb
+1,JoMalone,APAC,https://www.jomalone.com.au/,Standalone,Australia,English,AU,EN,en-au
+1,JoMalone,APAC,https://www.jomalone.com.cn/,Standalone,China,Chinese,CN,ZH,zh-cn
+1,JoMalone,APAC,https://www.jomalone.jp/,Standalone,Japan,Japanese,JP,JA,ja-jp
+1,JoMalone,APAC,https://www.jomalone.co.kr/,Standalone,Korea,Korean,KR,KO,ko-kr
+1,JoMalone,APAC,https://www.jomalone.co.th/,standalone,Thailand,Thai,TH,TH,th-th
+0,JoMalone,EMEA,https://www.jomalone.eu/,Hub,"EU (Germany, Austria, Belgium, Netherlands, Italy, Spain, Portugal)",,,,-
+1,JoMalone,EMEA,https://www.jomalone.eu/de/de/,Hub,Germany,German,DE,DE,de-de
+1,JoMalone,EMEA,https://www.jomalone.eu/de/en/,Hub,Germany,English,DE,EN,en-de
+1,JoMalone,EMEA,https://www.jomalone.eu/at/de/,Hub,Austria,German,AT,DE,de-at
+1,JoMalone,EMEA,https://www.jomalone.eu/at/en/,Hub,Austria,English,AT,EN,en-at
+1,JoMalone,EMEA,https://www.jomalone.eu/be/en/,Hub,Belgium,English,BE,EN,en-be
+1,JoMalone,EMEA,https://www.jomalone.eu/be/nl/,Hub,Belgium,Dutch,BE,NL,nl-be
+1,JoMalone,EMEA,https://www.jomalone.eu/be/fr/,Hub,Belgium,French,BE,FR,fr-be
+1,JoMalone,EMEA,https://www.jomalone.eu/nl/nl/,Hub,Netherlands,Dutch,NL,NL,nl-nl
+1,JoMalone,EMEA,https://www.jomalone.eu/nl/en/,Hub,Netherlands,English,NL,EN,en-nl
+1,JoMalone,EMEA,https://www.jomalone.eu/it/it/,Hub,Italy,Italian,IT,IT,it-it
+1,JoMalone,EMEA,https://www.jomalone.eu/it/en/,Hub,Italy,English,IT,EN,en-it
+1,JoMalone,EMEA,https://www.jomalone.eu/es/es/,Hub,Spain,Spanish,ES,ES,es-es
+1,JoMalone,EMEA,https://www.jomalone.eu/es/en/,Hub,Spain,English,ES,EN,en-es
+1,JoMalone,EMEA,https://www.jomalone.eu/pt/pt/,Hub,Portugal,Portuguese,PT,PT,pt-pt
+1,JoMalone,EMEA,https://www.jomalone.eu/pt/en/,Hub,Portugal,English,PT,EN,en-pt
+1,JoMalone,EMEA,www.jomalone.fr,Standalone,France,French,FR,FR,fr-fr
+0,JoMalone,EMEA,https://www.jomalone-me.com/,Hub,"ME (KSA, UAE)",,,,-
+1,JoMalone,EMEA,https://www.jomalone-me.com/ae/ar/,Hub,UAE,Arabic,AE,AR,ar-ae
+1,JoMalone,EMEA,https://www.jomalone-me.com/ae/en/,Hub,UAE,English,AE,EN,en-ae
+1,JoMalone,EMEA,https://www.jomalone-me.com/sa/ar/,Hub,Saudi Arabia,Arabic,SA,AR,ar-sa
+1,JoMalone,EMEA,https://www.jomalone-me.com/sa/en/,Hub,Saudi Arabia,English,SA,EN,en-sa
+1,JoMalone,EMEA,https://www.jomalone.ru/,Standalone,Russia,Russian,RU,RU,ru-ru
+1,JoMalone,LATAM,https://www.jomalone.com.br/,Standalone,Brazil,Portuguese,BR,PT,pt-br
+1,JoMalone,NA,https://fr.jomalone.ca/,Standalone,Canada,French,CA,FR,fr-ca
+1,JoMalone,NA,www.jomalone.ca,Standalone,Canada,English,CA,EN,en-ca
+1,JoMalone,NA,https://www.jomalone.com,Standalone,US,English,US,EN,en-us
+1,JoMalone,UK,https://www.jomalone.co.uk,Standalone,UK,English,GB,EN,en-gb
+1,LaMer,APAC,https://www.cremedelamer.com.au/,Standalone,Australia,English,AU,EN,en-au
+1,LaMer,APAC,https://www.lamer.com.cn,Standalone,China,Chinese,CN,ZH,zh-cn
+1,LaMer,APAC,https://www.lamer.com.hk/,Standalone,Hong Kong,Chinese,HK,ZH,zh-hk
+1,LaMer,APAC,https://www.lamer.com.hk/en-hk/,Standalone,Hong Kong,English,HK,EN,en-hk
+1,LaMer,APAC,https://www.delamer.jp/home,Standalone,Japan,Japanese,JP,JA,ja-jp
+1,LaMer,APAC,https://www.lamer.co.th/,Standalone,Thailand,Thai,TH,TH,th-th
+1,LaMer,APAC,https://www.lamer.com.tw/,Standalone,Taiwan,Chinese,TW,ZH,zh-tw
+0,LaMer,EMEA,https://www.lamer.eu/,Hub,"EU (Austria, Belgium, Spain, Netherlands, Portugal, Italy, Denmark, Switzerland, Poland, Germany, France) ",,,,-
+1,LaMer,EMEA,https://www.lamer.eu/at/de,Hub,Austria,German,AT,DE,de-at
+1,LaMer,EMEA,https://www.lamer.eu/at/en,Hub,Austria,English,AT,EN,en-at
+1,LaMer,EMEA,https://www.lamer.eu/be/en,Hub,Belgium,English,BE,EN,en-be
+1,LaMer,EMEA,https://www.lamer.eu/be/nl,Hub,Belgium,Dutch,BE,NL,nl-be
+1,LaMer,EMEA,https://www.lamer.eu/be/fr,Hub,Belgium,French,BE,FR,fr-be
+1,LaMer,EMEA,https://www.lamer.eu/es/es,Hub,Spain,Spanish,ES,ES,es-es
+1,LaMer,EMEA,https://www.lamer.eu/es/en,Hub,Spain,English,ES,EN,en-es
+1,LaMer,EMEA,https://www.lamer.eu/nl/nl,Hub,Netherlands,Dutch,NL,NL,nl-nl
+1,LaMer,EMEA,https://www.lamer.eu/nl/en,Hub,Netherlands,English,NL,EN,en-nl
+1,LaMer,EMEA,https://www.lamer.eu/pt/en,Hub,Portugal,English,PT,EN,en-pt
+1,LaMer,EMEA,https://www.lamer.eu/pt/pt,Hub,Portugal,Portuguese,PT,PT,pt-pt
+1,LaMer,EMEA,https://www.lamer.eu/it/it,Hub,Italy,Italian,IT,IT,it-it
+1,LaMer,EMEA,https://www.lamer.eu/it/en,Hub,Italy,English,IT,EN,en-it
+1,LaMer,EMEA,https://www.lamer.eu/dk/en,Hub,Denmark,English,DK,EN,en-dk
+1,LaMer,EMEA,https://www.lamer.eu/ch/en,Hub,Switzerland,English,CH,EN,en-ch
+1,LaMer,EMEA,https://www.lamer.eu/ch/fr,Hub,Switzerland,French,CH,FR,fr-ch
+1,LaMer,EMEA,https://www.lamer.eu/ch/de,Hub,Switzerland,German,CH,DE,de-ch
+1,LaMer,EMEA,https://www.lamer.eu/ch/it,Hub,Switzerland,Italian,CH,IT,it-ch
+1,LaMer,EMEA,https://www.lamer.eu/pl/en,Hub,Poland,English,PL,EN,en-pl
+1,LaMer,EMEA,https://www.lamer.eu/pl/en,Hub,Poland,Polish,PL,PL,pl-pl
+1,LaMer,EMEA,https://www.cremedelamer.de/,Hub,Germany,German,DE,DE,de-de
+1,LaMer,EMEA,https://www.cremedelamer.fr/,Standalone,FR,French,FR,FR,fr-fr
+1,LaMer,EMEA,https://www.cremedelamer.ru,Standalone,Russia,Russian,RU,RU,ru-ru
+1,LaMer,LATAM,https://www.lamer.com.br/,Standalone,Brazil,Portuguese,BR,PT,pt-br
+1,LaMer,LATAM,https://www.lamer.com.mx/,Standalone,Mexico,Spanish,MX,ES,es-mx
+1,LaMer,NA,https://www.cremedelamer.ca/,Standalone,Canada,English,CA,EN,en-ca
+1,LaMer,NA,https://fr.cremedelamer.ca/,Standalone,Canada,French,CA,FR,fr-ca
+1,LaMer,NA,https://www.cremedelamer.com/,Standalone,US,English,US,EN,en-us
+1,LaMer,UK,https://www.cremedelamer.co.uk/,Standalone,UK,English,GB,EN,en-gb
+1,LabSeries,APAC,https://www.labseries.com.cn/,Standalone,China,Chinese,CN,ZH,zh-cn
+1,LabSeries,APAC,https://www.labseries.jp/,Standalone,Japan,Japanese,JP,JA,ja-jp
+1,LabSeries,APAC,https://www.labseries.co.kr/,Standalone,Korea,Korean,KR,KO,ko-kr
+1,LabSeries,NA,www.labseries.com,Standalone,US,English,US,EN,en-us
+1,LabSeries,UK,https://www.labseries.co.uk/,Standalone,UK,English,GB,EN,en-gb
+1,MAC,APAC,https://www.maccosmetics.com.au/,Standalone,Australia,English,AU,EN,en-au
+1,MAC,APAC,https://www.maccosmetics.com.cn/,Standalone,China,Chinese,CN,ZH,zh-cn
+1,MAC,APAC,https://www.maccosmetics.com.hk/,Standalone,Hong Kong,Chinese,HK,ZH,zh-hk
+1,MAC,APAC,https://www.maccosmetics.com.hk/en-hk/,Standalone,Hong Kong,English,HK,EN,en-hk
+1,MAC,APAC,https://www.maccosmetics.jp/,Standalone,Japan,Japanese,JP,JA,ja-jp
+1,MAC,APAC,https://www.maccosmetics.co.kr/,Standalone,Korea,Korean,KR,KO,ko-kr
+1,MAC,APAC,https://www.maccosmetics.com.my/,Standalone,Malaysia,English,MY,EN,en-my
+1,MAC,APAC,https://www.maccosmetics.co.nz/,Standalone,New Zealand,English,NZ,EN,en-nz
+1,MAC,APAC,https://www.maccosmetics.co.th/,Standalone,Thailand,Thai,TH,TH,th-th
+1,MAC,APAC,https://www.maccosmetics.com.tw/,Standalone,Taiwan,Chinese,TW,ZH,zh-tw
+1,MAC,EMEA,https://www.maccosmetics.at/,Standalone,Austria,German,AT,DE,de-at
+1,MAC,EMEA,https://www.maccosmetics.be/be/nl/,Standalone,Benelux/BE,Dutch,BE,NL,nl-be
+1,MAC,EMEA,https://www.maccosmetics.be/be/fr/,Standalone,Belgium,French,BE,FR,fr-be
+1,MAC,EMEA,https://www.maccosmetics.ch/,Standalone,Switzerland,German,CH,DE,de-ch
+1,MAC,EMEA,https://www.maccosmetics.ch/fr-e-SWI,Standalone,Switzerland,French,CH,FR,fr-ch
+1,MAC,EMEA,https://www.maccosmetics.ch/it-e-SWI,Standalone,Switzerland,Italian,CH,IT,it-ch
+1,MAC,EMEA,https://www.maccosmetics.cz/,Standalone,Czech,Czech,CZ,CS,cs-cz
+1,MAC,EMEA,https://www.maccosmetics.de/,Standalone,Germany,German,DE,DE,de-de
+1,MAC,EMEA,https://www.maccosmeticsnordics.com/dk/da/,Standalone,Denmark,Perlgem,DA,DK,dk-da
+1,MAC,EMEA,https://www.maccosmetics.es/,Standalone,Spain,Spanish,ES,ES,es-es
+1,MAC,EMEA,https://www.maccosmetics.fr/,Standalone,France,French,FR,FR,fr-fr
+1,MAC,EMEA,https://www.maccosmetics.gr,Standalone,Greece,Greek,GR,EL,el-gr
+1,MAC,EMEA,https://www.maccosmetics.hu/,Standalone,Hungary,Hungarian,HU,HU,hu-hu
+1,MAC,EMEA,https://www.maccosmetics.co.il/,Standalone,Israel,Hebrew,IL,HE,he-il
+1,MAC,EMEA,www.maccosmetics.it,Standalone,Italy,Italian,IT,IT,it-it
+1,MAC,EMEA,www.maccosmetics-sa.com,Standalone,Saudi Arabia,English,SA,EN,en-sa
+1,MAC,EMEA,https://www.maccosmetics-sa.com/ar-e-SA/,Standalone,Saudi Arabia,Arabic,SA,AR,ar-sa
+1,MAC,EMEA,https://www.maccosmetics.nl/nl/nl/,Standalone,Benelux/NL,Dutch,NL,NL,nl-nl
+1,MAC,EMEA,https://www.maccosmeticsnordics.com/no/no/,Standalone,Norway,Norwegian,NO,NO,no-no
+1,MAC,EMEA,https://www.maccosmetics.pl/,Standalone,Poland,Polish,PL,PL,pl-pl
+1,MAC,EMEA,https://www.maccosmetics.ro,Standalone,Romania,Romanian,RO,RO,ro-ro
+1,MAC,EMEA,https://www.mac-cosmetics.ru/,Standalone,Russia,Russian,RU,RU,ru-ru
+1,MAC,EMEA,https://www.maccosmeticsnordics.com/se/sv/,Standalone,Sweden,Perlgem Swedish,SE,SV,sv-se
+0,MAC,EMEA,https://www.maccosmeticsnordics.com/,Hub,EMEA_MS_SE,Perlgem,,,-
+1,MAC,EMEA,https://www.maccosmeticsnordics.com/no/en,Hub,Norway,English,NO,EN,en-no
+1,MAC,EMEA,https://www.maccosmeticsnordics.com/no/no,Hub,Norway,Norwegian,NO,NO,no-no
+1,MAC,EMEA,https://www.maccosmeticsnordics.com/se/sv,Hub,Sweden,Swedish,SE,SV,sv-se
+1,MAC,EMEA,https://www.maccosmeticsnordics.com/se/en,Hub,Sweden,English,SE,EN,en-se
+1,MAC,EMEA,https://www.maccosmeticsnordics.com/DK/DA,Hub,Denmark,Danish,DK,DA,da-dk
+1,MAC,EMEA,https://www.maccosmeticsnordics.com/DK/EN,Hub,Denmark,English,DK,EN,en-dk
+1,MAC,EMEA,https://www.maccosmetics.com.tr/,Standalone,Turkey,Turkish,TR,TR,tr-tr
+1,MAC,EMEA,https://www.maccosmetics.ae/,Standalone,UAE,English,AE,EN,en-ae
+1,MAC,EMEA,https://www.maccosmetics.ae/ar-e-AE/,Standalone,UAE,Arabic,AE,AR,ar-ae
+1,MAC,EMEA,https://www.maccosmetics.co.za/,Standalone,South Africa,English,ZA,EN,en-za
+1,MAC,LATAM,https://www.maccosmetics.com.br/,Standalone,Brazil,Portuguese,BR,PT,pt-br
+1,MAC,LATAM,https://www.maccosmetics.cl,Standalone,Chile,Spanish,CL,ES,es-cl
+1,MAC,LATAM,https://www.maccosmetics.com.mx/,Standalone,Mexico,Spanish,MX,ES,es-mx
+1,MAC,NA,https://www.maccosmetics.ca/,Standalone,Canada,English,CA,EN,en-ca
+1,MAC,NA,https://fr.maccosmetics.ca/,Standalone,Canada,French,CA,FR,fr-ca
+1,MAC,NA,www.maccosmetics.com,Standalone,US,English,US,EN,en-us
+1,MAC,UK,www.maccosmetics.co.uk,Standalone,UK,English,GB,EN,en-gb
+1,Origins,APAC,https://www.origins.com.cn/,Standalone,China,Chinese,CN,ZH,zh-cn
+1,Origins,APAC,https://www.origins.hk,Standalone,HK,Chinese,HK,ZH,zh-hk
+1,Origins,APAC,https://www.origins.hk/en-hk/,Standalone,HK,English,HK,EN,en-hk
+1,Origins,APAC,https://www.origins.com.tw/,Standalone,Taiwan,Chinese,TW,ZH,zh-tw
+1,Origins,APAC,https://www.origins.co.th/,Standalone,Thailand,Thai,TH,TH,th-th
+1,Origins,EMEA,https://www.origins.de/,Standalone,Germany,German,DE,DE,de-de
+1,Origins,EMEA,https://www.origins.dk/,Standalone,Denmark,Perlgem Danish,DK,DA,da-dk
+0,Origins,EMEA,https://www.origins.eu,Hub,"EU(Austria, Belgium, Spain, Netherlands, Italy, France)",,,,-
+1,Origins,EMEA,https://www.origins.eu/at/en,Hub,Austria,English,AT,EN,en-at
+1,Origins,EMEA,https://www.origins.eu/at/de,Hub,Austria,German,AT,DE,de-at
+1,Origins,EMEA,https://www.origins.eu/be/en,Hub,Belgium,English,BE,EN,en-be
+1,Origins,EMEA,https://www.origins.eu/be/fr,Hub,Belgium,French,BE,FR,fr-be
+1,Origins,EMEA,https://www.origins.eu/be/nl,Hub,Belgium,Dutch,BE,NL,nl-be
+1,Origins,EMEA,https://www.origins.eu/es/en,Hub,Spain,English,ES,EN,en-es
+1,Origins,EMEA,https://www.origins.eu/es/es,Hub,Spain,Spain,ES,ES,es-es
+1,Origins,EMEA,https://www.origins.eu/nl/en,Hub,Netherlands,English,NL,EN,en-nl
+1,Origins,EMEA,https://www.origins.eu/nl/nl,Hub,Netherlands,Dutch,NL,NL,nl-nl
+1,Origins,EMEA,https://www.origins.eu/it/it,Hub,Italy,Italian,IT,IT,it-it
+1,Origins,EMEA,https://www.origins.eu/it/en,Hub,Italy,English,IT,EN,en-it
+1,Origins,EMEA,https://www.origins.eu/fr/en,Hub,France,English,FR,EN,en-fr
+1,Origins,EMEA,https://www.origins.eu/fr/fr,Hub,France,French,FR,FR,fr-fr
+1,Origins,EMEA,https://www.origins.ru,Standalone,Russia,Russian,RU,RU,ru-ru
+1,Origins,EMEA,www.origins.com.tr,Standalone,Turkey,Turkish,TR,TR,tr-tr
+1,Origins,LATAM,https://www.origins.com.mx/,Standalone,Mexico,Spanish,MX,ES,es-mx
+1,Origins,UK,https://www.origins.co.uk/,Standalone,UK,English,GB,EN,en-gb
+1,Origins,NA,https://www.origins.ca,Standalone,CA,English,CA,EN,en-ca
+1,Origins,NA,https://fr.origins.ca/,Standalone,CA,French,CA,FR,fr-ca
+1,Origins,NA,https://www.origins.com/,Standalone,US,English,US,EN,en-us
+1,Prescriptives,NA,https://www.prescriptives.com/index.tmpl,Standalone,US,Perlgem English,US,EN,en-us
+1,Smashbox,EMEA,http://www.smashbox.dk/site_down_sb_dk.html,Standalone,Denmark,Drupal 6 Danish,DK,DA,da-dk
+0,Smashbox,EMEA,https://www.smashbox.eu/,Hub,"EU (Switzerland, Germany, France, Italy, Netherlands)",,,,-
+1,Smashbox,EMEA,https://www.smashbox.eu/ch/en,Hub,Switzerland,English,CH,EN,en-ch
+1,Smashbox,EMEA,https://www.smashbox.eu/ch/de,Hub,Switzerland,German,CH,DE,de-ch
+1,Smashbox,EMEA,https://www.smashbox.eu/ch/fr,Hub,Switzerland,French,CH,FR,fr-ch
+1,Smashbox,EMEA,https://www.smashbox.eu/ch/it,Hub,Switzerland,Italian,CH,IT,it-ch
+1,Smashbox,EMEA,https://www.smashbox.eu/fr/fr,Hub,France,French,FR,FR,fr-fr
+1,Smashbox,EMEA,https://www.smashbox.eu/fr/en,Hub,France,English,FR,EN,en-fr
+1,Smashbox,EMEA,https://www.smashbox.eu/nl/en,Hub,Netherlands,English,NL,EN,en-nl
+1,Smashbox,EMEA,https://www.smashbox.eu/nl/nl,Hub,Netherlands,Dutch,NL,NL,nl-nl
+1,Smashbox,EMEA,https://www.smashbox.eu/de/de,Hub,Germany,German,DE,DE,de-de
+1,Smashbox,EMEA,https://www.smashbox.eu/de/en,Hub,Germany,English,DE,EN,en-de
+1,Smashbox,EMEA,https://www.smashbox.eu/it/it,Hub,Italy,Italian,IT,IT,it-it
+1,Smashbox,EMEA,https://www.smashbox.eu/it/en,Hub,Italy,English,IT,EN,en-it
+1,Smashbox,EMEA,https://www.smashbox.gr/,Standalone,Greece,Greek,GR,EL,el-gr
+1,Smashbox,EMEA,https://www.smashbox.ru/,Standalone,Russia,Russian,RU,RU,ru-ru
+1,Smashbox,EMEA,https://www.smashbox.co.za,Standalone,South Africa,English,ZA,EN,en-za
+1,Smashbox,UK,https://www.smashbox.co.uk/,Standalone,UK,English,GB,EN,en-gb
+1,Smashbox,NA,https://www.smashbox.ca/,Standalone,CA,English,CA,EN,en-ca
+1,Smashbox,NA,fr.smashbox.ca/,Standalone,CA,French,CA,FR,fr-ca
+1,Smashbox,NA,https://www.smashbox.com/,Standalone,US,English,US,EN,en-us
+1,Rodin,NA,https://www.rodinoliolusso.com/,Standalone,US,English,US,EN,en-us
+1,TooFaced,APAC,https://www.toofacedcosmetics.jp/,Standalone,Japan,Japanese,JA,JP,jp-ja
+1,TooFaced,NA,https://www.toofaced.com/,Hub,US,English,US,EN,en-us
+1,TooFaced,NA,https://www.toofaced.com/ca/en,Hub,CA,English,CA,EN,en-ca
+1,TooFaced,NA,https://www.toofaced.com/ca/fr,Hub,CA,French,CA,FR,fr-ca
+1,TooFaced,NA,https://www.toofaced.com/uk/en,Hub,UK,English,GB,EN,en-gb
+1,TooFaced,NA,https://www.toofaced.com/mx/en,Hub,MX,English,MX,EN,en-mx
+0,TooFaced,NA,https://www.toofaced.com/,Hub,,,,,-

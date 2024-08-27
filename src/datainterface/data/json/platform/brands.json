@@ -1,0 +1,128 @@
+[
+  {
+    "brandId": 1,
+    "brand": "MAC",
+    "brandPrefix": "MC",
+    "elcCode": 1,
+    "isActive": 1
+  },
+  {
+    "brandId": 2,
+    "brand": "Clinique",
+    "brandPrefix": "CL",
+    "elcCode": 2,
+    "isActive": 1
+  },
+  {
+    "brandId": 3,
+    "brand": "Origins",
+    "brandPrefix": "OR",
+    "elcCode": 3,
+    "isActive": 1
+  },
+  {
+    "brandId": 4,
+    "brand": "EsteeLauder",
+    "brandPrefix": "EL",
+    "elcCode": 4,
+    "isActive": 1
+  },
+  {
+    "brandId": 5,
+    "brand": "BobbiBrown",
+    "brandPrefix": "BB",
+    "elcCode": 5,
+    "isActive": 1
+  },
+  {
+    "brandId": 6,
+    "brand": "Lamer",
+    "brandPrefix": "LM",
+    "elcCode": 10,
+    "isActive": 1
+  },
+  {
+    "brandId": 7,
+    "brand": "LabSeries",
+    "brandPrefix": "LS",
+    "elcCode": 13,
+    "isActive": 1
+  },
+  {
+    "brandId": 8,
+    "brand": "Aveda",
+    "brandPrefix": "AV",
+    "elcCode": 15,
+    "isActive": 1
+  },
+  {
+    "brandId": 9,
+    "brand": "JoMalone",
+    "brandPrefix": "JM",
+    "elcCode": 17,
+    "isActive": 1
+  },
+  {
+    "brandId": 10,
+    "brand": "Bumble",
+    "brandPrefix": "BU",
+    "elcCode": 21,
+    "isActive": 1
+  },
+  {
+    "brandId": 11,
+    "brand": "Kilian",
+    "brandPrefix": "BK",
+    "elcCode": 12,
+    "isActive": 1
+  },
+  {
+    "brandId": 12,
+    "brand": "Darphin",
+    "brandPrefix": "DA",
+    "elcCode": 22,
+    "isActive": 1
+  },
+  {
+    "brandId": 13,
+    "brand": "DrJart",
+    "brandPrefix": "DJ",
+    "elcCode": 46,
+    "isActive": 1
+  },
+  {
+    "brandId": 14,
+    "brand": "GlamGlow",
+    "brandPrefix": "GG",
+    "elcCode": 30,
+    "isActive": 1
+  },
+  {
+    "brandId": 15,
+    "brand": "SmashBox",
+    "brandPrefix": "SB",
+    "elcCode": 28,
+    "isActive": 1
+  },
+  {
+    "brandId": 16,
+    "brand": "FredericMalle",
+    "brandPrefix": "FM",
+    "elcCode": 25,
+    "isActive": 1
+  },
+  {
+    "brandId": 17,
+    "brand": "TooFaced",
+    "brandPrefix": "TF",
+    "elcCode": 44,
+    "isActive": 1
+  },
+  {
+    "brandId": 18,
+    "brand": "Beauty Perks",
+    "brandPrefix": "EB",
+    "elcCode": 41,
+    "isActive": 1
+  }
+]

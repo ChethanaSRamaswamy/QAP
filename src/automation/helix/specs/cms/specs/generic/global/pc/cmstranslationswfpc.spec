@@ -1,0 +1,26 @@
+# Translations Download from Workflow Page
+
+## Translations Download
+* CMS Initialize Helix
+* CMS Configuring the prerequisites like set cookies, revision tag
+* CMS Open CMS Website
+* CMS CookieRejectButton
+* CMS FEEDBACK Popup Close
+* CMS Popup Close
+* CMS Login to CMS as a test User
+* CMS Login User Name
+* CMS Login Password
+* CMS Login Button
+* CMS FIND CONTENT
+* CMS CHOOSE TYPE
+* CMS SELECT WORKFLOW STATE
+* CMS CLICK FILTER
+* CMS CLICK WORKFLOW OF THE FIRST LISTED NODE
+* CMS CLICK TRANSLATION EXPORT TAB
+* CMS ENTER EXPORT NAME
+* CMS CLICK ADD TO EXPORT
+* CMS REPORTS
+* CMS CLICK TRANSLATION EXPORT 
+* CMS CLICK THE REPORT TO DOWNLOAD
+* CMS CLICK GENERATE REPORT
+* CMS VERIFY DOWNLOAD TRANSLATION SUCCESS MESSAGE

@@ -1,0 +1,23 @@
+# Bulk Localize many to one
+
+## Bulk Localize many to one
+* CMS Initialize Helix
+* CMS Configuring the prerequisites like set cookies, revision tag
+* CMS Open CMS Website
+* CMS CookieRejectButton
+* CMS Popup Close
+* CMS Login to CMS as a test User
+* CMS Login User Name
+* CMS Login Password
+* CMS Login Button
+* CMS FIND CONTENT
+* CMS CHOOSE CONTENT BLOCK TYPE
+* CMS CLICK SELECT FIVE CONTENTS
+* CMS SELECT LOCALIZE FROM UPDATE MULTIPLE ITEMS AT ONCE
+* CMS CLICK UPDATE
+* CMS SELECT A COUNTRY-LANGUAGE TO LOCALIZE TO
+* CMS CLICK NEXT OR CONFIRM
+* CMS ENTER REVISION TAG TO LOCALIZE CONTENT
+* CMS CLICK NEXT OR CONFIRM
+* CMS LOCALIZE REFERENCED CONTENT
+* CMS VERIFY LOCALIZE SUCCESS MESSAGE AND LOCALE

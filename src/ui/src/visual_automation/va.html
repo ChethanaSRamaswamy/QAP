@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Set to no cache, else the page will be served from cache without htaccess authentication -->
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <link rel="stylesheet" href="va.css" />
+    <script src="../libraries/js/jquery-3.6.0.min.js"></script>
+    <script src="../../deployment_data.js"></script>
+    <script src="../utility/util.js"></script>
+    <script src="va.js"></script>
+  </head>
+
+  <body>
+    <div id="name">
+      <!-- <h1>H<b style="color: rgb(0 176 240); font-size: larger;">EL</b>IX</h1>
+    <h3 style="font-size: 23px;text-align: left; padding-top: 5px;">End to End Test Automation Platform</h3> -->
+      <h1 style="color: white; padding-left: 2px">
+        H<b style="color: rgb(0 176 240); font-size: larger">EL</b>IX &nbsp; -
+        &nbsp;&nbsp;
+      </h1>
+      <span style="font-size: 16px; position: absolute; top: 22px; left: 140px">Visual Automation</span>
+    </div>
+
+    <div class="Data">
+      <div class="tabcontent">
+        <div class="user-selection">
+          <input
+            class="js-user-selection"
+            type="radio"
+            id="compare_urls"
+            name="va_options"
+            value="compare_urls"
+          />
+          <label for="compare_urls">Compare Urls</label>
+          <!-- <br /> -->
+          <input
+            disabled="true"
+            class="js-user-selection"
+            type="radio"
+            id="brand_specific"
+            name="va_options"
+            value="brand_specific"
+          />
+          <label for="brand_specific">Brand Specific (coming soon)</label><br />
+        </div>
+        <div class="compare-urls-selection js-compare-urls-selection hidden">
+          <div>
+            <label>Source URL: *</label>
+            <input
+              type="text"
+              class="source-url js-source-url"
+              placeholder="Enter source url"
+              required
+            />
+          </div>
+          <div>
+            <label>Compare URL: *</label>
+            <input
+              type="text"
+              class="compare-url js-compare-url"
+              placeholder="Enter compare url"
+              required
+            />
+          </div>
+
+          <div class="device-type-container">
+            <label>Choose device:</label>
+            <select
+              class="device js-device"
+              title="For mobile also, please give PC url, and system will generate mobile url"
+            >
+              <option value="PC" selected>PC</option>
+              <option value="MOB">Mobile</option>
+              <option value="BOTH">Both</option>
+            </select>
+          </div>
+
+          <div class="ignore-elements-container">
+            <label>Ignore Elements:</label>
+            <textarea
+              rows="3"
+              class="ignore-elements js-ignore-elements"
+              placeholder="Enter selectors to be ignored"
+            ></textarea>
+          </div>
+          <div class="hide-elements-container">
+            <label>Hide Elements:</label>
+            <textarea
+              rows="3"
+              class="hide-elements js-hide-elements"
+              placeholder="Enter selectors to be hidden"
+            ></textarea>
+          </div>
+          <div class="branch-details-container hidden">
+            <div class="prod-branch">
+              <label for="prod_branch">New source branch</label>
+              <input
+                type="checkbox"
+                id="prod_branch"
+                name="prod_branch"
+                value="prod_branch"
+                class="js-prod-branch"
+              />
+            </div>
+            <div class="feature-branch">
+              <label for="feature_branch">New feature branch</label>
+              <input
+                type="checkbox"
+                id="feature_branch"
+                name="feature_branch"
+                value="feature_branch"
+                class="js-feature-branch"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="brand-specific-selection js-brand-specific-selection hidden"
+        >
+          <label>Choose Brand:</label>
+          <select class="brands js-brands"></select>
+
+          <label>Choose Country:</label>
+          <select class="locales js-locales"></select>
+
+          <label>Choose device:</label>
+          <select class="device js-device">
+            <option value="PC" selected>PC</option>
+            <option value="MOB">Mobile</option>
+            <option value="BOTH">Both</option>
+          </select>
+        </div>
+
+        <div class="compare-options">
+          <label>Revision Tag: </label>
+          <input
+            type="text"
+            class="rev-tag js-rev-tag"
+            placeholder="Enter revision tag name"
+            required
+          />
+
+          <div class="site-cookie-container">
+            <div class="add-cookie-container">
+              <label>Cookie (for compare url): </label>
+              <button class="button add-cookie js-add-cookie">+</button>
+            </div>
+            <div class="site-cookies js-site-cookies">
+              <div class="cookie-details js-cookie-details">
+                <input
+                  type="text"
+                  class="cookie-name"
+                  placeholder="Enter cookie name"
+                  required
+                />
+                <input
+                  type="text"
+                  class="cookie-value"
+                  placeholder="Enter cookie value"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+
+          <label>Ticket ID: *</label>
+          <input
+            type="text"
+            class="ticket-id js-ticket-id"
+            placeholder="Enter ticket name"
+            required
+          />
+
+          <label for="wait-to-add">Wait to add (in ms): *</label>
+          <input
+            type="number"
+            id="wait-to-add"
+            class="wait-to-add js-wait-to-add"
+            value="0"
+            placeholder="Pause execution for the specified number of ms"
+            required
+          />
+
+          <div class="features-to-test js-features-to-test">
+            <div class="options-left-pane">
+              <label>Feature: </label>
+            </div>
+            <div class="options-right-pane">
+              <input
+                type="checkbox"
+                id="home_page"
+                name="home_page"
+                value="hp"
+              />
+
+              <label for="home_page">Home Page</label><br />
+              <input type="checkbox" id="mpp" name="mpp" value="mpp" />
+              <label for="mpp"> MPP</label><br />
+              <input type="checkbox" id="spp" name="spp" value="spp" />
+              <label for="spp"> SPP</label><br />
+            </div>
+          </div>
+        </div>
+        <div class="action-containers">
+          <button class="button js-start-va">Start</button>
+          <button class="gobutton">Go Back to HELIX Landing Page</button>
+        </div>
+
+        <!--
+          node Transform.js 
+            <PC template input> 
+            <MOBILE template input> 
+            <CSV input> 
+            <locales> 
+            <Brands>
+            <Wait to add> 
+            <Ticket Number>
+        -->
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Powered by Global QA Engineering</p>
+    </div>
+  </body>
+</html>

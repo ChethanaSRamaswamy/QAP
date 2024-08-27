@@ -1,0 +1,94 @@
+﻿tt,BrandLocale,EL-JP,MC-JP,CL-JP,LM-JP,JM-JP,BB-JP,AV-JP,LS-JP
+1,ID,test123@test.com,test123@test.com,test123@test.com,test123@test.com,test123@test.com,test123@test.com,test123@test.com,test123@test.com
+1,skuId1,SKU44632,SKU118959,SKU49584,SKU93850,SKU164577,SKU141454,SKU148966,SKU136933
+1,skuId2,SKU114795,SKU118971,SKU69992,SKU101643,SKU25355,SKU138941,SKU122891,SKU136934
+1,skuId3,SKU9578,SKU118969,SKU13037,SKU101933,SKU65341,SKU140143,SKU162636,SKU136713
+1,skuId4,SKU9577,SKU118970,SKU126685,SKU26728,SKU58015,SKU156664,SKU122897,SKU136718
+1,skuId5,SKU122744,SKU118944,SKU54210,SKU70584,SKU21754,SKU156669,SKU33067,SKU133351
+1,skuId6,SKU31325,SKU118942,SKU13789,SKU48997,SKU99398,SKU156657,SKU105589,SKU136720
+1,skuId7,SKU45796,SKU118951,SKU54211,SKU48995,SKU84102,SKU156668,SKU88891,SKU136932
+1,skuId8,SKU44503,SKU4556,SKU56826,SKU48996,SKU21483,SKU152178,SKU42636,SKU136959
+1,skuId9,SKU9591,SKU151504,SKU13289,SKU48998,SKU21804,SKU156115,SKU33213,SKU136707
+1,skuId10,SKU85265,SKU103799,SKU53697,SKU49000,SKU21484,SKU156120,SKU33135,SKU141473
+1,REGNAME,DO NOT SHIP,DO NOT SHIP,DO NOT SHIP,DO NOT SHIP,DO NOT SHIP,DO NOT SHIP,DO NOT SHIP,DO NOT SHIP
+1,FIRSTNAME,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT
+1,FIRSTNAMEKAT,テストメイ,テストメイ,テストメイ,テストメイ,テストメイ,テストメイ,テストメイ,テストメイ
+1,LASTNAME,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP
+1,LASTNAMEKAT,テストセイ,テストセイ,テストセイ,テストセイ,テストセイ,テストセイ,テストセイ,テストセイ
+1,ADDRESS,,,,,,,,
+1,ADDRESS2,,,,,,,,清川
+1,PHONE,0312341234,0312341234,0312341234,0312341234,0312341234,0312341234,0312341234,0312341234
+1,PHONESTAGE,0312341234,0312341234,0312341234,0312341234,0312341234,0312341234,0312341234,0312341234
+1,Mobile1,,,,,,,,
+1,Mobile2,,,,,,,,
+1,ZIPCODE,1110022,1110022,1110022,1110022,1110022,1110022,1110022,1110022
+1,SUBURB,,,,,,,,
+1,STATE,,,,,,,,
+1,STATEAC,東京都,東京都,東京都,東京都,東京都,東京都,東京都,東京都
+1,CITY,台東区,台東区,台東区,台東区,台東区,台東区,台東区,台東区
+1,CITYAC,,,,,,,,
+1,SUBDISTRICT,,,,,,,,
+1,DISTRICT,,,,,,,,
+1,STREET,,,,,,,,
+1,ADDRESS4,,,,,,,,
+1,ADDRESSTOCLICK,,,,,,,,
+1,CCHOLDERNAME,testing card,testing card,testing card,testing card,testing card,testing card,testing card,testing card
+1,CREDITCARD,4111 1111 1111 1111,4111 1111 1111 1111,4111 1111 1111 1111,4111 1111 1111 1111,4111 1111 1111 1111,4111 1111 1111 1111,4111 1111 1111 1111,4111 1111 1111 1111
+1,CVV,737,737,737,737,737,737,737,737
+1,CCMONTH,'03-30,'03-30,'03-30,'03-30,'03-30,'03-30,'03-30,'03-30
+1,RID,taikojp01@test.com,taikojp01@test.com,taikojp01@test.com,taikojp01@test.com,taikojp01@test.com,taikojp01@test.com,taikojp01@test.com,taikojp01@test.com
+1,RID1,taikojp02@test.com,taikojp02@test.com,taikojp02@test.com,taikojp02@test.com,taikojp02@test.com,taikojp02@test.com,taikojp02@test.com,taikojp02@test.com
+1,RID2,taikojp03@test.com,taikojp03@test.com,taikojp03@test.com,taikojp03@test.com,taikojp03@test.com,taikojp03@test.com,taikojp03@test.com,taikojp03@test.com
+1,RID3,taikojp04@test.com,taikojp04@test.com,taikojp04@test.com,taikojp04@test.com,taikojp04@test.com,taikojp04@test.com,taikojp04@test.com,taikojp04@test.com
+1,RID4,taikojp05@test.com,taikojp05@test.com,taikojp05@test.com,taikojp05@test.com,taikojp05@test.com,taikojp05@test.com,taikojp05@test.com,taikojp05@test.com
+1,RID5,taikojp06@test.com,taikojp06@test.com,taikojp06@test.com,taikojp06@test.com,taikojp06@test.com,taikojp06@test.com,taikojp06@test.com,taikojp06@test.com
+1,RID6,taikojp07@test.com,taikojp07@test.com,taikojp07@test.com,taikojp07@test.com,taikojp07@test.com,taikojp07@test.com,taikojp07@test.com,taikojp07@test.com
+1,RID7,taikojp08@test.com,taikojp08@test.com,taikojp08@test.com,taikojp08@test.com,taikojp08@test.com,taikojp08@test.com,taikojp08@test.com,taikojp08@test.com
+1,RID8,taikojp09@test.com,taikojp09@test.com,taikojp09@test.com,taikojp09@test.com,taikojp09@test.com,taikojp09@test.com,taikojp09@test.com,taikojp09@test.com
+1,RID9,taikojp010@test.com,taikojp010@test.com,taikojp010@test.com,taikojp010@test.com,taikojp010@test.com,taikojp010@test.com,taikojp010@test.com,taikojp010@test.com
+1,RPWD,Test@1234,Test@1234,Test@1234,Test@1234,Test@1234,Test@1234,Test@1234,Test@1234
+1,NPWD,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123
+1,TITLE,Mr,Mr,Mr,Mr,Mr,Mr,Mr,Mr
+1,DELIVERYMETHOD,,,,,,,,
+1,CCMON,,,,,,,,
+1,CCYEAR,,,,,,,,
+1,PAYMENTMETHOD,,,,,,,,
+1,CCM,,,,,,2,2,2
+1,CCY,,,,,,9,9,9
+1,CCBANK,,,,,,,,
+1,OTP,,,,,,,,
+1,SECURITYANSWER,,,Tokyo,,Tokyo,Tokyo,,
+1,CPASSWORD,,,,,,,,
+1,BIRTHYEAR,1994,1994,1994,1994,1994,1994,1994,1994
+1,BIRTHMONTH,4,4,4,4,4,4,4,4
+1,BIRTHDAY,1,1,1,1,1,1,1,1
+1,SIGNOUTASSERTTXT,ログアウトしました。,ログアウトしました。,ログアウトしました。,一定時間操作が行われなかったためログアウトしました。もう一度サインインしてください。,ログアウトしました。,ログアウトしました。,ログアウトしました。,ログアウトしました。
+1,ORDERMESSAGE,お客さまの注文番号 ,お客さまの注文番号 ,お客様の注文番号,お客さまの注文番号 ,お客さまの注文番号 ,お客さまの注文番号 ,お客さまの注文番号 ,お客さまの注文番号 
+1,ORDERMESSAGE1,,,,,,,,
+1,ORDERCONFIRMURL,/checkout/confirm.tmpl,/checkout/confirm.tmpl,/checkout/confirm.tmpl,/checkout/confirm.tmpl,/checkout/confirm.tmpl,/checkout/confirm.tmpl,/checkout/confirm.tmpl,/checkout/confirm.tmpl
+1,SelectQTY,2,2,2,2,2,2,2,2
+1,OFFERID,test_global_percent_discount,test_global_flat_discount,test_global_percent_discount,test_global_flat_discount,test_global_percent_discount,test_global_percent_discount,test_global_percent_discount,test_global_percent_discount
+1,INVALIDOFFERID,ttest_global_percent_discountt,ttest_global_percent_discountt,ttest_global_percent_discountt,ttest_global_percent_discountt,ttest_global_percent_discountt,ttest_global_percent_discountt,ttest_global_percent_discountt,ttest_global_percent_discountt
+1,CHECKOUTINDEXURL,checkout/index.tmpl,checkout/index.tmpl,checkout/index.tmpl,checkout/index.tmpl,checkout/index.tmpl,checkout/index.tmpl,checkout/index.tmpl,checkout/index.tmpl
+1,QTYLimit,8,8,8,8,8,8,8,8
+1,MAXQTY,9,9,9,9,9,9,9,9
+1,CRID,taikojpcod1@test.com,taikojpcod1@test.com,taikojpcod1@test.com,taikojpcod1@test.com,taikojpcod1@test.com,taikojpcod1@test.com,taikojpcod1@test.com,taikojpcod1@test.com
+1,CRID1,taikojpcod2@test.com,taikojpcod2@test.com,taikojpcod2@test.com,taikojpcod2@test.com,taikojpcod2@test.com,taikojpcod2@test.com,taikojpcod2@test.com,taikojpcod2@test.com
+1,CRID2,taikojpcod3@test.com,taikojpcod3@test.com,taikojpcod3@test.com,taikojpcod3@test.com,taikojpcod3@test.com,taikojpcod3@test.com,taikojpcod3@test.com,taikojpcod3@test.com
+1,DS1CARD,5212 3456 7890 1234,5212 3456 7890 1234,5212 3456 7890 1234,5212 3456 7890 1234,5212 3456 7890 1234,5212 3456 7890 1234,5212 3456 7890 1234,5212 3456 7890 1234
+1,DS2CARD,3714 4963 5398 431,3714 4963 5398 431,3714 4963 5398 431,3714 4963 5398 431,3714 4963 5398 431,3714 4963 5398 431,3714 4963 5398 431,3714 4963 5398 431
+1,USERNAME,user,user,user,user,user,user,user,user
+1,PASSWORD,password,password,password,password,password,password,password,password
+1,JCBCARD,3569 9900 1009 5841,3569 9900 1009 5841,3569 9900 1009 5841,3569 9900 1009 5841,3569 9900 1009 5841,3569 9900 1009 5841,3569 9900 1009 5841,3569 9900 1009 5841
+1,CVV1,7373,7373,7373,7373,7373,7373,7373,7373
+1,FindStore,Tokyo,Tokyo,Tokyo,Tokyo,Tokyo,Tokyo,Tokyo,Tokyo
+1,VALIDOFFERCODE,lined56,and0820,gw20,test_disc3,hbd,isfr22,lineid,owabi
+1,VALIDOFFERMSG,が適用されました。,が適用されました。,が適用されました。,が適用されました。,が適用されました。,が適用されました。,が適用されました。,が適用されました。
+1,BILLINGZIPCODE,1110022,1110022,1110022,1110022,1110022,1110022,1110022,1110022
+1,EFIRSTNAME,DONOTSHIP,DONOTSHIP,DONOTSHIP,DONOTSHIP,DONOTSHIP,DONOTSHIP,DONOTSHIP,DONOTSHIP
+1,VALIDEADDRESS,東京都 台東区,東京都 台東区,東京都 台東区,東京都 台東区,東京都 台東区,東京都,東京都 台東区,東京都
+1,BILLINGPHONE,0312341234,0312341234,0312341234,0312341234,0312341234,0312341234,0312341234,0312341234
+1,STOREVALIDADDRESS,東京都江東区東雲２‐１３‐３２,東京都江東区東雲２‐１３‐３２,東京都江東区東雲２‐１３‐３２,東京都江東区東雲２‐１３‐３２,東京都江東区東雲２‐１３‐３２,東京都江東区東雲２‐１３‐３２,東京都江東区東雲２‐１３‐３２,東京都江東区東雲２‐１３‐３２
+1,BILLINGCITY,,,,,,,,
+1,BILLINGADDRESS1,,,,,,,,
+1,BILLINGADDRESS2,,,,,,,,

@@ -1,0 +1,135 @@
+tt,BrandLocale,AV-US
+1,ID,test12@test.com
+1,FIRSTNAME,DO NOT
+1,LASTNAME,SHIP
+1,ADDRESS1,Estee Lauder Co.
+1,ADDRESS2,40 w 23rd Street
+1,PHONEFIRSTFIVENUMBERS,3477
+1,PHONELASTFIVENUMBERS,703960
+1,ZIPCODE,10010
+1,STATE,New York
+1,CITY,New York
+1,MSTATE,New York
+1,ADDRESS3,
+1,ADDRESS4,
+1,CREDITCARD,5555 5555 5555 4444
+1,CVV,737
+1,CCMONTH,
+1,RID1,test1919@test.com
+1,RID2,test2233@test.com
+1,RID3,test2215@test.com
+1,RID4,test2216@test.com
+1,RPWD,Test@123
+1,NID,
+1,NPWD,Test@123
+1,YEAR,2027
+1,PCCVVMONTH,330
+1,NEWZIPCODE,
+1,DAY,
+1,MONTH,
+1,DMETHOD,Overnight
+1,DTIME,
+1,OFFERCODENUMBER,test_global_percent_discount
+1,QNTY,1
+1,CHOOSEDELIVERYMETHOD,standard shipping
+1,INVALIDOFFERCODE,test_global_percent_discountt
+1,DeliverEveryTime,
+1,VALIDOFFERMSG,The discount has been applied.
+1,REMOVEPRODUCT,ritual of rich repair
+1,Paypalmail,test1919@test.com
+1,Payccnumber,4111 1111 1111 1111
+1,PPCCDATE,330
+1,PPCCCVV,737
+1,Paypalpassword,Test@123
+1,EFIRSTNAME,
+1,ELASTNAME,
+1,EADDRESS1,
+1,EADDRESS2,
+1,CaliforniaZIPCODE,
+1,VALIDEADDRESS,
+1,APOZIPCODE,
+1,CVALIDEADDRESS,
+1,APOVALIDEADDRESS,
+1,BILLINGADDRESS1,
+1,BILLINGADDRESS2,
+1,BILLINGPHONE,
+1,BILLINGZIPCODE,
+1,VALIDOFFERCODE,
+1,ACRID,test5252@test.com
+1,INVALIDOFFERMSG,"Invalid offer code, please try again."
+1,SIGNOUTASSERT,You have been signed out.
+1,AlertMessageInPopup,Are you
+1,ORDERMESSAGE,Order Number
+1,ACStateVal,
+1,skuId1,SKU110189
+1,skuId2,SKU110189
+1,skuId1,SKU110189
+1,skuId2,SKU110189
+1,skuId3,SKU102284
+1,skuId4,SKU117278
+1,skuId5,SKU112797
+1,RID16,test2213@test.com
+1,RID5,test2214@test.com
+1,RID6,test2212@test.com
+1,RID7,test2217@test.com
+1,RID8,test2218@test.com
+1,RID9,test2219@test.com
+1,RID10,test22110@test.com
+1,RID11,test22111@test.com
+1,RID12,test22112@test.com
+1,RID13,test22113@test.com
+1,RID14,test22114@test.com
+1,RID15,test22115@test.com
+1,ANPWD,password
+1,CCNAME,
+1,MSTATE1,
+1,ACCREDITCARD,2222 4000 3000 0004
+1,ACCVV,737
+1,ACCCMONTH,
+1,ACYEAR,2027
+1,ACPCCVVMONTH,330
+1,PHONE,3477703960
+1,CARDTYPE,
+1,Title,
+1,SCRID,testruid@test.com
+1,SCRID1,testruid1@test.com
+1,SCRID2,testruid2@test.com
+1,CatID,CAT5352
+1,RegisterUserId,ruser@test.com
+1,RegisterUserPwd,Test@123
+1,salonSessionUserSalonFlagY,
+1,CityZipCode,10001
+1,SalonID,44531
+1,ruUserEmail,ruser@test.com
+1,AcommTransSalonFlag,V
+1,AcommTransSalonId,44531
+1,AcommTransArtistId,
+1,AcommTransShareFlag,1
+1,AcommUserSalonFlag,V
+1,AcommUserSalonId,44531
+1,AcommUserArtistId,
+1,AcommUserShareFlag,1
+1,SalonSessionFlag,V
+1,SalonSessionId,44531
+1,SalonArtistSessionId,
+1,SalonSessionRefStartTime,
+1,UserSalonFlag,V
+1,UserSalonId,44531
+1,UserArtistId,
+1,vUser,vuser01@test.com
+1,yUser,yuser01@test.com
+1,sUser,suser01@test.com
+1,hmvUser,hmvuser01@test.com
+1,newUserEmail,newuser01@test.com
+1,HSArtistID,451199769
+1,HSSalonID,60525
+1,ArtistID,438244199
+1,YUserFlag,Y
+1,SUserFlag,S
+1,HMVUserFlag,HMV
+1,V12UserFlag,V12
+1,Y12UserFlag,Y12
+1,HMV12UserFlag,HMV12
+1,S12UserFlag,S12
+1,loginVal,fnaz@estee.com
+1,AcommShareFlag,1

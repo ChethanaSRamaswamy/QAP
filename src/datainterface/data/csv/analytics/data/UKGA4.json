@@ -1,0 +1,1262 @@
+[
+    {
+        "brand": "AV-UK",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "GBP",
+                    "tid": "G-QG5GS2H4JB",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "aveda_uk",
+                    "ep.brand_locale": "uk",
+                    "ep.brand": "aveda",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU34069",
+                    "sku2": "SKU78666",
+                    "sku3": "SKU78666",
+                    "sku4": "SKU78666",
+                    "sku5": "SKU78666"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD16733",
+                        "pPrice": "25.5",
+                        "pVariant": "A3TX01",
+                        "psize": "75 ml",
+                        "pSkuID": "SKU34069"
+                    },
+                    {
+                        "productID": "idPROD62084",
+                        "pPrice": "60",
+                        "pVariant": "AR5Y01",
+                        "psize": "1 litre",
+                        "pSkuID": "SKU98350"
+                    },
+                    {
+                        "productID": "idPROD16929",
+                        "pPrice": "22",
+                        "pVariant": "A7HE01",
+                        "psize": "150 ml",
+                        "pSkuID": "SKU34411"
+                    },
+                    {
+                        "productID": "idPROD17178",
+                        "pPrice": "27",
+                        "pVariant": "A1XC01",
+                        "psize": "200 ml",
+                        "pSkuID": "SKU33532"
+                    },
+                    {
+                        "productID": "idPROD17178",
+                        "pPrice": "27",
+                        "pVariant": "A1XC01",
+                        "psize": "200 ml",
+                        "pSkuID": "SKU33532"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663192115",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 70,
+                    "tt": "70.00"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Visa - visa"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "BB-UK",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "GBP",
+                    "tid": "G-02CV5R48CF",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "bobbibrown_uk",
+                    "ep.brand_locale": "uk",
+                    "ep.brand": "bobbibrown",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU18986",
+                    "sku2": "SKU17621",
+                    "sku3": "SKU17621",
+                    "sku4": "SKU17621",
+                    "sku5": "SKU17621"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD7781",
+                        "pPrice": "51",
+                        "pVariant": "E55501",
+                        "psize": "",
+                        "pSkuID": "SKU18986"
+                    },
+                    {
+                        "productID": "idPROD7485",
+                        "pPrice": "52",
+                        "pVariant": "E1LM01",
+                        "psize": "50ml",
+                        "pSkuID": "SKU17621"
+                    },
+                    {
+                        "productID": "idPROD7485",
+                        "pPrice": "52",
+                        "pVariant": "E1LM01",
+                        "psize": "50ml",
+                        "pSkuID": "SKU17621"
+                    },
+                    {
+                        "productID": "idPROD7485",
+                        "pPrice": "52",
+                        "pVariant": "E1LM01",
+                        "psize": "50ml",
+                        "pSkuID": "SKU17621"
+                    },
+                    {
+                        "productID": "idPROD7485",
+                        "pPrice": "52",
+                        "pVariant": "E1LM01",
+                        "psize": "50ml",
+                        "pSkuID": "SKU17621"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663192115",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 52,
+                    "tt": 0,
+                    "ts": "6.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD77812"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "BK-UK",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "GBP",
+                    "tid": "G-5THZ4FDRDB",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "kilian_uk",
+                    "ep.brand_locale": "uk",
+                    "ep.brand": "kilian",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU125687",
+                    "sku2": "SKU168945",
+                    "sku3": "SKU168998",
+                    "sku4": "SKU144917",
+                    "sku5": "SKU150634"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD82905",
+                        "pPrice": "195",
+                        "pVariant": "N36E01",
+                        "psize": "50ml Refillable Perfume",
+                        "pSkuID": "SKU125687"
+                    },
+                    {
+                        "productID": "idPROD104745",
+                        "pPrice": "270",
+                        "pVariant": "N48901",
+                        "psize": "100ml Refill",
+                        "pSkuID": "SKU168945"
+                    },
+                    {
+                        "productID": "idPROD89109",
+                        "pPrice": "300",
+                        "pVariant": "N4TN01",
+                        "psize": "100ml Refillable Perfume",
+                        "pSkuID": "SKU168998"
+                    },
+                    {
+                        "productID": "idPROD97724",
+                        "pPrice": "220",
+                        "pVariant": "N45001",
+                        "psize": "50ml Refillable Perfume",
+                        "pSkuID": "SKU144917"
+                    },
+                    {
+                        "productID": "idPROD97724",
+                        "pPrice": "220",
+                        "pVariant": "N45001",
+                        "psize": "50ml Refillable Perfume",
+                        "pSkuID": "SKU144917"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663192115",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 70,
+                    "tt": "70.00"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "BU-UK",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "GBP",
+                    "tid": "G-XCSZWS7PSB",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "bumble_uk",
+                    "ep.brand_locale": "uk",
+                    "ep.brand": "bumble",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU44578",
+                    "sku2": "SKU39141",
+                    "sku3": "SKU74248",
+                    "sku4": "SKU50119",
+                    "sku5": "SKU225"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD23196",
+                        "pPrice": "38",
+                        "pVariant": "B1G701",
+                        "psize": "100 ml",
+                        "pSkuID": "SKU44578"
+                    },
+                    {
+                        "productID": "idPROD19664",
+                        "pPrice": "28",
+                        "pVariant": "B18X01",
+                        "psize": "150ml",
+                        "pSkuID": "SKU39141"
+                    },
+                    {
+                        "productID": "idPROD43824",
+                        "pPrice": "30",
+                        "pVariant": "B2FX01",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU74248"
+                    },
+                    {
+                        "productID": "idPROD217",
+                        "pPrice": "28",
+                        "pVariant": "B1H201",
+                        "psize": "50 ml",
+                        "pSkuID": "SKU50119"
+                    },
+                    {
+                        "productID": "idPROD217",
+                        "pPrice": "28",
+                        "pVariant": "B1H201",
+                        "psize": "50 ml",
+                        "pSkuID": "SKU50119"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663192115",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 70,
+                    "tt": "70.00"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "CL-UK",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "GBP",
+                    "tid": "G-GG9MS3L104",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "clinique_uk",
+                    "ep.brand_locale": "uk",
+                    "ep.brand": "clinique",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU130761",
+                    "sku2": "SKU31721",
+                    "sku3": "SKU13287",
+                    "sku4": "SKU31798",
+                    "sku5": "SKU153558"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD5047",
+                        "pPrice": "37",
+                        "pVariant": "6EM601",
+                        "psize": "125ml (With Pump)",
+                        "pSkuID": "SKU19483"
+                    },
+                    {
+                        "productID": "idPROD15502",
+                        "pPrice": "24",
+                        "pVariant": "76X401",
+                        "psize": "200ml",
+                        "pSkuID": "SKU31721"
+                    },
+                    {
+                        "productID": "idPROD8279",
+                        "pPrice": "22",
+                        "pVariant": "6F3701",
+                        "psize": "200ml Mild",
+                        "pSkuID": "SKU13287"
+                    },
+                    {
+                        "productID": "idPROD5276",
+                        "pPrice": "34",
+                        "pVariant": "6MNY24",
+                        "psize": "30ml",
+                        "pSkuID": "SKU31798"
+                    },
+                    {
+                        "productID": "idPROD5276",
+                        "pPrice": "34",
+                        "pVariant": "6MNY24",
+                        "psize": "30ml",
+                        "pSkuID": "SKU31798"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663192115",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 70,
+                    "tt": "70.00"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Visa - visa"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "DA-UK",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "GBP",
+                    "tid": "G-3NEDJGXRGQ",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "darphin_uk",
+                    "ep.brand_locale": "uk",
+                    "ep.brand": "darphin",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU59030",
+                    "sku2": "SKU100288",
+                    "sku3": "SKU150015",
+                    "sku4": "SKU59030",
+                    "sku5": "SKU59030"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD117214",
+                        "pPrice": "30",
+                        "pVariant": "G456Y3",
+                        "psize": "",
+                        "pSkuID": "SKU170983"
+                    },
+                    {
+                        "productID": "idPROD110671",
+                        "pPrice": "34",
+                        "pVariant": "GRFTRR",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162411"
+                    },
+                    {
+                        "productID": "idPROD110676",
+                        "pPrice": "34",
+                        "pVariant": "GRFW21",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162493"
+                    },
+                    {
+                        "productID": "idPROD110674",
+                        "pPrice": "34",
+                        "pVariant": "GRFX24",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162465"
+                    },
+                    {
+                        "productID": "idPROD110674",
+                        "pPrice": "34",
+                        "pVariant": "GRFX24",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162465"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663192115",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 70,
+                    "tt": "70.00"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "DJ-UK",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "GBP",
+                    "tid": "G-TNTHKJS7JP",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "drjart_uk",
+                    "ep.brand_locale": "uk",
+                    "ep.brand": "drjart",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU170694",
+                    "sku2": "SKU170694",
+                    "sku3": "SKU170694",
+                    "sku4": "SKU170694",
+                    "sku5": "SKU170694"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD117214",
+                        "pPrice": "30",
+                        "pVariant": "G456Y3",
+                        "psize": "",
+                        "pSkuID": "SKU170983"
+                    },
+                    {
+                        "productID": "idPROD110671",
+                        "pPrice": "34",
+                        "pVariant": "GRFTRR",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162411"
+                    },
+                    {
+                        "productID": "idPROD110676",
+                        "pPrice": "34",
+                        "pVariant": "GRFW21",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162493"
+                    },
+                    {
+                        "productID": "idPROD110674",
+                        "pPrice": "34",
+                        "pVariant": "GRFX24",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162465"
+                    },
+                    {
+                        "productID": "idPROD110674",
+                        "pPrice": "34",
+                        "pVariant": "GRFX24",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162465"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663192115",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 70,
+                    "tt": "70.00"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "EL-UK",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "GBP",
+                    "tid": "G-PWK2SW0MML",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "lauder_uk",
+                    "ep.brand_locale": "uk",
+                    "ep.brand": "lauder",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU170983",
+                    "sku2": "SKU144350",
+                    "sku3": "SKU118860",
+                    "sku4": "SKU118860",
+                    "sku5": "SKU118860"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD117214",
+                        "pPrice": "30",
+                        "pVariant": "G456Y3",
+                        "psize": "",
+                        "pSkuID": "SKU170983"
+                    },
+                    {
+                        "productID": "idPROD110671",
+                        "pPrice": "34",
+                        "pVariant": "GRFTRR",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162411"
+                    },
+                    {
+                        "productID": "idPROD110676",
+                        "pPrice": "34",
+                        "pVariant": "GRFW21",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162493"
+                    },
+                    {
+                        "productID": "idPROD110674",
+                        "pPrice": "34",
+                        "pVariant": "GRFX24",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162465"
+                    },
+                    {
+                        "productID": "idPROD110674",
+                        "pPrice": "34",
+                        "pVariant": "GRFX24",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162465"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663192115",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 70,
+                    "tt": "70.00"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Visa - visa"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "FM-UK",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "GBP",
+                    "tid": "G-97MT97GFPF",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "fredericmalle_uk",
+                    "ep.brand_locale": "uk",
+                    "ep.brand": "fredericmalle",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU82570",
+                    "sku2": "SKU150108",
+                    "sku3": "SKU89771",
+                    "sku4": "SKU82570",
+                    "sku5": "SKU82570"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD117214",
+                        "pPrice": "30",
+                        "pVariant": "G456Y3",
+                        "psize": "",
+                        "pSkuID": "SKU170983"
+                    },
+                    {
+                        "productID": "idPROD110671",
+                        "pPrice": "34",
+                        "pVariant": "GRFTRR",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162411"
+                    },
+                    {
+                        "productID": "idPROD110676",
+                        "pPrice": "34",
+                        "pVariant": "GRFW21",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162493"
+                    },
+                    {
+                        "productID": "idPROD110674",
+                        "pPrice": "34",
+                        "pVariant": "GRFX24",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162465"
+                    },
+                    {
+                        "productID": "idPROD110674",
+                        "pPrice": "34",
+                        "pVariant": "GRFX24",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162465"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663192115",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 70,
+                    "tt": "70.00"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Visa - visa"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "JM-UK",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "GBP",
+                    "tid": "G-3X4TCHJQ1N",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "jomalone_uk",
+                    "ep.brand_locale": "uk",
+                    "ep.brand": "jomalone",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU135265",
+                    "sku2": "SKU135265",
+                    "sku3": "SKU135265",
+                    "sku4": "SKU135265",
+                    "sku5": "SKU135265"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD117214",
+                        "pPrice": "30",
+                        "pVariant": "G456Y3",
+                        "psize": "",
+                        "pSkuID": "SKU170983"
+                    },
+                    {
+                        "productID": "idPROD110671",
+                        "pPrice": "34",
+                        "pVariant": "GRFTRR",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162411"
+                    },
+                    {
+                        "productID": "idPROD110676",
+                        "pPrice": "34",
+                        "pVariant": "GRFW21",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162493"
+                    },
+                    {
+                        "productID": "idPROD110674",
+                        "pPrice": "34",
+                        "pVariant": "GRFX24",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162465"
+                    },
+                    {
+                        "productID": "idPROD110674",
+                        "pPrice": "34",
+                        "pVariant": "GRFX24",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162465"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663192115",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 70,
+                    "tt": "70.00"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "LM-UK",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "GBP",
+                    "tid": "G-HBDN5EZ0X3",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "lamer_uk",
+                    "ep.brand_locale": "uk",
+                    "ep.brand": "lamer",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU26766",
+                    "sku2": "SKU115246",
+                    "sku3": "SKU84261",
+                    "sku4": "SKU26766",
+                    "sku5": "SKU26766"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD117214",
+                        "pPrice": "30",
+                        "pVariant": "G456Y3",
+                        "psize": "",
+                        "pSkuID": "SKU170983"
+                    },
+                    {
+                        "productID": "idPROD110671",
+                        "pPrice": "34",
+                        "pVariant": "GRFTRR",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162411"
+                    },
+                    {
+                        "productID": "idPROD110676",
+                        "pPrice": "34",
+                        "pVariant": "GRFW21",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162493"
+                    },
+                    {
+                        "productID": "idPROD110674",
+                        "pPrice": "34",
+                        "pVariant": "GRFX24",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162465"
+                    },
+                    {
+                        "productID": "idPROD110674",
+                        "pPrice": "34",
+                        "pVariant": "GRFX24",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162465"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663192115",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 70,
+                    "tt": "70.00"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "LS-UK",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "GBP",
+                    "tid": "G-X1PZ907NRF",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "labseries_uk",
+                    "ep.brand_locale": "uk",
+                    "ep.brand": "labseries",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU136714",
+                    "sku2": "SKU136717",
+                    "sku3": "SKU133351",
+                    "sku4": "SKU136714",
+                    "sku5": "SKU136714"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD117214",
+                        "pPrice": "30",
+                        "pVariant": "G456Y3",
+                        "psize": "",
+                        "pSkuID": "SKU170983"
+                    },
+                    {
+                        "productID": "idPROD110671",
+                        "pPrice": "34",
+                        "pVariant": "GRFTRR",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162411"
+                    },
+                    {
+                        "productID": "idPROD110676",
+                        "pPrice": "34",
+                        "pVariant": "GRFW21",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162493"
+                    },
+                    {
+                        "productID": "idPROD110674",
+                        "pPrice": "34",
+                        "pVariant": "GRFX24",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162465"
+                    },
+                    {
+                        "productID": "idPROD110674",
+                        "pPrice": "34",
+                        "pVariant": "GRFX24",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162465"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663192115",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 70,
+                    "tt": "70.00"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Visa - visa"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-UK",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "GBP",
+                    "tid": "G-7T727P35WL",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "mac_uk",
+                    "ep.brand_locale": "uk",
+                    "ep.brand": "mac",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU176835",
+                    "sku2": "SKU32074",
+                    "sku3": "SKU163586",
+                    "sku4": "SKU88906",
+                    "sku5": "SKU63662"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD121110",
+                        "pPrice": "22",
+                        "pVariant": "STXA11",
+                        "psize": "1G",
+                        "pSkuID": "SKU176835"
+                    },
+                    {
+                        "productID": "idPROD15746",
+                        "pPrice": "26",
+                        "pVariant": "MJ2L02",
+                        "psize": "3.6ml",
+                        "pSkuID": "SKU32074"
+                    },
+                    {
+                        "productID": "idPROD111331",
+                        "pPrice": "32",
+                        "pVariant": "NX5X11",
+                        "psize": "30ML",
+                        "pSkuID": "SKU163586"
+                    },
+                    {
+                        "productID": "idPROD55229",
+                        "pPrice": "28",
+                        "pVariant": "S7P501",
+                        "psize": "100 ml",
+                        "pSkuID": "SKU88906"
+                    },
+                    {
+                        "productID": "idPROD55229",
+                        "pPrice": "28",
+                        "pVariant": "S7P501",
+                        "psize": "100 ml",
+                        "pSkuID": "SKU88906"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663192115",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 70,
+                    "tt": "70.00"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Visa - visa"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "OR-UK",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "GBP",
+                    "tid": "G-E556MVLFZ6",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "origins_uk",
+                    "ep.brand_locale": "uk",
+                    "ep.brand": "origins",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU130992",
+                    "sku2": "SKU130992",
+                    "sku3": "SKU130992",
+                    "sku4": "SKU130992",
+                    "sku5": "SKU130992"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD117214",
+                        "pPrice": "30",
+                        "pVariant": "G456Y3",
+                        "psize": "",
+                        "pSkuID": "SKU170983"
+                    },
+                    {
+                        "productID": "idPROD110671",
+                        "pPrice": "34",
+                        "pVariant": "GRFTRR",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162411"
+                    },
+                    {
+                        "productID": "idPROD110676",
+                        "pPrice": "34",
+                        "pVariant": "GRFW21",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162493"
+                    },
+                    {
+                        "productID": "idPROD110674",
+                        "pPrice": "34",
+                        "pVariant": "GRFX24",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162465"
+                    },
+                    {
+                        "productID": "idPROD110674",
+                        "pPrice": "34",
+                        "pVariant": "GRFX24",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162465"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663192115",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 70,
+                    "tt": "70.00"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "TF-UK",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "GBP",
+                    "tid": "G-B2FTZR05DC",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "toofaced_uk",
+                    "ep.brand_locale": "uk",
+                    "ep.brand": "toofaced",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU169702",
+                    "sku2": "SKU176397",
+                    "sku3": "SKU176397",
+                    "sku4": "SKU176397",
+                    "sku5": "SKU176397"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD117214",
+                        "pPrice": "30",
+                        "pVariant": "G456Y3",
+                        "psize": "",
+                        "pSkuID": "SKU170983"
+                    },
+                    {
+                        "productID": "idPROD110671",
+                        "pPrice": "34",
+                        "pVariant": "GRFTRR",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162411"
+                    },
+                    {
+                        "productID": "idPROD110676",
+                        "pPrice": "34",
+                        "pVariant": "GRFW21",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162493"
+                    },
+                    {
+                        "productID": "idPROD110674",
+                        "pPrice": "34",
+                        "pVariant": "GRFX24",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162465"
+                    },
+                    {
+                        "productID": "idPROD110674",
+                        "pPrice": "34",
+                        "pVariant": "GRFX24",
+                        "psize": "3.5g",
+                        "pSkuID": "SKU162465"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663192115",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 70,
+                    "tt": "70.00"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Visa - visa"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    }
+]

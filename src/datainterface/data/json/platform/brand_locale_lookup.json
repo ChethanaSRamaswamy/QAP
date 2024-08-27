@@ -1,0 +1,5330 @@
+[
+  {
+    "brandLocalePrefix": "AV-AU",
+    "prodUrl": "https://www.aveda.com.au",
+    "stageUrl": "https://e.aveda.au.au.stage.kidc.elcdev.net",
+    "brandId": 8,
+    "localeId": 5,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-CA",
+    "prodUrl": "https://www.aveda.ca",
+    "stageUrl": "https://e.aveda.na.ca.stage.ncsa.elcdev.net",
+    "brandId": 8,
+    "localeId": 2,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-DE",
+    "prodUrl": "https://www.aveda.de",
+    "stageUrl": "https://e.aveda.emea2.de.stage.emea.elcdev.net",
+    "brandId": 8,
+    "localeId": 15,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-EU",
+    "prodUrl": "https://www.aveda.eu",
+    "stageUrl": "https://e.aveda.emea3.eu.stage.emea.elcdev.net",
+    "brandId": 8,
+    "localeId": 25,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-GR",
+    "prodUrl": "https://www.aveda.gr",
+    "stageUrl": "",
+    "brandId": 8,
+    "localeId": 21,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-FR",
+    "prodUrl": "https://www.aveda.eu",
+    "stageUrl": "https://e.aveda.emea3.eu.stage.emea.elcdev.net",
+    "brandId": 8,
+    "localeId": 17,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-IT",
+    "prodUrl": "https://www.aveda.it",
+    "stageUrl": "https://e.aveda.emea2.it.stage.emea.elcdev.net",
+    "brandId": 8,
+    "localeId": 30,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-JP",
+    "prodUrl": "https://www.aveda.jp",
+    "stageUrl": "https://e.aveda.jp.jp.stage.kidc.elcdev.net",
+    "brandId": 8,
+    "localeId": 4,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-KR",
+    "prodUrl": "https://www.avedakorea.com",
+    "stageUrl": "https://e.aveda.kr.kr.stage.kidc.elcdev.net",
+    "brandId": 8,
+    "localeId": 8,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-MX",
+    "prodUrl": "https://www.aveda.com.mx",
+    "stageUrl": "https://e.aveda.la.mx.stage.ncsa.elcdev.net",
+    "brandId": 8,
+    "localeId": 41,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-TR",
+    "prodUrl": "https://www.aveda.com.tr",
+    "stageUrl": "https://e.aveda.emea2.tr.stage.emea.elcdev.net",
+    "brandId": 8,
+    "localeId": 39,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-UK",
+    "prodUrl": "https://www.aveda.co.uk",
+    "stageUrl": "https://e.aveda.uk.uk.stage.emea.elcdev.net",
+    "brandId": 8,
+    "localeId": 3,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-US",
+    "prodUrl": "https://www.aveda.com",
+    "stageUrl": "https://e.aveda.na.us.stage.ncsa.elcdev.net",
+    "brandId": 8,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-AT",
+    "prodUrl": "https://www.bobbibrown.at",
+    "stageUrl": "https://e.bobbibrown.emea2.at.stage.emea.elcdev.net",
+    "brandId": 5,
+    "localeId": 22,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-AU",
+    "prodUrl": "https://www.bobbibrown.com.au",
+    "stageUrl": "https://e.bobbibrown.au.au.stage.kidc.elcdev.net",
+    "brandId": 5,
+    "localeId": 5,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-CA",
+    "prodUrl": "https://www.bobbibrowncosmetics.ca",
+    "stageUrl": "https://e.bobbibrown.na.ca.stage.ncsa.elcdev.net",
+    "brandId": 5,
+    "localeId": 2,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-CH",
+    "prodUrl": "https://www.bobbibrown.ch",
+    "stageUrl": "https://e.bobbibrown.emea2.ch.stage.emea.elcdev.net",
+    "brandId": 5,
+    "localeId": 38,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-CN",
+    "prodUrl": "https://www.bobbibrown.com.cn",
+    "stageUrl": "https://e.bobbibrown.cn.cn.stage.cntel.elcdev.net",
+    "brandId": 5,
+    "localeId": 6,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-DE",
+    "prodUrl": "https://www.bobbibrown.de",
+    "stageUrl": "https://e.bobbibrown.emea2.de.stage.emea.elcdev.net",
+    "brandId": 5,
+    "localeId": 15,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-ES",
+    "prodUrl": "https://www.bobbibrown.es",
+    "stageUrl": "https://e.bobbibrown.emea2.es.stage.emea.elcdev.net",
+    "brandId": 5,
+    "localeId": 16,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-FR",
+    "prodUrl": "https://www.bobbibrowncosmetics.fr",
+    "stageUrl": "https://e.bobbibrown.emea2.fr.stage.emea.elcdev.net",
+    "brandId": 5,
+    "localeId": 17,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-GR",
+    "prodUrl": "https://www.bobbibrown.gr",
+    "stageUrl": "https://e.bobbibrown.emea2.gr.stage.emea.elcdev.net",
+    "brandId": 5,
+    "localeId": 21,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-HK",
+    "prodUrl": "https://www.bobbibrown.com.hk",
+    "stageUrl": "https://e.bobbibrown.hk.hk.stage.kidc.elcdev.net",
+    "brandId": 5,
+    "localeId": 7,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-IL",
+    "prodUrl": "https://www.bobbibrown.co.il",
+    "stageUrl": "https://e.bobbibrown.emea2.il.stage.emea.elcdev.net",
+    "brandId": 5,
+    "localeId": 29,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-IN",
+    "prodUrl": "https://www.bobbibrown.in",
+    "stageUrl": "https://e.bobbibrown.emea2.in.stage.emea.elcdev.net",
+    "brandId": 5,
+    "localeId": 28,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-IT",
+    "prodUrl": "https://www.bobbibrown.it",
+    "stageUrl": "https://e.bobbibrown.emea2.it.stage.emea.elcdev.net",
+    "brandId": 5,
+    "localeId": 30,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-JP",
+    "prodUrl": "https://www.bobbibrown.jp",
+    "stageUrl": "https://e.bobbibrown.jp.jp.stage.kidc.elcdev.net",
+    "brandId": 5,
+    "localeId": 4,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-KR",
+    "prodUrl": "https://www.bobbibrown.co.kr",
+    "stageUrl": "https://e.bobbibrown.kr.kr.stage.kidc.elcdev.net",
+    "brandId": 5,
+    "localeId": 8,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-MX",
+    "prodUrl": "https://www.bobbibrown.com.mx",
+    "stageUrl": "https://e.bobbibrown.la.mx.stage.ncsa.elcdev.net",
+    "brandId": 5,
+    "localeId": 41,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-NL",
+    "prodUrl": "https://www.bobbibrown.nl",
+    "stageUrl": "https://e.bobbibrown.emea2.nl.stage.emea.elcdev.net",
+    "brandId": 5,
+    "localeId": 19,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-TH",
+    "prodUrl": "https://www.bobbibrown.co.th",
+    "stageUrl": "https://e.bobbibrown.th.th.stage.kidc.elcdev.net",
+    "brandId": 5,
+    "localeId": 13,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-TR",
+    "prodUrl": "https://www.bobbibrown.com.tr",
+    "stageUrl": "https://e.bobbibrown.emea2.tr.stage.emea.elcdev.net",
+    "brandId": 5,
+    "localeId": 39,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-TW",
+    "prodUrl": "https://www.bobbibrown.com.tw",
+    "stageUrl": "https://e.bobbibrown.tw.tw.stage.kidc.elcdev.net",
+    "brandId": 5,
+    "localeId": 14,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-UK",
+    "prodUrl": "https://www.bobbibrown.co.uk",
+    "stageUrl": "https://e.bobbibrown.uk.uk.stage.emea.elcdev.net",
+    "brandId": 5,
+    "localeId": 3,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-US",
+    "prodUrl": "https://www.bobbibrowncosmetics.com",
+    "stageUrl": "https://e.bobbibrown.na.us.stage.ncsa.elcdev.net",
+    "brandId": 5,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-ZA",
+    "prodUrl": "https://www.bobbibrown.co.za",
+    "stageUrl": "https://e.bobbibrown.emea2.za.stage.emea.elcdev.net",
+    "brandId": 5,
+    "localeId": 36,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BK-UAE",
+    "prodUrl": "https://www.kilian-paris.ae",
+    "stageUrl": "https://e.kilian.emea2.ae.stage.emea.elcdev.net",
+    "brandId": 11,
+    "localeId": 40,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BK-KSA",
+    "prodUrl": "https://www.kilian-paris.sa",
+    "stageUrl": "",
+    "brandId": 11,
+    "localeId": 35,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BK-FR",
+    "prodUrl": "https://www.bykilian.fr",
+    "stageUrl": "https://e.kilian.emea2.fr.stage.emea.elcdev.net",
+    "brandId": 11,
+    "localeId": 17,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BK-UK",
+    "prodUrl": "https://www.bykilian.co.uk",
+    "stageUrl": "https://e.kilian.uk.uk.stage.emea.elcdev.net",
+    "brandId": 11,
+    "localeId": 3,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BK-US",
+    "prodUrl": "https://www.bykilian.com",
+    "stageUrl": "https://e.kilian.na.us.stage.ncsa.elcdev.net",
+    "brandId": 11,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EB-CZ",
+    "prodUrl": "https://www.elcbeautyperksemea.com",
+    "stageUrl": "https://e.elcrewards.emea3.eu.stage.emea.elcdev.net",
+    "brandId": 18,
+    "localeId": 23,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EB-US",
+    "prodUrl": "https://www.elcbeautyperks.com",
+    "stageUrl": "https://e.elcrewards.na.us.stage.ncsa.elcdev.net",
+    "brandId": 18,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BU-CA",
+    "prodUrl": "https://www.bumbleandbumble.ca",
+    "stageUrl": "https://e.bumble.na.ca.stage.ncsa.elcdev.net",
+    "brandId": 10,
+    "localeId": 2,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BU-UK",
+    "prodUrl": "https://www.bumbleandbumble.co.uk",
+    "stageUrl": "https://e.bumble.uk.uk.stage.emea.elcdev.net",
+    "brandId": 10,
+    "localeId": 3,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BU-US",
+    "prodUrl": "https://www.bumbleandbumble.com",
+    "stageUrl": "https://e.bumble.na.us.stage.ncsa.elcdev.net",
+    "brandId": 10,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-AT",
+    "prodUrl": "https://www.clinique.at",
+    "stageUrl": "https://e.clinique.emea2.at.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 22,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-AU",
+    "prodUrl": "https://www.clinique.com.au",
+    "stageUrl": "https://e.clinique.au.au.stage.kidc.elcdev.net",
+    "brandId": 2,
+    "localeId": 5,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-BE",
+    "prodUrl": "https://www.clinique.be",
+    "stageUrl": "https://e.clinique.emea2.be.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 18,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-BR",
+    "prodUrl": "https://www.clinique.com.br",
+    "stageUrl": "https://e.clinique.la.br.stage.ncsa.elcdev.net",
+    "brandId": 2,
+    "localeId": 42,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-CA",
+    "prodUrl": "https://www.clinique.ca",
+    "stageUrl": "https://e.clinique.na.ca.stage.ncsa.elcdev.net",
+    "brandId": 2,
+    "localeId": 2,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-CH",
+    "prodUrl": "https://www.ch.clinique.com",
+    "stageUrl": "https://e.clinique.emea2.ch.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 38,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-CE",
+    "prodUrl": "https://www.clinique.cl",
+    "stageUrl": "https://e.clinique.la.cl.stage.ncsa.elcdev.net",
+    "brandId": 2,
+    "localeId": 43,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-CN",
+    "prodUrl": "https://www.clinique.com.cn",
+    "stageUrl": "https://e.clinique.cn.cn.stage.cntel.elcdev.net",
+    "brandId": 2,
+    "localeId": 6,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-CZ",
+    "prodUrl": "https://www.clinique.cz",
+    "stageUrl": "https://e.clinique.emea2.cz.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 23,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-DE",
+    "prodUrl": "https://www.clinique.de",
+    "stageUrl": "https://e.clinique.emea2.de.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 15,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-ES",
+    "prodUrl": "https://www.clinique.es",
+    "stageUrl": "https://e.clinique.emea2.es.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 16,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-FI",
+    "prodUrl": "https://www.clinique.fi",
+    "stageUrl": "https://e.clinique.emea2.fi.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 26,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-FR",
+    "prodUrl": "https://www.clinique.fr",
+    "stageUrl": "https://e.clinique.emea2.fr.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 17,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-GR",
+    "prodUrl": "https://www.clinique.gr",
+    "stageUrl": "https://e.clinique.emea2.gr.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 21,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-HK",
+    "prodUrl": "https://www.clinique.com.hk",
+    "stageUrl": "https://e.clinique.hk.hk.stage.kidc.elcdev.net",
+    "brandId": 2,
+    "localeId": 7,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-HU",
+    "prodUrl": "https://www.clinique.hu",
+    "stageUrl": "https://e.clinique.emea2.hu.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 27,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-IL",
+    "prodUrl": "https://www.clinique.co.il",
+    "stageUrl": "https://e.clinique.emea2.il.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 29,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-IN",
+    "prodUrl": "https://www.clinique.in",
+    "stageUrl": "https://e.clinique.emea2.in.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 28,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-IT",
+    "prodUrl": "https://www.cliniqueitaly.it",
+    "stageUrl": "https://e.clinique.emea2.it.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 30,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-JP",
+    "prodUrl": "https://www.clinique.jp",
+    "stageUrl": "https://e.clinique.jp.jp.stage.kidc.elcdev.net",
+    "brandId": 2,
+    "localeId": 4,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-KR",
+    "prodUrl": "https://www.cliniquekorea.co.kr",
+    "stageUrl": "https://e.clinique.kr.kr.stage.kidc.elcdev.net",
+    "brandId": 2,
+    "localeId": 8,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-MX",
+    "prodUrl": "https://www.clinique.com.mx",
+    "stageUrl": "https://e.clinique.la.mx.stage.ncsa.elcdev.net",
+    "brandId": 2,
+    "localeId": 41,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-MY",
+    "prodUrl": "https://www.clinique.com.my",
+    "stageUrl": "https://e.clinique.my.my.stage.kidc.elcdev.net",
+    "brandId": 2,
+    "localeId": 9,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-NL",
+    "prodUrl": "https://www.clinique.nl",
+    "stageUrl": "https://e.clinique.emea2.nl.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 19,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-NO",
+    "prodUrl": "https://www.clinique.no",
+    "stageUrl": "https://e.clinique.nordic.no.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 20,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-DK",
+    "prodUrl": "https://www.clinique.dk",
+    "stageUrl": "https://e.clinique.nordic.dk.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 24,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-SE",
+    "prodUrl": "https://www.clinique.se",
+    "stageUrl": "https://e.clinique.nordic.se.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 37,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-NZ",
+    "prodUrl": "https://www.clinique.co.nz",
+    "stageUrl": "https://e.clinique.au.nz.stage.kidc.elcdev.net",
+    "brandId": 2,
+    "localeId": 10,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-PL",
+    "prodUrl": "https://www.clinique.com.pl",
+    "stageUrl": "https://e.clinique.emea2.pl.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 32,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-RO",
+    "prodUrl": "https://www.clinique.ro",
+    "stageUrl": "https://e.clinique.emea2.ro.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 34,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-TH",
+    "prodUrl": "https://www.clinique.co.th",
+    "stageUrl": "https://e.clinique.th.th.stage.kidc.elcdev.net",
+    "brandId": 2,
+    "localeId": 13,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-TR",
+    "prodUrl": "https://www.clinique.com.tr",
+    "stageUrl": "https://e.clinique.emea2.tr.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 39,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-TW",
+    "prodUrl": "https://www.clinique.com.tw",
+    "stageUrl": "https://e.clinique.tw.tw.stage.kidc.elcdev.net",
+    "brandId": 2,
+    "localeId": 14,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-UK",
+    "prodUrl": "https://www.clinique.co.uk",
+    "stageUrl": "https://e.clinique.uk.uk.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 3,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-US",
+    "prodUrl": "https://www.clinique.com",
+    "stageUrl": "https://e.clinique.na.us.stage.ncsa.elcdev.net",
+    "brandId": 2,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-ZA",
+    "prodUrl": "https://www.clinique.co.za",
+    "stageUrl": "https://e.clinique.emea2.za.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 36,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "DA-BE",
+    "prodUrl": "https://www.darphin.be",
+    "stageUrl": "https://e.darphin.emea3.be.stage.emea.elcdev.net",
+    "brandId": 12,
+    "localeId": 18,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "DA-CA",
+    "prodUrl": "https://www.darphin.ca",
+    "stageUrl": "https://e.darphin.na.ca.stage.ncsa.elcdev.net",
+    "brandId": 12,
+    "localeId": 2,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "DA-DE",
+    "prodUrl": "https://www.darphin.de",
+    "stageUrl": "https://e.darphin.emea3.de.stage.emea.elcdev.net",
+    "brandId": 12,
+    "localeId": 15,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "DA-EU",
+    "prodUrl": "https://www.darphin.eu",
+    "stageUrl": "https://e.darphin.emea3.eu.stage.emea.elcdev.net",
+    "brandId": 12,
+    "localeId": 25,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "DA-ES",
+    "prodUrl": "https://www.darphin.es",
+    "stageUrl": "https://e.darphin.emea3.es.stage.emea.elcdev.net",
+    "brandId": 12,
+    "localeId": 16,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "DA-IT",
+    "prodUrl": "https://www.darphin.it",
+    "stageUrl": "https://e.darphin.emea3.it.stage.emea.elcdev.net",
+    "brandId": 12,
+    "localeId": 30,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "DA-FR",
+    "prodUrl": "https://www.darphin.fr",
+    "stageUrl": "https://e.darphin.emea3.fr.stage.emea.elcdev.net",
+    "brandId": 12,
+    "localeId": 17,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "DA-NL",
+    "prodUrl": "https://www.darphin.nl",
+    "stageUrl": "https://e.darphin.emea3.nl.stage.emea.elcdev.net",
+    "brandId": 12,
+    "localeId": 19,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "DA-TW",
+    "prodUrl": "https://www.darphin.com.tw",
+    "stageUrl": "https://c.darphin.tw.stage.kidc.elcdev.net",
+    "brandId": 12,
+    "localeId": 14,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "DA-TR",
+    "prodUrl": "https://www.darphin.com.tr",
+    "stageUrl": "https://e.darphin.emea4.tr.stage.emea.elcdev.net",
+    "brandId": 12,
+    "localeId": 39,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "DA-UK",
+    "prodUrl": "https://www.darphin.co.uk",
+    "stageUrl": "https://e.darphin.uk.uk.stage.emea.elcdev.net",
+    "brandId": 12,
+    "localeId": 3,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "DA-US",
+    "prodUrl": "https://www.darphin.com",
+    "stageUrl": "https://e.darphin.na.us.stage.ncsa.elcdev.net",
+    "brandId": 12,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "DJ-KR",
+    "prodUrl": "https://www.drjart.co.kr",
+    "stageUrl": "https://e.drjart.kr.kr.stage.kidc.elcdev.net",
+    "brandId": 13,
+    "localeId": 8,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "DJ-UK",
+    "prodUrl": "https://www.drjart.co.uk",
+    "stageUrl": "https://e.drjart.uk.uk.stage.emea.elcdev.net",
+    "brandId": 13,
+    "localeId": 3,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "DJ-US",
+    "prodUrl": "https://www.drjart.com",
+    "stageUrl": "https://e.drjart.na.us.stage.ncsa.elcdev.net",
+    "brandId": 13,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-AT",
+    "prodUrl": "https://www.esteelauder.at",
+    "stageUrl": "https://e.esteelauder.emea2.at.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 22,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-AU",
+    "prodUrl": "https://www.esteelauder.com.au",
+    "stageUrl": "https://e.esteelauder.au.au.stage.kidc.elcdev.net",
+    "brandId": 4,
+    "localeId": 5,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-BE",
+    "prodUrl": "https://www.esteelauder.be",
+    "stageUrl": "https://e.esteelauder.benelux.be.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 18,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-BR",
+    "prodUrl": "https://www.esteelauder.com.br",
+    "stageUrl": "https://e.esteelauder.la.br.stage.ncsa.elcdev.net",
+    "brandId": 4,
+    "localeId": 42,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-CA",
+    "prodUrl": "https://www.esteelauder.ca",
+    "stageUrl": "https://e.esteelauder.na.ca.stage.ncsa.elcdev.net",
+    "brandId": 4,
+    "localeId": 2,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-CH",
+    "prodUrl": "https://www.esteelauder.ch",
+    "stageUrl": "https://e.esteelauder.emea2.ch.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 38,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-CE",
+    "prodUrl": "https://www.esteelauder.cl",
+    "stageUrl": "https://e.esteelauder.la.cl.stage.ncsa.elcdev.net",
+    "brandId": 4,
+    "localeId": 43,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-CN",
+    "prodUrl": "https://www.esteelauder.com.cn",
+    "stageUrl": "https://e.esteelauder.cn.cn.stage.cntel.elcdev.net",
+    "brandId": 4,
+    "localeId": 6,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-CZ",
+    "prodUrl": "https://www.esteelauder.cz",
+    "stageUrl": "https://e.esteelauder.emea2.cz.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 23,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-DE",
+    "prodUrl": "https://www.esteelauder.de",
+    "stageUrl": "https://e.esteelauder.emea2.de.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 15,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-ES",
+    "prodUrl": "https://www.esteelauder.es",
+    "stageUrl": "https://e.esteelauder.emea2.es.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 16,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-FR",
+    "prodUrl": "https://www.esteelauder.fr",
+    "stageUrl": "https://e.esteelauder.emea2.fr.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 17,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-GR",
+    "prodUrl": "https://www.esteelauder.gr",
+    "stageUrl": "https://e.esteelauder.emea2.gr.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 21,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-HK",
+    "prodUrl": "https://www.esteelauder.com.hk",
+    "stageUrl": "https://e.esteelauder.hk.hk.stage.kidc.elcdev.net",
+    "brandId": 4,
+    "localeId": 7,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-HU",
+    "prodUrl": "https://www.esteelauder.hu",
+    "stageUrl": "https://e.esteelauder.emea2.hu.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 27,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-IL",
+    "prodUrl": "https://www.esteelauder.co.il",
+    "stageUrl": "https://e.esteelauder.emea2.il.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 29,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-IN",
+    "prodUrl": "https://www.esteelauder.in",
+    "stageUrl": "https://e.esteelauder.emea2.in.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 28,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-IT",
+    "prodUrl": "https://www.esteelauder.it",
+    "stageUrl": "https://e.esteelauder.emea2.it.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 30,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-JP",
+    "prodUrl": "https://www.esteelauder.jp",
+    "stageUrl": "https://e.esteelauder.jp.jp.stage.kidc.elcdev.net",
+    "brandId": 4,
+    "localeId": 4,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-KR",
+    "prodUrl": "https://www.esteelauder.co.kr",
+    "stageUrl": "https://e.esteelauder.kr.kr.stage.kidc.elcdev.net",
+    "brandId": 4,
+    "localeId": 8,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-MX",
+    "prodUrl": "https://www.esteelauder.com.mx",
+    "stageUrl": "https://e.esteelauder.la.mx.stage.ncsa.elcdev.net",
+    "brandId": 4,
+    "localeId": 41,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-MY",
+    "prodUrl": "https://www.esteelauder.com.my",
+    "stageUrl": "https://e.esteelauder.my.my.stage.kidc.elcdev.net",
+    "brandId": 4,
+    "localeId": 9,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-NL",
+    "prodUrl": "https://www.esteelauder.nl",
+    "stageUrl": "https://e.esteelauder.benelux.nl.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 19,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-NO",
+    "prodUrl": "https://www.esteelauder.no",
+    "stageUrl": "https://e.esteelauder.nordic.no.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 20,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-DK",
+    "prodUrl": "https://www.esteelauder.dk",
+    "stageUrl": "https://e.esteelauder.nordic.dk2.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 24,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-SE",
+    "prodUrl": "https://www.esteelauder.se",
+    "stageUrl": "https://e.esteelauder.nordic.se.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 37,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-NZ",
+    "prodUrl": "https://www.esteelauder.co.nz",
+    "stageUrl": "https://e.esteelauder.au.nz.stage.kidc.elcdev.net",
+    "brandId": 4,
+    "localeId": 10,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-PL",
+    "prodUrl": "https://www.esteelauder.pl",
+    "stageUrl": "https://e.esteelauder.emea2.pl.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 32,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-RO",
+    "prodUrl": "https://www.esteelauder.ro",
+    "stageUrl": "https://e.esteelauder.emea2.ro.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 34,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-SG",
+    "prodUrl": "https://www.esteelauder.com.sg",
+    "stageUrl": "https://e.esteelauder.sg.stage.kidc.elcdev.net",
+    "brandId": 4,
+    "localeId": 12,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-TH",
+    "prodUrl": "https://www.esteelauder.co.th",
+    "stageUrl": "https://e.esteelauder.th.th.stage.kidc.elcdev.net",
+    "brandId": 4,
+    "localeId": 13,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-TR",
+    "prodUrl": "https://www.esteelauder.com.tr",
+    "stageUrl": "https://e.esteelauder.emea2.tr.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 39,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-TW",
+    "prodUrl": "https://www.esteelauder.com.tw",
+    "stageUrl": "https://e.esteelauder.tw.tw.stage.kidc.elcdev.net",
+    "brandId": 4,
+    "localeId": 14,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-UK",
+    "prodUrl": "https://www.esteelauder.co.uk",
+    "stageUrl": "https://e.esteelauder.uk.uk.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 3,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-US",
+    "prodUrl": "https://www.esteelauder.com",
+    "stageUrl": "https://e.esteelauder.na.us.stage.ncsa.elcdev.net",
+    "brandId": 4,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-ZA",
+    "prodUrl": "https://www.esteelauder.co.za",
+    "stageUrl": "https://e.esteelauder.emea2.za.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 36,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "FM-EU",
+    "prodUrl": "https://www.fredericmalle.eu",
+    "stageUrl": "https://e.fredericmalle.na.uf.stage.ncsa.elcdev.net",
+    "brandId": 16,
+    "localeId": 25,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "FM-UK",
+    "prodUrl": "https://www.fredericmalle.co.uk",
+    "stageUrl": "https://e.fredericmalle.uk.uk.stage.emea.elcdev.net",
+    "brandId": 16,
+    "localeId": 3,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "FM-US",
+    "prodUrl": "https://www.fredericmalle.com",
+    "stageUrl": "https://e.fredericmalle.na.us.stage.ncsa.elcdev.net",
+    "brandId": 16,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "GG-HK",
+    "prodUrl": "https://www.glamglow.com.hk",
+    "stageUrl": "https://e.glamglowmud.hk.hk.stage.kidc.elcdev.net",
+    "brandId": 14,
+    "localeId": 7,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "GG-UK",
+    "prodUrl": "https://www.glamglow.co.uk",
+    "stageUrl": "https://e.glamglowmud.uk.uk.stage.emea.elcdev.net",
+    "brandId": 14,
+    "localeId": 3,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "GG-US",
+    "prodUrl": "https://www.glamglow.com",
+    "stageUrl": "https://e.glamglowmud.na.us.stage.ncsa.elcdev.net",
+    "brandId": 14,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "GG-IT",
+    "prodUrl": "https://www.glamglow.com/it/en",
+    "stageUrl": "",
+    "brandId": 14,
+    "localeId": 30,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-AU",
+    "prodUrl": "https://www.jomalone.com.au",
+    "stageUrl": "https://e.jomalone2.au.au.stage.kidc.elcdev.net",
+    "brandId": 9,
+    "localeId": 5,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-BR",
+    "prodUrl": "https://www.jomalone.com.br",
+    "stageUrl": "https://e.jomalone2.la.br.stage.ncsa.elcdev.net",
+    "brandId": 9,
+    "localeId": 42,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-CA",
+    "prodUrl": "https://www.jomalone.ca",
+    "stageUrl": "https://e.jomalone2.na.ca.stage.ncsa.elcdev.net",
+    "brandId": 9,
+    "localeId": 2,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-CN",
+    "prodUrl": "https://www.jomalone.com.cn",
+    "stageUrl": "https://e.jomalone2.cn.cn.stage.cntel.elcdev.net",
+    "brandId": 9,
+    "localeId": 6,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-EU",
+    "prodUrl": "https://www.jomalone.eu",
+    "stageUrl": "https://e.jomalone2.emea4.eu.stage.emea.elcdev.net",
+    "brandId": 9,
+    "localeId": 25,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-FR",
+    "prodUrl": "https://www.jomalone.fr",
+    "stageUrl": "https://e.jomalone2.emea2.fr.stage.emea.elcdev.net",
+    "brandId": 9,
+    "localeId": 17,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-HK",
+    "prodUrl": "https://www.jomalone.com.hk",
+    "stageUrl": "https://e.jomalone2.hk.hk.stage.kidc.elcdev.net",
+    "brandId": 9,
+    "localeId": 7,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-JP",
+    "prodUrl": "https://www.jomalone.jp",
+    "stageUrl": "https://e.jomalone2.jp.jp.stage.kidc.elcdev.net",
+    "brandId": 9,
+    "localeId": 4,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-KSA",
+    "prodUrl": "https://jomalone-sa.com",
+    "stageUrl": "",
+    "brandId": 9,
+    "localeId": 35,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-KR",
+    "prodUrl": "https://www.jomalone.co.kr",
+    "stageUrl": "https://e.jomalone2.kr.kr.stage.kidc.elcdev.net",
+    "brandId": 9,
+    "localeId": 8,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-ME",
+    "prodUrl": "https://www.jomalone-ae.com",
+    "stageUrl": "https://e.jomalone2.emea2.ae.stage.emea.elcdev.net",
+    "brandId": 9,
+    "localeId": 31,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-MY",
+    "prodUrl": "https://www.jomalone.com.my",
+    "stageUrl": "https://e.jomalone2.apac.my.stage.kidc.elcdev.net",
+    "brandId": 9,
+    "localeId": 9,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-MX",
+    "prodUrl": "https://www.jomalone.com.mx",
+    "stageUrl": "https://e.jomalone2.la.mx.stage.ncsa.elcdev.net",
+    "brandId": 9,
+    "localeId": 41,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-PH",
+    "prodUrl": "https://www.jomalone.com.ph",
+    "stageUrl": "https://e.jomalone2.apac.ph.stage.kidc.elcdev.net",
+    "brandId": 9,
+    "localeId": 11,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-PT",
+    "prodUrl": "https://www.jomalone.eu",
+    "stageUrl": "https://e.jomalone.emea3.eu.stage.emea.elcdev.net",
+    "brandId": 9,
+    "localeId": 33,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-ES",
+    "prodUrl": "https://www.jomalone.eu",
+    "stageUrl": "https://e.jomalone.emea3.eu.stage.emea.elcdev.net",
+    "brandId": 9,
+    "localeId": 16,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-SG",
+    "prodUrl": "https://www.jomalone.com.sg",
+    "stageUrl": "https://e.jomalone2.apac.sg.stage.kidc.elcdev.net",
+    "brandId": 9,
+    "localeId": 12,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-TH",
+    "prodUrl": "https://www.jomalone.co.th",
+    "stageUrl": "https://e.jomalone2.th.th.stage.kidc.elcdev.net",
+    "brandId": 9,
+    "localeId": 13,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-UK",
+    "prodUrl": "https://www.jomalone.co.uk",
+    "stageUrl": "https://e.jomalone2.uk.uk.stage.emea.elcdev.net",
+    "brandId": 9,
+    "localeId": 3,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-US",
+    "prodUrl": "https://www.jomalone.com",
+    "stageUrl": "https://e.jomalone2.na.us.stage.ncsa.elcdev.net",
+    "brandId": 9,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-KW",
+    "prodUrl": "https://www.jomalone-kw.com",
+    "stageUrl": "",
+    "brandId": 9,
+    "localeId": 61,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-QA",
+    "prodUrl": "https://www.jomalone-qa.com",
+    "stageUrl": "",
+    "brandId": 9,
+    "localeId": 60,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-AT",
+    "prodUrl": "https://www.lamer.eu",
+    "stageUrl": "https://e.cremedelamer2.emea4.eu.stage.emea.elcdev.net",
+    "brandId": 6,
+    "localeId": 22,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-AU",
+    "prodUrl": "https://www.cremedelamer.com.au",
+    "stageUrl": "https://e.cremedelamer2.au.au.stage.kidc.elcdev.net",
+    "brandId": 6,
+    "localeId": 5,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-BE",
+    "prodUrl": "https://www.lamer.eu",
+    "stageUrl": "https://e.cremedelamer2.emea4.eu.stage.emea.elcdev.net",
+    "brandId": 6,
+    "localeId": 18,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-BR",
+    "prodUrl": "https://www.lamer.com.br",
+    "stageUrl": "https://e.cremedelamer2.la.br.stage.ncsa.elcdev.net",
+    "brandId": 6,
+    "localeId": 42,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-CA",
+    "prodUrl": "https://www.cremedelamer.ca",
+    "stageUrl": "https://e.cremedelamer2.na.ca.stage.ncsa.elcdev.net",
+    "brandId": 6,
+    "localeId": 2,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-CH",
+    "prodUrl": "https://www.lamer.eu",
+    "stageUrl": "https://e.cremedelamer2.emea4.eu.stage.emea.elcdev.net",
+    "brandId": 6,
+    "localeId": 38,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-CN",
+    "prodUrl": "https://www.lamer.com.cn",
+    "stageUrl": "https://e.cremedelamer2.cn.cn.stage.cntel.elcdev.net",
+    "brandId": 6,
+    "localeId": 6,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-DE",
+    "prodUrl": "https://www.cremedelamer.de",
+    "stageUrl": "https://e.cremedelamer2.emea2.de.stage.emea.elcdev.net",
+    "brandId": 6,
+    "localeId": 15,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-ES",
+    "prodUrl": "https://www.lamer.eu",
+    "stageUrl": "https://e.cremedelamer2.emea4.eu.stage.emea.elcdev.net",
+    "brandId": 6,
+    "localeId": 16,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-EU",
+    "prodUrl": "https://www.lamer.eu",
+    "stageUrl": "https://e.cremedelamer2.emea4.eu.stage.emea.elcdev.net",
+    "brandId": 6,
+    "localeId": 25,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-FR",
+    "prodUrl": "https://www.cremedelamer.fr",
+    "stageUrl": "https://e.cremedelamer2.emea2.fr.stage.emea.elcdev.net",
+    "brandId": 6,
+    "localeId": 17,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-GR",
+    "prodUrl": "https://www.lamer.gr",
+    "stageUrl": "https://e.cremedelamer2.emea2.gr.stage.emea.elcdev.net",
+    "brandId": 6,
+    "localeId": 21,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-HK",
+    "prodUrl": "https://www.lamer.com.hk",
+    "stageUrl": "https://e.cremedelamer2.hk.hk.stage.kidc.elcdev.net",
+    "brandId": 6,
+    "localeId": 7,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-IT",
+    "prodUrl": "https://www.lamer.eu",
+    "stageUrl": "https://e.cremedelamer2.emea4.eu.stage.emea.elcdev.net",
+    "brandId": 6,
+    "localeId": 30,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-JP",
+    "prodUrl": "https://www.delamer.jp",
+    "stageUrl": "https://e.cremedelamer2.jp.jp.stage.kidc.elcdev.net",
+    "brandId": 6,
+    "localeId": 4,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-KR",
+    "prodUrl": "https://www.lamerkorea.com",
+    "stageUrl": "https://e.cremedelamer2.kr.kr.stage.kidc.elcdev.net",
+    "brandId": 6,
+    "localeId": 8,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-MX",
+    "prodUrl": "https://www.lamer.com.mx",
+    "stageUrl": "https://e.cremedelamer2.la.mx.stage.ncsa.elcdev.net",
+    "brandId": 6,
+    "localeId": 41,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-PL",
+    "prodUrl": "https://www.lamer.eu",
+    "stageUrl": "https://e.cremedelamer2.emea4.eu.stage.emea.elcdev.net",
+    "brandId": 6,
+    "localeId": 32,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-PT",
+    "prodUrl": "https://www.lamer.eu",
+    "stageUrl": "https://e.cremedelamer2.emea4.eu.stage.emea.elcdev.net",
+    "brandId": 6,
+    "localeId": 33,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-TH",
+    "prodUrl": "https://www.lamer.co.th",
+    "stageUrl": "https://e.cremedelamer2.th.th.stage.kidc.elcdev.net",
+    "brandId": 6,
+    "localeId": 13,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-TW",
+    "prodUrl": "https://www.lamer.com.tw",
+    "stageUrl": "https://e.cremedelamer2.tw.tw.stage.kidc.elcdev.net",
+    "brandId": 6,
+    "localeId": 14,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-UK",
+    "prodUrl": "https://www.cremedelamer.co.uk",
+    "stageUrl": "https://e.cremedelamer2.uk.uk.stage.emea.elcdev.net",
+    "brandId": 6,
+    "localeId": 3,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-US",
+    "prodUrl": "https://www.cremedelamer.com",
+    "stageUrl": "https://e.cremedelamer2.na.us.stage.ncsa.elcdev.net",
+    "brandId": 6,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-ZA",
+    "prodUrl": "https://www.lamer.co.za",
+    "stageUrl": "https://e.cremedelamer2.emea2.za.stage.emea.elcdev.net",
+    "brandId": 6,
+    "localeId": 36,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LS-CN",
+    "prodUrl": "https://www.labseries.com.cn",
+    "stageUrl": "https://e.labseries.cn.cn.stage.cntel.elcdev.net",
+    "brandId": 7,
+    "localeId": 6,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LS-JP",
+    "prodUrl": "https://www.labseries.jp",
+    "stageUrl": "https://e.labseries.jp.jp.stage.kidc.elcdev.net",
+    "brandId": 7,
+    "localeId": 4,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LS-KR",
+    "prodUrl": "https://www.labseries.co.kr",
+    "stageUrl": "https://e.labseries.kr.kr.stage.kidc.elcdev.net",
+    "brandId": 7,
+    "localeId": 8,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LS-UK",
+    "prodUrl": "https://www.labseries.co.uk",
+    "stageUrl": "https://e.labseries.uk.uk.stage.emea.elcdev.net",
+    "brandId": 7,
+    "localeId": 3,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LS-US",
+    "prodUrl": "https://www.labseries.com",
+    "stageUrl": "https://e.labseries.na.us.stage.ncsa.elcdev.net",
+    "brandId": 7,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-AT",
+    "prodUrl": "https://www.maccosmetics.at",
+    "stageUrl": "https://e.maccosmetics.emea2.at.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 22,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-AU",
+    "prodUrl": "https://www.maccosmetics.com.au",
+    "stageUrl": "https://e.maccosmetics.au.au.stage.kidc.elcdev.net",
+    "brandId": 1,
+    "localeId": 5,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-BE",
+    "prodUrl": "https://www.maccosmetics.be",
+    "stageUrl": "https://e.maccosmetics.benelux.be.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 18,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-BR",
+    "prodUrl": "https://www.maccosmetics.com.br",
+    "stageUrl": "https://e.maccosmetics.la.br.stage.ncsa.elcdev.net",
+    "brandId": 1,
+    "localeId": 42,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-CA",
+    "prodUrl": "https://www.maccosmetics.ca",
+    "stageUrl": "https://e.maccosmetics.na.ca.stage.ncsa.elcdev.net",
+    "brandId": 1,
+    "localeId": 2,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-CH",
+    "prodUrl": "https://www.maccosmetics.ch",
+    "stageUrl": "https://e.maccosmetics.emea2.ch.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 38,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-CE",
+    "prodUrl": "https://www.maccosmetics.cl",
+    "stageUrl": "https://e.maccosmetics.la.cl.stage.ncsa.elcdev.net",
+    "brandId": 1,
+    "localeId": 43,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-CN",
+    "prodUrl": "https://www.maccosmetics.com.cn",
+    "stageUrl": "https://e.maccosmetics.cn.cn.stage.cntel.elcdev.net",
+    "brandId": 1,
+    "localeId": 6,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-CZ",
+    "prodUrl": "https://www.maccosmetics.cz",
+    "stageUrl": "https://e.maccosmetics.emea2.cz.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 23,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-DE",
+    "prodUrl": "https://www.maccosmetics.de",
+    "stageUrl": "https://e.maccosmetics.emea2.de.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 15,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-DK",
+    "prodUrl": "https://www.maccosmetics.dk",
+    "stageUrl": "https://maccosmetics.dk.stage.emea.perlgem.esteeonline.com",
+    "brandId": 1,
+    "localeId": 24,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-ES",
+    "prodUrl": "https://www.maccosmetics.es",
+    "stageUrl": "https://e.maccosmetics.emea2.es.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 16,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-FR",
+    "prodUrl": "https://www.maccosmetics.fr",
+    "stageUrl": "https://e.maccosmetics.emea2.fr.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 17,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-GR",
+    "prodUrl": "https://www.maccosmetics.gr",
+    "stageUrl": "https://e.maccosmetics.emea2.gr.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 21,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-HK",
+    "prodUrl": "https://www.maccosmetics.com.hk",
+    "stageUrl": "https://e.maccosmetics.hk.hk.stage.kidc.elcdev.net",
+    "brandId": 1,
+    "localeId": 7,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-HU",
+    "prodUrl": "https://www.maccosmetics.hu",
+    "stageUrl": "https://e.maccosmetics.emea2.hu.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 27,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-IL",
+    "prodUrl": "https://www.maccosmetics.co.il",
+    "stageUrl": "https://e.maccosmetics.emea2.il.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 29,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-IN",
+    "prodUrl": "https://www.maccosmetics.in",
+    "stageUrl": "https://e.maccosmetics.emea2.in.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 28,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-IT",
+    "prodUrl": "https://www.maccosmetics.it",
+    "stageUrl": "https://e.maccosmetics.emea2.it.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 30,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-JP",
+    "prodUrl": "https://www.maccosmetics.jp",
+    "stageUrl": "https://e.maccosmetics.jp.jp.stage.kidc.elcdev.net",
+    "brandId": 1,
+    "localeId": 4,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-KR",
+    "prodUrl": "https://www.maccosmetics.co.kr",
+    "stageUrl": "https://e.maccosmetics.kr.kr.stage.kidc.elcdev.net",
+    "brandId": 1,
+    "localeId": 8,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-KSA",
+    "prodUrl": "https://www.maccosmetics-sa.com",
+    "stageUrl": "https://e.maccosmetics.emea2.sa.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 35,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-MX",
+    "prodUrl": "https://www.maccosmetics.com.mx",
+    "stageUrl": "https://e.maccosmetics.la.mx.stage.ncsa.elcdev.net",
+    "brandId": 1,
+    "localeId": 41,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-MY",
+    "prodUrl": "https://www.maccosmetics.com.my",
+    "stageUrl": "https://e.maccosmetics.my.my.stage.kidc.elcdev.net",
+    "brandId": 1,
+    "localeId": 9,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-NL",
+    "prodUrl": "https://www.maccosmetics.nl",
+    "stageUrl": "https://e.maccosmetics.benelux.nl.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 19,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-NO",
+    "prodUrl": "https://www.maccosmeticsnordics.com",
+    "stageUrl": "https://e.maccosmetics.nordic.nd.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 20,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-NZ",
+    "prodUrl": "https://www.maccosmetics.co.nz",
+    "stageUrl": "https://e.maccosmetics.au.nz.stage.kidc.elcdev.net",
+    "brandId": 1,
+    "localeId": 10,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-PL",
+    "prodUrl": "https://www.maccosmetics.pl",
+    "stageUrl": "https://e.maccosmetics.emea2.pl.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 32,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-RO",
+    "prodUrl": "https://www.maccosmetics.ro",
+    "stageUrl": "https://e.maccosmetics.emea2.ro.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 34,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-SE",
+    "prodUrl": "https://www.maccosmetics.se",
+    "stageUrl": "https://maccosmetics.emea.se.stage.emea.perlgem.esteeonline.com",
+    "brandId": 1,
+    "localeId": 37,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-TH",
+    "prodUrl": "https://www.maccosmetics.co.th",
+    "stageUrl": "https://e.maccosmetics.th.th.stage.kidc.elcdev.net",
+    "brandId": 1,
+    "localeId": 13,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-TR",
+    "prodUrl": "https://www.maccosmetics.com.tr",
+    "stageUrl": "https://e.maccosmetics.emea2.tr.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 39,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-TW",
+    "prodUrl": "https://www.maccosmetics.com.tw",
+    "stageUrl": "https://e.maccosmetics.tw.tw.stage.kidc.elcdev.net",
+    "brandId": 1,
+    "localeId": 14,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-UAE",
+    "prodUrl": "https://www.maccosmetics.ae",
+    "stageUrl": "https://e.maccosmetics.emea2.ae.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 40,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-UK",
+    "prodUrl": "https://www.maccosmetics.co.uk",
+    "stageUrl": "https://e.maccosmetics.uk.uk.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 3,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-US",
+    "prodUrl": "https://www.maccosmetics.com",
+    "stageUrl": "https://e.maccosmetics.na.us.stage.ncsa.elcdev.net",
+    "brandId": 1,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-ZA",
+    "prodUrl": "https://www.maccosmetics.co.za",
+    "stageUrl": "https://e.maccosmetics.emea2.za.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 36,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-KW",
+    "prodUrl": "https://www.maccosmetics-kw.com",
+    "stageUrl": "",
+    "brandId": 1,
+    "localeId": 61,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-QA",
+    "prodUrl": "https://www.maccosmetics-qa.com",
+    "stageUrl": "",
+    "brandId": 1,
+    "localeId": 60,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "OR-CA",
+    "prodUrl": "https://www.origins.ca",
+    "stageUrl": "https://e.origins.na.ca.stage.ncsa.elcdev.net",
+    "brandId": 3,
+    "localeId": 2,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "OR-CN",
+    "prodUrl": "https://www.origins.com.cn",
+    "stageUrl": "https://e.origins.cn.cn.stage.cntel.elcdev.net",
+    "brandId": 3,
+    "localeId": 6,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "OR-DE",
+    "prodUrl": "https://www.origins.de",
+    "stageUrl": "https://e.origins.emea2.de.stage.emea.elcdev.net",
+    "brandId": 3,
+    "localeId": 15,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "OR-DK",
+    "prodUrl": "https://www.origins.eu",
+    "stageUrl": "https://e.origins.emea3.eu.stage.emea.elcdev.net",
+    "brandId": 3,
+    "localeId": 24,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "OR-EU",
+    "prodUrl": "https://www.origins.eu",
+    "stageUrl": "https://e.origins.emea3.eu.stage.emea.elcdev.net",
+    "brandId": 3,
+    "localeId": 25,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "OR-HK",
+    "prodUrl": "https://www.origins.hk",
+    "stageUrl": "https://e.origins.hk.hk.stage.kidc.elcdev.net",
+    "brandId": 3,
+    "localeId": 7,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "OR-MX",
+    "prodUrl": "",
+    "stageUrl": "",
+    "brandId": 3,
+    "localeId": 41,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "OR-TH",
+    "prodUrl": "https://www.origins.co.th",
+    "stageUrl": "https://e.origins.th.th.stage.kidc.elcdev.net",
+    "brandId": 3,
+    "localeId": 13,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "OR-TR",
+    "prodUrl": "https://www.origins.com.tr",
+    "stageUrl": "https://e.origins.tr.tr.stage.emea.elcdev.net",
+    "brandId": 3,
+    "localeId": 39,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "OR-TW",
+    "prodUrl": "https://www.origins.com.tw",
+    "stageUrl": "https://e.origins.tw.tw.stage.kidc.elcdev.net",
+    "brandId": 3,
+    "localeId": 14,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "OR-UK",
+    "prodUrl": "https://www.origins.co.uk",
+    "stageUrl": "https://e.origins.uk.uk.stage.emea.elcdev.net",
+    "brandId": 3,
+    "localeId": 3,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "OR-US",
+    "prodUrl": "https://www.origins.com",
+    "stageUrl": "https://e.origins.na.us.stage.ncsa.elcdev.net",
+    "brandId": 3,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "SB-CA",
+    "prodUrl": "https://www.smashbox.ca",
+    "stageUrl": "https://e.smashbox.na.ca.stage.ncsa.elcdev.net",
+    "brandId": 15,
+    "localeId": 2,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "SB-DK",
+    "prodUrl": "https://www.smashbox.dk",
+    "stageUrl": "https://smashbox.emea.dk.stage.drupal.perlgem.esteeonline.com",
+    "brandId": 15,
+    "localeId": 24,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "SB-EU",
+    "prodUrl": "https://www.smashbox.eu",
+    "stageUrl": "https://e.smashbox.emea3.eu.stage.emea.elcdev.net",
+    "brandId": 15,
+    "localeId": 25,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "SB-GR",
+    "prodUrl": "https://www.smashbox.gr",
+    "stageUrl": "https://e.smashbox.emea2.gr.stage.emea.elcdev.net",
+    "brandId": 15,
+    "localeId": 21,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "SB-TR",
+    "prodUrl": "https://www.smashbox.com.tr",
+    "stageUrl": "https://e.smashbox.emea2.tr.stage.emea.elcdev.net",
+    "brandId": 15,
+    "localeId": 39,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "SB-UK",
+    "prodUrl": "https://www.smashbox.co.uk",
+    "stageUrl": "https://e.smashbox.uk.uk.stage.emea.elcdev.net",
+    "brandId": 15,
+    "localeId": 3,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "SB-US",
+    "prodUrl": "https://www.smashbox.com",
+    "stageUrl": "https://e.smashbox.na.us.stage.ncsa.elcdev.net",
+    "brandId": 15,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "SB-ZA",
+    "prodUrl": "https://www.smashbox.co.za",
+    "stageUrl": "https://e.smashbox.emea2.za.stage.emea.elcdev.net",
+    "brandId": 15,
+    "localeId": 36,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "TF-DE",
+    "prodUrl": "https://www.toofaced.eu",
+    "stageUrl": "https://e.toofaced.emea3.eu.stage.emea.elcdev.net",
+    "brandId": 17,
+    "localeId": 15,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "TF-JP",
+    "prodUrl": "https://www.toofacedcosmetics.jp",
+    "stageUrl": "https://e.toofaced.jp.jp.stage.kidc.elcdev.net",
+    "brandId": 17,
+    "localeId": 4,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "TF-UK",
+    "prodUrl": "https://www.toofaced.co.uk",
+    "stageUrl": "https://e.toofaced.uk.uk.stage.emea.elcdev.net",
+    "brandId": 17,
+    "localeId": 3,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "TF-US",
+    "prodUrl": "https://www.toofaced.com",
+    "stageUrl": "https://e.toofaced.na3.uh.stage.ncsa.elcdev.net",
+    "brandId": 17,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "TF-BR",
+    "prodUrl": "https://www.toofaced.com.br",
+    "stageUrl": "https://e.toofaced.la.br.stage.ncsa.elcdev.net",
+    "brandId": 17,
+    "localeId": 42,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-HK",
+    "prodUrl": "https://www.aveda.com.hk/",
+    "stageUrl": "",
+    "brandId": 8,
+    "localeId": 7,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-TH",
+    "prodUrl": "https://www.aveda.co.th/",
+    "stageUrl": "",
+    "brandId": 8,
+    "localeId": 13,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-DK",
+    "prodUrl": "https://www.aveda.dk/",
+    "stageUrl": "",
+    "brandId": 8,
+    "localeId": 24,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-ME",
+    "prodUrl": "https://www.aveda-me.com/",
+    "stageUrl": "",
+    "brandId": 8,
+    "localeId": 31,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-NO",
+    "prodUrl": "https://www.aveda.no/",
+    "stageUrl": "",
+    "brandId": 8,
+    "localeId": 20,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-SE",
+    "prodUrl": "https://www.aveda.se/",
+    "stageUrl": "",
+    "brandId": 8,
+    "localeId": 37,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-BR",
+    "prodUrl": "https://www.aveda.com.br/",
+    "stageUrl": "",
+    "brandId": 8,
+    "localeId": 42,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-MY",
+    "prodUrl": "https://www.bobbibrown.com.my/",
+    "stageUrl": "",
+    "brandId": 5,
+    "localeId": 9,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-PH",
+    "prodUrl": "https://www.bobbibrown.com.ph/",
+    "stageUrl": "",
+    "brandId": 5,
+    "localeId": 11,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-SG",
+    "prodUrl": "https://www.bobbibrown.com.sg/",
+    "stageUrl": "",
+    "brandId": 5,
+    "localeId": 12,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-ME",
+    "prodUrl": "https://www.bobbibrown-me.com/",
+    "stageUrl": "",
+    "brandId": 5,
+    "localeId": 31,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-AR",
+    "prodUrl": "https://www.bobbibrown.com.ar/",
+    "stageUrl": "",
+    "brandId": 5,
+    "localeId": 45,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-CE",
+    "prodUrl": "https://www.bobbibrown.cl/",
+    "stageUrl": "",
+    "brandId": 5,
+    "localeId": 43,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-PH",
+    "prodUrl": "https://www.clinique.com.ph/",
+    "stageUrl": "",
+    "brandId": 2,
+    "localeId": 11,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-SG",
+    "prodUrl": "https://www.clinique.com.sg/",
+    "stageUrl": "",
+    "brandId": 2,
+    "localeId": 12,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-VN",
+    "prodUrl": "https://www.clinique.vn/",
+    "stageUrl": "",
+    "brandId": 2,
+    "localeId": 46,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-ME",
+    "prodUrl": "https://www.clinique-me.com/",
+    "stageUrl": "",
+    "brandId": 2,
+    "localeId": 31,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-PT",
+    "prodUrl": "https://www.clinique.pt/",
+    "stageUrl": "",
+    "brandId": 2,
+    "localeId": 33,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-AR",
+    "prodUrl": "https://www.clinique.com.ar/",
+    "stageUrl": "",
+    "brandId": 2,
+    "localeId": 45,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-CO",
+    "prodUrl": "https://www.clinique.com.co/",
+    "stageUrl": "",
+    "brandId": 2,
+    "localeId": 47,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-PA",
+    "prodUrl": "https://www.clinique.com.pa/",
+    "stageUrl": "",
+    "brandId": 2,
+    "localeId": 48,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-PE",
+    "prodUrl": "https://www.clinique.com.pe/",
+    "stageUrl": "",
+    "brandId": 2,
+    "localeId": 49,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-VE",
+    "prodUrl": "https://www.clinique.com.ve/",
+    "stageUrl": "",
+    "brandId": 2,
+    "localeId": 50,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "DA-GR",
+    "prodUrl": "https://www.darphin.gr/",
+    "stageUrl": "",
+    "brandId": 12,
+    "localeId": 21,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "DA-KR",
+    "prodUrl": "https://www.darphin.co.kr/",
+    "stageUrl": "",
+    "brandId": 12,
+    "localeId": 8,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-PH",
+    "prodUrl": "https://www.esteelauder.com.ph/",
+    "stageUrl": "",
+    "brandId": 4,
+    "localeId": 11,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-TB",
+    "prodUrl": "http://www.travelbeautifully.com/",
+    "stageUrl": "",
+    "brandId": 4,
+    "localeId": 59,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-VN",
+    "prodUrl": "https://www.esteelauder.com.vn/",
+    "stageUrl": "",
+    "brandId": 4,
+    "localeId": 46,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-ID",
+    "prodUrl": "https://www.esteelauder.co.id/",
+    "stageUrl": "",
+    "brandId": 4,
+    "localeId": 51,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-ME",
+    "prodUrl": "https://www.esteelauder-me.com/",
+    "stageUrl": "",
+    "brandId": 4,
+    "localeId": 31,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-PT",
+    "prodUrl": "https://www.esteelauder.pt/",
+    "stageUrl": "",
+    "brandId": 4,
+    "localeId": 33,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-AR",
+    "prodUrl": "https://www.esteelauder.com.ar/",
+    "stageUrl": "",
+    "brandId": 4,
+    "localeId": 45,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-CO",
+    "prodUrl": "https://www.esteelauder.com.co/",
+    "stageUrl": "",
+    "brandId": 4,
+    "localeId": 47,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-SV",
+    "prodUrl": "https://www.esteelauder.com.sv/",
+    "stageUrl": "",
+    "brandId": 4,
+    "localeId": 52,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-GT",
+    "prodUrl": "https://www.esteelauder.com.gt/",
+    "stageUrl": "",
+    "brandId": 4,
+    "localeId": 53,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-PA",
+    "prodUrl": "https://www.esteelauder.com.pa/",
+    "stageUrl": "",
+    "brandId": 4,
+    "localeId": 48,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-PE",
+    "prodUrl": "https://www.esteelauder.com.pe/",
+    "stageUrl": "",
+    "brandId": 4,
+    "localeId": 49,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-VE",
+    "prodUrl": "https://www.esteelauder.com.ve/",
+    "stageUrl": "",
+    "brandId": 4,
+    "localeId": 50,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-NZ",
+    "prodUrl": "https://www.jomalone.co.nz/",
+    "stageUrl": "",
+    "brandId": 9,
+    "localeId": 10,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-TW",
+    "prodUrl": "https://www.jomalone.com.tw/",
+    "stageUrl": "",
+    "brandId": 9,
+    "localeId": 14,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-DK",
+    "prodUrl": "https://www.jomalone.dk/",
+    "stageUrl": "",
+    "brandId": 9,
+    "localeId": 24,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-GR",
+    "prodUrl": "https://www.jomalone.gr/",
+    "stageUrl": "",
+    "brandId": 9,
+    "localeId": 21,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-IN",
+    "prodUrl": "https://www.jomalone.in/",
+    "stageUrl": "",
+    "brandId": 9,
+    "localeId": 28,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-IL",
+    "prodUrl": "https://www.jomalone.co.il/",
+    "stageUrl": "",
+    "brandId": 9,
+    "localeId": 29,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-ZA",
+    "prodUrl": "https://www.jomalone.co.za/",
+    "stageUrl": "",
+    "brandId": 9,
+    "localeId": 36,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-CH",
+    "prodUrl": "https://www.jomalone.eu/",
+    "stageUrl": "",
+    "brandId": 9,
+    "localeId": 38,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-TR",
+    "prodUrl": "https://www.jomalone.com.tr/",
+    "stageUrl": "",
+    "brandId": 9,
+    "localeId": 39,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-CE",
+    "prodUrl": "https://www.jomalone.cl/",
+    "stageUrl": "",
+    "brandId": 9,
+    "localeId": 43,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-MY",
+    "prodUrl": "https://www.lamer.com.my/",
+    "stageUrl": "",
+    "brandId": 6,
+    "localeId": 9,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-NZ",
+    "prodUrl": "https://www.lamer.co.nz/",
+    "stageUrl": "",
+    "brandId": 6,
+    "localeId": 10,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-PH",
+    "prodUrl": "https://www.lamer.com.ph/",
+    "stageUrl": "",
+    "brandId": 6,
+    "localeId": 11,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-SG",
+    "prodUrl": "https://www.lamer.com.sg/",
+    "stageUrl": "",
+    "brandId": 6,
+    "localeId": 12,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-ME",
+    "prodUrl": "https://www.lamer-me.com/",
+    "stageUrl": "",
+    "brandId": 6,
+    "localeId": 31,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-TR",
+    "prodUrl": "https://www.cremedelamer.com.tr/",
+    "stageUrl": "",
+    "brandId": 6,
+    "localeId": 39,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LS-HK",
+    "prodUrl": "https://www.labseries.com.hk/",
+    "stageUrl": "",
+    "brandId": 7,
+    "localeId": 7,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LS-MY",
+    "prodUrl": "https://www.labseries.com.my/",
+    "stageUrl": "",
+    "brandId": 7,
+    "localeId": 9,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LS-SG",
+    "prodUrl": "https://www.labseries.com.sg/",
+    "stageUrl": "",
+    "brandId": 7,
+    "localeId": 12,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LS-TW",
+    "prodUrl": "https://www.labseriesonline.com.tw/",
+    "stageUrl": "",
+    "brandId": 7,
+    "localeId": 14,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LS-TH",
+    "prodUrl": "https://www.labseries.co.th/",
+    "stageUrl": "",
+    "brandId": 7,
+    "localeId": 13,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LS-IT",
+    "prodUrl": "https://www.labseries.it/",
+    "stageUrl": "",
+    "brandId": 7,
+    "localeId": 30,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-PH",
+    "prodUrl": "https://www.maccosmetics.com.ph/",
+    "stageUrl": "",
+    "brandId": 1,
+    "localeId": 11,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-SG",
+    "prodUrl": "https://www.maccosmetics.com.sg/",
+    "stageUrl": "",
+    "brandId": 1,
+    "localeId": 12,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-VN",
+    "prodUrl": "https://www.maccosmetics.com.vn/",
+    "stageUrl": "",
+    "brandId": 1,
+    "localeId": 46,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-AR",
+    "prodUrl": "https://www.maccosmetics.com.ar/",
+    "stageUrl": "",
+    "brandId": 1,
+    "localeId": 45,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-PE",
+    "prodUrl": "https://www.maccosmetics.com.pe/",
+    "stageUrl": "",
+    "brandId": 1,
+    "localeId": 49,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-VE",
+    "prodUrl": "https://www.maccosmetics.com.ve/",
+    "stageUrl": "",
+    "brandId": 1,
+    "localeId": 50,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-PA",
+    "prodUrl": "https://www.maccosmetics.com.pa/",
+    "stageUrl": "",
+    "brandId": 1,
+    "localeId": 48,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-GT",
+    "prodUrl": "https://www.maccosmetics.com.gt/",
+    "stageUrl": "",
+    "brandId": 1,
+    "localeId": 53,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-SV",
+    "prodUrl": "https://www.maccosmetics.com.sv/",
+    "stageUrl": "",
+    "brandId": 1,
+    "localeId": 52,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-CR",
+    "prodUrl": "https://www.maccosmetics.cr/",
+    "stageUrl": "",
+    "brandId": 1,
+    "localeId": 54,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-EC",
+    "prodUrl": "https://www.maccosmetics.ec/",
+    "stageUrl": "",
+    "brandId": 1,
+    "localeId": 55,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-BO",
+    "prodUrl": "https://www.maccosmetics.bo/",
+    "stageUrl": "",
+    "brandId": 1,
+    "localeId": 56,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-NI",
+    "prodUrl": "https://www.maccosmetics.ni/",
+    "stageUrl": "",
+    "brandId": 1,
+    "localeId": 57,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-UY",
+    "prodUrl": "https://www.maccosmetics.uy/",
+    "stageUrl": "",
+    "brandId": 1,
+    "localeId": 58,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "OR-KR",
+    "prodUrl": "https://www.origins.co.kr/",
+    "stageUrl": "",
+    "brandId": 3,
+    "localeId": 8,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "OR-MY",
+    "prodUrl": "https://www.origins.my/",
+    "stageUrl": "",
+    "brandId": 3,
+    "localeId": 9,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "OR-PH",
+    "prodUrl": "https://www.origins.com.ph/",
+    "stageUrl": "",
+    "brandId": 3,
+    "localeId": 11,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "OR-SG",
+    "prodUrl": "https://www.origins.com.sg/",
+    "stageUrl": "",
+    "brandId": 3,
+    "localeId": 12,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-AU",
+    "prodUrl": "https://www.aveda.com.au",
+    "stageUrl": "https://e.aveda.au.au.stage.kidc.elcdev.net",
+    "brandId": 8,
+    "localeId": 5,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-CA",
+    "prodUrl": "https://www.aveda.ca",
+    "stageUrl": "https://e.aveda.na.ca.stage.ncsa.elcdev.net",
+    "brandId": 8,
+    "localeId": 2,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-DE",
+    "prodUrl": "https://www.aveda.de",
+    "stageUrl": "https://e.aveda.emea2.de.stage.emea.elcdev.net",
+    "brandId": 8,
+    "localeId": 15,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-EU",
+    "prodUrl": "https://www.aveda.eu",
+    "stageUrl": "https://e.aveda.emea3.eu.stage.emea.elcdev.net",
+    "brandId": 8,
+    "localeId": 25,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-GR",
+    "prodUrl": "https://www.aveda.gr",
+    "stageUrl": "",
+    "brandId": 8,
+    "localeId": 21,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-FR",
+    "prodUrl": "https://www.aveda.eu",
+    "stageUrl": "https://e.aveda.emea3.eu.stage.emea.elcdev.net",
+    "brandId": 8,
+    "localeId": 17,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-IT",
+    "prodUrl": "https://www.aveda.it",
+    "stageUrl": "https://e.aveda.emea2.it.stage.emea.elcdev.net",
+    "brandId": 8,
+    "localeId": 30,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-JP",
+    "prodUrl": "https://www.aveda.jp",
+    "stageUrl": "https://e.aveda.jp.jp.stage.kidc.elcdev.net",
+    "brandId": 8,
+    "localeId": 4,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-KR",
+    "prodUrl": "https://www.avedakorea.com",
+    "stageUrl": "https://e.aveda.kr.kr.stage.kidc.elcdev.net",
+    "brandId": 8,
+    "localeId": 8,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-MX",
+    "prodUrl": "https://www.aveda.com.mx",
+    "stageUrl": "https://e.aveda.la.mx.stage.ncsa.elcdev.net",
+    "brandId": 8,
+    "localeId": 41,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-TR",
+    "prodUrl": "https://www.aveda.com.tr",
+    "stageUrl": "https://e.aveda.emea2.tr.stage.emea.elcdev.net",
+    "brandId": 8,
+    "localeId": 39,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-UK",
+    "prodUrl": "https://www.aveda.co.uk",
+    "stageUrl": "https://e.aveda.uk.uk.stage.emea.elcdev.net",
+    "brandId": 8,
+    "localeId": 3,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-US",
+    "prodUrl": "https://www.aveda.com",
+    "stageUrl": "https://e.aveda.na.us.stage.ncsa.elcdev.net",
+    "brandId": 8,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-AT",
+    "prodUrl": "https://www.bobbibrown.at",
+    "stageUrl": "https://e.bobbibrown.emea2.at.stage.emea.elcdev.net",
+    "brandId": 5,
+    "localeId": 22,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-AU",
+    "prodUrl": "https://www.bobbibrown.com.au",
+    "stageUrl": "https://e.bobbibrown.au.au.stage.kidc.elcdev.net",
+    "brandId": 5,
+    "localeId": 5,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-CA",
+    "prodUrl": "https://www.bobbibrowncosmetics.ca",
+    "stageUrl": "https://e.bobbibrown.na.ca.stage.ncsa.elcdev.net",
+    "brandId": 5,
+    "localeId": 2,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-CH",
+    "prodUrl": "https://www.bobbibrown.ch",
+    "stageUrl": "https://e.bobbibrown.emea2.ch.stage.emea.elcdev.net",
+    "brandId": 5,
+    "localeId": 38,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-CN",
+    "prodUrl": "https://www.bobbibrown.com.cn",
+    "stageUrl": "https://e.bobbibrown.cn.cn.stage.cntel.elcdev.net",
+    "brandId": 5,
+    "localeId": 6,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-DE",
+    "prodUrl": "https://www.bobbibrown.de",
+    "stageUrl": "https://e.bobbibrown.emea2.de.stage.emea.elcdev.net",
+    "brandId": 5,
+    "localeId": 15,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-ES",
+    "prodUrl": "https://www.bobbibrown.es",
+    "stageUrl": "https://e.bobbibrown.emea2.es.stage.emea.elcdev.net",
+    "brandId": 5,
+    "localeId": 16,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-FR",
+    "prodUrl": "https://www.bobbibrowncosmetics.fr",
+    "stageUrl": "https://e.bobbibrown.emea2.fr.stage.emea.elcdev.net",
+    "brandId": 5,
+    "localeId": 17,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-GR",
+    "prodUrl": "https://www.bobbibrown.gr",
+    "stageUrl": "https://e.bobbibrown.emea2.gr.stage.emea.elcdev.net",
+    "brandId": 5,
+    "localeId": 21,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-HK",
+    "prodUrl": "https://www.bobbibrown.com.hk",
+    "stageUrl": "https://e.bobbibrown.hk.hk.stage.kidc.elcdev.net",
+    "brandId": 5,
+    "localeId": 7,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-IL",
+    "prodUrl": "https://www.bobbibrown.co.il",
+    "stageUrl": "https://e.bobbibrown.emea2.il.stage.emea.elcdev.net",
+    "brandId": 5,
+    "localeId": 29,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-IN",
+    "prodUrl": "https://www.bobbibrown.in",
+    "stageUrl": "https://e.bobbibrown.emea2.in.stage.emea.elcdev.net",
+    "brandId": 5,
+    "localeId": 28,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-IT",
+    "prodUrl": "https://www.bobbibrown.it",
+    "stageUrl": "https://e.bobbibrown.emea2.it.stage.emea.elcdev.net",
+    "brandId": 5,
+    "localeId": 30,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-JP",
+    "prodUrl": "https://www.bobbibrown.jp",
+    "stageUrl": "https://e.bobbibrown.jp.jp.stage.kidc.elcdev.net",
+    "brandId": 5,
+    "localeId": 4,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-KR",
+    "prodUrl": "https://www.bobbibrown.co.kr",
+    "stageUrl": "https://e.bobbibrown.kr.kr.stage.kidc.elcdev.net",
+    "brandId": 5,
+    "localeId": 8,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-MX",
+    "prodUrl": "https://www.bobbibrown.com.mx",
+    "stageUrl": "https://e.bobbibrown.la.mx.stage.ncsa.elcdev.net",
+    "brandId": 5,
+    "localeId": 41,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-NL",
+    "prodUrl": "https://www.bobbibrown.nl",
+    "stageUrl": "https://e.bobbibrown.emea2.nl.stage.emea.elcdev.net",
+    "brandId": 5,
+    "localeId": 19,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-TH",
+    "prodUrl": "https://www.bobbibrown.co.th",
+    "stageUrl": "https://e.bobbibrown.th.th.stage.kidc.elcdev.net",
+    "brandId": 5,
+    "localeId": 13,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-TR",
+    "prodUrl": "https://www.bobbibrown.com.tr",
+    "stageUrl": "https://e.bobbibrown.emea2.tr.stage.emea.elcdev.net",
+    "brandId": 5,
+    "localeId": 39,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-TW",
+    "prodUrl": "https://www.bobbibrown.com.tw",
+    "stageUrl": "https://e.bobbibrown.tw.tw.stage.kidc.elcdev.net",
+    "brandId": 5,
+    "localeId": 14,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-UK",
+    "prodUrl": "https://www.bobbibrown.co.uk",
+    "stageUrl": "https://e.bobbibrown.uk.uk.stage.emea.elcdev.net",
+    "brandId": 5,
+    "localeId": 3,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-US",
+    "prodUrl": "https://www.bobbibrowncosmetics.com",
+    "stageUrl": "https://e.bobbibrown.na.us.stage.ncsa.elcdev.net",
+    "brandId": 5,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-ZA",
+    "prodUrl": "https://www.bobbibrown.co.za",
+    "stageUrl": "https://e.bobbibrown.emea2.za.stage.emea.elcdev.net",
+    "brandId": 5,
+    "localeId": 36,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BK-UAE",
+    "prodUrl": "https://www.kilian-paris.ae",
+    "stageUrl": "https://e.kilian.emea2.ae.stage.emea.elcdev.net",
+    "brandId": 11,
+    "localeId": 40,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BK-KSA",
+    "prodUrl": "https://www.kilian-paris.sa",
+    "stageUrl": "",
+    "brandId": 11,
+    "localeId": 35,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BK-FR",
+    "prodUrl": "https://www.bykilian.fr",
+    "stageUrl": "https://e.kilian.emea2.fr.stage.emea.elcdev.net",
+    "brandId": 11,
+    "localeId": 17,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BK-UK",
+    "prodUrl": "https://www.bykilian.co.uk",
+    "stageUrl": "https://e.kilian.uk.uk.stage.emea.elcdev.net",
+    "brandId": 11,
+    "localeId": 3,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BK-US",
+    "prodUrl": "https://www.bykilian.com",
+    "stageUrl": "https://e.kilian.na.us.stage.ncsa.elcdev.net",
+    "brandId": 11,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EB-CZ",
+    "prodUrl": "https://www.elcbeautyperksemea.com",
+    "stageUrl": "https://e.elcrewards.emea3.eu.stage.emea.elcdev.net",
+    "brandId": 18,
+    "localeId": 23,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EB-US",
+    "prodUrl": "https://www.elcbeautyperks.com",
+    "stageUrl": "https://e.elcrewards.na.us.stage.ncsa.elcdev.net",
+    "brandId": 18,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BU-CA",
+    "prodUrl": "https://www.bumbleandbumble.ca",
+    "stageUrl": "https://e.bumble.na.ca.stage.ncsa.elcdev.net",
+    "brandId": 10,
+    "localeId": 2,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BU-UK",
+    "prodUrl": "https://www.bumbleandbumble.co.uk",
+    "stageUrl": "https://e.bumble.uk.uk.stage.emea.elcdev.net",
+    "brandId": 10,
+    "localeId": 3,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BU-US",
+    "prodUrl": "https://www.bumbleandbumble.com",
+    "stageUrl": "https://e.bumble.na.us.stage.ncsa.elcdev.net",
+    "brandId": 10,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-AT",
+    "prodUrl": "https://www.clinique.at",
+    "stageUrl": "https://e.clinique.emea2.at.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 22,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-AU",
+    "prodUrl": "https://www.clinique.com.au",
+    "stageUrl": "https://e.clinique.au.au.stage.kidc.elcdev.net",
+    "brandId": 2,
+    "localeId": 5,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-BE",
+    "prodUrl": "https://www.clinique.be",
+    "stageUrl": "https://e.clinique.emea2.be.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 18,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-BR",
+    "prodUrl": "https://www.clinique.com.br",
+    "stageUrl": "https://e.clinique.la.br.stage.ncsa.elcdev.net",
+    "brandId": 2,
+    "localeId": 42,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-CA",
+    "prodUrl": "https://www.clinique.ca",
+    "stageUrl": "https://e.clinique.na.ca.stage.ncsa.elcdev.net",
+    "brandId": 2,
+    "localeId": 2,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-CH",
+    "prodUrl": "https://www.ch.clinique.com",
+    "stageUrl": "https://e.clinique.emea2.ch.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 38,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-CE",
+    "prodUrl": "https://www.clinique.cl",
+    "stageUrl": "https://e.clinique.la.cl.stage.ncsa.elcdev.net",
+    "brandId": 2,
+    "localeId": 43,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-CN",
+    "prodUrl": "https://www.clinique.com.cn",
+    "stageUrl": "https://e.clinique.cn.cn.stage.cntel.elcdev.net",
+    "brandId": 2,
+    "localeId": 6,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-CZ",
+    "prodUrl": "https://www.clinique.cz",
+    "stageUrl": "https://e.clinique.emea2.cz.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 23,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-DE",
+    "prodUrl": "https://www.clinique.de",
+    "stageUrl": "https://e.clinique.emea2.de.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 15,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-ES",
+    "prodUrl": "https://www.clinique.es",
+    "stageUrl": "https://e.clinique.emea2.es.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 16,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-FI",
+    "prodUrl": "https://www.clinique.fi",
+    "stageUrl": "https://e.clinique.emea2.fi.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 26,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-FR",
+    "prodUrl": "https://www.clinique.fr",
+    "stageUrl": "https://e.clinique.emea2.fr.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 17,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-GR",
+    "prodUrl": "https://www.clinique.gr",
+    "stageUrl": "https://e.clinique.emea2.gr.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 21,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-HK",
+    "prodUrl": "https://www.clinique.com.hk",
+    "stageUrl": "https://e.clinique.hk.hk.stage.kidc.elcdev.net",
+    "brandId": 2,
+    "localeId": 7,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-HU",
+    "prodUrl": "https://www.clinique.hu",
+    "stageUrl": "https://e.clinique.emea2.hu.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 27,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-IL",
+    "prodUrl": "https://www.clinique.co.il",
+    "stageUrl": "https://e.clinique.emea2.il.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 29,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-IN",
+    "prodUrl": "https://www.clinique.in",
+    "stageUrl": "https://e.clinique.emea2.in.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 28,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-IT",
+    "prodUrl": "https://www.cliniqueitaly.it",
+    "stageUrl": "https://e.clinique.emea2.it.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 30,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-JP",
+    "prodUrl": "https://www.clinique.jp",
+    "stageUrl": "https://e.clinique.jp.jp.stage.kidc.elcdev.net",
+    "brandId": 2,
+    "localeId": 4,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-KR",
+    "prodUrl": "https://www.cliniquekorea.co.kr",
+    "stageUrl": "https://e.clinique.kr.kr.stage.kidc.elcdev.net",
+    "brandId": 2,
+    "localeId": 8,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-MX",
+    "prodUrl": "https://www.clinique.com.mx",
+    "stageUrl": "https://e.clinique.la.mx.stage.ncsa.elcdev.net",
+    "brandId": 2,
+    "localeId": 41,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-MY",
+    "prodUrl": "https://www.clinique.com.my",
+    "stageUrl": "https://e.clinique.my.my.stage.kidc.elcdev.net",
+    "brandId": 2,
+    "localeId": 9,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-NL",
+    "prodUrl": "https://www.clinique.nl",
+    "stageUrl": "https://e.clinique.emea2.nl.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 19,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-NO",
+    "prodUrl": "https://www.clinique.no",
+    "stageUrl": "https://e.clinique.nordic.no.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 20,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-DK",
+    "prodUrl": "https://www.clinique.dk",
+    "stageUrl": "https://e.clinique.nordic.dk.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 24,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-SE",
+    "prodUrl": "https://www.clinique.se",
+    "stageUrl": "https://e.clinique.nordic.se.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 37,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-NZ",
+    "prodUrl": "https://www.clinique.co.nz",
+    "stageUrl": "https://e.clinique.au.nz.stage.kidc.elcdev.net",
+    "brandId": 2,
+    "localeId": 10,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-PL",
+    "prodUrl": "https://www.clinique.com.pl",
+    "stageUrl": "https://e.clinique.emea2.pl.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 32,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-RO",
+    "prodUrl": "https://www.clinique.ro",
+    "stageUrl": "https://e.clinique.emea2.ro.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 34,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-TH",
+    "prodUrl": "https://www.clinique.co.th",
+    "stageUrl": "https://e.clinique.th.th.stage.kidc.elcdev.net",
+    "brandId": 2,
+    "localeId": 13,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-TR",
+    "prodUrl": "https://www.clinique.com.tr",
+    "stageUrl": "https://e.clinique.emea2.tr.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 39,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-TW",
+    "prodUrl": "https://www.clinique.com.tw",
+    "stageUrl": "https://e.clinique.tw.tw.stage.kidc.elcdev.net",
+    "brandId": 2,
+    "localeId": 14,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-UK",
+    "prodUrl": "https://www.clinique.co.uk",
+    "stageUrl": "https://e.clinique.uk.uk.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 3,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-US",
+    "prodUrl": "https://www.clinique.com",
+    "stageUrl": "https://e.clinique.na.us.stage.ncsa.elcdev.net",
+    "brandId": 2,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-ZA",
+    "prodUrl": "https://www.clinique.co.za",
+    "stageUrl": "https://e.clinique.emea2.za.stage.emea.elcdev.net",
+    "brandId": 2,
+    "localeId": 36,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "DA-BE",
+    "prodUrl": "https://www.darphin.be",
+    "stageUrl": "https://e.darphin.emea3.be.stage.emea.elcdev.net",
+    "brandId": 12,
+    "localeId": 18,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "DA-CA",
+    "prodUrl": "https://www.darphin.ca",
+    "stageUrl": "https://e.darphin.na.ca.stage.ncsa.elcdev.net",
+    "brandId": 12,
+    "localeId": 2,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "DA-DE",
+    "prodUrl": "https://www.darphin.de",
+    "stageUrl": "https://e.darphin.emea3.de.stage.emea.elcdev.net",
+    "brandId": 12,
+    "localeId": 15,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "DA-EU",
+    "prodUrl": "https://www.darphin.eu",
+    "stageUrl": "https://e.darphin.emea3.eu.stage.emea.elcdev.net",
+    "brandId": 12,
+    "localeId": 25,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "DA-ES",
+    "prodUrl": "https://www.darphin.es",
+    "stageUrl": "https://e.darphin.emea3.es.stage.emea.elcdev.net",
+    "brandId": 12,
+    "localeId": 16,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "DA-IT",
+    "prodUrl": "https://www.darphin.it",
+    "stageUrl": "https://e.darphin.emea3.it.stage.emea.elcdev.net",
+    "brandId": 12,
+    "localeId": 30,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "DA-FR",
+    "prodUrl": "https://www.darphin.fr",
+    "stageUrl": "https://e.darphin.emea3.fr.stage.emea.elcdev.net",
+    "brandId": 12,
+    "localeId": 17,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "DA-NL",
+    "prodUrl": "https://www.darphin.nl",
+    "stageUrl": "https://e.darphin.emea3.nl.stage.emea.elcdev.net",
+    "brandId": 12,
+    "localeId": 19,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "DA-TW",
+    "prodUrl": "https://www.darphin.com.tw",
+    "stageUrl": "https://c.darphin.tw.stage.kidc.elcdev.net",
+    "brandId": 12,
+    "localeId": 14,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "DA-TR",
+    "prodUrl": "https://www.darphin.com.tr",
+    "stageUrl": "https://e.darphin.emea4.tr.stage.emea.elcdev.net",
+    "brandId": 12,
+    "localeId": 39,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "DA-UK",
+    "prodUrl": "https://www.darphin.co.uk",
+    "stageUrl": "https://e.darphin.uk.uk.stage.emea.elcdev.net",
+    "brandId": 12,
+    "localeId": 3,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "DA-US",
+    "prodUrl": "https://www.darphin.com",
+    "stageUrl": "https://e.darphin.na.us.stage.ncsa.elcdev.net",
+    "brandId": 12,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "DJ-KR",
+    "prodUrl": "https://www.drjart.co.kr",
+    "stageUrl": "https://e.drjart.kr.kr.stage.kidc.elcdev.net",
+    "brandId": 13,
+    "localeId": 8,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "DJ-UK",
+    "prodUrl": "https://www.drjart.co.uk",
+    "stageUrl": "https://e.drjart.uk.uk.stage.emea.elcdev.net",
+    "brandId": 13,
+    "localeId": 3,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "DJ-US",
+    "prodUrl": "https://www.drjart.com",
+    "stageUrl": "https://e.drjart.na.us.stage.ncsa.elcdev.net",
+    "brandId": 13,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-AT",
+    "prodUrl": "https://www.esteelauder.at",
+    "stageUrl": "https://e.esteelauder.emea2.at.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 22,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-AU",
+    "prodUrl": "https://www.esteelauder.com.au",
+    "stageUrl": "https://e.esteelauder.au.au.stage.kidc.elcdev.net",
+    "brandId": 4,
+    "localeId": 5,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-BE",
+    "prodUrl": "https://www.esteelauder.be",
+    "stageUrl": "https://e.esteelauder.benelux.be.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 18,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-BR",
+    "prodUrl": "https://www.esteelauder.com.br",
+    "stageUrl": "https://e.esteelauder.la.br.stage.ncsa.elcdev.net",
+    "brandId": 4,
+    "localeId": 42,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-CA",
+    "prodUrl": "https://www.esteelauder.ca",
+    "stageUrl": "https://e.esteelauder.na.ca.stage.ncsa.elcdev.net",
+    "brandId": 4,
+    "localeId": 2,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-CH",
+    "prodUrl": "https://www.esteelauder.ch",
+    "stageUrl": "https://e.esteelauder.emea2.ch.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 38,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-CE",
+    "prodUrl": "https://www.esteelauder.cl",
+    "stageUrl": "https://e.esteelauder.la.cl.stage.ncsa.elcdev.net",
+    "brandId": 4,
+    "localeId": 43,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-CN",
+    "prodUrl": "https://www.esteelauder.com.cn",
+    "stageUrl": "https://e.esteelauder.cn.cn.stage.cntel.elcdev.net",
+    "brandId": 4,
+    "localeId": 6,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-CZ",
+    "prodUrl": "https://www.esteelauder.cz",
+    "stageUrl": "https://e.esteelauder.emea2.cz.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 23,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-DE",
+    "prodUrl": "https://www.esteelauder.de",
+    "stageUrl": "https://e.esteelauder.emea2.de.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 15,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-ES",
+    "prodUrl": "https://www.esteelauder.es",
+    "stageUrl": "https://e.esteelauder.emea2.es.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 16,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-FR",
+    "prodUrl": "https://www.esteelauder.fr",
+    "stageUrl": "https://e.esteelauder.emea2.fr.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 17,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-GR",
+    "prodUrl": "https://www.esteelauder.gr",
+    "stageUrl": "https://e.esteelauder.emea2.gr.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 21,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-HK",
+    "prodUrl": "https://www.esteelauder.com.hk",
+    "stageUrl": "https://e.esteelauder.hk.hk.stage.kidc.elcdev.net",
+    "brandId": 4,
+    "localeId": 7,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-HU",
+    "prodUrl": "https://www.esteelauder.hu",
+    "stageUrl": "https://e.esteelauder.emea2.hu.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 27,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-IL",
+    "prodUrl": "https://www.esteelauder.co.il",
+    "stageUrl": "https://e.esteelauder.emea2.il.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 29,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-IN",
+    "prodUrl": "https://www.esteelauder.in",
+    "stageUrl": "https://e.esteelauder.emea2.in.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 28,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-IT",
+    "prodUrl": "https://www.esteelauder.it",
+    "stageUrl": "https://e.esteelauder.emea2.it.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 30,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-JP",
+    "prodUrl": "https://www.esteelauder.jp",
+    "stageUrl": "https://e.esteelauder.jp.jp.stage.kidc.elcdev.net",
+    "brandId": 4,
+    "localeId": 4,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-KR",
+    "prodUrl": "https://www.esteelauder.co.kr",
+    "stageUrl": "https://e.esteelauder.kr.kr.stage.kidc.elcdev.net",
+    "brandId": 4,
+    "localeId": 8,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-MX",
+    "prodUrl": "https://www.esteelauder.com.mx",
+    "stageUrl": "https://e.esteelauder.la.mx.stage.ncsa.elcdev.net",
+    "brandId": 4,
+    "localeId": 41,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-MY",
+    "prodUrl": "https://www.esteelauder.com.my",
+    "stageUrl": "https://e.esteelauder.my.my.stage.kidc.elcdev.net",
+    "brandId": 4,
+    "localeId": 9,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-NL",
+    "prodUrl": "https://www.esteelauder.nl",
+    "stageUrl": "https://e.esteelauder.benelux.nl.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 19,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-NO",
+    "prodUrl": "https://www.esteelauder.no",
+    "stageUrl": "https://e.esteelauder.nordic.no.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 20,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-DK",
+    "prodUrl": "https://www.esteelauder.dk",
+    "stageUrl": "https://e.esteelauder.nordic.dk2.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 24,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-SE",
+    "prodUrl": "https://www.esteelauder.se",
+    "stageUrl": "https://e.esteelauder.nordic.se.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 37,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-NZ",
+    "prodUrl": "https://www.esteelauder.co.nz",
+    "stageUrl": "https://e.esteelauder.au.nz.stage.kidc.elcdev.net",
+    "brandId": 4,
+    "localeId": 10,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-PL",
+    "prodUrl": "https://www.esteelauder.pl",
+    "stageUrl": "https://e.esteelauder.emea2.pl.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 32,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-RO",
+    "prodUrl": "https://www.esteelauder.ro",
+    "stageUrl": "https://e.esteelauder.emea2.ro.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 34,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-SG",
+    "prodUrl": "https://www.esteelauder.com.sg",
+    "stageUrl": "https://e.esteelauder.sg.stage.kidc.elcdev.net",
+    "brandId": 4,
+    "localeId": 12,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-TH",
+    "prodUrl": "https://www.esteelauder.co.th",
+    "stageUrl": "https://e.esteelauder.th.th.stage.kidc.elcdev.net",
+    "brandId": 4,
+    "localeId": 13,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-TR",
+    "prodUrl": "https://www.esteelauder.com.tr",
+    "stageUrl": "https://e.esteelauder.emea2.tr.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 39,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-TW",
+    "prodUrl": "https://www.esteelauder.com.tw",
+    "stageUrl": "https://e.esteelauder.tw.tw.stage.kidc.elcdev.net",
+    "brandId": 4,
+    "localeId": 14,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-UK",
+    "prodUrl": "https://www.esteelauder.co.uk",
+    "stageUrl": "https://e.esteelauder.uk.uk.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 3,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-US",
+    "prodUrl": "https://www.esteelauder.com",
+    "stageUrl": "https://e.esteelauder.na.us.stage.ncsa.elcdev.net",
+    "brandId": 4,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-ZA",
+    "prodUrl": "https://www.esteelauder.co.za",
+    "stageUrl": "https://e.esteelauder.emea2.za.stage.emea.elcdev.net",
+    "brandId": 4,
+    "localeId": 36,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "FM-EU",
+    "prodUrl": "https://www.fredericmalle.eu",
+    "stageUrl": "https://e.fredericmalle.na.uf.stage.ncsa.elcdev.net",
+    "brandId": 16,
+    "localeId": 25,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "FM-UK",
+    "prodUrl": "https://www.fredericmalle.co.uk",
+    "stageUrl": "https://e.fredericmalle.uk.uk.stage.emea.elcdev.net",
+    "brandId": 16,
+    "localeId": 3,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "FM-US",
+    "prodUrl": "https://www.fredericmalle.com",
+    "stageUrl": "https://e.fredericmalle.na.us.stage.ncsa.elcdev.net",
+    "brandId": 16,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "GG-HK",
+    "prodUrl": "https://www.glamglow.com.hk",
+    "stageUrl": "https://e.glamglowmud.hk.hk.stage.kidc.elcdev.net",
+    "brandId": 14,
+    "localeId": 7,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "GG-UK",
+    "prodUrl": "https://www.glamglow.co.uk",
+    "stageUrl": "https://e.glamglowmud.uk.uk.stage.emea.elcdev.net",
+    "brandId": 14,
+    "localeId": 3,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "GG-US",
+    "prodUrl": "https://www.glamglow.com",
+    "stageUrl": "https://e.glamglowmud.na.us.stage.ncsa.elcdev.net",
+    "brandId": 14,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "GG-IT",
+    "prodUrl": "https://www.glamglow.com/it/en",
+    "stageUrl": "",
+    "brandId": 14,
+    "localeId": 30,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-AU",
+    "prodUrl": "https://www.jomalone.com.au",
+    "stageUrl": "https://e.jomalone2.au.au.stage.kidc.elcdev.net",
+    "brandId": 9,
+    "localeId": 5,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-BR",
+    "prodUrl": "https://www.jomalone.com.br",
+    "stageUrl": "https://e.jomalone2.la.br.stage.ncsa.elcdev.net",
+    "brandId": 9,
+    "localeId": 42,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-CA",
+    "prodUrl": "https://www.jomalone.ca",
+    "stageUrl": "https://e.jomalone2.na.ca.stage.ncsa.elcdev.net",
+    "brandId": 9,
+    "localeId": 2,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-CN",
+    "prodUrl": "https://www.jomalone.com.cn",
+    "stageUrl": "https://e.jomalone2.cn.cn.stage.cntel.elcdev.net",
+    "brandId": 9,
+    "localeId": 6,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-EU",
+    "prodUrl": "https://www.jomalone.eu",
+    "stageUrl": "https://e.jomalone2.emea4.eu.stage.emea.elcdev.net",
+    "brandId": 9,
+    "localeId": 25,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-FR",
+    "prodUrl": "https://www.jomalone.fr",
+    "stageUrl": "https://e.jomalone2.emea2.fr.stage.emea.elcdev.net",
+    "brandId": 9,
+    "localeId": 17,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-HK",
+    "prodUrl": "https://www.jomalone.com.hk",
+    "stageUrl": "https://e.jomalone2.hk.hk.stage.kidc.elcdev.net",
+    "brandId": 9,
+    "localeId": 7,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-JP",
+    "prodUrl": "https://www.jomalone.jp",
+    "stageUrl": "https://e.jomalone2.jp.jp.stage.kidc.elcdev.net",
+    "brandId": 9,
+    "localeId": 4,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-KSA",
+    "prodUrl": "https://jomalone-sa.com",
+    "stageUrl": "",
+    "brandId": 9,
+    "localeId": 35,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-KR",
+    "prodUrl": "https://www.jomalone.co.kr",
+    "stageUrl": "https://e.jomalone2.kr.kr.stage.kidc.elcdev.net",
+    "brandId": 9,
+    "localeId": 8,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-ME",
+    "prodUrl": "https://www.jomalone-ae.com",
+    "stageUrl": "https://e.jomalone2.emea2.ae.stage.emea.elcdev.net",
+    "brandId": 9,
+    "localeId": 31,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-MY",
+    "prodUrl": "https://www.jomalone.com.my",
+    "stageUrl": "https://e.jomalone2.apac.my.stage.kidc.elcdev.net",
+    "brandId": 9,
+    "localeId": 9,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-MX",
+    "prodUrl": "https://www.jomalone.com.mx",
+    "stageUrl": "https://e.jomalone2.la.mx.stage.ncsa.elcdev.net",
+    "brandId": 9,
+    "localeId": 41,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-PH",
+    "prodUrl": "https://www.jomalone.com.ph",
+    "stageUrl": "https://e.jomalone2.apac.ph.stage.kidc.elcdev.net",
+    "brandId": 9,
+    "localeId": 11,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-PT",
+    "prodUrl": "https://www.jomalone.eu",
+    "stageUrl": "https://e.jomalone.emea3.eu.stage.emea.elcdev.net",
+    "brandId": 9,
+    "localeId": 33,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-ES",
+    "prodUrl": "https://www.jomalone.eu",
+    "stageUrl": "https://e.jomalone.emea3.eu.stage.emea.elcdev.net",
+    "brandId": 9,
+    "localeId": 16,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-SG",
+    "prodUrl": "https://www.jomalone.com.sg",
+    "stageUrl": "https://e.jomalone2.apac.sg.stage.kidc.elcdev.net",
+    "brandId": 9,
+    "localeId": 12,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-TH",
+    "prodUrl": "https://www.jomalone.co.th",
+    "stageUrl": "https://e.jomalone2.th.th.stage.kidc.elcdev.net",
+    "brandId": 9,
+    "localeId": 13,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-UK",
+    "prodUrl": "https://www.jomalone.co.uk",
+    "stageUrl": "https://e.jomalone2.uk.uk.stage.emea.elcdev.net",
+    "brandId": 9,
+    "localeId": 3,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-US",
+    "prodUrl": "https://www.jomalone.com",
+    "stageUrl": "https://e.jomalone2.na.us.stage.ncsa.elcdev.net",
+    "brandId": 9,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-KW",
+    "prodUrl": "https://www.jomalone-kw.com",
+    "stageUrl": "",
+    "brandId": 9,
+    "localeId": 61,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-QA",
+    "prodUrl": "https://www.jomalone-qa.com",
+    "stageUrl": "",
+    "brandId": 9,
+    "localeId": 60,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-AT",
+    "prodUrl": "https://www.lamer.eu",
+    "stageUrl": "https://e.cremedelamer2.emea4.eu.stage.emea.elcdev.net",
+    "brandId": 6,
+    "localeId": 22,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-AU",
+    "prodUrl": "https://www.cremedelamer.com.au",
+    "stageUrl": "https://e.cremedelamer2.au.au.stage.kidc.elcdev.net",
+    "brandId": 6,
+    "localeId": 5,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-BE",
+    "prodUrl": "https://www.lamer.eu",
+    "stageUrl": "https://e.cremedelamer2.emea4.eu.stage.emea.elcdev.net",
+    "brandId": 6,
+    "localeId": 18,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-BR",
+    "prodUrl": "https://www.lamer.com.br",
+    "stageUrl": "https://e.cremedelamer2.la.br.stage.ncsa.elcdev.net",
+    "brandId": 6,
+    "localeId": 42,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-CA",
+    "prodUrl": "https://www.cremedelamer.ca",
+    "stageUrl": "https://e.cremedelamer2.na.ca.stage.ncsa.elcdev.net",
+    "brandId": 6,
+    "localeId": 2,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-CH",
+    "prodUrl": "https://www.lamer.eu",
+    "stageUrl": "https://e.cremedelamer2.emea4.eu.stage.emea.elcdev.net",
+    "brandId": 6,
+    "localeId": 38,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-CN",
+    "prodUrl": "https://www.lamer.com.cn",
+    "stageUrl": "https://e.cremedelamer2.cn.cn.stage.cntel.elcdev.net",
+    "brandId": 6,
+    "localeId": 6,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-DE",
+    "prodUrl": "https://www.cremedelamer.de",
+    "stageUrl": "https://e.cremedelamer2.emea2.de.stage.emea.elcdev.net",
+    "brandId": 6,
+    "localeId": 15,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-ES",
+    "prodUrl": "https://www.lamer.eu",
+    "stageUrl": "https://e.cremedelamer2.emea4.eu.stage.emea.elcdev.net",
+    "brandId": 6,
+    "localeId": 16,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-EU",
+    "prodUrl": "https://www.lamer.eu",
+    "stageUrl": "https://e.cremedelamer2.emea4.eu.stage.emea.elcdev.net",
+    "brandId": 6,
+    "localeId": 25,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-FR",
+    "prodUrl": "https://www.cremedelamer.fr",
+    "stageUrl": "https://e.cremedelamer2.emea2.fr.stage.emea.elcdev.net",
+    "brandId": 6,
+    "localeId": 17,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-GR",
+    "prodUrl": "https://www.lamer.gr",
+    "stageUrl": "https://e.cremedelamer2.emea2.gr.stage.emea.elcdev.net",
+    "brandId": 6,
+    "localeId": 21,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-HK",
+    "prodUrl": "https://www.lamer.com.hk",
+    "stageUrl": "https://e.cremedelamer2.hk.hk.stage.kidc.elcdev.net",
+    "brandId": 6,
+    "localeId": 7,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-IT",
+    "prodUrl": "https://www.lamer.eu",
+    "stageUrl": "https://e.cremedelamer2.emea4.eu.stage.emea.elcdev.net",
+    "brandId": 6,
+    "localeId": 30,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-JP",
+    "prodUrl": "https://www.delamer.jp",
+    "stageUrl": "https://e.cremedelamer2.jp.jp.stage.kidc.elcdev.net",
+    "brandId": 6,
+    "localeId": 4,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-KR",
+    "prodUrl": "https://www.lamerkorea.com",
+    "stageUrl": "https://e.cremedelamer2.kr.kr.stage.kidc.elcdev.net",
+    "brandId": 6,
+    "localeId": 8,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-MX",
+    "prodUrl": "https://www.lamer.com.mx",
+    "stageUrl": "https://e.cremedelamer2.la.mx.stage.ncsa.elcdev.net",
+    "brandId": 6,
+    "localeId": 41,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-PL",
+    "prodUrl": "https://www.lamer.eu",
+    "stageUrl": "https://e.cremedelamer2.emea4.eu.stage.emea.elcdev.net",
+    "brandId": 6,
+    "localeId": 32,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-PT",
+    "prodUrl": "https://www.lamer.eu",
+    "stageUrl": "https://e.cremedelamer2.emea4.eu.stage.emea.elcdev.net",
+    "brandId": 6,
+    "localeId": 33,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-TH",
+    "prodUrl": "https://www.lamer.co.th",
+    "stageUrl": "https://e.cremedelamer2.th.th.stage.kidc.elcdev.net",
+    "brandId": 6,
+    "localeId": 13,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-TW",
+    "prodUrl": "https://www.lamer.com.tw",
+    "stageUrl": "https://e.cremedelamer2.tw.tw.stage.kidc.elcdev.net",
+    "brandId": 6,
+    "localeId": 14,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-UK",
+    "prodUrl": "https://www.cremedelamer.co.uk",
+    "stageUrl": "https://e.cremedelamer2.uk.uk.stage.emea.elcdev.net",
+    "brandId": 6,
+    "localeId": 3,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-US",
+    "prodUrl": "https://www.cremedelamer.com",
+    "stageUrl": "https://e.cremedelamer2.na.us.stage.ncsa.elcdev.net",
+    "brandId": 6,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-ZA",
+    "prodUrl": "https://www.lamer.co.za",
+    "stageUrl": "https://e.cremedelamer2.emea2.za.stage.emea.elcdev.net",
+    "brandId": 6,
+    "localeId": 36,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LS-CN",
+    "prodUrl": "https://www.labseries.com.cn",
+    "stageUrl": "https://e.labseries.cn.cn.stage.cntel.elcdev.net",
+    "brandId": 7,
+    "localeId": 6,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LS-JP",
+    "prodUrl": "https://www.labseries.jp",
+    "stageUrl": "https://e.labseries.jp.jp.stage.kidc.elcdev.net",
+    "brandId": 7,
+    "localeId": 4,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LS-KR",
+    "prodUrl": "https://www.labseries.co.kr",
+    "stageUrl": "https://e.labseries.kr.kr.stage.kidc.elcdev.net",
+    "brandId": 7,
+    "localeId": 8,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LS-UK",
+    "prodUrl": "https://www.labseries.co.uk",
+    "stageUrl": "https://e.labseries.uk.uk.stage.emea.elcdev.net",
+    "brandId": 7,
+    "localeId": 3,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LS-US",
+    "prodUrl": "https://www.labseries.com",
+    "stageUrl": "https://e.labseries.na.us.stage.ncsa.elcdev.net",
+    "brandId": 7,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-AT",
+    "prodUrl": "https://www.maccosmetics.at",
+    "stageUrl": "https://e.maccosmetics.emea2.at.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 22,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-AU",
+    "prodUrl": "https://www.maccosmetics.com.au",
+    "stageUrl": "https://e.maccosmetics.au.au.stage.kidc.elcdev.net",
+    "brandId": 1,
+    "localeId": 5,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-BE",
+    "prodUrl": "https://www.maccosmetics.be",
+    "stageUrl": "https://e.maccosmetics.benelux.be.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 18,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-BR",
+    "prodUrl": "https://www.maccosmetics.com.br",
+    "stageUrl": "https://e.maccosmetics.la.br.stage.ncsa.elcdev.net",
+    "brandId": 1,
+    "localeId": 42,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-CA",
+    "prodUrl": "https://www.maccosmetics.ca",
+    "stageUrl": "https://e.maccosmetics.na.ca.stage.ncsa.elcdev.net",
+    "brandId": 1,
+    "localeId": 2,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-CH",
+    "prodUrl": "https://www.maccosmetics.ch",
+    "stageUrl": "https://e.maccosmetics.emea2.ch.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 38,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-CE",
+    "prodUrl": "https://www.maccosmetics.cl",
+    "stageUrl": "https://e.maccosmetics.la.cl.stage.ncsa.elcdev.net",
+    "brandId": 1,
+    "localeId": 43,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-CN",
+    "prodUrl": "https://www.maccosmetics.com.cn",
+    "stageUrl": "https://e.maccosmetics.cn.cn.stage.cntel.elcdev.net",
+    "brandId": 1,
+    "localeId": 6,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-CZ",
+    "prodUrl": "https://www.maccosmetics.cz",
+    "stageUrl": "https://e.maccosmetics.emea2.cz.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 23,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-DE",
+    "prodUrl": "https://www.maccosmetics.de",
+    "stageUrl": "https://e.maccosmetics.emea2.de.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 15,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-DK",
+    "prodUrl": "https://www.maccosmetics.dk",
+    "stageUrl": "https://maccosmetics.dk.stage.emea.perlgem.esteeonline.com",
+    "brandId": 1,
+    "localeId": 24,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-ES",
+    "prodUrl": "https://www.maccosmetics.es",
+    "stageUrl": "https://e.maccosmetics.emea2.es.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 16,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-FR",
+    "prodUrl": "https://www.maccosmetics.fr",
+    "stageUrl": "https://e.maccosmetics.emea2.fr.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 17,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-GR",
+    "prodUrl": "https://www.maccosmetics.gr",
+    "stageUrl": "https://e.maccosmetics.emea2.gr.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 21,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-HK",
+    "prodUrl": "https://www.maccosmetics.com.hk",
+    "stageUrl": "https://e.maccosmetics.hk.hk.stage.kidc.elcdev.net",
+    "brandId": 1,
+    "localeId": 7,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-HU",
+    "prodUrl": "https://www.maccosmetics.hu",
+    "stageUrl": "https://e.maccosmetics.emea2.hu.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 27,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-IL",
+    "prodUrl": "https://www.maccosmetics.co.il",
+    "stageUrl": "https://e.maccosmetics.emea2.il.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 29,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-IN",
+    "prodUrl": "https://www.maccosmetics.in",
+    "stageUrl": "https://e.maccosmetics.emea2.in.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 28,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-IT",
+    "prodUrl": "https://www.maccosmetics.it",
+    "stageUrl": "https://e.maccosmetics.emea2.it.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 30,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-JP",
+    "prodUrl": "https://www.maccosmetics.jp",
+    "stageUrl": "https://e.maccosmetics.jp.jp.stage.kidc.elcdev.net",
+    "brandId": 1,
+    "localeId": 4,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-KR",
+    "prodUrl": "https://www.maccosmetics.co.kr",
+    "stageUrl": "https://e.maccosmetics.kr.kr.stage.kidc.elcdev.net",
+    "brandId": 1,
+    "localeId": 8,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-KSA",
+    "prodUrl": "https://www.maccosmetics-sa.com",
+    "stageUrl": "https://e.maccosmetics.emea2.sa.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 35,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-MX",
+    "prodUrl": "https://www.maccosmetics.com.mx",
+    "stageUrl": "https://e.maccosmetics.la.mx.stage.ncsa.elcdev.net",
+    "brandId": 1,
+    "localeId": 41,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-MY",
+    "prodUrl": "https://www.maccosmetics.com.my",
+    "stageUrl": "https://e.maccosmetics.my.my.stage.kidc.elcdev.net",
+    "brandId": 1,
+    "localeId": 9,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-NL",
+    "prodUrl": "https://www.maccosmetics.nl",
+    "stageUrl": "https://e.maccosmetics.benelux.nl.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 19,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-NO",
+    "prodUrl": "https://www.maccosmeticsnordics.com",
+    "stageUrl": "https://e.maccosmetics.nordic.nd.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 20,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-NZ",
+    "prodUrl": "https://www.maccosmetics.co.nz",
+    "stageUrl": "https://e.maccosmetics.au.nz.stage.kidc.elcdev.net",
+    "brandId": 1,
+    "localeId": 10,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-PL",
+    "prodUrl": "https://www.maccosmetics.pl",
+    "stageUrl": "https://e.maccosmetics.emea2.pl.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 32,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-RO",
+    "prodUrl": "https://www.maccosmetics.ro",
+    "stageUrl": "https://e.maccosmetics.emea2.ro.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 34,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-SE",
+    "prodUrl": "https://www.maccosmetics.se",
+    "stageUrl": "https://maccosmetics.emea.se.stage.emea.perlgem.esteeonline.com",
+    "brandId": 1,
+    "localeId": 37,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-TH",
+    "prodUrl": "https://www.maccosmetics.co.th",
+    "stageUrl": "https://e.maccosmetics.th.th.stage.kidc.elcdev.net",
+    "brandId": 1,
+    "localeId": 13,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-TR",
+    "prodUrl": "https://www.maccosmetics.com.tr",
+    "stageUrl": "https://e.maccosmetics.emea2.tr.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 39,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-TW",
+    "prodUrl": "https://www.maccosmetics.com.tw",
+    "stageUrl": "https://e.maccosmetics.tw.tw.stage.kidc.elcdev.net",
+    "brandId": 1,
+    "localeId": 14,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-UAE",
+    "prodUrl": "https://www.maccosmetics.ae",
+    "stageUrl": "https://e.maccosmetics.emea2.ae.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 40,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-UK",
+    "prodUrl": "https://www.maccosmetics.co.uk",
+    "stageUrl": "https://e.maccosmetics.uk.uk.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 3,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-US",
+    "prodUrl": "https://www.maccosmetics.com",
+    "stageUrl": "https://e.maccosmetics.na.us.stage.ncsa.elcdev.net",
+    "brandId": 1,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-ZA",
+    "prodUrl": "https://www.maccosmetics.co.za",
+    "stageUrl": "https://e.maccosmetics.emea2.za.stage.emea.elcdev.net",
+    "brandId": 1,
+    "localeId": 36,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-KW",
+    "prodUrl": "https://www.maccosmetics-kw.com",
+    "stageUrl": "",
+    "brandId": 1,
+    "localeId": 61,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-QA",
+    "prodUrl": "https://www.maccosmetics-qa.com",
+    "stageUrl": "",
+    "brandId": 1,
+    "localeId": 60,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "OR-CA",
+    "prodUrl": "https://www.origins.ca",
+    "stageUrl": "https://e.origins.na.ca.stage.ncsa.elcdev.net",
+    "brandId": 3,
+    "localeId": 2,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "OR-CN",
+    "prodUrl": "https://www.origins.com.cn",
+    "stageUrl": "https://e.origins.cn.cn.stage.cntel.elcdev.net",
+    "brandId": 3,
+    "localeId": 6,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "OR-DE",
+    "prodUrl": "https://www.origins.de",
+    "stageUrl": "https://e.origins.emea2.de.stage.emea.elcdev.net",
+    "brandId": 3,
+    "localeId": 15,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "OR-DK",
+    "prodUrl": "https://www.origins.eu",
+    "stageUrl": "https://e.origins.emea3.eu.stage.emea.elcdev.net",
+    "brandId": 3,
+    "localeId": 24,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "OR-EU",
+    "prodUrl": "https://www.origins.eu",
+    "stageUrl": "https://e.origins.emea3.eu.stage.emea.elcdev.net",
+    "brandId": 3,
+    "localeId": 25,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "OR-HK",
+    "prodUrl": "https://www.origins.hk",
+    "stageUrl": "https://e.origins.hk.hk.stage.kidc.elcdev.net",
+    "brandId": 3,
+    "localeId": 7,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "OR-MX",
+    "prodUrl": "",
+    "stageUrl": "",
+    "brandId": 3,
+    "localeId": 41,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "OR-TH",
+    "prodUrl": "https://www.origins.co.th",
+    "stageUrl": "https://e.origins.th.th.stage.kidc.elcdev.net",
+    "brandId": 3,
+    "localeId": 13,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "OR-TR",
+    "prodUrl": "https://www.origins.com.tr",
+    "stageUrl": "https://e.origins.tr.tr.stage.emea.elcdev.net",
+    "brandId": 3,
+    "localeId": 39,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "OR-TW",
+    "prodUrl": "https://www.origins.com.tw",
+    "stageUrl": "https://e.origins.tw.tw.stage.kidc.elcdev.net",
+    "brandId": 3,
+    "localeId": 14,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "OR-UK",
+    "prodUrl": "https://www.origins.co.uk",
+    "stageUrl": "https://e.origins.uk.uk.stage.emea.elcdev.net",
+    "brandId": 3,
+    "localeId": 3,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "OR-US",
+    "prodUrl": "https://www.origins.com",
+    "stageUrl": "https://e.origins.na.us.stage.ncsa.elcdev.net",
+    "brandId": 3,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "SB-CA",
+    "prodUrl": "https://www.smashbox.ca",
+    "stageUrl": "https://e.smashbox.na.ca.stage.ncsa.elcdev.net",
+    "brandId": 15,
+    "localeId": 2,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "SB-DK",
+    "prodUrl": "https://www.smashbox.dk",
+    "stageUrl": "https://smashbox.emea.dk.stage.drupal.perlgem.esteeonline.com",
+    "brandId": 15,
+    "localeId": 24,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "SB-EU",
+    "prodUrl": "https://www.smashbox.eu",
+    "stageUrl": "https://e.smashbox.emea3.eu.stage.emea.elcdev.net",
+    "brandId": 15,
+    "localeId": 25,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "SB-GR",
+    "prodUrl": "https://www.smashbox.gr",
+    "stageUrl": "https://e.smashbox.emea2.gr.stage.emea.elcdev.net",
+    "brandId": 15,
+    "localeId": 21,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "SB-TR",
+    "prodUrl": "https://www.smashbox.com.tr",
+    "stageUrl": "https://e.smashbox.emea2.tr.stage.emea.elcdev.net",
+    "brandId": 15,
+    "localeId": 39,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "SB-UK",
+    "prodUrl": "https://www.smashbox.co.uk",
+    "stageUrl": "https://e.smashbox.uk.uk.stage.emea.elcdev.net",
+    "brandId": 15,
+    "localeId": 3,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "SB-US",
+    "prodUrl": "https://www.smashbox.com",
+    "stageUrl": "https://e.smashbox.na.us.stage.ncsa.elcdev.net",
+    "brandId": 15,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "SB-ZA",
+    "prodUrl": "https://www.smashbox.co.za",
+    "stageUrl": "https://e.smashbox.emea2.za.stage.emea.elcdev.net",
+    "brandId": 15,
+    "localeId": 36,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "TF-DE",
+    "prodUrl": "https://www.toofaced.eu",
+    "stageUrl": "https://e.toofaced.emea3.eu.stage.emea.elcdev.net",
+    "brandId": 17,
+    "localeId": 15,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "TF-JP",
+    "prodUrl": "https://www.toofacedcosmetics.jp",
+    "stageUrl": "https://e.toofaced.jp.jp.stage.kidc.elcdev.net",
+    "brandId": 17,
+    "localeId": 4,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "TF-UK",
+    "prodUrl": "https://www.toofaced.co.uk",
+    "stageUrl": "https://e.toofaced.uk.uk.stage.emea.elcdev.net",
+    "brandId": 17,
+    "localeId": 3,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "TF-US",
+    "prodUrl": "https://www.toofaced.com",
+    "stageUrl": "https://e.toofaced.na3.uh.stage.ncsa.elcdev.net",
+    "brandId": 17,
+    "localeId": 1,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "TF-BR",
+    "prodUrl": "https://www.toofaced.com.br",
+    "stageUrl": "https://e.toofaced.la.br.stage.ncsa.elcdev.net",
+    "brandId": 17,
+    "localeId": 42,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-HK",
+    "prodUrl": "https://www.aveda.com.hk/",
+    "stageUrl": "",
+    "brandId": 8,
+    "localeId": 7,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-TH",
+    "prodUrl": "https://www.aveda.co.th/",
+    "stageUrl": "",
+    "brandId": 8,
+    "localeId": 13,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-DK",
+    "prodUrl": "https://www.aveda.dk/",
+    "stageUrl": "",
+    "brandId": 8,
+    "localeId": 24,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-ME",
+    "prodUrl": "https://www.aveda-me.com/",
+    "stageUrl": "",
+    "brandId": 8,
+    "localeId": 31,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-NO",
+    "prodUrl": "https://www.aveda.no/",
+    "stageUrl": "",
+    "brandId": 8,
+    "localeId": 20,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-SE",
+    "prodUrl": "https://www.aveda.se/",
+    "stageUrl": "",
+    "brandId": 8,
+    "localeId": 37,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "AV-BR",
+    "prodUrl": "https://www.aveda.com.br/",
+    "stageUrl": "",
+    "brandId": 8,
+    "localeId": 42,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-MY",
+    "prodUrl": "https://www.bobbibrown.com.my/",
+    "stageUrl": "",
+    "brandId": 5,
+    "localeId": 9,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-PH",
+    "prodUrl": "https://www.bobbibrown.com.ph/",
+    "stageUrl": "",
+    "brandId": 5,
+    "localeId": 11,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-SG",
+    "prodUrl": "https://www.bobbibrown.com.sg/",
+    "stageUrl": "",
+    "brandId": 5,
+    "localeId": 12,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-ME",
+    "prodUrl": "https://www.bobbibrown-me.com/",
+    "stageUrl": "",
+    "brandId": 5,
+    "localeId": 31,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-AR",
+    "prodUrl": "https://www.bobbibrown.com.ar/",
+    "stageUrl": "",
+    "brandId": 5,
+    "localeId": 45,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "BB-CE",
+    "prodUrl": "https://www.bobbibrown.cl/",
+    "stageUrl": "",
+    "brandId": 5,
+    "localeId": 43,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-PH",
+    "prodUrl": "https://www.clinique.com.ph/",
+    "stageUrl": "",
+    "brandId": 2,
+    "localeId": 11,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-SG",
+    "prodUrl": "https://www.clinique.com.sg/",
+    "stageUrl": "",
+    "brandId": 2,
+    "localeId": 12,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-VN",
+    "prodUrl": "https://www.clinique.vn/",
+    "stageUrl": "",
+    "brandId": 2,
+    "localeId": 46,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-ME",
+    "prodUrl": "https://www.clinique-me.com/",
+    "stageUrl": "",
+    "brandId": 2,
+    "localeId": 31,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-PT",
+    "prodUrl": "https://www.clinique.pt/",
+    "stageUrl": "",
+    "brandId": 2,
+    "localeId": 33,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-AR",
+    "prodUrl": "https://www.clinique.com.ar/",
+    "stageUrl": "",
+    "brandId": 2,
+    "localeId": 45,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-CO",
+    "prodUrl": "https://www.clinique.com.co/",
+    "stageUrl": "",
+    "brandId": 2,
+    "localeId": 47,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-PA",
+    "prodUrl": "https://www.clinique.com.pa/",
+    "stageUrl": "",
+    "brandId": 2,
+    "localeId": 48,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-PE",
+    "prodUrl": "https://www.clinique.com.pe/",
+    "stageUrl": "",
+    "brandId": 2,
+    "localeId": 49,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "CL-VE",
+    "prodUrl": "https://www.clinique.com.ve/",
+    "stageUrl": "",
+    "brandId": 2,
+    "localeId": 50,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "DA-GR",
+    "prodUrl": "https://www.darphin.gr/",
+    "stageUrl": "",
+    "brandId": 12,
+    "localeId": 21,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "DA-KR",
+    "prodUrl": "https://www.darphin.co.kr/",
+    "stageUrl": "",
+    "brandId": 12,
+    "localeId": 8,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-PH",
+    "prodUrl": "https://www.esteelauder.com.ph/",
+    "stageUrl": "",
+    "brandId": 4,
+    "localeId": 11,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-TB",
+    "prodUrl": "http://www.travelbeautifully.com/",
+    "stageUrl": "",
+    "brandId": 4,
+    "localeId": 59,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-VN",
+    "prodUrl": "https://www.esteelauder.com.vn/",
+    "stageUrl": "",
+    "brandId": 4,
+    "localeId": 46,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-ID",
+    "prodUrl": "https://www.esteelauder.co.id/",
+    "stageUrl": "",
+    "brandId": 4,
+    "localeId": 51,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-ME",
+    "prodUrl": "https://www.esteelauder-me.com/",
+    "stageUrl": "",
+    "brandId": 4,
+    "localeId": 31,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-PT",
+    "prodUrl": "https://www.esteelauder.pt/",
+    "stageUrl": "",
+    "brandId": 4,
+    "localeId": 33,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-AR",
+    "prodUrl": "https://www.esteelauder.com.ar/",
+    "stageUrl": "",
+    "brandId": 4,
+    "localeId": 45,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-CO",
+    "prodUrl": "https://www.esteelauder.com.co/",
+    "stageUrl": "",
+    "brandId": 4,
+    "localeId": 47,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-SV",
+    "prodUrl": "https://www.esteelauder.com.sv/",
+    "stageUrl": "",
+    "brandId": 4,
+    "localeId": 52,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-GT",
+    "prodUrl": "https://www.esteelauder.com.gt/",
+    "stageUrl": "",
+    "brandId": 4,
+    "localeId": 53,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-PA",
+    "prodUrl": "https://www.esteelauder.com.pa/",
+    "stageUrl": "",
+    "brandId": 4,
+    "localeId": 48,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-PE",
+    "prodUrl": "https://www.esteelauder.com.pe/",
+    "stageUrl": "",
+    "brandId": 4,
+    "localeId": 49,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "EL-VE",
+    "prodUrl": "https://www.esteelauder.com.ve/",
+    "stageUrl": "",
+    "brandId": 4,
+    "localeId": 50,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-NZ",
+    "prodUrl": "https://www.jomalone.co.nz/",
+    "stageUrl": "",
+    "brandId": 9,
+    "localeId": 10,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-TW",
+    "prodUrl": "https://www.jomalone.com.tw/",
+    "stageUrl": "",
+    "brandId": 9,
+    "localeId": 14,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-DK",
+    "prodUrl": "https://www.jomalone.dk/",
+    "stageUrl": "",
+    "brandId": 9,
+    "localeId": 24,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-GR",
+    "prodUrl": "https://www.jomalone.gr/",
+    "stageUrl": "",
+    "brandId": 9,
+    "localeId": 21,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-IN",
+    "prodUrl": "https://www.jomalone.in/",
+    "stageUrl": "",
+    "brandId": 9,
+    "localeId": 28,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-IL",
+    "prodUrl": "https://www.jomalone.co.il/",
+    "stageUrl": "",
+    "brandId": 9,
+    "localeId": 29,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-ZA",
+    "prodUrl": "https://www.jomalone.co.za/",
+    "stageUrl": "",
+    "brandId": 9,
+    "localeId": 36,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-CH",
+    "prodUrl": "https://www.jomalone.eu/",
+    "stageUrl": "",
+    "brandId": 9,
+    "localeId": 38,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-TR",
+    "prodUrl": "https://www.jomalone.com.tr/",
+    "stageUrl": "",
+    "brandId": 9,
+    "localeId": 39,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "JM-CE",
+    "prodUrl": "https://www.jomalone.cl/",
+    "stageUrl": "",
+    "brandId": 9,
+    "localeId": 43,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-MY",
+    "prodUrl": "https://www.lamer.com.my/",
+    "stageUrl": "",
+    "brandId": 6,
+    "localeId": 9,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-NZ",
+    "prodUrl": "https://www.lamer.co.nz/",
+    "stageUrl": "",
+    "brandId": 6,
+    "localeId": 10,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-PH",
+    "prodUrl": "https://www.lamer.com.ph/",
+    "stageUrl": "",
+    "brandId": 6,
+    "localeId": 11,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-SG",
+    "prodUrl": "https://www.lamer.com.sg/",
+    "stageUrl": "",
+    "brandId": 6,
+    "localeId": 12,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-ME",
+    "prodUrl": "https://www.lamer-me.com/",
+    "stageUrl": "",
+    "brandId": 6,
+    "localeId": 31,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LM-TR",
+    "prodUrl": "https://www.cremedelamer.com.tr/",
+    "stageUrl": "",
+    "brandId": 6,
+    "localeId": 39,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LS-HK",
+    "prodUrl": "https://www.labseries.com.hk/",
+    "stageUrl": "",
+    "brandId": 7,
+    "localeId": 7,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LS-MY",
+    "prodUrl": "https://www.labseries.com.my/",
+    "stageUrl": "",
+    "brandId": 7,
+    "localeId": 9,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LS-SG",
+    "prodUrl": "https://www.labseries.com.sg/",
+    "stageUrl": "",
+    "brandId": 7,
+    "localeId": 12,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LS-TW",
+    "prodUrl": "https://www.labseriesonline.com.tw/",
+    "stageUrl": "",
+    "brandId": 7,
+    "localeId": 14,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LS-TH",
+    "prodUrl": "https://www.labseries.co.th/",
+    "stageUrl": "",
+    "brandId": 7,
+    "localeId": 13,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "LS-IT",
+    "prodUrl": "https://www.labseries.it/",
+    "stageUrl": "",
+    "brandId": 7,
+    "localeId": 30,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-PH",
+    "prodUrl": "https://www.maccosmetics.com.ph/",
+    "stageUrl": "",
+    "brandId": 1,
+    "localeId": 11,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-SG",
+    "prodUrl": "https://www.maccosmetics.com.sg/",
+    "stageUrl": "",
+    "brandId": 1,
+    "localeId": 12,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-VN",
+    "prodUrl": "https://www.maccosmetics.com.vn/",
+    "stageUrl": "",
+    "brandId": 1,
+    "localeId": 46,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-AR",
+    "prodUrl": "https://www.maccosmetics.com.ar/",
+    "stageUrl": "",
+    "brandId": 1,
+    "localeId": 45,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-PE",
+    "prodUrl": "https://www.maccosmetics.com.pe/",
+    "stageUrl": "",
+    "brandId": 1,
+    "localeId": 49,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-VE",
+    "prodUrl": "https://www.maccosmetics.com.ve/",
+    "stageUrl": "",
+    "brandId": 1,
+    "localeId": 50,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-PA",
+    "prodUrl": "https://www.maccosmetics.com.pa/",
+    "stageUrl": "",
+    "brandId": 1,
+    "localeId": 48,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-GT",
+    "prodUrl": "https://www.maccosmetics.com.gt/",
+    "stageUrl": "",
+    "brandId": 1,
+    "localeId": 53,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-SV",
+    "prodUrl": "https://www.maccosmetics.com.sv/",
+    "stageUrl": "",
+    "brandId": 1,
+    "localeId": 52,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-CR",
+    "prodUrl": "https://www.maccosmetics.cr/",
+    "stageUrl": "",
+    "brandId": 1,
+    "localeId": 54,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-EC",
+    "prodUrl": "https://www.maccosmetics.ec/",
+    "stageUrl": "",
+    "brandId": 1,
+    "localeId": 55,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-BO",
+    "prodUrl": "https://www.maccosmetics.bo/",
+    "stageUrl": "",
+    "brandId": 1,
+    "localeId": 56,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-NI",
+    "prodUrl": "https://www.maccosmetics.ni/",
+    "stageUrl": "",
+    "brandId": 1,
+    "localeId": 57,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "MC-UY",
+    "prodUrl": "https://www.maccosmetics.uy/",
+    "stageUrl": "",
+    "brandId": 1,
+    "localeId": 58,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "OR-KR",
+    "prodUrl": "https://www.origins.co.kr/",
+    "stageUrl": "",
+    "brandId": 3,
+    "localeId": 8,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "OR-MY",
+    "prodUrl": "https://www.origins.my/",
+    "stageUrl": "",
+    "brandId": 3,
+    "localeId": 9,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "OR-PH",
+    "prodUrl": "https://www.origins.com.ph/",
+    "stageUrl": "",
+    "brandId": 3,
+    "localeId": 11,
+    "language": "en_EN"
+  },
+  {
+    "brandLocalePrefix": "OR-SG",
+    "prodUrl": "https://www.origins.com.sg/",
+    "stageUrl": "",
+    "brandId": 3,
+    "localeId": 12,
+    "language": "en_EN"
+  }
+]

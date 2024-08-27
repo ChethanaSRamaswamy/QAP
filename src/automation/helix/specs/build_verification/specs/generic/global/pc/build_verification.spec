@@ -1,0 +1,8 @@
+# BUILD VERIFICATION PC TEST
+Tags: MC, US
+
+
+## AS A DEVELOPER I SHOULD ABLE TO DEPLOY MY CODE
+
+* BV: Initialize Helix
+* BV: Open MAC US PC website

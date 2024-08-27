@@ -1,0 +1,53 @@
+tt,BrandLocale,JM-JP,JM-KR,CL-HK,JM-UK,JM-US,JM-CA,MC-US,MC-DE,MC-TW,MC-AU,AV-AU,BB-TH,EL-UK,CL-UK,JM-FR,JM-EU,LM-UK,BB-UK,AV-UK,AV-US,TF-UK,OR-UK,MC-BR
+1,ID,test123@test.com,test123@test.com,,test12@test.com,test12@test.com,test12@test.com,test12@test.com,test123@test.com,test123@test.com,test123@test.com,test54432111@gmail.com,test12@test.com,test12@test.com,test12@test.com,test12@test.com,test123@test.com,test12@test.com,test12@test.com,test12@test.com,test12@test.com,test12@test.com,test12@test.com,test123@test.com
+1,REGNAME,DO NOT SHIP,,,,,,,,,,,,,,,DO NOT SHIP,,,,,,,
+1,FIRSTNAME,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT SHIP ,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT
+1,LASTNAME,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP
+1,PHONE,312341234,,,,,,,,,,,6624571511,,,,7962078794,,,,,,,
+1,Mobile1,90123456789,90123456789,90987654,3477703960,3477703960,3477703960,3477703960,3477703960,123456789,3477703960,9876543210,909876541,3477703960,3477703960,3477703960,7962078794,3477703960,3477703960,3477703960,3477703960,3477703960,3477703960,3477703960
+1,ZIPCODE,1110022,6232,,10010,10010,10010,10010,,,,,10160,10010,10010,10010,48860,10010,10010,10010,10010,10010,10010,
+1,RID,test888@test.com,test888@test.com,,test123535@test.com,test123535@test.com,test123535@test.com,test123535@test.com,test123535@test.com,autotester123@gmail.com,test123535@test.com,test54432111@gmail.com,test123535@test.com,test123535@test.com,test123535@test.com,test123535@test.com,test04032022@gmail.com,test123535@test.com,test123535@test.com,test123535@test.com,test123535@test.com,test123535@test.com,test123535@test.com,test123535@test.com
+1,RID1,test123@test.com,test123@test.com,,test1919@test.com,test1919@test.com,test1919@test.com,test1919@test.com,test123@test.com,autotester12345@gmail.com,automation@mac.com,test54432111@gmail.com,test1919@test.com,test1919@test.com,test1919@test.com,test1919@test.com,test04032022@qq.com,test1919@test.com,test1919@test.com,test1919@test.com,test1919@test.com,test1919@test.com,test1919@test.com,automation@mac.com
+1,RID2,test1234@test.com,test1234@test.com,,test2121@test.com,test2121@test.com,test2121@test.com,test2121@test.com,,test2121@test.com,,,test2121@test.com,test2121@test.com,test2121@test.com,test2121@test.com,test04032022@o2.pl,test2121@test.com,test2121@test.com,test2121@test.com,test2121@test.com,test2121@test.com,test2121@test.com,
+1,RID3,test12@test.com,test12@test.com,,,,,,,,,,,,,,test12@test.com,,,,,,,
+1,RPWD,Test@123,Test@123,,Test@123,Test@123,Test@123,Test@123,Test@123,Test123@,Test@123,!Test1234,Test@123,Test@123,Test@123,Test@123,Test123!,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123
+1,NPWD,Test@123,Test@123,,Test@123,Test@123,Testy@123,Test@123,Test@123,Test123@,Test@123,!Test1234,Test@123,Test@123,Test@123,Test@123,Test123!,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123
+1,SELECTEDLOCATION,東京都 - GINZA SIX 2階 ジョー マローン ロンドン,갤러리아 광교QQQ,강남구 - 갤러리아 압구정,,,,,"MÜNCHEN - MAC PRO STORE MÜNCHEN, Sendlinger Str. 29",,"Broadway - MAC BROADWAY, Level 1, Shop 105, Broadway Shopping Centre",,,,,,,,,,,,,"Broadway - MAC BROADWAY, Level 1, Shop 105, Broadway Shopping Centre"
+1,ASSERTEDLOCATION,,320,1078,,,,,,,,,,,,,,,,,,,,
+1,LOCATIONVALUE,1,1,3,,,,,MÜNCHEN,,NSW,NSW,,,,,,,,,,,,NSW
+1,ASSERTEDSERVICENAMEPART1,Scent,핸드 앤 암 마사지 서비스,,Scent,Hand,Hand,YOUR PERFECT FOUNDATION,,,,,,Best of,Foundation,Massage des mains,,The Divine ,Look Less ,Hair ,Hair ,Hair ,Feel Good,
+1,ASSERTEDSERVICENAMEPART2,Your Home,,,For You,Arm Massage,Arm Massage,MATCH,,,,,,Estée,Fundamentals,et des bras,,Discovery,Tired,Scalp Check,Scalp Check,Scalp Check,Facial,
+1,BRLOC,JM-JP,JM-KR,CL-HK,JM-UK,JM-US,JM-CA,MC-US,MC-DE,MC-TW,MC-AU,AV-AU,BB-TH,EL-UK,CL-UK,JM-FR,JM-EU,LM-UK,BB-UK,AV-UK,AV-US,TF-UK,OR-UK,MC-BR
+1,NOOFCOLINDATECALENDAR,7,,7,,,,,7,7,7,7,7,,,,,,,,,,,7
+1,NOOFROWCOLINTIMECALENDARMOB,4,,4,,,,,,60,60,7,4,,,,,,,,,,,60
+1,STOREVALUE,,,,,,,,287,,2063,2056,,,,,,,,,,,,2063
+1,spec_oabmobstardust,0,0,0,1,1,1,1,0,0,0,0,0,1,1,1,0,1,1,1,1,1,1,0
+1,spec_voabmobstardust,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,1,0,0,0,0
+1,spec_oabpcstardust,0,0,0,1,1,1,1,0,0,0,0,0,1,1,1,0,1,1,1,1,1,1,0
+1,spec_voabpcstardust,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,1,0,0,0,0
+1,ID,test123@test.com,test123@test.com,,test12@test.com,test12@test.com,test12@test.com,test12@test.com,test123@test.com,test123@test.com,test123@test.com,test54432111@gmail.com,test12@test.com,test12@test.com,test12@test.com,test12@test.com,test123@test.com,test12@test.com,test12@test.com,test12@test.com,test12@test.com,test12@test.com,test12@test.com,test123@test.com
+1,REGNAME,DO NOT SHIP,,,,,,,,,,,,,,,DO NOT SHIP,,,,,,,
+1,firstname,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT SHIP ,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT
+1,lastname,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP
+1,PHONE,312341234,,,,,,,,,,,6624571511,,,,7962078794,,,,,,,
+1,Mobile1,90123456789,90123456789,90987654,3477703960,3477703960,3477703960,3477703960,3477703960,123456789,3477703960,9876543210,909876541,3477703960,3477703960,3477703960,7962078794,3477703960,3477703960,3477703960,3477703960,3477703960,3477703960,3477703960
+1,ZIPCODE,1110022,6232,,10010,10010,10010,10010,,,,,10160,10010,10010,10010,48860,10010,10010,10010,10010,10010,10010,
+1,returnedUserId,test888@test.com,test888@test.com,,test123535@test.com,test123535@test.com,test123535@test.com,test123535@test.com,test123535@test.com,autotester123@gmail.com,test123535@test.com,test54432111@gmail.com,test123535@test.com,test123535@test.com,test123535@test.com,test123535@test.com,test04032022@gmail.com,test123535@test.com,test123535@test.com,test123535@test.com,test123535@test.com,test123535@test.com,test123535@test.com,test123535@test.com
+1,RID1,test123@test.com,test123@test.com,,test1919@test.com,test1919@test.com,test1919@test.com,test1919@test.com,test123@test.com,autotester12345@gmail.com,automation@mac.com,test54432111@gmail.com,test1919@test.com,test1919@test.com,test1919@test.com,test1919@test.com,test04032022@qq.com,test1919@test.com,test1919@test.com,test1919@test.com,test1919@test.com,test1919@test.com,test1919@test.com,automation@mac.com
+1,RID2,test1234@test.com,test1234@test.com,,test2121@test.com,test2121@test.com,test2121@test.com,test2121@test.com,,test2121@test.com,,,test2121@test.com,test2121@test.com,test2121@test.com,test2121@test.com,test04032022@o2.pl,test2121@test.com,test2121@test.com,test2121@test.com,test2121@test.com,test2121@test.com,test2121@test.com,
+1,RID3,test12@test.com,test12@test.com,,,,,,,,,,,,,,test12@test.com,,,,,,,
+1,returnedUserPassword,Test@123,Test@123,,Test@123,Test@123,Test@123,Test@123,Test@123,Test123@,Test@123,!Test1234,Test@123,Test@123,Test@123,Test@123,Test123!,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123
+1,NPWD,Test@123,Test@123,,Test@123,Test@123,Testy@123,Test@123,Test@123,Test123@,Test@123,!Test1234,Test@123,Test@123,Test@123,Test@123,Test123!,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123
+1,SELECTEDLOCATION,東京都 - GINZA SIX 2階 ジョー マローン ロンドン,갤러리아 광교QQQ,강남구 - 갤러리아 압구정,,,,,"MÜNCHEN - MAC PRO STORE MÜNCHEN, Sendlinger Str. 29",,"Broadway - MAC BROADWAY, Level 1, Shop 105, Broadway Shopping Centre",,,,,,,,,,,,,"Broadway - MAC BROADWAY, Level 1, Shop 105, Broadway Shopping Centre"
+1,ASSERTEDLOCATION,,320,1078,,,,,,,,,,,,,,,,,,,,
+1,LOCATIONVALUE,1,1,3,,,,,MÜNCHEN,,NSW,NSW,,,,,,,,,,,,NSW
+1,ASSERTEDSERVICENAMEPART1,Scent,핸드 앤 암 마사지 서비스,,Scent,Hand,Hand,YOUR PERFECT FOUNDATION,,,,,,Best of,Foundation,Massage des mains,,The Divine ,Look Less ,Hair ,Hair ,Hair ,Feel Good,
+1,ASSERTEDSERVICENAMEPART2,Your Home,,,For You,Arm Massage,Arm Massage,MATCH,,,,,,Estée,Fundamentals,et des bras,,Discovery,Tired,Scalp Check,Scalp Check,Scalp Check,Facial,
+1,BRLOC,JM-JP,JM-KR,CL-HK,JM-UK,JM-US,JM-CA,MC-US,MC-DE,MC-TW,MC-AU,AV-AU,BB-TH,EL-UK,CL-UK,JM-FR,JM-EU,LM-UK,BB-UK,AV-UK,AV-US,TF-UK,OR-UK,MC-AU
+1,NOOFCOLINDATECALENDAR,7,,7,,,,,7,7,7,7,7,,,,,,,,,,,7
+1,NOOFROWCOLINTIMECALENDARMOB,4,,4,,,,,,60,60,7,4,,,,,,,,,,,60
+1,STOREVALUE,,,,,,,,287,,2063,2056,,,,,,,,,,,,2063
+1,spec_oabmobstardust,0,0,0,1,1,1,1,0,0,0,0,0,1,1,1,0,1,1,1,1,1,1,0
+1,spec_voabmobstardust,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,1,0,0,0,0
+1,spec_oabpcstardust,0,0,0,1,1,1,1,0,0,0,0,0,1,1,1,0,1,1,1,1,1,1,0
+1,spec_voabpcstardust,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,1,0,0,0,0

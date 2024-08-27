@@ -1,0 +1,169 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tagvalue {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+.button,
+a[id='cseml'] {
+  background-color: rgb(255, 255, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  min-width: 120px;
+  width: 15%;
+  color: #000;
+  text-overflow: ellipsis;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.4;
+  cursor: pointer;
+  border: 3px solid rgb(255, 255, 255);
+}
+
+.button:hover {
+  border: 3px solid rgb(255, 255, 255);
+  background-color: #0927bd;
+}
+
+.tablink {
+  background-color: rgb(255, 255, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 10px;
+  font-size: 14px;
+  width: 50%;
+  float: left;
+  text-align: left;
+  border: none;
+}
+#scp {
+  border-right: 1px solid;
+}
+.col-form-label {
+  font-size: 14px;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  border: 1px solid rgb(255, 255, 255);
+  color: grey(0, 0, 0);
+  display: none;
+  /* -webkit-box-shadow: inset -2px -2px 2px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset -2px -2px 2px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: inset -2px -2px 2px 0px rgba(0, 0, 0, 0.5); */
+}
+
+#coveragemap {
+  font-size: 12px;
+  visibility: visible !important;
+  text-decoration: none;
+  color: rgb(53 17 17);
+}
+
+.coveragemap {
+  background-color: rgb(255, 255, 255, 0.8);
+  font-size: 12px;
+  color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer {
+  background-color: rgb(128, 128, 128);
+  bottom: 0;
+  color: white;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+.footer p {
+  font-size: 14px;
+  font-style: italic;
+  padding: 0;
+  line-height: 2.45;
+  margin: 0;
+}
+
+#featureDesc {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+.button.nextBtn,
+.button.startBtn {
+  float: right;
+}
+
+.multiselect-dropdown {
+  width: 100% !important;
+}
+
+.applicationTheme {
+  background-color: #0f416d;
+  /* background-color: #172b4d; */
+  /* background-color: #142474; */
+  /* background-color: #00539c; */
+  /* background-color: #4831d4; */
+  /* CCF381 */
+  color: rgb(255, 255, 255);
+}
+.applicationTheme .nav-link {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  visibility: visible;
+}
+.leftSideBar {
+  /* -webkit-box-shadow: 10px 0px 5px -10px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 10px 0px 5px -10px rgba(255, 255, 255, 1);
+  box-shadow: 10px 0px 5px -10px rgba(255, 255, 255, 1); */
+  border-right: 1px solid;
+  padding: 0;
+}
+#Scope .multiselect-dropdown {
+  padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+}
+#Scope .multiselect-dropdown span.placeholder {
+  background: none;
+  color: #000;
+}
+.nav-item {
+  width: 120px;
+}
+.nav-item.active,
+.nav-item.active .nav-link {
+  background-color: rgb(255, 255, 255);
+  color: #000;
+}
+.nav-item .fa {
+  font-size: 28px;
+}
+#Scope .multiselect-dropdown-list label {
+  color: #000;
+}
+#Scope .multiselect-dropdown span.optext {
+  color: #000;
+}
+#Scope .multiselect-dropdown span.optext,
+.form-control,
+.form-select {
+  font-size: 13px;
+}
+h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@media screen and (max-width: 575px) {
+  .nav-item {
+    width: auto;
+  }
+  .fixed-bottom {
+    background-color: #0f416d;
+  }
+}

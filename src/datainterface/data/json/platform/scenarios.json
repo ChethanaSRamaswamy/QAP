@@ -1,0 +1,1432 @@
+[
+  {
+    "scenarioId": 1,
+    "scenario": "Verify Guest User checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 2,
+    "scenario": "Verify Return User checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 3,
+    "scenario": "Verify Return User checkout using saved card",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 4,
+    "scenario": "Verify New User checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 5,
+    "scenario": "Verify User can edit quantity and offers in Cart",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 6,
+    "scenario": "Verify New User Checkout by Signing Up through GNAV",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 7,
+    "scenario": "Verify GU order details with Offer & billing address saved in a .csv file",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 8,
+    "scenario": "Verify RU order details with multiple product are  saved in a .csv file",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 9,
+    "scenario": "Verify Guest User Is Able To Complete CC Checkout With NEXTDAY Delivery type",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 10,
+    "scenario": "Verify New User Is Able To Complete CC Checkout With NAMEDDAY Delivery types",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 11,
+    "scenario": "Verify Return User Is Able To Complete CC Checkout With SATURDAY Delivery type",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 12,
+    "scenario": "Verify User can edit billing/shipping address",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 13,
+    "scenario": "Verify Return User can edit billing/shipping address (CN,KR)",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 14,
+    "scenario": "Verify Return User updates My Profile and Add product to cart from Re-order",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 15,
+    "scenario": "Spot Check: Add product from MPP, verify Cart retains same",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 16,
+    "scenario": "View the added product in the Cart by clicking on Bag Icon",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 17,
+    "scenario": "Verify New User add products to favorites from MPP and SPP and add a product to cart via favorites",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 18,
+    "scenario": "As a Guest User Add Engraving product and complete the checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 19,
+    "scenario": "As a Return User Add Engraving and Normal product and complete the checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 20,
+    "scenario": "Verify MPP quickview,shade,quanity,subscribe, ATB, ATF",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 21,
+    "scenario": "Verify MPP ATB single,mutisized items",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 22,
+    "scenario": "Validate Sort,Filter on MPP",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 23,
+    "scenario": "Verify MPP OOS,Notify me,Reviews,share",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 24,
+    "scenario": "Validate SPP Item details,ATB,Product View",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 25,
+    "scenario": "Verify SPP Histogram for Review,Ask & Ans",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 26,
+    "scenario": "Verify SPP Social sites Share",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 27,
+    "scenario": "Verify sized SPP price vary with size, viewcart",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 28,
+    "scenario": "Verify viewcart shade/size,sticky overlay  SPP",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 29,
+    "scenario": "Verify SPP Sub, SAG,FIS ,Cross Sell, AP, Learn More",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 30,
+    "scenario": "Add Engraving to the Product  and validate on SPP",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 31,
+    "scenario": "Verify User can get store location with valid zipcode/city",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 32,
+    "scenario": "Verify User can navigate through all link in GNAV",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 33,
+    "scenario": "Verify User can navigate through all link in Footer",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 34,
+    "scenario": "Verify User can Track Order",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 35,
+    "scenario": "As a Guest User enroll into loyalty using Order confirmation page",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 36,
+    "scenario": "As a New User enroll into loyalty using account registration page",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 37,
+    "scenario": "As a New User enroll into loyalty using Marketing page",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 38,
+    "scenario": "Verify whether Loyalty user is able to redeem Welcome offer",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 39,
+    "scenario": "Verify Pure Privilege case",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 40,
+    "scenario": "Verify whether Loyalty user is able to redeem Birthday offer",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 41,
+    "scenario": "Online Appointment Booking Drupal",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 42,
+    "scenario": "Online Appointment Booking Stardust",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 43,
+    "scenario": "Virtual Online Appointment Booking Drupal",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 44,
+    "scenario": "Virtual Online Appointment Booking Stardust",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 45,
+    "scenario": "Verify user can search for a product and add to bag",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 46,
+    "scenario": "Verify SEO requirements for Home Page",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 47,
+    "scenario": "Verify SEO requirements for MPP",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 48,
+    "scenario": "Verify SEO requirements for SPP",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 49,
+    "scenario": "Completed user can login into Account page from eform overlay",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 50,
+    "scenario": "RAMP fields validation check",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 51,
+    "scenario": "Register a new user from RAMP partial user overlay page",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 52,
+    "scenario": "Register a new completed user on RAMP",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 53,
+    "scenario": "Register a new mobile only user on RAMP",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 54,
+    "scenario": "RAMP page translation check",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 55,
+    "scenario": "Verify Guest User checkout with Manual offer",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 56,
+    "scenario": "Verify New User checkout with Automatic offer",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 57,
+    "scenario": "Verify Return User checkout with saved Credit card",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 58,
+    "scenario": "Verify Guest User checkout with Restricted Product in cart",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 59,
+    "scenario": "Verify Return User checkout after saved billing address",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 60,
+    "scenario": "Verify Guest User checkout with new billing address",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 61,
+    "scenario": "Verify Newly Registered User checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 62,
+    "scenario": "Verify Guest User checkout with PickupInstore",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 63,
+    "scenario": "Verify Return User checkout with PickupInstore",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 64,
+    "scenario": "Verify Return User Edit PickupInstore checkout with Delivery",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 65,
+    "scenario": "Verify New User Checkout with Sample and COD",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 66,
+    "scenario": "Verify Return User Checkout with edit product from Payment Page",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 67,
+    "scenario": "Verify Return User Checkout with edit product from Delivery Page and 3DS1 Payment",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 68,
+    "scenario": "Verify New User Checkout with PickupInstore and Manual offer",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 69,
+    "scenario": "Verify Guest User checkout for Automatic offer product",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 70,
+    "scenario": "Verify click back arrow",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 71,
+    "scenario": "Verify choose a model",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 72,
+    "scenario": "Verify click close icon",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 73,
+    "scenario": "Verify share icon",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 74,
+    "scenario": "Verify split slider",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 75,
+    "scenario": "Add block content",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 76,
+    "scenario": "Add page content",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 77,
+    "scenario": "Add SPPRCIS content",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 78,
+    "scenario": "Admin page check",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 79,
+    "scenario": "Alfresco check",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 80,
+    "scenario": "Add auto URL alias",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 81,
+    "scenario": "Autolocalization",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 82,
+    "scenario": "Add custom URL alias",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 83,
+    "scenario": "Find content bulk",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 84,
+    "scenario": "Find content filters",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 85,
+    "scenario": "Localize one to many",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 86,
+    "scenario": "Localize one to one",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 87,
+    "scenario": "Revision tag functionality",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 88,
+    "scenario": "Templates page",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 89,
+    "scenario": "Workflow status",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 90,
+    "scenario": "Clone from workflow",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 91,
+    "scenario": "Clone from find content",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 92,
+    "scenario": "Validating the Live Chat feature in Home page",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 93,
+    "scenario": "Validating the Live Chat feature in MPP",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 94,
+    "scenario": "Validating the Live Chat feature in SPP",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 95,
+    "scenario": "Take foundation quiz and add a product to cart from results page",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 96,
+    "scenario": "Retake foundation quiz from results page",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 97,
+    "scenario": "Take hair quiz and add a product to cart from results page",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 98,
+    "scenario": "Retake hair quiz from results page",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 99,
+    "scenario": "Take moisturizer quiz and add a product to cart from results page",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 100,
+    "scenario": "Retake moisturizer quiz from results page",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 101,
+    "scenario": "Take scent quiz and add a product to cart from results page",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 102,
+    "scenario": "Retake scent quiz from results page",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 103,
+    "scenario": "Take skincare quiz and add a product to cart from results page",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 104,
+    "scenario": "Retake skincare quiz from results page",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 105,
+    "scenario": "Verify Guest User  Is Able To Complete Clearpay Checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 106,
+    "scenario": "Verify New User Is Able To Complete Clearpay Checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 107,
+    "scenario": "Verify Return User Is Able To Complete Clearpay Checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 108,
+    "scenario": "Verify Guest User  Is Able To Complete Paypal Checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 109,
+    "scenario": "Verify New User Is Able To Complete Paypal Checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 110,
+    "scenario": "Verify Return User Is Able To Complete Paypal Checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 111,
+    "scenario": "Guest User i would like to Add a product and complete Click and Collect checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 112,
+    "scenario": "Verify Guest User is Able To complete ExpressPay Checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 113,
+    "scenario": "Verify New User Is Able To complete ExpressPay Checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 114,
+    "scenario": "Verify Return User Is Able To complete ExpressPay Checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 115,
+    "scenario": "Verify Guest User  would like to Add Product and complete Gift Card checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 116,
+    "scenario": "Verify New User would like to Add Product and complete Gift Card checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 117,
+    "scenario": "Verify Guest User is Able to complete After Pay checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 118,
+    "scenario": "Verify New User is Able to complete After Pay checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 119,
+    "scenario": "Verify Return User is Able to complete After Pay checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 120,
+    "scenario": "Verify able to place AR order and changing date , canceling the AR",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 121,
+    "scenario": "Verify able to place AR order and Edit shipping and billing address",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 122,
+    "scenario": "Verify Optin via Registration page",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 123,
+    "scenario": "Verify Optin via My Accounts page",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 124,
+    "scenario": "Verify Optin via Email signup page (SMS)",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 125,
+    "scenario": "Verify Optin via Registration page (Loyalty)",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 126,
+    "scenario": "Verify Optin via Registration page (SMS)",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 127,
+    "scenario": "Verify Optin via My Accounts page (Loyalty)",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 128,
+    "scenario": "Verify Optin via My Accounts page (SMS)",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 129,
+    "scenario": "Verify Optout via My Accounts page",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 130,
+    "scenario": "Verify Optin via Gnav Footer",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 131,
+    "scenario": "Alter the salon selection during checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 132,
+    "scenario": "Alter the stylist name during checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 133,
+    "scenario": "Visit legacy A-Comm artist page but expire salon_referral_start_time before checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 134,
+    "scenario": "Visit Hausmart artist page but expire salon_referral_start_time before checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 135,
+    "scenario": "Visit Hausmart salon page but expire salon_referral_start_time before checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 136,
+    "scenario": "Expire salon_flags_last_modified before checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 137,
+    "scenario": "Make no changes during checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 138,
+    "scenario": "Visit legacy A-Comm salon page but expire salon_referral_start_time before checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 139,
+    "scenario": "Unselect the salon preference during checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 140,
+    "scenario": "Visit legacy A-Commerce artist page",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 141,
+    "scenario": "Visit Hausmart artist page",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 142,
+    "scenario": "Visit Hausmart salon page",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 143,
+    "scenario": "Visit legacy A-Commerce salon page",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 144,
+    "scenario": "Verify google analytics for Homepage,MPP,SPP,Cart",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 145,
+    "scenario": "Verify google analytics for New user checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 146,
+    "scenario": "Verify google analytics for Return user checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 147,
+    "scenario": "Guest User Checkout using CC with ROM specific sku",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 148,
+    "scenario": "Guest User Checkout using Express Paypal with ROM specific sku",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 149,
+    "scenario": "Return User Checkout using CC with different test data specific to ROM",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 150,
+    "scenario": "Return User Checkout using Express Paypal with different test data specific to ROM",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 151,
+    "scenario": "Return User Checkout using AfterPay with different test data specific to ROM",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 152,
+    "scenario": "Return User Checkout using Paypal with different test data specific to ROM",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 153,
+    "scenario": "Return User Checkout using Paypal with two products",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 154,
+    "scenario": "Return User Checkout using AfterPay with two products",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 155,
+    "scenario": "Return User Checkout using CC with Sample Product and gift wrap",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 156,
+    "scenario": "Return User Checkout using CC with two products",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 157,
+    "scenario": "Return User Checkout using CC with three products",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 158,
+    "scenario": "Verify whether user is able to place BOPIS order as Guest user",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 159,
+    "scenario": "Verify whether user is able to place BOPIS order as Return user",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 160,
+    "scenario": "Verify whether user is able to place SDD order as Guest user",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 161,
+    "scenario": "Verify whether user is able to place SDD order as Return user",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 162,
+    "scenario": "Validate BOPIS and SDD options on SPP",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 163,
+    "scenario": "Verify non loyalty users are enroll into loyalty using Order confirmation page",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 164,
+    "scenario": "Verify whether Loyalty user is able to redeem Welcome and Birthday offer",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 165,
+    "scenario": "OAB Book appointment for guest user",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 166,
+    "scenario": "VOAB Book appointment for guest user",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 167,
+    "scenario": "OAB Book appointment for registered user",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 168,
+    "scenario": "VOAB Book appointment for registered user",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 169,
+    "scenario": "OAB Book appointment for logged-in user",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 170,
+    "scenario": "VOAB Book appointment for logged-in user",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 171,
+    "scenario": "OAB My Appointments section",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 172,
+    "scenario": "VOAB My Appointments section",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 173,
+    "scenario": "OAB Basic functional flow",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 174,
+    "scenario": "VOAB Basic functional flow",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 175,
+    "scenario": "OAB Full Regression",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 176,
+    "scenario": "VOAB Full Regression",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 177,
+    "scenario": "OAB Regression",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 178,
+    "scenario": "VOAB Regression",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 179,
+    "scenario": "OAB Sanity",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 180,
+    "scenario": "VOAB Sanity",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 181,
+    "scenario": "Change to Home delivery from bopis popup and place order as Return user",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 182,
+    "scenario": "Change to sdd from bopis and place asap order as Return user",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 183,
+    "scenario": "Drop unavailable items and place bopis order as Return user",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 184,
+    "scenario": "Place bopis order as Return user with percentage discount",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 185,
+    "scenario": "Place bopis proxy order as Return user with sample and all items verification",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 186,
+    "scenario": "Verify shipping charge and delivery method for bopis checkout as Free and Bopis",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 187,
+    "scenario": "Place bopis order with gift card as Return user",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 188,
+    "scenario": "Place bopis order with mixed tender as Return user",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 189,
+    "scenario": "Place bopis order with afterpay as Return user",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 190,
+    "scenario": "Change to Home delivery from sdd popup and place order as Return user",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 191,
+    "scenario": "Drop unavailable items and place sdd order as Return user",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 192,
+    "scenario": "Verify error message displayed in delivery page for sdd checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 193,
+    "scenario": "Verify shipping charge and delivery method for sdd checkout as Non zero and Sdd",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 194,
+    "scenario": "Verify shipping discount for sdd order as Return user",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 195,
+    "scenario": "Validate Youtube video on SPP",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 196,
+    "scenario": "As a New User I would like to optin as a Loyalty and place an order",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 197,
+    "scenario": "As a Loyalty Tier2 User intends to complete checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 198,
+    "scenario": "As a Loyalty Tier3 User intends to complete checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 199,
+    "scenario": "Verify user able to sign in with their FB account from account page",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 200,
+    "scenario": "Verify user able to sign in with their FB account from checkout page",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 201,
+    "scenario": "To verify Many to One Batch Localization scenario",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 202,
+    "scenario": "To verify Many to Many Batch Localization scenario",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 203,
+    "scenario": "Verify Guest User checkout for Physical Gift Card",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 204,
+    "scenario": "Verify Guest User Is Able To Complete Click and Collect Checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 205,
+    "scenario": "Verify Guest User is able to complete checkout with NextDay Delivery type",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 206,
+    "scenario": "Verify New User is able to complete checkout with NamedDay Delivery type",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 207,
+    "scenario": "Verify Return User is able to complete checkout with SaturdayDay Delivery type",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 208,
+    "scenario": "Login as POA customer and Perform PBL Payment",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 209,
+    "scenario": "Verify user able to add vset and complete checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 210,
+    "scenario": "As a PRO User I would like to Add a product and complete checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 211,
+    "scenario": "Verify that the able to place order successfully with E-Salon",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 212,
+    "scenario": "Verify User can navigate Country Location dropdown on Footer and check Options",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 213,
+    "scenario": "Verify User can navigate Country Location dropdown on Stores and check Options",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 214,
+    "scenario": "Disable Autolocalization",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 215,
+    "scenario": "Verify guest user can place order with donation and check Clearpay availability",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 216,
+    "scenario": "Validate Social Sharing Functionality",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 217,
+    "scenario": "Verify GU order with Offer, billing, PayPal payment and details saved in .csv",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 218,
+    "scenario": "Verify RU order with Offer, billing, PayPalExpress payment and details saved in .csv",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 219,
+    "scenario": "Verify RU order with multiple products, PayPal payment and details saved in .csv",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 220,
+    "scenario": "Verify RU order with multiple products, PayPalExpress payment and details saved in .csv",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 221,
+    "scenario": "Verify GA4 for Homepage, MPP, SPP, Cart",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 222,
+    "scenario": "Verify GA4 for New user checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 223,
+    "scenario": "Verify GA4 for Return user checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 224,
+    "scenario": "Verify the user able to place order with embossing gift",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 225,
+    "scenario": "Verify the user able to place order with embossing gift and normal sku",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 226,
+    "scenario": "Verify the user able to place order with International Billing Address",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 227,
+    "scenario": "Verify google analytics for Guest user checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 228,
+    "scenario": "To verify API Endpoint Response for Requested Endpoint",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 229,
+    "scenario": "Guest User complete checkout with the STD offer code with PBL",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 230,
+    "scenario": "Guest User complete checkout with the ND offer code with PBL",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 231,
+    "scenario": "As a guest user i would checkout as a y flag user",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 232,
+    "scenario": "As a guest user i would checkout as HM-V flag user",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 233,
+    "scenario": "Verify Guest User is getting Warning Message when Invalid Message entered",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 234,
+    "scenario": "Verify Return User is getting Warning Message when Invalid Message entered",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 235,
+    "scenario": "Verify Guest User is able To Edit Gift Wrap Message and Checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 236,
+    "scenario": "Verify Return User is able To Edit Gift Wrap Message and Checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 237,
+    "scenario": "Verify Return User Gift Wrap fields are available in Order Summery sections",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 238,
+    "scenario": "Verify GA4 for Guest user checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 239,
+    "scenario": "To verify Translations Download as expected",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 240,
+    "scenario": "To verify PLP API Endpoint Response for Requested Endpoint",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 241,
+    "scenario": "Verify user to check the GWP Loyalty functionalities",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 244,
+    "scenario": "Verify user to check the check table offer and complete checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 245,
+    "scenario": "Verify user to check first-time buyer offer and complete checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 246,
+    "scenario": "Verify user to check loyalty deferral offer and complete checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 247,
+    "scenario": "Verify user to check one-time buyer offer and complete checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 248,
+    "scenario": "Verify user to check loyalty one-time use offer and complete checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 249,
+    "scenario": "Verify user to add a product and auto applied offers on order checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 250,
+    "scenario": "Verify user  to add a product and complete free shipping on orders checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 251,
+    "scenario": "Verify user is able to place BOPIS order as Return user with GWP",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 252,
+    "scenario": "Verify user is able to place SDD order as Return user with GWP",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 253,
+    "scenario": "Verify user is able to place BOPIS order as Guest user with GWP",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 254,
+    "scenario": "Verify user is able to place SDD order as Guest user with GWP",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 255,
+    "scenario": "Verify correct Image got Localized to Target Locale",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 256,
+    "scenario": " Negative Edge cases for A-comm",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 257,
+    "scenario": "Negative Edge cases for A-comm",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 258,
+    "scenario": "AppHQ Use feature as brand admin",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 259,
+    "scenario": "AppHQ Use feature as artist",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 260,
+    "scenario": "AppHQ Use feature as counter manager",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 261,
+    "scenario": "AppHQ Use feature as password manager",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 262,
+    "scenario": "AppHQ Use feature as report manager",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 263,
+    "scenario": "AppHQ ACL Sanity for all roles",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 264,
+    "scenario": "AppHQ Create, update delete service and service category",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 265,
+    "scenario": "AppHQ Create, update delete store and schedule",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 266,
+    "scenario": "AppHQ Create, update delete appointment",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 267,
+    "scenario": "AppHQ Verify Features functionality",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 268,
+    "scenario": "AppHQ Verify Dashboard functionality",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 269,
+    "scenario": "AppHQ Relese regression",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 270,
+    "scenario": "AppHQ Set-up sanity of existing OABs",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 271,
+    "scenario": "AppHQ Use feature as superadministrator",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 272,
+    "scenario": "AppHQ Create, update delete user",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 273,
+    "scenario": "Verify user able to add virtual bundles and complete checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 274,
+    "scenario": "Verify user to check GWP Loyalty functionalities",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 275,
+    "scenario": "Verify user to check auto applied offers on order and complete checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 276,
+    "scenario": "Verify user to check free shipping on orders and complete checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 277,
+    "scenario": "Verify user to check GWP Threshold Message Offer Code",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 278,
+    "scenario": "Verify user to check GWP Auto Sample Page checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 279,
+    "scenario": "Verify user to check GWP Manual Sample Page checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 280,
+    "scenario": "Verify user to check success message offer in cart page",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 281,
+    "scenario": "Verify user to check Auto Offers Threshold Message",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 282,
+    "scenario": "Verify User to check Manual offer and complete checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 283,
+    "scenario": "Verify User to check Manual offer with Threshold message and complete checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 284,
+    "scenario": "Verify user to check one use loyalty anniversary offer and complete checkout",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 285,
+    "scenario": "Verify user to check error message offer in cart page",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 286,
+    "scenario": "Verify user to check backup SKU message offer in cart page",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 287,
+    "scenario": "Verify user to check do not defer message offer in cart page",
+    "isActive": 1
+  },
+  {
+    "scenarioId": 288,
+    "scenario": "Verify User to check Manual offer with Backup SKU message and complete checkout",
+    "isActive": 1
+  }
+]

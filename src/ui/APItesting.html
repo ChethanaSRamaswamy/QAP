@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Set to no cache, else the page will be served from cache without htaccess authentication -->
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/elc_online.png"
+    />
+    <title>QA Automation Platform</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/jquery.multiselect.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <body
+    onload="populateBrandList();populateTcGroupName();populateTcName();populateEnvironments();"
+  >
+    <div class="container-fluid applicationTheme applicationTheme">
+      <div class="row">
+        <div class="col-sm-auto sticky-top leftSideBar">
+          <div
+            class="d-flex flex-sm-column flex-row flex-nowrap align-items-center sticky-top"
+          >
+            <!-- <img class="logo my-3" src="assets/logo.png" alt="login" /> -->
+            <ul
+              class="nav nav-pills nav-flush flex-sm-column flex-row flex-nowrap mb-auto mx-auto text-center justify-content-between w-100 align-items-center"
+            >
+              <li class="nav-item px-2 py-3">
+                <i class="fa fa-bolt"></i>
+                <a
+                  href="index.html"
+                  class="nav-link pb-3 px-2"
+                  title=""
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="right"
+                  data-bs-original-title="Home"
+                >
+                  Functional Testing
+                </a>
+              </li>
+              <li class="nav-item px-2 py-3 active">
+                <i class="fa fa-cogs"></i>
+                <a
+                  href="APItesting.html"
+                  class="nav-link pb-3 px-2"
+                  title=""
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="right"
+                  data-bs-original-title="Products"
+                >
+                  API Testing
+                </a>
+              </li>
+              <li class="nav-item px-2 py-3">
+                <i class="fa fa-eye"></i>
+                <a
+                  href="CSEMLindex.html"
+                  class="nav-link pb-3 px-2"
+                  title=""
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="right"
+                  data-bs-original-title="Dashboard"
+                >
+                  CSEML Validation
+                </a>
+              </li>
+              <li class="nav-item px-2 py-3">
+                <i class="fa fa-user"></i>
+                <a
+                  href="helplink.html"
+                  class="nav-link pb-3 px-2"
+                  title=""
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="right"
+                  data-bs-original-title="Customers"
+                >
+                  Help Link
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm px-3 py-2 min-vh-100">
+          <h2 class="text-center my-3 py-4">
+            QA Automation Platform - API Testing
+          </h2>
+          <div class="Data col-sm-12">
+            <div class="col-sm-6 mb-3 mx-auto">
+              <div class="container-fluid">
+                <div class="row">
+                  <label class="col-form-label col-sm-4">Environment</label>
+                  <div class="col-sm-8 mb-3">
+                    <select
+                      name="environment"
+                      class="form-select"
+                      id="environment"
+                    ></select>
+                  </div>
+                  <label class="col-form-label col-sm-4">Brands</label>
+                  <div class="col-sm-8 mb-3">
+                    <select
+                      name="brands"
+                      class="form-select"
+                      id="brands"
+                    ></select>
+                  </div>
+                  <label class="col-form-label col-sm-4">Markets</label>
+                  <div class="col-sm-8 mb-3">
+                    <select name="locales" class="form-select" id="locales">
+                      <option value="US">US</option>
+                      <option value="CA">Canada</option>
+                      <option value="UK">UK</option>
+                      <option value="APAC">APAC</option>
+                      <option value="AU">&nbsp;Australia</option>
+                      <option value="CN">&nbsp;China</option>
+                      <option value="HK">&nbsp;HongKong</option>
+                      <option value="JP">&nbsp;Japan</option>
+                      <option value="KR">&nbsp;Korea</option>
+                      <option value="MY">&nbsp;Malaysia</option>
+                      <option value="NZ">&nbsp;NewZealand</option>
+                      <option value="PH">&nbsp;Philippines</option>
+                      <option value="SG">&nbsp;Singapore</option>
+                      <option value="TW">&nbsp;Taiwan</option>
+                      <option value="TH">&nbsp;Thailand</option>
+                      <option value="EMEA">EMEA</option>
+                      <option value="AT">&nbsp;Austria</option>
+                      <option value="BE">&nbsp;Belgium</option>
+                      <option value="CZ">&nbsp;Czech Republic</option>
+                      <option value="DK">&nbsp;Denmark</option>
+                      <option value="EU">&nbsp;European Union</option>
+                      <option value="FI">&nbsp;Finland</option>
+                      <option value="FR">&nbsp;France</option>
+                      <option value="DE">&nbsp;Germany</option>
+                      <option value="GR">&nbsp;Greece</option>
+                      <option value="HU">&nbsp;Hungary</option>
+                      <option value="IN">&nbsp;India</option>
+                      <option value="IL">&nbsp;Israel</option>
+                      <option value="IT">&nbsp;Italy</option>
+                      <option value="ME">&nbsp;Middle East</option>
+                      <option value="NL">&nbsp;Netherlands</option>
+                      <option value="NO">&nbsp;Norway</option>
+                      <option value="PL">&nbsp;Poland</option>
+                      <option value="PT">&nbsp;Portugal</option>
+                      <option value="RO">&nbsp;Romania</option>
+                      <option value="KSA">&nbsp;Saudi Arabia</option>
+                      <option value="ZA">&nbsp;South Africa</option>
+                      <option value="ES">&nbsp;Spain</option>
+                      <option value="SE">&nbsp;Sweden</option>
+                      <option value="CH">&nbsp;Switzerland</option>
+                      <option value="TR">&nbsp;Turkey</option>
+                      <option value="UAE">&nbsp;United Arab Emirates</option>
+                      <option value="LATAM">LATAM</option>
+                      <option value="BR">&nbsp;Brazil</option>
+                      <option value="CE">&nbsp;Chile</option>
+                      <option value="MX">&nbsp;Mexico</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row">
+                  <label class="col-form-label col-sm-4">Feature</label>
+                  <div class="col-sm-8 mb-3">
+                    <select
+                      name="testgroups"
+                      class="form-select"
+                      id="testgroups"
+                      onchange="populateTcName()"
+                    ></select>
+                  </div>
+                  <label class="col-form-label col-sm-4">Collection</label>
+                  <div class="col-sm-8 mb-3">
+                    <select name="testcases" class="form-select" id="testcases">
+                      <option value="testcase1" selected>testcase1</option>
+                      <option value="testcase2">testcase2</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <div class="col-sm-12 text-right">
+                    <button
+                      onclick="startTest()"
+                      class="btn pull-right button py-1 mt-2"
+                    >
+                      Submit
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 d-none">
+            <p><a id="urlvalue" href="" target="_blank"></a></p>
+          </div>
+          <div
+            class="col-sm-12 text-center fixed-bottom"
+            style="
+              font-style: italic;
+              font-family: 'Times New Roman', Times, serif;
+              font-size: large;
+            "
+          >
+            <p>Powered by QA Automation Platform</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="tagvalues147.js"></script>
+    <script src="tagvaluespw.js"></script>
+    <script>
+      // Check for the change in Environment
+      // Revision tag is enabled for Stage and Feature
+      // PerlGem and JiraId is enabled only for Feature
+
+      // This array has tc short name, tc name, tag for PC and tag for Mobile
+      var tcName = [['Checkout', 'Checkout', 'amp_checkout_2.0'],['Example', 'Example', 'example_collection']];
+      
+      // Based on the tc name array and the test group selected, this is populated
+      let test = 0;
+      function populateTcName() {
+        // Remove all the existing list
+        tcSelect = document.getElementById('testcases');
+        var n = tcSelect.options.length;
+        for (var i = 0; i < n; i++) tcSelect.remove(0);
+
+        // Find the test group which has been selected
+        var elem = document.getElementById('testgroups');
+        var tgName = [];
+        // elem.options[elem.selectedIndex].text;
+        for (var i = 0; i < elem?.options?.length; i++) {
+          if (elem[i]?.selected) {
+            tgName.push(elem[i].text);
+          }
+        }
+        var j = 0;
+        for (let k = 0; k < tgName.length; k++) {
+          for (var i = 0; i < tcName.length; i++) {
+            // Only the tests of the selected test group are added
+            if (tgName[k] == tcName[i][1]) {
+              // To make the first value in selected state
+              if (j == 1) {
+                tcSelect.options[tcSelect.options.length] = new Option(
+                  tcName[i][2],
+                  tcName[i][2],
+                  false,
+                  true
+                );
+              } else {
+                tcSelect.options[tcSelect.options.length] = new Option(
+                  tcName[i][2],
+                  tcName[i][2],
+                  false,
+                  false
+                );
+              }
+              if (tcName[i][5] === 'disable') {
+                if (tcSelect.options[j]) {
+                  //tcSelect.options[j].style="font-weight: bold;"
+                  tcSelect.options[j].style = 'color: rgb(0 176 240);';
+                  //tcSelect.options[i].innerHTML=tcSelect.options[i].innerHTML + "&#8595;"
+                  tcSelect.options[j].disabled = true;
+                  // var str = new TextDecoder().decode(Uint8Array.from(tcName));
+                }
+              } else {
+                // if(tcSelect.options[i]){
+                //   tcSelect.options[i].innerHTML = ("     ").concat(tcSelect.options[i].text);
+                // }
+              }
+              j++;
+            }
+          }
+        }
+        if (test === 0) {
+          $('select[multiple]').multiselect({});
+          test = 1;
+        } else {
+          $('select[multiple]').multiselect('reload');
+        }
+      }
+
+      // Based on the tc name array, the group is populated
+      function populateTcGroupName() {
+        // Remove all the existing list
+        tgSelect = document.getElementById('testgroups');
+        var n = tgSelect.options.length;
+        for (var i = 0; i < n; i++) tgSelect.remove(0);
+
+        var uniqueTg = [];
+
+        for (var i = 0; i < tcName.length; i++) {
+          // Add only if not there in the unique list
+          if (!uniqueTg.includes(tcName[i][1])) {
+            // To make the first value in selected state
+            if (i == 0) {
+              tgSelect.options[tgSelect.options.length] = new Option(
+                tcName[i][1],
+                tcName[i][0],
+                false,
+                true
+              );
+            } else {
+              tgSelect.options[tgSelect.options.length] = new Option(
+                tcName[i][1],
+                tcName[i][0],
+                false,
+                false
+              );
+            }
+            uniqueTg.push(tcName[i][1]);
+          }
+        }
+        if (test === 0) {
+          $('select[multiple]').multiselect({});
+          test = 1;
+        } else {
+          $('select[multiple]').multiselect('reload');
+        }
+      }
+      // This array has the mapping between the Train and the Team
+      // It also has the Dashboard number and the Launch filter number
+      function startTest() {
+        let alltag = '';
+        let brand = '';
+        let locale = '';
+        let feature = '';
+        let collection = '';
+        let hasPostmanTest = 1;
+        let url = '';
+        let urlParams = '';
+
+        var select = document.getElementsByName('brands')[0];
+        var options = select && select.options;
+        var brandSelected = false;
+        // check if any brand has been selected
+        for (var i = 0, iLen = options.length; i < iLen; i++) {
+          opt = options[i];
+          if (opt.selected) brandSelected = true;
+        }
+
+        // If none of the Brands are not selected, default to MC
+        // This is to prevent a huge number of tests triggering
+        if (!brandSelected) {
+          brandSelected = true;
+          options[0].selected = true;
+        }
+
+        // add the brands which have been selected
+        if (brandSelected) {
+          let tag = '';
+          for (var i = 0, iLen = options.length; i < iLen; i++) {
+            opt = options[i];
+
+            if (opt.selected) {
+              tag = tag + ' | ' + opt.value;
+            }
+          }
+          tag = tag.substring(3);
+          brand = tag;
+          console.log(`Brands Selected: ${brand}`);
+          alltag = alltag + ' & ( ' + tag + ' )';
+        }
+        // For the Locales
+        var selectLoc = document.getElementsByName('locales')[0];
+        var optionsLoc = select && selectLoc.options;
+        // Check if any one Locale is selected
+        var localeSelected = false;
+        for (var i = 0; i < optionsLoc.length; i++) {
+          if (optionsLoc[i].selected) localeSelected = true;
+        }
+        // If no Locale is selected, default to US
+        if (!localeSelected) {
+          localeSelected = true;
+          optionsLoc[0].selected = true;
+        }
+
+        // The following array is to map the Region to which the Country belongs to
+        // The regions themselves are APAC, EMEA and LATAM which are in 3, 15 and 42 poaition
+        var localesRegion = [
+          -1, -1, -1, -1, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, -1, 15, 15, 15, 15,
+          15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15,
+          15, 15, 15, 15, 15, -1, 42, 42, 42,
+        ];
+
+        // add the Locales which have been selected
+        if (localeSelected) {
+          let tag = '';
+          let ptag = '';
+          for (var i = 0; i < optionsLoc.length; i++) {
+            // Avoid action if APAC EMEA or LATAM is selected, which are at 3, 15 and 42
+            if (i == 3 || i == 15 || i == 42) continue;
+            // If the Locale is selected, add the locale to the tag
+            if (optionsLoc[i].selected) {
+              tag = tag + ' | ' + optionsLoc[i].value;
+              continue;
+            }
+            // If the Region for that Locale is selected, add the locale to the tag
+            if (
+              localesRegion[i] != -1 &&
+              optionsLoc[localesRegion[i]].selected
+            ) {
+              tag = tag + ' | ' + optionsLoc[i].value;
+            }
+          }
+          tag = tag.substring(3);
+          locale = tag;
+          console.log(`Market: ${locale}`);
+          alltag = alltag + ' & ( ' + tag + ' )';
+        }
+
+        var selectFeature = document.getElementsByName('testgroups')[0];
+        var optionsFeature = selectFeature && selectFeature.options;
+        var featureSelected = false;
+        // check if any brand has been selected
+        for (var i = 0, fLen = optionsFeature.length; i < fLen; i++) {
+          optFeature = optionsFeature[i];
+          if (optFeature.selected) featureSelected = true;
+        }
+
+        // If none of the Brands are not selected, default to MC
+        // This is to prevent a huge number of tests triggering
+        if (!featureSelected) {
+          featureSelected = true;
+          optionsFeature[0].selected = true;
+        }
+
+        // add the brands which have been selected
+        if (featureSelected) {
+          let tag = '';
+          for (var i = 0, fLen = optionsFeature.length; i < fLen; i++) {
+            optFeature = optionsFeature[i];
+
+            if (optFeature.selected) {
+              tag = tag + ' | ' + optFeature.value;
+            }
+          }
+          tag = tag.substring(3);
+          feature = tag;
+          console.log(`Feature: ${feature}`);
+          alltag = alltag + ' & ( ' + tag + ' )';
+        }
+
+        var selectCollection = document.getElementsByName('testcases')[0];
+        var optionsCollection = selectCollection && selectCollection.options;
+        var collectionSelected = false;
+        // check if any brand has been selected
+        for (var i = 0, cLen = optionsCollection.length; i < cLen; i++) {
+          optCollection = optionsCollection[i];
+          if (optCollection.selected) collectionSelected = true;
+        }
+
+        // If none of the Brands are not selected, default to MC
+        // This is to prevent a huge number of tests triggering
+        if (!collectionSelected) {
+          collectionSelected = true;
+          optionsCollection[0].selected = true;
+        }
+
+        // add the brands which have been selected
+        if (collectionSelected) {
+          let tag = '';
+          for (var i = 0, cLen = optionsCollection.length; i < cLen; i++) {
+            optCollection = optionsCollection[i];
+
+            if (optCollection.selected) {
+              tag = tag + ' | ' + optCollection.value;
+            }
+          }
+          tag = tag.substring(3);
+          collection = tag;
+          console.log(`Collection: ${collection}`);
+          alltag = alltag + ' & ( ' + tag + ' )';
+        }
+        // To get the environment selection
+        let selectENV = document.getElementsByName('environment')[0];
+        let optionsENV = select && selectENV.options;
+        let envVal = 'PROD';
+        if (optionsENV[0].selected) envVal = 'PROD';
+        if (optionsENV[1].selected) envVal = 'PREPROD';
+        if (optionsENV[2].selected) envVal = 'STAGE';
+        if (optionsENV[3].selected) envVal = 'DEV';
+        if (optionsENV[4].selected) envVal = 'FEATURE';
+        if (optionsENV[5].selected) envVal = 'ENG';
+        if (optionsENV[6].selected) envVal = 'PREVIEW';
+        if (optionsENV[7].selected) envVal = 'PINCER';
+
+        url = 'token=token2105';
+        urlParams =
+          url +
+          '&ENVIRONMENT=' +
+          envVal +
+          '&HASPMTEST=' +
+          hasPostmanTest +
+          '&BRAND=' +
+          brand +
+          '&LOCALE=' +
+          locale +
+          '&FEATURE=' +
+          feature +
+          '&COLLECTION=' +
+          collection;
+
+        console.log(urlParams);
+        encUrlParams = window.btoa(urlParams);
+        encUrlParams = './ApiTestRun.html?callParam=' + encUrlParams;
+        console.log(encUrlParams);
+        document.getElementById('urlvalue').innerHTML = encUrlParams;
+        document.getElementById('urlvalue').innerHTML.fontcolor('#FFFFFF');
+        // console.log('Brand/Locale Tag: ' + alltag);
+
+        let testUrl = document.getElementById('urlvalue').innerHTML;
+
+        if (testUrl == '') {
+          alert('Please click Check Script Availability and then start test..');
+        } else {
+          testUrl = testUrl.replaceAll('&amp;', '&');
+          window.open(testUrl, '_blank');
+        }
+      }
+
+      var brandList = [
+        { value: 'MC', name: 'MAC' },
+        { value: 'CL', name: 'Clinique' },
+        { value: 'OR', name: 'Origins' },
+        { value: 'EL', name: 'EsteeLauder' },
+        { value: 'BB', name: 'BobbiBrown' },
+        { value: 'LM', name: 'Lamer' },
+        { value: 'LS', name: 'LabSeries' },
+        { value: 'AV', name: 'Aveda' },
+        { value: 'JM', name: 'JoMalone' },
+        { value: 'BU', name: 'Bumble' },
+        { value: 'BK', name: 'Kilian' },
+        { value: 'DA', name: 'Darphin' },
+        { value: 'DJ', name: 'DrJart' },
+        { value: 'GG', name: 'GlamGlow' },
+        { value: 'SB', name: 'SmashBox' },
+        { value: 'FM', name: 'FredericMalle' },
+        { value: 'TF', name: 'TooFaced' },
+        { value: 'EB', name: 'Beauty Perks' },
+      ];
+      var environmentList = [
+        { value: 'prod', name: 'PROD' },
+        { value: 'preprod', name: 'PREPROD' },
+        { value: 'stage', name: 'STAGE' },
+        { value: 'dev', name: 'DEV' },
+        { value: 'feature', name: 'FEATURE' },
+        { value: 'pincer', name: 'PINCER' },
+        { value: 'eng', name: 'PersonalENG' },
+        { value: 'preview', name: 'PREVIEW' },
+      ];
+      var selectEle = document.getElementById('brands');
+      function populateBrandList() {
+        brandList.sort((a, b) => (a.name < b.name ? -1 : 1));
+        selectEle.innerText = null;
+        for (var i = 0; i < brandList.length; i++) {
+          var optn = brandList[i];
+          var el = document.createElement('option');
+          el.textContent = optn.name;
+          el.value = optn.value;
+          selectEle.appendChild(el);
+        }
+        if (test === 0) {
+          $('select[multiple]').multiselect({});
+          test = 1;
+        } else {
+          $('select[multiple]').multiselect('reload');
+        }
+      }
+      var selectEnv = document.getElementById('environment');
+      function populateEnvironments() {
+        // environmentList.sort((a, b) => (a.name < b.name ? -1 : 1));
+        selectEnv.innerText = null;
+        for (var i = 0; i < environmentList.length; i++) {
+          var optn = environmentList[i];
+          var el = document.createElement('option');
+          el.textContent = optn.name;
+          el.value = optn.value;
+          selectEnv.appendChild(el);
+        }
+      }
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.multiselect.js"></script>
+  </body>
+</html>

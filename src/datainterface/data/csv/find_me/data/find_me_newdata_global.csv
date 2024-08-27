@@ -1,0 +1,6 @@
+﻿tt,BrandLocale,AV-US,BB-US,BU-US,CL-US,EL-US,FM-US,JM-US,LM-US,OR-US,SB-US
+1,NID,,,,,,,,,,
+1,scrollUpVal,200,200,200,200,200,200,200,200,200,200
+1,emailAddress,,,test123@test.com,,,,,,,
+1,existsCheckFrequency,100,100,100,100,100,100,100,100,100,100
+1,existsWaitTime,20000,20000,20000,20000,20000,20000,20000,20000,20000,20000

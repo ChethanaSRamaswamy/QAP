@@ -1,0 +1,1857 @@
+{
+	"info": {
+		"_postman_id": "3c3c8688-a899-4a6f-9069-7e7a34ebaa06",
+		"name": "AMP Checkout 2.0",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "27878170",
+		"_collection_link": "https://solar-robot-34178.postman.co/workspace/Ashwin~fc520480-63a3-4345-b06b-d335c1c2ea57/collection/27878170-3c3c8688-a899-4a6f-9069-7e7a34ebaa06?action=share&source=collection_link&creator=27878170"
+	},
+	"item": [
+		{
+			"name": "Positive",
+			"item": [
+				{
+					"name": "Postive Guest",
+					"item": [
+						{
+							"name": "Session",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var xsrfCookie = postman.getResponseCookie(\"csrftoken\"); \r",
+											"postman.setEnvironmentVariable('csrfToken', xsrfCookie.value);\r",
+											"utils.checkResponseStatus(pm.response, 200);\r",
+											"console.log(postman.getResponseCookie(\"csrftoken\"))"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Cookie",
+										"value": "VULCANIZE=1;LOCALE=fi_FI;",
+										"type": "text"
+									},
+									{
+										"key": "AuthorizationCredentials",
+										"value": "{{iamAuth}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "{{baseUrl}}/rest/api/v1/user/session?region={{region}}&brand={{brand}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"rest",
+										"api",
+										"v1",
+										"user",
+										"session"
+									],
+									"query": [
+										{
+											"key": "region",
+											"value": "{{region}}"
+										},
+										{
+											"key": "brand",
+											"value": "{{brand}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "AddtoBag",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Referer",
+										"value": "https://www.clinique.fi/",
+										"type": "text"
+									},
+									{
+										"key": "Origin",
+										"value": "https://www.clinique.fi",
+										"type": "text"
+									},
+									{
+										"key": "x-csrf-token",
+										"value": "{{csrftoken}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "JSONRPC",
+											"value": "[{\"method\":\"rpc.form\",\"id\":3,\"params\":[{\"_SUBMIT\":\"cart\",\"SKU_BASE_ID\":{{sku}},\"INCREMENT\":1,\"QTY\":3,\"_TOKEN\":\"{{csrfToken}}\"}]}]",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{baseUrl}}/rpc/jsonrpc.tmpl?dbgmethod=rpc.form",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"rpc",
+										"jsonrpc.tmpl"
+									],
+									"query": [
+										{
+											"key": "dbgmethod",
+											"value": "rpc.form"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GuestCheckout",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var jsonData = pm.response.json();\r",
+											"\r",
+											"pm.test(\"sucess\", function () {\r",
+											"    pm.expect(pm.response.text()).to.include(\"1\");\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "AuthorizationCredentials",
+										"value": "{{iamAuth}}",
+										"type": "text"
+									},
+									{
+										"key": "scheme",
+										"value": "https",
+										"type": "default"
+									},
+									{
+										"key": "business-unit-config-node",
+										"value": "pg.signUp",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"newUserEmailAddress\": \"{{randomName}}+@0713.com\",\r\n    \"csrfToken\": \"{{csrfToken}}\"\r\n}"
+								},
+								"url": {
+									"raw": "{{baseUrl}}/rest/api/v1/user/session?region={{region}}&brand={{brand}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"rest",
+										"api",
+										"v1",
+										"user",
+										"session"
+									],
+									"query": [
+										{
+											"key": "region",
+											"value": "{{region}}"
+										},
+										{
+											"key": "brand",
+											"value": "{{brand}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Transaction",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var jsonData1 = pm.response.json();\r",
+											"postman.setEnvironmentVariable('transId', jsonData1.trans_order.trans_id);\r",
+											"console.log(jsonData1.trans_order.trans_id)\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"protocolProfileBehavior": {
+								"disabledSystemHeaders": {
+									"connection": true,
+									"user-agent": true
+								}
+							},
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "authorizationcredentials",
+										"value": "{{transAuth}}",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "{{envAuth}}",
+										"type": "text"
+									},
+									{
+										"key": "Scheme",
+										"value": "https",
+										"type": "text"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Referer",
+										"value": "https://e-clinique-emea2-fi-drpenguser14-eng-ncsa4--int-4--clinique-fi.unified-platform.sdapi.io/checkout",
+										"type": "text"
+									},
+									{
+										"key": "Connection",
+										"value": "keep-alive",
+										"type": "text"
+									},
+									{
+										"key": "Sec-Fetch-Dest",
+										"value": "empty",
+										"type": "text"
+									},
+									{
+										"key": "Sec-Fetch-Mode",
+										"value": "cors",
+										"type": "text"
+									},
+									{
+										"key": "Sec-Fetch-Site",
+										"value": "same-origin",
+										"type": "text"
+									},
+									{
+										"key": "Cookie",
+										"value": "LOCALE=fi_FI; ngglobal=173652e764942049; OptanonAlertBoxClosed=2023-08-30T19:05:47.488Z; csrfid=7127a6feaaa755479792261014d91366; aka_edgescape=lt=18.98,ln=72.83,ct=MUMBAI,cn=IN,zip=; aka_edgescape_country=cn=IN; today_param=0; FORM_SUBMIT=cart; PROD_BASE=clinique.fi; client.isMobile=0; VULCANIZE=1; _tenant_web_key=SFMyNTY.g3QAAAACbQAAAAtfY3NyZl90b2tlbm0AAAAYbjZWTXhnZ0tEQ2FsbTJXUElsb24wV09NbQAAABR2aXNpdG9yX3Nlc3Npb25fZGF0YXQAAAAGZAAIY3VycmVuY3loAmQAA0VVUmwAAAADaAJkAAlkZWxpbWl0ZXJtAAAAASxoAmQACXNlcGFyYXRvcm0AAAABLmgCZAAPc3ltYm9sX29uX3JpZ2h0ZAAEdHJ1ZWpkAAtsYW5nX3ByZWZpeGQAA25pbGQABmxvY2FsZW0AAAAFZmlfRklkAAhuZ2dsb2JhbG0AAAAQMTczNjUyZTc2NDk0MjA0OWQADHJldmlzaW9uX3RhZ2QAA25pbGQABnRlbmFudHQAAAADZAAKX19zdHJ1Y3RfX2QAGkVsaXhpci5Db3JlLlRlbmFudHMuVGVuYW50ZAAGZG9tYWlubQAAAAtjbGluaXF1ZS5maWQAAmlkbQAAACRiNjY5N2U1My1kODc3LTQyNjUtYTIxMS1iMzVmZDFhMWFmNzY.fH7Rzad5mc9eDuCK1EzjCORL7zECdbVQh3sEjlSeu0U; SESSION=4122977449-45a39ab5fb19fe7081533543f3593a1faa134a2034bff079669548e8e1cf1010; LPVID=UzMDM2NDUzOGJhY2UyNmUz; LPSID-23714511=lTAagp_pR3WW_M4FcdV1DQ; persistent_user_cookie=%7B%22first_time%22%3A0%2C%22first_name%22%3Anull%2C%22pc_email_optin%22%3A%220%22%2C%22email%22%3A%22emeataiko01%40test.com%22%2C%22is_loyalty_member%22%3Anull%2C%22points%22%3Anull%2C%22loyalty_level%22%3Anull%2C%22loyalty_level_name%22%3Anull%2C%22points_to_next_level%22%3Anull%2C%22next_level%22%3Anull%2C%22next_level_name%22%3Anull%7D; APPLIED_OFFERS=freeshipping; FE_USER_CART=csr_logged_in%3A0%26email%3Aemeataiko01%40test.com%26first_name%3A%26full_name%3A%26item_count%3A4%26pc_email_optin%3A0%26region_id%3A%26signed_in%3A1; OptanonConsent=isGpcEnabled=0&datestamp=Fri+Sep+01+2023+16%3A46%3A09+GMT%2B0530+(India+Standard+Time)&version=202303.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=f1560c35-362d-4032-9539-a6a68441cfad&interactionCount=2&landingPath=NotLandingPage&groups=1%3A1%2C2%3A0%2C3%3A0%2C4%3A0&geolocation=IN%3B&AwaitingReconsent=false; ngsession=a79fd2dacde4a4c29b369154a289dfb6; utag_main=v_id:018a47d61652001310f07a1b8e130508100770790086e$_sn:4$_se:79$_ss:0$_st:1693568782069$ses_id:1693564231485%3Bexp-session$_pn:30%3Bexp-session; csrftoken=98d12fe230a8dc615b7cef630452cdae2a29f850%2C0b4e27bebee7724481cf0a24104064b920d790a4%2C1693566982; akaas_ab_poc=1693570582~rv=37~id=ba08528f4a7317abaa739b27a5e4f6fe~rn=",
+										"type": "text",
+										"disabled": true
+									},
+									{
+										"key": "sec-ch-ua",
+										"value": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Microsoft Edge\";v=\"116\"",
+										"type": "text"
+									},
+									{
+										"key": "sec-ch-ua-mobile",
+										"value": "?0",
+										"type": "text"
+									},
+									{
+										"key": "sec-ch-ua-platform",
+										"value": "\"Windows\"",
+										"type": "text"
+									},
+									{
+										"key": "User-Agent",
+										"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/rest/api/v1/rc/transaction?region={{region}}&brand={{brand}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"rest",
+										"api",
+										"v1",
+										"rc",
+										"transaction"
+									],
+									"query": [
+										{
+											"key": "AuthorizationCredentials",
+											"value": "Basic YmM3MzhjYWUtMzUxNS00OTNhLWEyZjQtYWQ1NTllZmFhZDk3OmVlNmJkMmQ2ODMyNTExZTU4N2YxNjhhY2EwYzY1MzlkMjA5YmU2YTQ5OTc3ZjNjMjc0NTM2NmY5NGUxMjg5OTA=",
+											"disabled": true
+										},
+										{
+											"key": "region",
+											"value": "{{region}}"
+										},
+										{
+											"key": "brand",
+											"value": "{{brand}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Shipping Method",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"console.log(pm.response.json())\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"protocolProfileBehavior": {
+								"disabledSystemHeaders": {
+									"connection": true,
+									"user-agent": true
+								}
+							},
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "authorizationcredentials",
+										"value": "{{transAuth}}",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "{{envAuth}}",
+										"type": "text"
+									},
+									{
+										"key": "Scheme",
+										"value": "https",
+										"type": "text"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Referer",
+										"value": "https://e-clinique-emea2-fi-drpenguser14-eng-ncsa4--int-4--clinique-fi.unified-platform.sdapi.io/checkout",
+										"type": "text"
+									},
+									{
+										"key": "Connection",
+										"value": "keep-alive",
+										"type": "text"
+									},
+									{
+										"key": "Sec-Fetch-Dest",
+										"value": "empty",
+										"type": "text"
+									},
+									{
+										"key": "Sec-Fetch-Mode",
+										"value": "cors",
+										"type": "text"
+									},
+									{
+										"key": "Sec-Fetch-Site",
+										"value": "same-origin",
+										"type": "text"
+									},
+									{
+										"key": "Cookie",
+										"value": "LOCALE=fi_FI; ngglobal=173652e764942049; OptanonAlertBoxClosed=2023-08-30T19:05:47.488Z; csrfid=7127a6feaaa755479792261014d91366; aka_edgescape=lt=18.98,ln=72.83,ct=MUMBAI,cn=IN,zip=; aka_edgescape_country=cn=IN; today_param=0; FORM_SUBMIT=cart; PROD_BASE=clinique.fi; client.isMobile=0; VULCANIZE=1; _tenant_web_key=SFMyNTY.g3QAAAACbQAAAAtfY3NyZl90b2tlbm0AAAAYbjZWTXhnZ0tEQ2FsbTJXUElsb24wV09NbQAAABR2aXNpdG9yX3Nlc3Npb25fZGF0YXQAAAAGZAAIY3VycmVuY3loAmQAA0VVUmwAAAADaAJkAAlkZWxpbWl0ZXJtAAAAASxoAmQACXNlcGFyYXRvcm0AAAABLmgCZAAPc3ltYm9sX29uX3JpZ2h0ZAAEdHJ1ZWpkAAtsYW5nX3ByZWZpeGQAA25pbGQABmxvY2FsZW0AAAAFZmlfRklkAAhuZ2dsb2JhbG0AAAAQMTczNjUyZTc2NDk0MjA0OWQADHJldmlzaW9uX3RhZ2QAA25pbGQABnRlbmFudHQAAAADZAAKX19zdHJ1Y3RfX2QAGkVsaXhpci5Db3JlLlRlbmFudHMuVGVuYW50ZAAGZG9tYWlubQAAAAtjbGluaXF1ZS5maWQAAmlkbQAAACRiNjY5N2U1My1kODc3LTQyNjUtYTIxMS1iMzVmZDFhMWFmNzY.fH7Rzad5mc9eDuCK1EzjCORL7zECdbVQh3sEjlSeu0U; SESSION=4122977449-45a39ab5fb19fe7081533543f3593a1faa134a2034bff079669548e8e1cf1010; LPVID=UzMDM2NDUzOGJhY2UyNmUz; LPSID-23714511=lTAagp_pR3WW_M4FcdV1DQ; persistent_user_cookie=%7B%22first_time%22%3A0%2C%22first_name%22%3Anull%2C%22pc_email_optin%22%3A%220%22%2C%22email%22%3A%22emeataiko01%40test.com%22%2C%22is_loyalty_member%22%3Anull%2C%22points%22%3Anull%2C%22loyalty_level%22%3Anull%2C%22loyalty_level_name%22%3Anull%2C%22points_to_next_level%22%3Anull%2C%22next_level%22%3Anull%2C%22next_level_name%22%3Anull%7D; APPLIED_OFFERS=freeshipping; FE_USER_CART=csr_logged_in%3A0%26email%3Aemeataiko01%40test.com%26first_name%3A%26full_name%3A%26item_count%3A4%26pc_email_optin%3A0%26region_id%3A%26signed_in%3A1; OptanonConsent=isGpcEnabled=0&datestamp=Fri+Sep+01+2023+16%3A46%3A09+GMT%2B0530+(India+Standard+Time)&version=202303.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=f1560c35-362d-4032-9539-a6a68441cfad&interactionCount=2&landingPath=NotLandingPage&groups=1%3A1%2C2%3A0%2C3%3A0%2C4%3A0&geolocation=IN%3B&AwaitingReconsent=false; ngsession=a79fd2dacde4a4c29b369154a289dfb6; utag_main=v_id:018a47d61652001310f07a1b8e130508100770790086e$_sn:4$_se:79$_ss:0$_st:1693568782069$ses_id:1693564231485%3Bexp-session$_pn:30%3Bexp-session; csrftoken=98d12fe230a8dc615b7cef630452cdae2a29f850%2C0b4e27bebee7724481cf0a24104064b920d790a4%2C1693566982; akaas_ab_poc=1693570582~rv=37~id=ba08528f4a7317abaa739b27a5e4f6fe~rn=",
+										"type": "text",
+										"disabled": true
+									},
+									{
+										"key": "sec-ch-ua",
+										"value": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Microsoft Edge\";v=\"116\"",
+										"type": "text"
+									},
+									{
+										"key": "sec-ch-ua-mobile",
+										"value": "?0",
+										"type": "text"
+									},
+									{
+										"key": "sec-ch-ua-platform",
+										"value": "\"Windows\"",
+										"type": "text"
+									},
+									{
+										"key": "User-Agent",
+										"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/rest/api/v1/rc/transaction/{{transId}}/ship_methods?region={{region}}&brand={{brand}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"rest",
+										"api",
+										"v1",
+										"rc",
+										"transaction",
+										"{{transId}}",
+										"ship_methods"
+									],
+									"query": [
+										{
+											"key": "AuthorizationCredentials",
+											"value": "Basic YmM3MzhjYWUtMzUxNS00OTNhLWEyZjQtYWQ1NTllZmFhZDk3OmVlNmJkMmQ2ODMyNTExZTU4N2YxNjhhY2EwYzY1MzlkMjA5YmU2YTQ5OTc3ZjNjMjc0NTM2NmY5NGUxMjg5OTA=",
+											"disabled": true
+										},
+										{
+											"key": "region",
+											"value": "{{region}}"
+										},
+										{
+											"key": "brand",
+											"value": "{{brand}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "New Shipping address",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"utils.checkResponseStatus(pm.response, 200);\r",
+											"postman.setEnvironmentVariable('newShipId', pm.response.json().address.address_id);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "AuthorizationCredentials",
+										"value": "{{transAuth}}",
+										"type": "text"
+									},
+									{
+										"key": "Referer",
+										"value": "{{referer}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"address\":{\"default_shipping\":\"{{default_Shipping}}\",\"ship_type\":\"{{shipType}}\",\"address1\":\"{{address1}}\",\"address2\":\"{{address2}}\",\"address3\":\"{{address3}}\",\"address4\":\"{{address4}}\",\"address5\":\"{{address5}}\",\"city\":\"{{city}}\",\"colony\":\"{{colony}}\",\"country_id\":\"{{countryID}}\",\"municipality\":\"{{municipality}}\",\"phone1\":\"{{phone}}\",\"phone1_type\":\"{{phone1Type}}\",\"postal_code\":\"{{zipcode}}\",\"state\":\"{{state}}\",\"first_name\":\"{{firstName}}\",\"last_name\":\"{{lastName}}\",\"defaultShipping\":{{defaultShipping}}}}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/rest/api/v1/rc/transaction/{{transId}}/shipping_address?region={{region}}&brand={{brand}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"rest",
+										"api",
+										"v1",
+										"rc",
+										"transaction",
+										"{{transId}}",
+										"shipping_address"
+									],
+									"query": [
+										{
+											"key": "region",
+											"value": "{{region}}"
+										},
+										{
+											"key": "brand",
+											"value": "{{brand}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Same Billing as Shipping",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Referer",
+										"value": "https://www.clinique.fi/checkout",
+										"type": "text",
+										"disabled": true
+									},
+									{
+										"key": "AuthorizationCredentials",
+										"value": "{{transAuth}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/rest/api/v1/rc/transaction/{{transId}}/billing_address/{{newShipId}}?region={{region}}&brand={{brand}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"rest",
+										"api",
+										"v1",
+										"rc",
+										"transaction",
+										"{{transId}}",
+										"billing_address",
+										"{{newShipId}}"
+									],
+									"query": [
+										{
+											"key": "region",
+											"value": "{{region}}"
+										},
+										{
+											"key": "brand",
+											"value": "{{brand}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "PP_Ingenico_CC",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "AuthorizationCredentials",
+										"value": "{{transAuth}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/rest/api/v1/rc/transaction/payment/PP_Ingenico_CC?region={{region}}&brand={{brand}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"rest",
+										"api",
+										"v1",
+										"rc",
+										"transaction",
+										"payment",
+										"PP_Ingenico_CC"
+									],
+									"query": [
+										{
+											"key": "region",
+											"value": "{{region}}"
+										},
+										{
+											"key": "brand",
+											"value": "{{brand}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "accepted_privacy_policy",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"const jar = pm.cookies.jar();\r",
+											"\r",
+											"jar.clear(pm.request.url, function (error) {\r",
+											"  // error - <Error>\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "AuthorizationCredentials",
+										"value": "{{transAuth}}",
+										"type": "text"
+									},
+									{
+										"key": "Referer",
+										"value": "{{Referer}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/rest/api/v1/rc/user/accepted_privacy_policy/1?region={{region}}&brand={{brand}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"rest",
+										"api",
+										"v1",
+										"rc",
+										"user",
+										"accepted_privacy_policy",
+										"1"
+									],
+									"query": [
+										{
+											"key": "region",
+											"value": "{{region}}"
+										},
+										{
+											"key": "brand",
+											"value": "{{brand}}"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Positive Return",
+					"item": [
+						{
+							"name": "Session Copy",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var xsrfCookie = postman.getResponseCookie(\"csrftoken\"); \r",
+											"postman.setEnvironmentVariable('csrfToken', xsrfCookie.value);\r",
+											"utils.checkResponseStatus(pm.response, 200);"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											" pm.cookies.clear();"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Cookie",
+										"value": "VULCANIZE=1;LOCALE=fi_FI;",
+										"type": "text"
+									},
+									{
+										"key": "AuthorizationCredentials",
+										"value": "{{iamAuth}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "{{baseUrl}}/rest/api/v1/user/session?region={{region}}&brand={{brand}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"rest",
+										"api",
+										"v1",
+										"user",
+										"session"
+									],
+									"query": [
+										{
+											"key": "region",
+											"value": "{{region}}"
+										},
+										{
+											"key": "brand",
+											"value": "{{brand}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Return user Sign in",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"console.log(pm.response.json())"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "AuthorizationCredentials",
+										"value": "{{iamAuth}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"emailAddress\": \"emeataiko01@test.com\",\r\n    \"password\": \"Test@123\",\r\n    \"csrfToken\": \"{{csrfToken}}\"\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/rest/api/v1/user/session?region={{region}}&brand={{brand}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"rest",
+										"api",
+										"v1",
+										"user",
+										"session"
+									],
+									"query": [
+										{
+											"key": "region",
+											"value": "{{region}}"
+										},
+										{
+											"key": "brand",
+											"value": "{{brand}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Transaction",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var jsonData1 = pm.response.json();\r",
+											"postman.setEnvironmentVariable('transId', jsonData1.trans_order.trans_id);\r",
+											"postman.setEnvironmentVariable('shipAdrsId', jsonData1.user.shipping_addresses[0].address_id);\r",
+											"console.log(jsonData1.trans_order.trans_id)"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"protocolProfileBehavior": {
+								"disabledSystemHeaders": {
+									"connection": true,
+									"user-agent": true
+								}
+							},
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "authorizationcredentials",
+										"value": "{{transAuth}}",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "{{envAuth}}",
+										"type": "text"
+									},
+									{
+										"key": "Scheme",
+										"value": "https",
+										"type": "text"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Referer",
+										"value": "https://e-clinique-emea2-fi-drpenguser14-eng-ncsa4--int-4--clinique-fi.unified-platform.sdapi.io/checkout",
+										"type": "text"
+									},
+									{
+										"key": "Connection",
+										"value": "keep-alive",
+										"type": "text"
+									},
+									{
+										"key": "Sec-Fetch-Dest",
+										"value": "empty",
+										"type": "text"
+									},
+									{
+										"key": "Sec-Fetch-Mode",
+										"value": "cors",
+										"type": "text"
+									},
+									{
+										"key": "Sec-Fetch-Site",
+										"value": "same-origin",
+										"type": "text"
+									},
+									{
+										"key": "Cookie",
+										"value": "LOCALE=fi_FI; ngglobal=173652e764942049; OptanonAlertBoxClosed=2023-08-30T19:05:47.488Z; csrfid=7127a6feaaa755479792261014d91366; aka_edgescape=lt=18.98,ln=72.83,ct=MUMBAI,cn=IN,zip=; aka_edgescape_country=cn=IN; today_param=0; FORM_SUBMIT=cart; PROD_BASE=clinique.fi; client.isMobile=0; VULCANIZE=1; _tenant_web_key=SFMyNTY.g3QAAAACbQAAAAtfY3NyZl90b2tlbm0AAAAYbjZWTXhnZ0tEQ2FsbTJXUElsb24wV09NbQAAABR2aXNpdG9yX3Nlc3Npb25fZGF0YXQAAAAGZAAIY3VycmVuY3loAmQAA0VVUmwAAAADaAJkAAlkZWxpbWl0ZXJtAAAAASxoAmQACXNlcGFyYXRvcm0AAAABLmgCZAAPc3ltYm9sX29uX3JpZ2h0ZAAEdHJ1ZWpkAAtsYW5nX3ByZWZpeGQAA25pbGQABmxvY2FsZW0AAAAFZmlfRklkAAhuZ2dsb2JhbG0AAAAQMTczNjUyZTc2NDk0MjA0OWQADHJldmlzaW9uX3RhZ2QAA25pbGQABnRlbmFudHQAAAADZAAKX19zdHJ1Y3RfX2QAGkVsaXhpci5Db3JlLlRlbmFudHMuVGVuYW50ZAAGZG9tYWlubQAAAAtjbGluaXF1ZS5maWQAAmlkbQAAACRiNjY5N2U1My1kODc3LTQyNjUtYTIxMS1iMzVmZDFhMWFmNzY.fH7Rzad5mc9eDuCK1EzjCORL7zECdbVQh3sEjlSeu0U; SESSION=4122977449-45a39ab5fb19fe7081533543f3593a1faa134a2034bff079669548e8e1cf1010; LPVID=UzMDM2NDUzOGJhY2UyNmUz; LPSID-23714511=lTAagp_pR3WW_M4FcdV1DQ; persistent_user_cookie=%7B%22first_time%22%3A0%2C%22first_name%22%3Anull%2C%22pc_email_optin%22%3A%220%22%2C%22email%22%3A%22emeataiko01%40test.com%22%2C%22is_loyalty_member%22%3Anull%2C%22points%22%3Anull%2C%22loyalty_level%22%3Anull%2C%22loyalty_level_name%22%3Anull%2C%22points_to_next_level%22%3Anull%2C%22next_level%22%3Anull%2C%22next_level_name%22%3Anull%7D; APPLIED_OFFERS=freeshipping; FE_USER_CART=csr_logged_in%3A0%26email%3Aemeataiko01%40test.com%26first_name%3A%26full_name%3A%26item_count%3A4%26pc_email_optin%3A0%26region_id%3A%26signed_in%3A1; OptanonConsent=isGpcEnabled=0&datestamp=Fri+Sep+01+2023+16%3A46%3A09+GMT%2B0530+(India+Standard+Time)&version=202303.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=f1560c35-362d-4032-9539-a6a68441cfad&interactionCount=2&landingPath=NotLandingPage&groups=1%3A1%2C2%3A0%2C3%3A0%2C4%3A0&geolocation=IN%3B&AwaitingReconsent=false; ngsession=a79fd2dacde4a4c29b369154a289dfb6; utag_main=v_id:018a47d61652001310f07a1b8e130508100770790086e$_sn:4$_se:79$_ss:0$_st:1693568782069$ses_id:1693564231485%3Bexp-session$_pn:30%3Bexp-session; csrftoken=98d12fe230a8dc615b7cef630452cdae2a29f850%2C0b4e27bebee7724481cf0a24104064b920d790a4%2C1693566982; akaas_ab_poc=1693570582~rv=37~id=ba08528f4a7317abaa739b27a5e4f6fe~rn=",
+										"type": "text",
+										"disabled": true
+									},
+									{
+										"key": "sec-ch-ua",
+										"value": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Microsoft Edge\";v=\"116\"",
+										"type": "text"
+									},
+									{
+										"key": "sec-ch-ua-mobile",
+										"value": "?0",
+										"type": "text"
+									},
+									{
+										"key": "sec-ch-ua-platform",
+										"value": "\"Windows\"",
+										"type": "text"
+									},
+									{
+										"key": "User-Agent",
+										"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/rest/api/v1/rc/transaction?region={{region}}&brand={{brand}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"rest",
+										"api",
+										"v1",
+										"rc",
+										"transaction"
+									],
+									"query": [
+										{
+											"key": "AuthorizationCredentials",
+											"value": "Basic YmM3MzhjYWUtMzUxNS00OTNhLWEyZjQtYWQ1NTllZmFhZDk3OmVlNmJkMmQ2ODMyNTExZTU4N2YxNjhhY2EwYzY1MzlkMjA5YmU2YTQ5OTc3ZjNjMjc0NTM2NmY5NGUxMjg5OTA=",
+											"disabled": true
+										},
+										{
+											"key": "region",
+											"value": "{{region}}"
+										},
+										{
+											"key": "brand",
+											"value": "{{brand}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "New Shipping address",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"utils.checkResponseStatus(pm.response, 200);\r",
+											"postman.setEnvironmentVariable('newShipId', pm.response.json().address.address_id);\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "AuthorizationCredentials",
+										"value": "{{transAuth}}",
+										"type": "text"
+									},
+									{
+										"key": "Referer",
+										"value": "{{referer}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"address\":{\"default_shipping\":\"{{default_Shipping}}\",\"ship_type\":\"{{shipType}}\",\"address1\":\"{{address1}}\",\"address2\":\"{{address2}}\",\"address3\":\"{{address3}}\",\"address4\":\"{{address4}}\",\"address5\":\"{{address5}}\",\"city\":\"{{city}}\",\"colony\":\"{{colony}}\",\"country_id\":\"{{countryID}}\",\"municipality\":\"{{municipality}}\",\"phone1\":\"{{phone}}\",\"phone1_type\":\"{{phone1Type}}\",\"postal_code\":\"{{zipcode}}\",\"state\":\"{{state}}\",\"first_name\":\"{{firstName}}\",\"last_name\":\"{{lastName}}\",\"defaultShipping\":{{defaultShipping}}}}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/rest/api/v1/rc/transaction/{{transId}}/shipping_address?region={{region}}&brand={{brand}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"rest",
+										"api",
+										"v1",
+										"rc",
+										"transaction",
+										"{{transId}}",
+										"shipping_address"
+									],
+									"query": [
+										{
+											"key": "region",
+											"value": "{{region}}"
+										},
+										{
+											"key": "brand",
+											"value": "{{brand}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "New Billing Address",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"utils.checkResponseStatus(pm.response, 200);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "AuthorizationCredentials",
+										"value": "{{transAuth}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"address\":{\"address1\":\"{{address1}}\",\"address2\":\"{{address2}}\",\"address3\":\"{{address3}}\",\"address4\":\"{{address4}}\",\"address5\":\"{{address5}}\",\"city\":\"{{city}}\",\"colony\":\"{{colony\",\"country_id\":{{countryID}},\"municipality\":\"{{municipality}}\",\"phone1\":\"{{phone}}\",\"phone1_type\":\"{{phone1Type}}\",\"postal_code\":\"{{zipcode}}\",\"state\":\"{{state}}\",\"country\":\"{{countryID}}\",\"first_name\":\"{{firstName}}\",\"last_name\":\"{{lastName}}\",\"defaultShipping\":{{defaultShipping}},\"type\":\"billing\"}}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/rest/api/v1/rc/transaction/{{transId}}/billing_address?region={{region}}&brand={{brand}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"rest",
+										"api",
+										"v1",
+										"rc",
+										"transaction",
+										"{{transId}}",
+										"billing_address"
+									],
+									"query": [
+										{
+											"key": "region",
+											"value": "{{region}}"
+										},
+										{
+											"key": "brand",
+											"value": "{{brand}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Edit Shipping",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"var firstname=\"hbuhiibihb\";"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"utils.checkResponseStatus(pm.response, 200);\r",
+											"\r",
+											"pm.test(\"First Name Edited success\", function () {\r",
+											"    pm.expect(pm.response.json().address.first_name).to.include(pm.environment.get(\"randomName\"));\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "PATCH",
+								"header": [
+									{
+										"key": "AuthorizationCredentials",
+										"value": "{{transAuth}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"address\":{\"address_id\":\"{{shipadrsid}}\",\"default_shipping\":\"{{default_Shipping}}\",\"delivery_instructions\":\"\",\"ship_type\":\"{{shipType}}\",\"address1\":\"{{address1}}\",\"address2\":\"{{address2}}\",\"address3\":\"{{address3}}\",\"address4\":\"{{address4}}\",\"address5\":\"{{address5}}\",\"city\":\"{{city}}\",\"colony\":\"{{colony}}\",\"country_id\":\"{{countryID}}\",\"municipality\":\"{{municipality}}\",\"phone1\":\"{{phone}}\",\"phone1_type\":\"{{phone1Type}}\",\"postal_code\":\"{{zipcode}}\",\"state\":\"{{state}}\",\"first_name\":\"{{randomName}}\",\"last_name\":\"{{lastName}}\",\"defaultShipping\":{{defaultShipping}}}}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/rest/api/v1/rc/transaction/{{transId}}/shipping_address/{{shipAdrsId}}?region={{region}}&brand={{brand}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"rest",
+										"api",
+										"v1",
+										"rc",
+										"transaction",
+										"{{transId}}",
+										"shipping_address",
+										"{{shipAdrsId}}"
+									],
+									"query": [
+										{
+											"key": "region",
+											"value": "{{region}}"
+										},
+										{
+											"key": "brand",
+											"value": "{{brand}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "PP_Ingenico_PayPal",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "AuthorizationCredentials",
+										"value": "{{transAuth}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/rest/api/v1/rc/transaction/payment/PP_Ingenico_PayPal?region={{region}}&brand={{brand}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"rest",
+										"api",
+										"v1",
+										"rc",
+										"transaction",
+										"payment",
+										"PP_Ingenico_PayPal"
+									],
+									"query": [
+										{
+											"key": "region",
+											"value": "{{region}}"
+										},
+										{
+											"key": "brand",
+											"value": "{{brand}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "accepted_privacy_policy Copy",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "AuthorizationCredentials",
+										"value": "{{transAuth}}",
+										"type": "text"
+									},
+									{
+										"key": "Referer",
+										"value": "{{Referer}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/rest/api/v1/rc/user/accepted_privacy_policy/1?region={{region}}&brand={{brand}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"rest",
+										"api",
+										"v1",
+										"rc",
+										"user",
+										"accepted_privacy_policy",
+										"1"
+									],
+									"query": [
+										{
+											"key": "region",
+											"value": "{{region}}"
+										},
+										{
+											"key": "brand",
+											"value": "{{brand}}"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Negative",
+			"item": [
+				{
+					"name": "Shipping Address",
+					"item": [
+						{
+							"name": "New Shipping Alpha Phone Number",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"utils.checkResponseStatus(pm.response, 400);\r",
+											"utils.checkError(pm.response.json().errors[0].data.message,\"address.phone1 string value found, but a integer is required\")\r",
+											"\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "AuthorizationCredentials",
+										"value": "{{transAuth}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"address\":{\"default_shipping\":\"{{default_Shipping}}\",\"ship_type\":\"{{shipType}}\",\"address1\":\"{{address1}}\",\"address2\":\"{{address2}}\",\"address3\":\"{{address3}}\",\"address4\":\"{{address4}}\",\"address5\":\"{{address5}}\",\"city\":\"{{city}}\",\"colony\":\"{{colony}}\",\"country_id\":\"{{countryID}}\",\"municipality\":\"{{municipality}}\",\"phone1\":\"{{alphaPhone}}\",\"phone1_type\":\"{{phone1Type}}\",\"postal_code\":\"{{zipcode}}\",\"state\":\"{{state}}\",\"first_name\":\"{{firstName}}\",\"last_name\":\"{{lastName}}\",\"defaultShipping\":{{defaultShipping}}}}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/rest/api/v1/rc/transaction/{{transId}}/shipping_address?region={{region}}&brand={{brand}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"rest",
+										"api",
+										"v1",
+										"rc",
+										"transaction",
+										"{{transId}}",
+										"shipping_address"
+									],
+									"query": [
+										{
+											"key": "region",
+											"value": "{{region}}"
+										},
+										{
+											"key": "brand",
+											"value": "{{brand}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "New Shipping Missing Mandatory(FirstName)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"utils.checkResponseStatus(pm.response, 400);\r",
+											"utils.checkError(pm.response.json().errors[0].data.message,\"address.first_name does not match the regex pattern ^[^\\\\|\\\\\\\"\\\\&<>]+$\")"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "AuthorizationCredentials",
+										"value": "{{transAuth}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"address\":{\"default_shipping\":\"{{default_Shipping}}\",\"ship_type\":\"{{shipType}}\",\"address1\":\"{{address1}}\",\"address2\":\"{{address2}}\",\"address3\":\"{{address3}}\",\"address4\":\"{{address4}}\",\"address5\":\"{{address5}}\",\"city\":\"{{city}}\",\"colony\":\"{{colony}}\",\"country_id\":\"{{countryID}}\",\"municipality\":\"{{municipality}}\",\"phone1\":\"{{phone}}\",\"phone1_type\":\"{{phone1Type}}\",\"postal_code\":\"{{zipcode}}\",\"state\":\"{{state}}\",\"first_name\":\"{{empty}}\",\"last_name\":\"{{lastName}}\",\"defaultShipping\":{{defaultShipping}}}}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/rest/api/v1/rc/transaction/{{transId}}/shipping_address?region={{region}}&brand={{brand}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"rest",
+										"api",
+										"v1",
+										"rc",
+										"transaction",
+										"{{transId}}",
+										"shipping_address"
+									],
+									"query": [
+										{
+											"key": "region",
+											"value": "{{region}}"
+										},
+										{
+											"key": "brand",
+											"value": "{{brand}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "New Shipping Exceeding last name Limit",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"utils.checkResponseStatus(pm.response, 400);\r",
+											"utils.checkError(pm.response.json().errors[0].data.message,\"address.last_name may only be 30 characters long\")"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "AuthorizationCredentials",
+										"value": "{{transAuth}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"address\":{\"default_shipping\":\"{{default_Shipping}}\",\"ship_type\":\"{{shipType}}\",\"address1\":\"{{address1}}\",\"address2\":\"{{address2}}\",\"address3\":\"{{address3}}\",\"address4\":\"{{address4}}\",\"address5\":\"{{address5}}\",\"city\":\"{{city}}\",\"colony\":\"{{colony}}\",\"country_id\":\"{{countryID}}\",\"municipality\":\"{{municipality}}\",\"phone1\":\"{{phone}}\",\"phone1_type\":\"{{phone1Type}}\",\"postal_code\":\"{{zipcode}}\",\"state\":\"{{state}}\",\"first_name\":\"{{firstName}}\",\"last_name\":\"{{exceedName}}\",\"defaultShipping\":{{defaultShipping}}}}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/rest/api/v1/rc/transaction/{{transId}}/shipping_address?region={{region}}&brand={{brand}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"rest",
+										"api",
+										"v1",
+										"rc",
+										"transaction",
+										"{{transId}}",
+										"shipping_address"
+									],
+									"query": [
+										{
+											"key": "region",
+											"value": "{{region}}"
+										},
+										{
+											"key": "brand",
+											"value": "{{brand}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "New Shipping Postal code Exceeding",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"utils.checkResponseStatus(pm.response, 400);\r",
+											"utils.checkError(pm.response.json().errors[0].data.message,\"address.postal_code does not match the regex pattern ^\\\\d{5}$\")"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "AuthorizationCredentials",
+										"value": "{{transAuth}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"address\":{\"default_shipping\":\"{{default_Shipping}}\",\"ship_type\":\"{{shipType}}\",\"address1\":\"{{address1}}\",\"address2\":\"{{address2}}\",\"address3\":\"{{address3}}\",\"address4\":\"{{address4}}\",\"address5\":\"{{address5}}\",\"city\":\"{{city}}\",\"colony\":\"{{colony}}\",\"country_id\":\"{{countryID}}\",\"municipality\":\"{{municipality}}\",\"phone1\":\"{{phone}}\",\"phone1_type\":\"{{phone1Type}}\",\"postal_code\":\"{{exceedingZipcode}}\",\"state\":\"{{state}}\",\"first_name\":\"{{firstName}}\",\"last_name\":\"{{lastName}}\",\"defaultShipping\":{{defaultShipping}}}}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/rest/api/v1/rc/transaction/{{transId}}/shipping_address?region={{region}}&brand={{brand}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"rest",
+										"api",
+										"v1",
+										"rc",
+										"transaction",
+										"{{transId}}",
+										"shipping_address"
+									],
+									"query": [
+										{
+											"key": "region",
+											"value": "{{region}}"
+										},
+										{
+											"key": "brand",
+											"value": "{{brand}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "New Shipping Exceeding First Name Limit",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"utils.checkResponseStatus(pm.response, 400);\r",
+											"utils.checkError(pm.response.json().errors[0].data.message,\"address.first_name may only be 30 characters long\")\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "AuthorizationCredentials",
+										"value": "{{transAuth}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"address\":{\"default_shipping\":\"{{default_Shipping}}\",\"ship_type\":\"{{shipType}}\",\"address1\":\"{{address1}}\",\"address2\":\"{{address2}}\",\"address3\":\"{{address3}}\",\"address4\":\"{{address4}}\",\"address5\":\"{{address5}}\",\"city\":\"{{city}}\",\"colony\":\"{{colony}}\",\"country_id\":\"{{countryID}}\",\"municipality\":\"{{municipality}}\",\"phone1\":\"{{phone}}\",\"phone1_type\":\"{{phone1Type}}\",\"postal_code\":\"{{zipcode}}\",\"state\":\"{{state}}\",\"first_name\":\"{{exceedName}}\",\"last_name\":\"{{lastName}}\",\"defaultShipping\":{{defaultShipping}}}}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/rest/api/v1/rc/transaction/{{transId}}/shipping_address?region={{region}}&brand={{brand}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"rest",
+										"api",
+										"v1",
+										"rc",
+										"transaction",
+										"{{transId}}",
+										"shipping_address"
+									],
+									"query": [
+										{
+											"key": "region",
+											"value": "{{region}}"
+										},
+										{
+											"key": "brand",
+											"value": "{{brand}}"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Billing Address",
+					"item": [
+						{
+							"name": "New Billing Exceeding Lastname",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"utils.checkResponseStatus(pm.response, 400);\r",
+											"utils.checkError(pm.response.json().errors[0].data.message,\"address.last_name may only be 30 characters long\")"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "AuthorizationCredentials",
+										"value": "{{transAuth}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"address\":{\"address1\":\"{{address1}}\",\"address2\":\"{{address2}}\",\"address3\":\"{{address3}}\",\"address4\":\"{{address4}}\",\"address5\":\"{{address5}}\",\"city\":\"{{city}}\",\"colony\":\"{{colony\",\"country_id\":{{countryID}},\"municipality\":\"{{municipality}}\",\"phone1\":\"{{phone}}\",\"phone1_type\":\"{{phone1Type}}\",\"postal_code\":\"{{zipcode}}\",\"state\":\"{{state}}\",\"country\":\"{{countryID}}\",\"first_name\":\"{{firstName}}\",\"last_name\":\"{{exceedName}}\",\"defaultShipping\":{{defaultShipping}},\"type\":\"billing\"}}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/rest/api/v1/rc/transaction/{{transId}}/billing_address?region={{region}}&brand={{brand}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"rest",
+										"api",
+										"v1",
+										"rc",
+										"transaction",
+										"{{transId}}",
+										"billing_address"
+									],
+									"query": [
+										{
+											"key": "region",
+											"value": "{{region}}"
+										},
+										{
+											"key": "brand",
+											"value": "{{brand}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "New Billing Exceeding Firstname",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "AuthorizationCredentials",
+										"value": "{{transAuth}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"address\":{\"address1\":\"{{address1}}\",\"address2\":\"{{address2}}\",\"address3\":\"{{address3}}\",\"address4\":\"{{address4}}\",\"address5\":\"{{address5}}\",\"city\":\"{{city}}\",\"colony\":\"{{colony\",\"country_id\":{{countryID}},\"municipality\":\"{{municipality}}\",\"phone1\":\"{{phone}}\",\"phone1_type\":\"{{phone1Type}}\",\"postal_code\":\"{{zipcode}}\",\"state\":\"{{state}}\",\"country\":\"{{countryID}}\",\"first_name\":\"{{exceedName}}\",\"last_name\":\"{{lastName}}\",\"defaultShipping\":{{defaultShipping}},\"type\":\"billing\"}}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/rest/api/v1/rc/transaction/{{transId}}/billing_address?region={{region}}&brand={{brand}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"rest",
+										"api",
+										"v1",
+										"rc",
+										"transaction",
+										"{{transId}}",
+										"billing_address"
+									],
+									"query": [
+										{
+											"key": "region",
+											"value": "{{region}}"
+										},
+										{
+											"key": "brand",
+											"value": "{{brand}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "New Billing Missing Mandatory(FirstName)",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"utils.checkResponseStatus(pm.response, 400);\r",
+											"utils.checkError(pm.response.json().errors[0].data.message,\"address.first_name does not match the regex pattern ^[^\\\\|\\\\\\\"\\\\&<>]+$\")"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "AuthorizationCredentials",
+										"value": "{{transAuth}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"address\":{\"address1\":\"{{address1}}\",\"address2\":\"{{address2}}\",\"address3\":\"{{address3}}\",\"address4\":\"{{address4}}\",\"address5\":\"{{address5}}\",\"city\":\"{{city}}\",\"colony\":\"{{colony\",\"country_id\":{{countryID}},\"municipality\":\"{{municipality}}\",\"phone1\":\"{{phone}}\",\"phone1_type\":\"{{phone1Type}}\",\"postal_code\":\"{{zipcode}}\",\"state\":\"{{state}}\",\"country\":\"{{countryID}}\",\"first_name\":\"{{empty}}\",\"last_name\":\"{{lastName}}\",\"defaultShipping\":{{defaultShipping}},\"type\":\"billing\"}}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/rest/api/v1/rc/transaction/{{transId}}/billing_address?region={{region}}&brand={{brand}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"rest",
+										"api",
+										"v1",
+										"rc",
+										"transaction",
+										"{{transId}}",
+										"billing_address"
+									],
+									"query": [
+										{
+											"key": "region",
+											"value": "{{region}}"
+										},
+										{
+											"key": "brand",
+											"value": "{{brand}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "New Billing Appha Phone Number",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"utils.checkResponseStatus(pm.response, 400);\r",
+											"utils.checkError(pm.response.json().errors[0].data.message,\"address.phone1 string value found, but a integer is required\")"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "AuthorizationCredentials",
+										"value": "{{transAuth}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"address\":{\"address1\":\"{{address1}}\",\"address2\":\"{{address2}}\",\"address3\":\"{{address3}}\",\"address4\":\"{{address4}}\",\"address5\":\"{{address5}}\",\"city\":\"{{city}}\",\"colony\":\"{{colony\",\"country_id\":{{countryID}},\"municipality\":\"{{municipality}}\",\"phone1\":\"{{alphaPhone}}\",\"phone1_type\":\"{{phone1Type}}\",\"postal_code\":\"{{zipcode}}\",\"state\":\"{{state}}\",\"country\":\"{{countryID}}\",\"first_name\":\"{{firstName}}\",\"last_name\":\"{{lastName}}\",\"defaultShipping\":{{defaultShipping}},\"type\":\"billing\"}}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/rest/api/v1/rc/transaction/{{transId}}/billing_address?region={{region}}&brand={{brand}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"rest",
+										"api",
+										"v1",
+										"rc",
+										"transaction",
+										"{{transId}}",
+										"billing_address"
+									],
+									"query": [
+										{
+											"key": "region",
+											"value": "{{region}}"
+										},
+										{
+											"key": "brand",
+											"value": "{{brand}}"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					" let result = '';",
+					"    const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';",
+					"    let counter = 0;",
+					"    while (counter < 7) {",
+					"      result += characters.charAt(Math.floor(Math.random() * 7));",
+					"      counter += 1;",
+					"    }",
+					"let exceedName = '';",
+					"postman.setEnvironmentVariable('randomName', \"POST\"+result);",
+					"    let counter1 = 0;",
+					"    while (counter1 < 35) {",
+					"      exceedName += characters.charAt(Math.floor(Math.random() * 7));",
+					"      counter1 += 1;",
+					"    }",
+					"postman.setEnvironmentVariable('exceedName', \"POST\"+exceedName);",
+					"",
+					"utils = {",
+					"    checkResponseStatus(response, status) {",
+					"        //tests[\"Status code is 400\"] = response.code === status;",
+					"",
+					"        pm.test(\"Status code is \" + status, function () {",
+					"            response.to.have.status(status);",
+					"        });",
+					"    },",
+					"",
+					"    checkError(responseBody, expectedString) {",
+					"        pm.test(\"Check if the expected string exists in the response body\", function () {",
+					"    pm.expect(responseBody).to.include(expectedString);",
+					"    });",
+					"    ",
+					"    }",
+					"}"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

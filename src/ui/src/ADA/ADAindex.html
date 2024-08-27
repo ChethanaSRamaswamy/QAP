@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Set to no cache, else the page will be served from cache without htaccess authentication -->
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="ada.css" />
+  <script src="../libraries/js/jquery-3.6.0.min.js"></script>
+  <script src="../../deployment_data.js"></script>
+  <script src="../utility/util.js"></script>
+  <script src="ada.js"></script>
+  <script src="ADAtagvalues.js"></script>
+</head>
+
+<div id="name">
+  <!-- <h1>H<b style="color: rgb(0 176 240); font-size: larger;">EL</b>IX</h1>
+  <h3 style="font-size: 23px;text-align: left; padding-top: 5px;">End to End Test Automation Platform</h3> -->
+  <h1 style="color: white; padding-left: 2px; cursor: pointer;" onclick="goHome()">H<B style="color: rgb(0 176 240); font-size: larger;">EL</B>IX &nbsp; - &nbsp;&nbsp;</h1> 
+  <span style="font-size: 16px; position: absolute;
+  top: 16px;left: 140px; cursor: pointer;" onclick="goAccessibilityHome()">Accessiblity Validation</span> 
+</div>
+
+<!--<div id="name">
+  <h1>H<b style="color: rgb(0 176 240); font-size: larger;">EL</b>IX</h1>
+  <h3 style="font-size: 23px;text-align: left; padding-top: 5px;">End to End Test Automation Platform</h3>
+  <h1 style="color: white; padding-left: 2px;">H<B style="color: rgb(0 176 240); font-size: larger;">EL</B>IX</h1> <span style="font-size: 15px; position: absolute;
+  top: 18px;left: 140px;">&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp; End to End Test Automation Platform</span> 
+  <i style="text-align: center; padding-top: 0%;">i</i>
+</div>-->
+
+
+<button class="tablink" id="scp"  onclick="openPage('Scope', 'scp',0)">Step 1-Scope</button>
+<button class="tablink" id="rel"  onclick="openPage('Release', 'rel',1)">Step 2-Release</button>
+<button class="tablink" id="env"  onclick="openPage('Environment', 'env',0)">Step 3-Environment</button>
+
+<body onload="trainChange();openPage('Scope', 'scp',0)">
+
+<div class="Data">
+    <div id="Scope" class="tabcontent">
+        <label>Choose Brand:</label>
+<label>Choose Country:</label>
+<select name="brands" id="brands">
+  <option value="MC">MAC</option>
+  <option value="CL">Clinique</option>
+  <option value="OR">Origins</option>
+  <option value="EL">EsteeLauder</option>
+  <option value="BB">BobbiBrown</option>
+  <option value="LM">Lamer</option>
+  <option value="LS">LabSeries</option>
+  <option value="AV">Aveda</option>
+  <option value="JM">JoMalone</option>
+  <option value="BU">Bumble</option>
+  <option value="BE">Becca</option>
+  <option value="BK">Kilian</option>
+  <option value="DA">Darphin</option>
+  <option value="DJ">DrJart</option>
+  <option value="GG">GlamGlow</option>
+  <option value="SB">SmashBox</option>
+  <option value="FM">FredericMalle</option>
+  <option value="TF">TooFaced</option>
+</select>
+
+<select name="locales" id="locales">
+  <option value="US">US</option>
+  <option value="CA">Canada</option>
+  <option value="UK">UK</option>
+  <option value="APAC">APAC</option>
+  <option value="JP">&nbsp;Japan</option>
+  <option value="AU">&nbsp;Australia</option>
+  <option value="CN">&nbsp;China</option>
+  <option value="HK">&nbsp;HongKong</option>
+  <option value="KR">&nbsp;Korea</option>
+  <option value="MY">&nbsp;Malaysia</option>
+  <option value="NZ">&nbsp;NewZealand</option>
+  <option value="SG">&nbsp;Singapore</option>
+  <option value="TH">&nbsp;Thailand</option>
+  <option value="TW">&nbsp;Taiwan</option>
+  <option value="EMEA">EMEA</option>
+  <option value="DE">&nbsp;Germany</option>
+  <option value="ES">&nbsp;Spain</option>
+  <option value="FR">&nbsp;France</option>
+  <option value="BE">&nbsp;Belgium</option>
+  <option value="NL">&nbsp;Netherlands</option>
+  <option value="NO">&nbsp;Norway</option>
+  <option value="GR">&nbsp;Greece</option>
+  <option value="AT">&nbsp;Austria</option>
+  <option value="CZ">&nbsp;Czech Republic</option>
+  <option value="DK">&nbsp;Denmark</option>
+  <option value="EU">&nbsp;European Union</option>
+  <option value="FI">&nbsp;Finland</option>
+  <option value="HU">&nbsp;Hungary</option>
+  <option value="IN">&nbsp;India</option>
+  <option value="IL">&nbsp;Israel</option>
+  <option value="IT">&nbsp;Italy</option>
+  <option value="ME">&nbsp;Middle East</option>
+  <option value="PL">&nbsp;Poland</option>
+  <option value="PT">&nbsp;Portugal</option>
+  <option value="RO">&nbsp;Romania</option>
+  <option value="KSA">&nbsp;Saudi Arabia</option>
+  <option value="ZA">&nbsp;South Africa</option>
+  <option value="SE">&nbsp;Sweden</option>
+  <option value="CH">&nbsp;Switzerland</option>
+  <option value="TR">&nbsp;Turkey</option>
+  <option value="UAE">&nbsp;United Arab Emirates</option>
+  <option value="LATAM">LATAM</option>
+  <option value="MX">&nbsp;Mexico</option>
+  <option value="BR">&nbsp;Brazil</option>
+  <option value="CE">&nbsp;Chile</option>
+</select>
+
+<label>Choose PC/Mobile:</label><br>
+<select name="platform" id="platform">
+  <option value="PC" selected>PC</option>
+  <option value="MOB">Mobile</option>
+</select><br>
+
+<button onclick="goHome()"  class="gobutton">Go Back to HELIX Landing Page</button>
+<a id="userguide" class="urlhalfpage" href="https://qaipreports.esteeonline.com/ui/#elc_tests/launches/all" target="_blank">Report Portal</a>
+<button onclick="openPage('Release', 'rel', 1)"  class="button" style="float: right;">Next</button>
+<!-- <a id="urltests" class="urlhalfpage" href="https://confluence.esteeonline.com/display/GQ/Coverage+Map+Table" target="_blank">Available Tests</a> -->
+</div>
+
+<div id="Release" class="tabcontent" aria-disabled="true">
+
+<label>Choose Train: *</label>
+<label>Choose Team: *</label><br>
+<select name="train" id="train" onchange="trainChange()">
+  <option value="Choose" selected>Choose</option>
+  <option value="Regional">Regional</option>
+  <option value="BrandExp">BrandExp</option>
+  <option value="BrandAssembly">BrandAssembly</option>
+  <option value="EcommStardust">EcommStardust</option>
+  <option value="EcommHybrid">EcommHybrid</option>
+  <option value="AFT">AFT</option>
+  <option value="FeatureRollouts">FeatureRollouts</option>
+  <option value="Operations">Operations</option>
+</select>
+
+<select name="team" id="team">
+  <option value="team1" selected>team1</option>
+  <option value="team2">team2</option>
+</select>
+
+<label>Enter Release Name: *</label><br>
+
+<input type="text" id="launchdescription" name="launchdescription" placeholder="Your Release Name..">
+<br/>
+<button onclick="openPage('Scope', 'scp',0)"  class="button">Back</button>
+<button onclick="openPage('Environment', 'env',0)" class="button" style="float: right;">Next</button>
+</div>
+
+</div>
+
+<div id="Environment" class="tabcontent">
+<label>Choose Environment:</label><br>
+
+<select name="environment" id="environment" onchange="envChange()">
+    <option value="PROD" selected>Prod</option>
+    <option value="PREPROD">PreProd</option>
+    <option value="STAGE">Stage</option>
+    <option value="DEV">Dev</option>
+    <option value="FEAT">Feature</option>
+    <option value="ENG">PersonalENG</option>
+    <option value="PREVIEW">PREVIEW</option>
+  </select><br>
+<fieldset id="feature">
+  <legend> Feature / PersonalENG / Preview Environment Parameters </legend>
+  <label>Enter Jira Id (Feature) / UserName Or Branch Server (PersonalEng):</label>
+  <label>Choose PerlGem Env:</label>
+  <label>NCSA server number:</label>
+  <input type="text" id="jiraid" name="jiraid" placeholder="Your Jira Id/User Name/Branch Server..." disabled>
+  <select name="perlgem" id="perlgem" disabled>
+    <option value="PREPROD">PreProd</option>
+    <option value="STAGE">Stage</option>
+    <option value="DEV">Dev</option>
+  </select>
+  <input type="text" id="ncsaservernumber" name="ncsaservernumber" placeholder="Only number.." disabled>
+</fieldset>
+<fieldset>
+  <legend> Stage Environment Parameters </legend>
+  <label>Enter Revision Tag:</label>
+  <label>Choose API Env:</label>
+  <input type="text" id="revisiontag" name="revisiontag" placeholder="Your Revision Tag.." disabled>
+  <select name="apienv" id="apienv" disabled>
+    <option value="qa">QA</option>
+    <option value="production">Production</option>
+    <option value="uat">UAT</option>
+    <option value="integration">Integration</option>
+  </select>
+
+</fieldset>
+<button onclick="goHome()"  class="gobutton">Go Back to HELIX Landing Page</button>
+<a id="userguide" class="urlhalfpage" href="https://qaipreports.esteeonline.com/ui/#elc_tests/launches/all" target="_blank">Report Portal</a>
+<button onclick="openPage('Release', 'rel',0)" class="button backBtn">Back</button>
+<button onclick="startTest()" class="button" style="float: right;">Start</button>
+<br>
+
+<p id="tagvalue" class="tagvalue"></p>
+<p><a id="urlvalue" href="" target="_blank"></a></p>
+
+</div>
+
+<div class="coveragemap">
+  <b>Automation scripts for selected features may not be available for all brand & markets. Refer <a id="coveragemap"  href="https://confluence.esteeonline.com/display/GQ/HELIX+-+Accessibility+Scan+Coverage+Map" target="_blank">"Coverage Map"</a> for details</b>
+</div>
+
+<div class="footer">
+  <p>Powered by Global QA Engineering</p>
+</div>
+
+</body>
+</html>

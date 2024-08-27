@@ -1,0 +1,552 @@
+{
+  "features": [
+    "Account",
+    "CMS",
+    "Checkout",
+    "GNAV Footer",
+    "Live Chat",
+    "Loyalty",
+    "MPPSPP",
+    "OAB",
+    "RAMP",
+    "React Checkout",
+    "SEO",
+    "Search",
+    "StoreLocator",
+    "VTO"
+  ],
+  "items": [
+    {
+      "tcId": "TC01",
+      "tcGroup": "Checkout",
+      "tcName": "Verify Guest User checkout",
+      "PC": "GUPC",
+      "mob": "GUMOB"
+    },
+    {
+      "tcId": "TC02",
+      "tcGroup": "Checkout",
+      "tcName": "Verify Return User checkout",
+      "PC": "RUPC",
+      "mob": "RUMOB"
+    },
+    {
+      "tcId": "TC03",
+      "tcGroup": "Checkout",
+      "tcName": "Verify Return User checkout using saved card",
+      "PC": "SCRUPC",
+      "mob": "SCRUMOB"
+    },
+    {
+      "tcId": "TC04",
+      "tcGroup": "Checkout",
+      "tcName": "Verify New User checkout",
+      "PC": "NUPC",
+      "mob": "NUMOB"
+    },
+    {
+      "tcId": "TC05",
+      "tcGroup": "Checkout",
+      "tcName": "Verify User can edit quantity and offers in Cart",
+      "PC": "CARTPC",
+      "mob": "CARTMOB"
+    },
+    {
+      "tcId": "TC06",
+      "tcGroup": "Checkout",
+      "tcName": "Verify New User Checkout by Signing Up through GNAV",
+      "PC": "SIGNUPGNAVNUPC",
+      "mob": "SIGNUPGNAVNUMOB"
+    },
+    {
+      "tcId": "TC07",
+      "tcGroup": "Checkout",
+      "tcName": "Verify Return User order details with percentage discount are saved in a .csv file",
+      "PC": "RUPERDISCORDDET2CSVPC",
+      "mob": "RUPERDISCORDDET2CSVMOB"
+    },
+    {
+      "tcId": "TC08",
+      "tcGroup": "Checkout",
+      "tcName": "Verify Return User order details with flat discount are saved in a .csv file",
+      "PC": "RUFLATDISCORDDET2CSVPC",
+      "mob": "RUFLATDISCORDDET2CSVMOB"
+    },
+    {
+      "tcId": "TC09",
+      "tcGroup": "Checkout",
+      "tcName": "Verify Guest User order details without offer are saved in a .csv file\t",
+      "PC": "GUNODISCORDDET2CSVPC",
+      "mob": "GUNODISCORDDET2CSVMOB"
+    },
+    {
+      "tcId": "TC10",
+      "tcGroup": "Account",
+      "tcName": "Verify User can edit billing/shipping address",
+      "PC": "ACCPC",
+      "mob": "ACCMOB"
+    },
+    {
+      "tcId": "TC11",
+      "tcGroup": "Account",
+      "tcName": "Verify Return User can edit billing/shipping address (CN,KR)",
+      "PC": "ACCRUPC",
+      "mob": "ACCRUMOB"
+    },
+    {
+      "tcId": "TC12",
+      "tcGroup": "Account",
+      "tcName": "Verify Return User updates My Profile and Add product to cart from Re-order",
+      "PC": "GNAVSIGNINACCPUROPC",
+      "mob": "GNAVSIGNINACCPUROMOB"
+    },
+    {
+      "tcId": "TC13",
+      "tcGroup": "MPPSPP",
+      "tcName": "Sanity check around MPP and SPP",
+      "PC": "MPPSPP",
+      "mob": "MPPSPPMob"
+    },
+    {
+      "tcId": "TC14",
+      "tcGroup": "MPPSPP",
+      "tcName": "Regression tests for SD SPP",
+      "PC": "SDSPP",
+      "mob": "SDSPPMOB"
+    },
+    {
+      "tcId": "TC15",
+      "tcGroup": "MPPSPP",
+      "tcName": "Regression tests for SD MPP",
+      "PC": "SDMPP",
+      "mob": "SDMPPMOB"
+    },
+    {
+      "tcId": "TC16",
+      "tcGroup": "MPPSPP",
+      "tcName": "Add engraving to the product in SD SPP",
+      "PC": "SDENGFRA",
+      "mob": "SDENGFRAMOB"
+    },
+    {
+      "tcId": "TC17",
+      "tcGroup": "MPPSPP",
+      "tcName": "Sanity BagIconCheck around MPP and SPP (Mac brand only)",
+      "PC": "BagIconCheckMPPSPP",
+      "mob": "BagIconCheckMPPSPPMob"
+    },
+    {
+      "tcId": "TC18",
+      "tcGroup": "MPPSPP",
+      "tcName": "Verify New User add products to favorites from MPP and SPP and add a product to cart via favorites",
+      "PC": "ACCMPPSPPFAVPC",
+      "mob": "ACCMPPSPPFAVMOB"
+    },
+    {
+      "tcId": "TC19",
+      "tcGroup": "StoreLocator",
+      "tcName": "Verify User can get store location with valid zipcode/city",
+      "PC": "STORELOCPC",
+      "mob": "STORELOCMOB"
+    },
+    {
+      "tcId": "TC20",
+      "tcGroup": "GNAV Footer",
+      "tcName": "Verify User can navigate through all link in GNAV",
+      "PC": "Gnav",
+      "mob": "GnavMob"
+    },
+    {
+      "tcId": "TC21",
+      "tcGroup": "GNAV Footer",
+      "tcName": "Verify User can navigate through all link in Footer",
+      "PC": "Footer",
+      "mob": "FooterMob"
+    },
+    {
+      "tcId": "TC22",
+      "tcGroup": "Loyalty",
+      "tcName": "Verity enroll loyalty in Order confirmation",
+      "PC": "GUENROLLLOYALTYPC",
+      "mob": "GUENROLLLOYALTYMOB"
+    },
+    {
+      "tcId": "TC23",
+      "tcGroup": "Loyalty",
+      "tcName": "Verify enroll loyalty from Account registration",
+      "PC": "LOYALTYACCPC",
+      "mob": "LOYALTYACCMOB"
+    },
+    {
+      "tcId": "TC24",
+      "tcGroup": "Loyalty",
+      "tcName": "Verify as non loyalty user from Marketing page",
+      "PC": "NULENROLLINMARKTPAGEPC",
+      "mob": "NULENROLLINMARKTPAGEMOB"
+    },
+    {
+      "tcId": "TC25",
+      "tcGroup": "Loyalty",
+      "tcName": "Verify new user welcome Offer validation",
+      "PC": "NULOYALTYWELCOMEOFFERPC",
+      "mob": "NULOYALTYWELCOMEOFFERMOB"
+    },
+    {
+      "tcId": "TC26",
+      "tcGroup": "OAB",
+      "tcName": "Online Appointment Booking Drupal",
+      "PC": "OABPCDrupal",
+      "mob": "OABMOBDrupal"
+    },
+    {
+      "tcId": "TC27",
+      "tcGroup": "OAB",
+      "tcName": "Online Appointment Booking Stardust",
+      "PC": "OABPCStardust",
+      "mob": "OABMOBStardust"
+    },
+    {
+      "tcId": "TC28",
+      "tcGroup": "OAB",
+      "tcName": "Virtual Online Appointment Booking Drupal",
+      "PC": "VOABPCDrupal",
+      "mob": "VOABMOBDrupal"
+    },
+    {
+      "tcId": "TC29",
+      "tcGroup": "OAB",
+      "tcName": "Virtual Online Appointment Booking Stardust",
+      "PC": "VOABPCStardust",
+      "mob": "VOABMOBStardust"
+    },
+    {
+      "tcId": "TC30",
+      "tcGroup": "Search",
+      "tcName": "Verify user can search for a product and add to bag",
+      "PC": "SANITYSEARCHPC",
+      "mob": "SANITYSEARCHMOB"
+    },
+    {
+      "tcId": "TC31",
+      "tcGroup": "SEO",
+      "tcName": "Verify SEO requirements for Home Page",
+      "PC": "SEOSanityHomepagePC",
+      "mob": "SEOSanityHomepageMobile"
+    },
+    {
+      "tcId": "TC32",
+      "tcGroup": "SEO",
+      "tcName": "Verify SEO requirements for MPP",
+      "PC": "SEOSanityMPPPC",
+      "mob": "SEOSanityMPPMobile"
+    },
+    {
+      "tcId": "TC33",
+      "tcGroup": "SEO",
+      "tcName": "Verify SEO requirements for SPP",
+      "PC": "SEOSanitySPPPC",
+      "mob": "SEOSanitySPPMobile"
+    },
+    {
+      "tcId": "TC34",
+      "tcGroup": "RAMP",
+      "tcName": "Completed user can login into Account page from eform overlay",
+      "PC": "RAMPCUOLPC",
+      "mob": "RAMPCUOLMOB"
+    },
+    {
+      "tcId": "TC35",
+      "tcGroup": "RAMP",
+      "tcName": "RAMP fields validation check",
+      "PC": "RAMPFVCPC",
+      "mob": "RAMPFVCMOB"
+    },
+    {
+      "tcId": "TC36",
+      "tcGroup": "RAMP",
+      "tcName": "Register a new user from RAMP partial user overlay page",
+      "PC": "RAMPPUOLPC",
+      "mob": "RAMPPUOLMOB"
+    },
+    {
+      "tcId": "TC37",
+      "tcGroup": "RAMP",
+      "tcName": "Register a new completed user on RAMP",
+      "PC": "RAMPRNCUPC",
+      "mob": "RAMPRNCUMOB"
+    },
+    {
+      "tcId": "TC38",
+      "tcGroup": "RAMP",
+      "tcName": "Register a new mobile only user on RAMP",
+      "PC": "RAMPRNMOUPC",
+      "mob": "RAMPRNMOUMOB"
+    },
+    {
+      "tcId": "TC39",
+      "tcGroup": "RAMP",
+      "tcName": "RAMP page translation check",
+      "PC": "RAMPTCPC",
+      "mob": "RAMPTCMOB"
+    },
+    {
+      "tcId": "TC40",
+      "tcGroup": "React Checkout",
+      "tcName": "Verify Guest User checkout with Manual offer",
+      "PC": "RCOGUMOPC",
+      "mob": "RCOGUMOMOB"
+    },
+    {
+      "tcId": "TC41",
+      "tcGroup": "React Checkout",
+      "tcName": "Verify New User checkout with Automatic offer",
+      "PC": "RCONUAOPC",
+      "mob": "RCONUAOMOB"
+    },
+    {
+      "tcId": "TC42",
+      "tcGroup": "React Checkout",
+      "tcName": "Verify Return User checkout with saved Credit card",
+      "PC": "RCORUSCPC",
+      "mob": "RCORUSCMOB"
+    },
+    {
+      "tcId": "TC43",
+      "tcGroup": "React Checkout",
+      "tcName": "Verify Guest User checkout with Restricted Product in cart",
+      "PC": "RCOGURPAPOPC",
+      "mob": "RCOGURPAPOMOB"
+    },
+    {
+      "tcId": "TC44",
+      "tcGroup": "React Checkout",
+      "tcName": "Verify Return User checkout after saved billing address",
+      "PC": "RCORUEBPC",
+      "mob": "RCORUEBMOB"
+    },
+    {
+      "tcId": "TC45",
+      "tcGroup": "React Checkout",
+      "tcName": "Verify Guest User checkout with new billing address",
+      "PC": "RCOGUEBPC",
+      "mob": "RCOGUEBMOB"
+    },
+    {
+      "tcId": "TC46",
+      "tcGroup": "React Checkout",
+      "tcName": "Verify Newly Registered User checkout",
+      "PC": "RCOSIGNUPNUPC",
+      "mob": "RCOSIGNUPNUMOB"
+    },
+    {
+      "tcId": "TC47",
+      "tcGroup": "React Checkout",
+      "tcName": "Verify Guest User checkout with PickupInstore",
+      "PC": "RCOBOPISGUPC",
+      "mob": "RCOBOPISGUMOB"
+    },
+    {
+      "tcId": "TC48",
+      "tcGroup": "React Checkout",
+      "tcName": "Verify Return User checkout with PickupInstore",
+      "PC": "RCOBOPISRUPC",
+      "mob": "RCOBOPISRUMOB"
+    },
+    {
+      "tcId": "TC49",
+      "tcGroup": "React Checkout",
+      "tcName": "Verify Return User Edit PickupInstore checkout with Delivery",
+      "PC": "RCOBOPISRUEDPC",
+      "mob": "RCOBOPISRUEDMOB"
+    },
+    {
+      "tcId": "TC50",
+      "tcGroup": "React Checkout",
+      "tcName": "Verify New User Checkout with Sample and COD",
+      "PC": "RCOADDSAMPLENUPC",
+      "mob": "RCOADDSAMPLENUMOB"
+    },
+    {
+      "tcId": "TC51",
+      "tcGroup": "React Checkout",
+      "tcName": "Verify Return User Checkout with edit product from Payment Page",
+      "PC": "RCOEDPRODPAYAORUPC",
+      "mob": "RCOEDPRODPAYAORUMOB"
+    },
+    {
+      "tcId": "TC52",
+      "tcGroup": "React Checkout",
+      "tcName": "Verify Return User Checkout with edit product from Delivery Page and 3DS1 Payment",
+      "PC": "RCOEDPRODDELRUPC",
+      "mob": "RCOEDPRODDELRUMOB"
+    },
+    {
+      "tcId": "TC53",
+      "tcGroup": "React Checkout",
+      "tcName": "Verify New User Checkout with PickupInstore and Manual offer",
+      "PC": "RCOBOPISNUMOPC",
+      "mob": "RCOBOPISNUMOMOB"
+    },
+    {
+      "tcId": "TC54",
+      "tcGroup": "VTO",
+      "tcName": "Verify click back arrow",
+      "PC": "BackArrowVTO",
+      "mob": "BackArrowVTOMobile"
+    },
+    {
+      "tcId": "TC55",
+      "tcGroup": "VTO",
+      "tcName": "Verify choose a model",
+      "PC": "ChooseAModelE2EVTO",
+      "mob": "ChooseAModelE2EVTOMobile"
+    },
+    {
+      "tcId": "TC56",
+      "tcGroup": "VTO",
+      "tcName": "Verify click close icon",
+      "PC": "CloseIconVTO",
+      "mob": "CloseIconVTOMobile"
+    },
+    {
+      "tcId": "TC57",
+      "tcGroup": "VTO",
+      "tcName": "Verify share icon",
+      "PC": "ShareIconVTO",
+      "mob": "ShareIconVTOMobile"
+    },
+    {
+      "tcId": "TC58",
+      "tcGroup": "VTO",
+      "tcName": "Verify split slider",
+      "PC": "SplitSliderVTO",
+      "mob": "SplitSliderVTOMobile"
+    },
+    {
+      "tcId": "TC59",
+      "tcGroup": "CMS",
+      "tcName": "CMS ADD CONTENT BLOCK PC",
+      "PC": "CMSADDCBPC",
+      "mob": "CMSADDCBMOB"
+    },
+    {
+      "tcId": "TC60",
+      "tcGroup": "CMS",
+      "tcName": "CMS ADD PAGE CONTENT PC",
+      "PC": "CMSADDPAGEPC",
+      "mob": "CMSADDPAGEMOB"
+    },
+    {
+      "tcId": "TC61",
+      "tcGroup": "CMS",
+      "tcName": "CMS ADD SPPRCIS CONTENT PC",
+      "PC": "CMSADDSPPRCISPC",
+      "mob": "CMSADDSPPRCISMOB"
+    },
+    {
+      "tcId": "TC62",
+      "tcGroup": "CMS",
+      "tcName": "CMS ADMIN PAGES PC",
+      "PC": "CMSADMINPC",
+      "mob": "CMSADMINMOB"
+    },
+    {
+      "tcId": "TC63",
+      "tcGroup": "CMS",
+      "tcName": "CMS ALFRESCO CHECK PC",
+      "PC": "CMSALFRESCOPC",
+      "mob": "CMSALFRESCOMOB"
+    },
+    {
+      "tcId": "TC64",
+      "tcGroup": "CMS",
+      "tcName": "CMS ADD AUTO URL ALIAS PC",
+      "PC": "CMSAUTOALIASPC",
+      "mob": "CMSAUTOALIASMOB"
+    },
+    {
+      "tcId": "TC65",
+      "tcGroup": "CMS",
+      "tcName": "CMS AUTO LOCALIZATION PC",
+      "PC": "CMSAUTOLOCPC",
+      "mob": "CMSAUTOLOCMOB"
+    },
+    {
+      "tcId": "TC66",
+      "tcGroup": "CMS",
+      "tcName": "CMS ADD CUSTOM URL ALIAS PC",
+      "PC": "CMSCUSTOMALIASPC",
+      "mob": "CMSCUSTOMALIASMOB"
+    },
+    {
+      "tcId": "TC67",
+      "tcGroup": "CMS",
+      "tcName": "CMS FIND CONTENT BULK PC",
+      "PC": "CMSFCBULKPC",
+      "mob": "CMSFCBULKMOB"
+    },
+    {
+      "tcId": "TC68",
+      "tcGroup": "CMS",
+      "tcName": "CMS FIND CONTENT PC",
+      "PC": "CMSFCFILTERSPC",
+      "mob": "CMSFCFILTERSMOB"
+    },
+    {
+      "tcId": "TC69",
+      "tcGroup": "CMS",
+      "tcName": "CMS LOCALIZE To MANY PC",
+      "PC": "CMSO2MLOCPC",
+      "mob": "CMSO2MLOCMOB"
+    },
+    {
+      "tcId": "TC70",
+      "tcGroup": "CMS",
+      "tcName": "CMS SINGLE LOCALIZE PC",
+      "PC": "CMSO2OLOCPC",
+      "mob": "CMSO2OLOCMOB"
+    },
+    {
+      "tcId": "TC71",
+      "tcGroup": "CMS",
+      "tcName": "CMS Revision Tag Functionality PC",
+      "PC": "CMSQABYREVPC",
+      "mob": "CMSQABYREVMOB"
+    },
+    {
+      "tcId": "TC72",
+      "tcGroup": "CMS",
+      "tcName": "CMS TEMPLATES PAGE PC",
+      "PC": "CMSTEMPLATESPC",
+      "mob": "CMSTEMPLATESMOB"
+    },
+    {
+      "tcId": "TC73",
+      "tcGroup": "CMS",
+      "tcName": "CMS WORKFLOW STATUS PC",
+      "PC": "CMSWORKFLOWPC",
+      "mob": "CMSWORKFLOWMOB"
+    },
+    {
+      "tcId": "TC74",
+      "tcGroup": "Live Chat",
+      "tcName": "Validating the Live Chat feature in Home page",
+      "PC": "LiveChatSanityHomePC",
+      "mob": "LiveChatSanityHomeMobile"
+    },
+    {
+      "tcId": "TC75",
+      "tcGroup": "Live Chat",
+      "tcName": "Validating the Live Chat feature in MPP",
+      "PC": "LiveChatSanityMPPPC",
+      "mob": "LiveChatSanityMPPMobile"
+    },
+    {
+      "tcId": "TC76",
+      "tcGroup": "Live Chat",
+      "tcName": "Validating the Live Chat feature in SPP",
+      "PC": "LiveChatSanitySPPPC",
+      "mob": "LiveChatSanitySPPMobile"
+    }
+  ]
+}

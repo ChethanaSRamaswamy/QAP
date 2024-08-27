@@ -1,0 +1,212 @@
+[
+  {
+    "brandId": 8,
+    "displayName": "aveda",
+    "username": "aveda",
+    "salt": "77a6dab03c5fa3f7035971b63df899fd",
+    "iv": "564a17f65c2c781900840b3aa8df1e67"
+  },
+  {
+    "brandId": 0,
+    "displayName": "b2b",
+    "username": "b2b",
+    "salt": "59586d890848d63a09567b16d9b75c7d",
+    "iv": "5ff812a5ba46bbf20f38189bac5661c9"
+  },
+  {
+    "brandId": 18,
+    "displayName": "beautyperks",
+    "username": "beautyperks",
+    "salt": "3456c8ac47a7e1a38777d78f9c31c857",
+    "iv": "9c3cb9c3a215316ad1221167e1e0ab8f"
+  },
+  {
+    "brandId": 5,
+    "displayName": "bobbibrown",
+    "username": "bobbi",
+    "salt": "cef8ef16c22a9b1f59c8500a3b60feb5",
+    "iv": "51ce2bada18971af8f600f033a02cd9e"
+  },
+  {
+    "brandId": 10,
+    "displayName": "bumbleandbumble",
+    "username": "bumble",
+    "salt": "0aa3f5dd2fd2bc2bfe36621690ef22a8",
+    "iv": "c7db8db133c3b8b7fee630687763b9ee"
+  },
+  {
+    "brandId": 2,
+    "displayName": "clinique",
+    "username": "clinique",
+    "salt": "c8514b32c97ad53274e54f36a9b86a38",
+    "iv": "21e72fec11a3ecfe0fa4227e6f76eb9e"
+  },
+  {
+    "brandId": 12,
+    "displayName": "darphin",
+    "username": "darphin",
+    "salt": "4765f641665eda958f9a82f1ae908270",
+    "iv": "2342ed5687809852b18359d72ef4f0ed"
+  },
+  {
+    "brandId": 13,
+    "displayName": "drjart",
+    "username": "drjart",
+    "salt": "1f53540168eb89d2f5a4122b2cd7f6dd",
+    "iv": "0a5d1eedba01a0e176f2bf7512bda2ca"
+  },
+  {
+    "brandId": 4,
+    "displayName": "esteelauder",
+    "username": "estee",
+    "salt": "6437aea8b07f011193b6dd4428b88a91",
+    "iv": "bebe6169fede4848ae5bc765ec7248b4"
+  },
+  {
+    "brandId": 16,
+    "displayName": "fredericmalle",
+    "username": "fredericmalle",
+    "salt": "f3337071a28ac9fc8a5428ff62b4bf82",
+    "iv": "8a94c231df9b546b17097b22b09ac069"
+  },
+  {
+    "brandId": 0,
+    "displayName": "genie",
+    "username": "genie",
+    "salt": "71f81d8ed8dc58e1ab82041c6e6c5b17",
+    "iv": "ef171beec2d925a757ddbba49df3e875"
+  },
+  {
+    "brandId": 14,
+    "displayName": "glamglowmud",
+    "username": "glam",
+    "salt": "5822d92b8ef4d91ae6cbeebc542c2d34",
+    "iv": "ca383c051be40250f8e21fd3ad662f13"
+  },
+  {
+    "brandId": 9,
+    "displayName": "jomalone",
+    "username": "jom",
+    "salt": "379b72d04fa23d4156328927c1a6f954",
+    "iv": "e7e3d2da080ffbbd0bf27083632d8527"
+  },
+  {
+    "brandId": 11,
+    "displayName": "kilian",
+    "username": "kilian",
+    "salt": "d9dfe1be6a24ce7632fcdff0205d0ecc",
+    "iv": "9b568779f37afd1d2cb60a8a12cf3343"
+  },
+  {
+    "brandId": 6,
+    "displayName": "lamer",
+    "username": "lamer",
+    "salt": "7909d007a0f93f1406732e3c0dd2d0ac",
+    "iv": "32ff4d93ba4be015716fa82ed2c27972"
+  },
+  {
+    "brandId": 7,
+    "displayName": "labseries",
+    "username": "labseries",
+    "salt": "5e39cdc384eec90015939043adfd60ed",
+    "iv": "a5fa9896a41bf3aa6bda655a3f672d4b"
+  },
+  {
+    "brandId": 1,
+    "displayName": "mac",
+    "username": "mac",
+    "salt": "9e577e933ed35b96961d27ff2bfaac24",
+    "iv": "6b35da4ae8c82f1528927b1dda32a980"
+  },
+  {
+    "brandId": 3,
+    "displayName": "origins",
+    "username": "origins",
+    "salt": "bce57ce9df2459c99928aea9cd9e9437",
+    "iv": "8d1964bf49201234b02c78b66660c261"
+  },
+  {
+    "brandId": 15,
+    "displayName": "smashbox",
+    "username": "smashbox",
+    "salt": "9196e256013282ad606357f6ef3e4f14",
+    "iv": "0a9d5e44da6bfd7dc53c5ceacc09c24d"
+  },
+  {
+    "brandId": 0,
+    "displayName": "tomford",
+    "username": "tomford",
+    "salt": "b2c8200bcb8d7af8340783d30448bc8d",
+    "iv": "17fae61794052747493f9253ba2ac2e0"
+  },
+  {
+    "brandId": 17,
+    "displayName": "toofaced",
+    "username": "toofaced",
+    "salt": "2286a0f3411add5e0b47b19bcb41c043",
+    "iv": "b1e8f62dafb42985e1e61b72b00e9292"
+  },
+  {
+    "brandId": 0,
+    "displayName": "esteeonline",
+    "username": "elc",
+    "salt": "222b63b3e82a6dfa0fcdd393f556a75c",
+    "iv": "a74bf7072fd7f7bab6e0fd2c40d47062"
+  },
+  {
+    "brandId": 0,
+    "displayName": "feature",
+    "username": "feature",
+    "salt": "a02939d4e1aec1de14d121a7755537fb",
+    "iv": "2d94c274f5b4dfee70e20a3adc50c92e"
+  },
+  {
+    "brandId": 0,
+    "displayName": "coresitesdrupalcmsapac",
+    "username": "elcintl",
+    "salt": "7c37e8963839d8aa65f723f2493130b4",
+    "iv": "a01c39d5bb76d01844c572f5dd93937e"
+  },
+  {
+    "brandId": 0,
+    "displayName": "coresitesdrupalcmsemalana",
+    "username": "ibmelcintl",
+    "salt": "1650886945f4b1636e869dfd955a8db6",
+    "iv": "72c3f8b44ac816021d7e0e6a0f5bfafd"
+  },
+  {
+    "brandId": 0,
+    "displayName": "engagementrequestform",
+    "username": "elco",
+    "salt": "3f19d50168d19997c2e50916fe2c916d",
+    "iv": "ff7338d3bd842b0eeaf1b0cdaab6d435"
+  },
+  {
+    "brandId": 0,
+    "displayName": "pincer",
+    "username": "pincer",
+    "salt": "ff111250f1f630a3e7d70c5798533f48",
+    "iv": "ee71f6d23a173ede638ecec8b580df81"
+  },
+  {
+    "brandId": 0,
+    "displayName": "dbtool",
+    "username": "fnaz@estee.com",
+    "salt": "c8f4c026243f56d6163d3814c009208c",
+    "iv": "c0e719f4e1c6a92a8381c45b2ba229c7"
+  },
+  {
+    "brandId": 0,
+    "displayName": "tenantweb",
+    "username": "pincer_tenant_web",
+    "salt": "28916833b9ebd6f42190dc51d6fe4d26",
+    "iv": "39be35ed61743195249b4064d079d56e"
+  },
+  {
+    "brandId": 0,
+    "displayName": "unified",
+    "username": "unified",
+    "salt": "dcef813d207b05f9e5dc2e2da42c104b",
+    "iv": "a56e275fc6a6206abbe4b24d1b2961b7"
+  }
+]

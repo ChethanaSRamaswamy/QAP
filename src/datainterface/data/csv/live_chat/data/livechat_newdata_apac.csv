@@ -1,0 +1,17 @@
+tt,BrandLocale,AV-AU,BB-AU,CL-AU,EL-AU,JM-AU,LM-AU,MC-AU,EL-JP,JM-JP
+1,region,APAC,APAC,APAC,APAC,APAC,APAC,APAC,APAC,APAC
+1,regionNumber,11963900,11963900,11963900,11963900,11963900,11963900,11963900,11963900,11963900
+1,brandShort,BB,BB,EL,FM,TF,MC,MC,MC,MC
+1,brandFull,Aveda,Bobbi Brown,Clinique,Estee Lauder,Jo Malone,La Mer,Mac,Estee Lauder,Jo Malone
+1,locale,AU,AU,AU,AU,AU,AU,AU,JP,JP
+1,timeZone,,,,,,,,,
+1,openingHours,,,,,,,,,
+1,botTitle,,,,,,,,,
+1,agentTitle,,,,,,,,,
+1,genericTitle,Message us,Message us,Message us,Message us,Message us,Message us,Message us,Message us,Message us
+1,chatMessage,Test. Please Ignore,Test. Please Ignore,Test. Please Ignore,Test. Please Ignore,Test. Please Ignore,Test. Please Ignore,Test. Please Ignore,Test. Please Ignore,Test. Please Ignore
+1,userName,,,,,,,,,
+1,userEmail,,,,,,,,,
+1,selectQusLabel,,,,,,,,,
+1,selectOption,,,,,,,,,
+1,lpURL,https://authentication.liveperson.net/accountSelection.html?source=login_html,https://authentication.liveperson.net/accountSelection.html?source=login_html,https://authentication.liveperson.net/accountSelection.html?source=login_html,https://authentication.liveperson.net/accountSelection.html?source=login_html,https://authentication.liveperson.net/accountSelection.html?source=login_html,https://authentication.liveperson.net/accountSelection.html?source=login_html,https://authentication.liveperson.net/accountSelection.html?source=login_html,https://authentication.liveperson.net/accountSelection.html?source=login_html,https://authentication.liveperson.net/accountSelection.html?source=login_html

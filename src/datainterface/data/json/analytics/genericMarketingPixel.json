@@ -1,0 +1,76 @@
+[
+    {
+        "Viewed Product": {
+            "n": "Viewed Product",
+            "name": "ce",
+            "elc_pathname": "",
+            "BRAND_ID": "",
+            "DEFAULT_CAT_ID": "",
+            "PRODUCT_CODE": "",
+            "PRODUCT_NAME": "",
+            "PRODUCT_PRICE": "",
+            "PRODUCT_SIZE": "",
+            "SHADE_NAME": "",
+            "SKU_WWW_PCODE": ""
+        },
+        "Add to Cart": {
+            "n": "Add to Cart",
+            "name": "ce",
+            "elc_pathname": "",
+            "BRAND_ID": "",
+            "DEFAULT_CAT_ID": "",
+            "PRODUCT_CODE": "",
+            "PRODUCT_NAME": "",
+            "PRODUCT_PRICE": "",
+            "PRODUCT_SIZE": "",
+            "SHADE_NAME": "",
+            "SKU_WWW_PCODE": ""
+        },
+        "viewed_category_page": {
+            "n": "viewed_category_page",
+            "elc_pathname": "/"
+        },
+        "Login": {
+            "n":"Login",
+            "BRAND_ID":"DRN",
+            "user_id": ""
+        },
+        "Completed Purchase": {
+            "n": "Completed Purchase",
+            "name": "ce",
+            "BRAND_ID": "",
+            "DEFAULT_CAT_ID": "",
+            "PRODUCT_CODE": "",
+            "PRODUCT_NAME": "",
+            "PRODUCT_PRICE": "",
+            "PRODUCT_SIZE": "",
+            "SHADE_NAME": "",
+            "SKU_WWW_PCODE": "",
+            "product_qty": "",
+            "user_id": ""
+        },
+        "Registration": {
+            "n": "Registration",
+            "BRAND_ID": "", 
+            "USER_ID": ""
+        },
+        "marketingPixel": {
+            "braze": "**/data/",
+            "metaPixel": "**/tr/?id=**"
+        },
+        "events": [
+            "viewed_category_page",
+            "Add to Cart",
+            "Viewed Product",
+            "Login",
+            "Completed Purchase",
+            "Registration"
+        ],
+        "misc": {
+            "acceptCookie": "//button[@id='onetrust-accept-btn-handler']",
+            "minTime": "2000",
+            "totalTime": "5000",
+            "maxTime": "20000"
+        }
+    }
+]

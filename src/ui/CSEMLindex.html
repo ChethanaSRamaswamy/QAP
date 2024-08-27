@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Set to no cache, else the page will be served from cache without htaccess authentication -->
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/elc_online.png"
+    />
+    <title>QA Automatio Platform</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/jquery.multiselect.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <body onload="onPageLoad();">
+    <div class="container-fluid applicationTheme">
+      <div class="row">
+        <div class="col-sm-auto sticky-top leftSideBar applicationTheme">
+          <div
+            class="d-flex flex-sm-column flex-row flex-nowrap align-items-center sticky-top"
+          >
+            <!-- <img class="logo my-3" src="assets/logo.png" alt="login" /> -->
+            <i class="fa-solid fa-house"></i>
+            <ul
+              class="nav nav-pills nav-flush flex-sm-column flex-row flex-nowrap mb-auto mx-auto text-center justify-content-between w-100 align-items-center"
+            >
+              <li class="nav-item px-2 py-3">
+                <i class="fa fa-bolt"></i>
+                <a
+                  href="index.html"
+                  class="nav-link pb-3 px-2"
+                  title=""
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="right"
+                  data-bs-original-title="Home"
+                >
+                  Functional Testing
+                </a>
+              </li>
+              <li class="nav-item px-2 py-3">
+                <i class="fa fa-cogs"></i>
+                <a
+                  href="APItesting.html"
+                  class="nav-link pb-3 px-2"
+                  title=""
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="right"
+                  data-bs-original-title="Products"
+                >
+                  API Testing
+                </a>
+              </li>
+              <li class="nav-item px-2 py-3 active">
+                <i class="fa fa-eye"></i>
+                <a
+                  href="CSEMLindex.html"
+                  class="nav-link pb-3 px-2"
+                  title=""
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="right"
+                  data-bs-original-title="Dashboard"
+                >
+                  CSEML Validation
+                </a>
+              </li>
+              <li class="nav-item px-2 py-3">
+                <i class="fa fa-user"></i>
+                <a
+                  href="helplink.html"
+                  class="nav-link pb-3 px-2"
+                  title=""
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="right"
+                  data-bs-original-title="Customers"
+                >
+                  Help Link
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm px-3 py-2 min-vh-100">
+          <h2 class="text-center my-3 py-4">
+            QA Automation Platform - CSEML Validation
+          </h2>
+          <div class="Data col-sm-12 mt-3">
+            <div id="mainPage">
+              <div class="col-sm-6 mx-auto">
+                <div class="container-fluid">
+                  <div class="row">
+                    <label for="Brand-Locales" class="form-label col-sm-4"
+                      >Brand-Locales</label
+                    >
+                    <div class="col-sm-8 mb-2">
+                      <select
+                        name="brandLocale"
+                        class="form-select"
+                        id="brandLocale"
+                        multiple="multiple"
+                      >
+                        <option value="@Mac_US" selected>MAC US</option>
+                        <option value="@Aveda_US">Aveda US</option>
+                        <option value="@Clinique_US">Clinique US</option>
+                        <option value="@Smashbox_US">Smashbox US</option>
+                        <option value="@Origins_US">Origins US</option>
+                        <option value="@BobbiBrown_US">BobbiBrown US</option>
+                        <option value="@JML_US">JoMalone US</option>
+                        <option value="@Mac_CA">MAC CA</option>
+                        <option value="@Aveda_CA">Aveda CA</option>
+                        <option value="@Clinique_CA">Clinique CA</option>
+                        <option value="@JML_CA">JoMalone CA</option>
+                        <option value="@Mac_TR">MAC TR</option>
+                        <option value="@Mac_FR">MAC FR</option>
+                        <option value="@Mac_HK">MAC HK</option>
+                      </select>
+                    </div>
+                    <label for="Environment" class="form-label col-sm-4"
+                      >Environment</label
+                    >
+                    <div class="col-sm-8 mb-3">
+                      <select
+                        name="environment"
+                        class="form-select"
+                        id="environment"
+                      >
+                        <option value="DEV" selected>Dev</option>
+                        <option value="PROD">Prod</option>
+                        <option value="STAGE">Stage</option>
+                      </select>
+                    </div>
+                    <div class="col-sm-12">
+                      <button onclick="startTest()" class="btn button startBtn">
+                        Start
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-12 text-center fixed-bottom"
+                style="
+                  font-style: italic;
+                  font-family: 'Times New Roman', Times, serif;
+                  font-size: large;
+                "
+              >
+                <p>Powered by QA Automation Platform</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function startTest() {
+        var select = document.getElementsByName('brandLocale')[0];
+        var options = select && select.options;
+        var brandLocaleSelected = false;
+
+        // check if any brand-locale has been selected
+        for (var i = 0, iLen = options.length; i < iLen; i++) {
+          opt = options[i];
+          if (opt.selected) brandLocaleSelected = true;
+        }
+
+        // If none of the brand-locale are not selected, default to first
+        // This is to prevent tests triggering without tag
+        if (!brandLocaleSelected) {
+          brandLocaleSelected = true;
+          options[0].selected = true;
+        }
+
+        // add the brand-locales which have been selected
+        if (brandLocaleSelected) {
+          tag = '';
+          for (var i = 0, iLen = options.length; i < iLen; i++) {
+            opt = options[i];
+            if (opt.selected) tag = tag + ',' + opt.value;
+          }
+          tag = tag.substring(1);
+        }
+
+        var environ = document.getElementById('environment').value;
+        var urlParam =
+          'token=token2105&BRANDLOC=' + tag + '&ENVIRON=' + environ;
+        urlParam = encodeURI(urlParam);
+        urlParam = window.btoa(urlParam);
+        urlParam = './CSEMLTestRun.html?callParam=' + urlParam;
+        window.open(urlParam, '_blank');
+      }
+
+      function onPageLoad() {
+        document.getElementById('mainPage').style.display = 'block';
+        $('select[multiple]').multiselect({});
+      }
+      // function goHome() {
+      //   document.location.href = 'index.html';
+      // }
+    </script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.multiselect.js"></script>
+  </body>
+</html>

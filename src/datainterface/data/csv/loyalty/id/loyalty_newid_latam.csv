@@ -1,0 +1,210 @@
+tt,BrandLocale,CL-BR,MC-BR
+1,timeoutSetting,80000,80000
+1,emulationDevice,iPhone X,iPhone X
+1,proCatUrl,/shared/prodcat/sku_info.tmpl?SKU_ID=,/shared/prodcat/sku_info.tmpl?SKU_ID=
+1,prodCatUrl,/shared/prodcat/sku_info.tmpl?SKU_ID=,/shared/prodcat/sku_info.tmpl?SKU_ID=
+1,prdctUrl2,/product/688/97387/product-catalog/skincare/moisturizers/revitalizing-supreme-night/intensive-restorative-creme,/product/13825/22076/products/skincare/prep-prime/prep-prime-natural-radiance
+1,prdctUrl4,/product/637/9518/product-catalog/makeup/eyes/mascara/sumptuous-extreme/lash-multiplying-volume-mascara?shade=Extreme_Black&size=8ml,/product/13835/103814/products/makeup/eyes/eye-palettes-kits/lashes-to-lips-kit-neutral/mac-superstar-kits
+1,prdctUrl5,/product/688/97387/product-catalog/skincare/moisturizers/revitalizing-supreme-night/intensive-restorative-creme,/product/13835/64835/products/makeup/eyes/eye-palettes-kits/art-library-nude-model
+1,accountIndexUrl,/account/index.tmpl,/account/loyalty/index.tmpl
+1,offerManagerUrl,/shared/offers/offers2.tmpl,/shared/offers/offers2.tmpl
+1,LoyaltyAdminUrl,/shared/admin/protected/tools/loyalty/loyalty_admin.tmpl,/shared/admin/protected/tools/loyalty/loyalty_admin.tmpl
+1,viewCartPageUrl,/checkout/viewcart.tmpl,/checkout/viewcart.tmpl
+1,isShoppable,//*[@id='Sku_Details']/table[9]/tbody/tr[8]/td[3],//*[@id='Sku_Details']/table[9]/tbody/tr[8]/td[3]
+1,isShoppable1,//*[@id='Sku_Details']/table[9]/tbody/tr[8]/td[3],//*[@id='Sku_Details']/table[9]/tbody/tr[8]/td[3]
+1,isDisplayable,//*[@id='Sku_Details']/table[9]/tbody/tr[7]/td[3],//*[@id='Sku_Details']/table[9]/tbody/tr[7]/td[3]
+1,productUrl,"//table/tbody/tr[contains(.,'displayableProduct')]/td[last()]/a","//table/tbody/tr[contains(.,'displayableProduct')]/td[last()]/a"
+1,noDisplayableProductError,,
+1,popUpId,,
+1,emailPopUp,,.icon-remove
+1,checkoutButtonId,//a[@data-test-id='cart_primarycheckout'],"//a[contains(text(),'FECHAR PEDIDO')]"
+1,sampleContinue,,//input[@data-test-id='form_checkout_samples_continue']
+1,sampleContinueMob,,//input[@data-test-id='form_checkout_samples_continue']
+1,popUp,//button[@id='cboxClose'],#cboxClose
+1,samplePageContinue,"//*[contains(@class,'mobile_hidden')]//*[contains(@class,'continue-checkout')]","//*[contains(@class,'mobile_hidden')]//*[contains(@class,'continue-checkout')]"
+1,samplePageContinueMob,,
+1,guestUserId,,
+1,termsAndConditions,,
+1,guestUserContinueBtn,,
+1,guestUserSubmitMob,,
+1,deliveryMethodId,,
+1,titleId,,
+1,titleDropDownMob,,
+1,firstNameId,#shipping-full-name-input,
+1,lastNameId,,
+1,shippingFullName,#shipping-full-name-input,#shipping-full-name-input
+1,addressSearch,,
+1,addressId,,
+1,phoneId,#shipping-phone1-input,#shipping-phone1-input
+1,postalCodeId,#shipping-zip-code-input,#shipping-zip-code-input
+1,streetNumIDLocator,#shipping-second-line-input,#shipping-second-line-input
+1,paymentOptionId,,
+1,paymentOptionTnC,//label[@for='form--checkout_shipping_panel--field--TERMS'],
+1,shippingAddressContinue,button[class*='js-delivery-screen-continue-button'],button[class*='elc-delivery-screen-continue-button']
+1,shippingContinueMob,button[class*='elc-delivery-screen-continue-button'],button[class*='elc-delivery-screen-continue-button']
+1,createAccountContinue,,
+1,paymentMethodRadioButton,"//span[contains(@data-test-id,'pp_radio_button_cc')]",
+1,paymentMethodRadioButton1,span[data-test-id*='Boleto'],span[data-test-id*='Boleto']
+1,paymentMethodRadioButtonMob,,
+1,termsAndConditionsForAge,//div/label[@for='form--checkout_payment_type--field--ORDER_TERMS'],
+1,completeTheOrder,,//*[@test_id='continue-checkout']
+1,completeTheOrderMob,//a[@class='btn btn--big btn-primary js-checkout-shipping-buttons-unhide button'],//*[@test_id='continue-checkout']
+1,confirmPaymentContinue,,
+1,payButtonId,button[class*='adyen-checkout__button'],button[class*='adyen-checkout__button']
+1,confirmPayButton,,
+1,newUserRegisterNowMob,,
+1,mobileSignUpPopUp,,
+1,paymentMethodDD,,
+1,waitForText,,
+1,loginId1,div[class*='header-gnav-account-link__text header-gnav-account-link--anon js-header-gnav-account-link--anon'],"a[data-test-id='home_gnav_button_signin']"
+1,loginId,[data-test-id='home_myaccount_button_register'],
+1,mobLoginId,span[class*='header-gnav-account-link__text header-gnav-account-link--anon js-header-gnav-account-link'],[class='icon icon--icon--user site-my-mac__link-icon']
+1,mobHamburgerMenuBtn,button[class*='gnav-header-formatter__hamburger--mobile'],
+1,mobRewardsSection,a[href='/account/loyalty/index.tmpl#rewards'],
+1,acRegisterNow,#new-account-link,
+1,acRegisterNow1,#new-account-link,//a[text()='CADASTRE-SE']
+1,acRegisterNowMob,#new-account-link,//a[text()='CADASTRE-SE']
+1,acRegisterFirstName,#form--registration_short--field--FULL_NAME,//input[@id='form--registration_short--field--FULL_NAME']
+1,acRegisterLastName,,
+1,acRegisterEmail,#form--registration_short--field--PC_EMAIL_ADDRESS,//*[@id='form--registration_short--field--PC_EMAIL_ADDRESS']
+1,acMarkPageRegisterEmail,#form--registration_short--field--PC_EMAIL_ADDRESS,
+1,acRegisterPwd,#form--registration_short--field--PASSWORD,#form--registration_short--field--PASSWORD
+1,acMarkRegisterPwd,#form--registration_short--field--PASSWORD,
+1,acRegisterPhone,,
+1,acRegisterYear,,
+1,acRegisterMonth,,
+1,acRegisterDay,,
+1,acRegisterTerms,#form--registration_short--field--ACCEPTED_PRIVACY_POLICY,//label[@for='form--registration_short--field--ACCEPTED_PRIVACY_POLICY']
+1,acRegisterTermsMob,#form--registration_short--field--ACCEPTED_PRIVACY_POLICY,#form--registration_short--field--ACCEPTED_PRIVACY_POLICY
+1,acRegisterCreateAccBtn,//input[@value='Cadastrar-se'],//input[@value='Cadastre-se']
+1,acRegisterCreateAccBtnMob,input.signup-submit,//input[@value='Cadastre-se']
+1,registerBtnMob,//input[@class='signup-submit'],
+1,acRegisterTitle,,
+1,acRegisterPhone,,
+1,Url,https://www.esteelauder.com.hk/?Bypss_akamai=1,
+1,loyaltySection,.account-loyalty,#progress_bar
+1,lPointsIndexPage,.star-points,.mac-select__account-panel__header-right >h4
+1,tier1StatusId,.loyalty__panel__points__bg__slide__content,.mac-select__account-panel__content .mac-select__color-tier1
+1,profilePopupClose,//button[@id='cboxClose'],
+1,joinLoyaltyFooter,"//a[contains(text(),'Smart Rewards – Programa de Fidelidade')]",li >a[href='/account/mac-lover.tmpl']
+1,joinLoyaltyFooterMob,"//a[contains(text(),'Smart Rewards – Programa de Fidelidade')]",li >a[href='https://m.maccosmetics.com.br/account/mac-lover.tmpl']
+1,joinNowMarktPage,(//a[@href='https://www.clinique.com.br/account/index.tmpl'])[2],//a[text()='CADASTRE-SE AGORA']
+1,loyaltyJoinConPage,//a[@class='button form-submit'],input[value='Participar Agora']
+1,rewardsSection,//*[@href='/account/loyalty/index.tmpl'],
+1,orderNum,//p[@class='confirmation-panel__confirm-text--not-signedin'] ,"//a[contains(@href,'/order_history/detail.tmpl')]"
+1,rewardsSectionMob,//*[@href='/account/loyalty/index.tmpl#rewards'],
+1,appliedOffersId,body > p:nth-of-type(8),body > p:nth-of-type(8)
+1,appliedOffersId1,body > p:nth-of-type(7),body > p:nth-of-type(7)
+1,fNameProfile,//input[@name='FULL_NAME'],
+1,lNameProfile,,
+1,birthDateProfile,form--profile_preferences--field--BIRTH_DAY,
+1,birthMonthProfile,form--profile_preferences--field--BIRTH_MONTH,
+1,birthYearProfile,,
+1,profileUpdate,//input[@value='SALVAR'],
+1,profileUpdateMob,//input[@value='SALVAR'],
+1,loyaltyOfferPanel,div[class*='offer-code-title'],
+1,accountInfo,//*[@href='/account/profile_preferences.tmpl'],
+1,addToCart,//button[@data-test-id='add_to_bag_btn'],
+1,gNavCartButton,//a[@class='header-gnav-cart__trigger js-header-gnav-cart__trigger gnav-header-utility-icon-link jquery-once-1-processed'],[data-test-id='home_gnav_carticon']
+1,gNavCartButtonMob,//em[@class='header-gnav-cart__count hide_if_zero'],[data-test-id='home_gnav_carticon']
+1,VcartButton,,
+1,accountInfoMob,//a[@data-test-id='myaccount_menu_profile'],
+1,leftSideMenu,a[href='/account/loyalty/index.tmpl'],
+1,purchaseAmnt,,.site-bag__contents-subtotal__value
+1,addToCartMob,//button[@data-test-id='add_to_bag_btn'],
+1,editProfile,[data-test-id='myaccount_edit_settings'],
+1,acLoyRegisterTerms,#form--registration_short--field--LOYALTY_ACTIVE_FLAG,
+1,loginBtn,,
+1,lPointVCart,div[class*='summary-loyalty-points'],
+1,lPointsOnConPage,#loyalty-points-confirm,.loyalty__points-earned.confirmation-panel__email-coming
+1,welcomeRewardRedeemBtn,//div[@data-offer-id='lyl_welcome_15']//a[@class='loyalty__panel__offers__button button--offers button '],
+1,birthdRewardRedeemBtn,//div[@data-offer-id='lyl_birthday_tier1']//a[@class='loyalty__panel__offers__button button--offers button '],
+1,purchaseAmntMob,,.total.value.order-summary__total-value
+1,expandButtonViewCart,,
+1,joinNowMarktPageMob,(//a[@href='https://m.clinique.com.br/account/index.tmpl'])[2],//a[text()='CADASTRE-SE AGORA']
+1,addToBag,//div[@class='sd-product-spp__product-full']//button[@data-test-id='add_to_bag_btn'],"//a[contains(@data-test-id,'add-to-cart')]"
+1,cpfId,#form--federal_id_check--field--FEDERAL_ID1,
+1,checkoutRegisterName,#form--checkout_registration--field--FULL_NAME,#form--checkout_registration--field--FULL_NAME
+1,checkoutRegisterEmailId,#form--checkout_registration--field--PC_EMAIL_ADDRESS,input[id*='PC_EMAIL_ADDRESS']
+1,checkoutRegisterPWD,#form--checkout_registration--field--PASSWORD,#form--checkout_registration--field--PASSWORD
+1,cpfIdCheckout,#form--federal_id_check--field--FEDERAL_ID1,
+1,checkoutRegisterTerms,#form--checkout_registration--field--ACCEPTED_PRIVACY_POLICY,#form--checkout_registration--field--ACCEPTED_PRIVACY_POLICY
+1,checkoutRegisterCreateAcBtn,//input[@value='IR PARA PAGAMENTO'],#checkout_signin_guest_user-submit
+1,purchaseAmntViewCart,.order-summary__total-value,
+1,proCatUrl,/shared/prodcat/sku_info.tmpl?SKU_ID=,/shared/prodcat/sku_info.tmpl?SKU_ID=
+1,productUrl,"//table/tbody/tr[contains(.,'displayableProduct')]/td[last()]/a","//table/tbody/tr[contains(.,'displayableProduct')]/td[last()]/a"
+1,profilePreferencesPhone,//input[@id='form--profile_preferences--field--PHONE1'],
+1,birthYearProfile,form--profile_preferences--field--BIRTH_YEAR,
+1,joinNowBannerAccountPage,#in_account_module_submit,
+1,bannerLylRegisterTerms,#in_account_module_checkbox,
+1,titleSettings,,
+1,joinNow,,//input[@class='btn--full js-email-validate']
+1,cookieRejectBtn,button[class='onetrust-close-btn-handler onetrust-close-btn-ui banner-close-button ot-close-icon'],button[class='onetrust-close-btn-handler onetrust-close-btn-ui banner-close-button ot-close-icon']
+1,registerEmailId,,#form--loyalty_email--field--PC_EMAIL_ADDRESS
+1,loyaltyAccFullName,#form--registration_short--field--FULL_NAME,#form--loyalty--field--FULL_NAME
+1,loyaltyPwd,#form--registration_short--field--PASSWORD,//*[@id='form--loyalty--field--PASSWORD']
+1,loyaltySubmit,,.btn--full.js-loyalty-form-submit
+1,acLoyalty,,//a[@href='/account/loyalty/about.tmpl']
+1,welcomeRewardRedeemBtnFooter,,//*[@data-offer-code='lyl_tier_1_welcome']//input[@value='Resgatar']
+1,loyRegisterTerms,,//label[@for='form--loyalty--field--ACCEPTED_LOYALTY_TERMS']
+1,loyRegisterTermsMob,,#form--loyalty--field--ACCEPTED_LOYALTY_TERMS
+1,acEmailTerms,,"//label[contains(@for,'_EMAIL_PROMOTIONS') and contains(@for,'registration')]"
+1,checkoutbuttonMob,,"//a[contains(text(),'FECHAR PEDIDO')]"
+1,cpfIdNum,#form--federal_id_check--field--FEDERAL_ID1,#form--federal_id_check--field--FEDERAL_ID1
+1,xBtn,,a[title='Close Chat']
+1,continueCheckout,,//*[@test_id='continue-checkout']
+1,cartCheckoutBtn,a.checkout-btns.button,
+1,addToCartBtn,"//a[contains(text(),'Add to Cart')]","//a[contains(text(),'Add to Cart')]"
+1,femaleGenderRadio,#form--profile_preferences--field--SEX--index--f,
+1,cookieRejectElem,button[class='onetrust-close-btn-handler onetrust-close-btn-ui banner-close-button ot-close-icon'],#onetrust-close-btn-container button
+1,homeJoinLoyaltyFooterElem,"(//a[contains(text(),'Smart Rewards – Programa de Fidelidade')])[2]",(//li/a[@href='/account/mac-lover.tmpl'])[1]
+1,marketingJoinNowElem,(//a[@href='https://www.clinique.com.br/account/index.tmpl'])[2],//a[text()='CADASTRE-SE AGORA']
+1,accountMarketingJoinNowElem,,//input[@class='btn--full js-email-validate']
+1,signinRegisterGnavElem,li[class*='gnav-block__courtesy-navigation-item gnav-block__courtesy-navigation-item-guest']>a[aria-label='Minha Conta'],a[data-test-id='home_gnav_button_signin']
+1,signinCreateAccountElem,#new-account-link,//a[text()='CADASTRE-SE']
+1,signinLoyaltyRegFirstNameElem,#form--registration_short--field--FULL_NAME,//input[@id='form--registration_short--field--FULL_NAME']
+1,signinLoyaltyRegEmailIdElem,#form--registration_short--field--PC_EMAIL_ADDRESS,//*[@id='form--registration_short--field--PC_EMAIL_ADDRESS']
+1,signinLoyaltyRegPasswordElem,#form--registration_short--field--PASSWORD,#form--registration_short--field--PASSWORD
+1,signinLoyaltyRegisterTermsElem,#form--registration_short--field--LOYALTY_ACTIVE_FLAG,
+1,signinAccountTermsElem,#form--registration_short--field--ACCEPTED_PRIVACY_POLICY,//label[@for='form--registration_short--field--ACCEPTED_PRIVACY_POLICY']
+1,signinRegisterContinueElem,(//input[@value='Cadastrar-se'])[1],(//input[@value='Cadastre-se'])[1]
+1,accountRewardsSectionElem,.account-loyalty,
+1,loyaltyCurrentPointsElem,.star-points,.mac-select__account-panel__header-right >h4
+1,loyaltyTierStatusIdElem,.loyalty__panel__points__bg__slide__content,.mac-select__account-panel__content .mac-select__color-tier1
+1,mobSigninLoyaltyHamburgerElem,a[class*='gnav-block__courtesy-hamburger-link js-gnav-block-courtesy-hamburger-link'],
+1,mobSigninRegisterGnavElem,li[class*='gnav-block-navigation-courtesy-item gnav-block-navigation-courtesy-item-guest']>a[aria-label='Minha Conta'],[class='icon icon--icon--user site-my-mac__link-icon']
+1,mobSigninCreateAccountElem,#new-account-link,//a[text()='CADASTRE-SE']
+1,mobLoyaltyHamburgerElem,a[class*='gnav-block__courtesy-hamburger-link js-gnav-block-courtesy-hamburger-link'],
+1,signinCpfElem,(//*[@id='form--federal_id_check--field--FEDERAL_ID1'])[1],(//*[@id='form--federal_id_check--field--FEDERAL_ID1'])[1]
+1,loyaltyRegisterTermsElem,,//label[@for='form--loyalty--field--ACCEPTED_LOYALTY_TERMS']
+1,mobLoyaltyRegisterTermsElem,,#form--loyalty--field--ACCEPTED_LOYALTY_TERMS
+1,loyaltySubmitElem,,.btn--full.js-loyalty-form-submit
+1,loyaltyLandingElem,,(//a[@href='/account/loyalty/about.tmpl'])[1]
+1,mobSigninAccountTermsElem,#form--registration_short--field--ACCEPTED_PRIVACY_POLICY,input#form--registration_short--field--ACCEPTED_PRIVACY_POLICY
+1,mobSigninRegisterContinueElem,input.signup-submit,(//input[@value='Cadastre-se'])[1]
+1,mobAccountRewardsSectionElem,a[href='/account/loyalty/index.tmpl#rewards'],
+1,signinMarketingCreateAccountElem,(//*[@id='new-account-link'])[1],
+1,signinLoyaltyMarktEmailIdElem,#form--registration_short--field--PC_EMAIL_ADDRESS,
+1,signinLoyaltyRegFullNameElem,#form--registration_short--field--FULL_NAME,#form--loyalty--field--FULL_NAME
+1,signinLoyaltyMarktPasswordElem,#form--registration_short--field--PASSWORD,//*[@id='form--loyalty--field--PASSWORD']
+1,loayltyMarketingTermsElem,(//*[@id='form--registration_short--field--LOYALTY_ACTIVE_FLAG'])[1],(//label[@for='form--loyalty--field--ACCEPTED_LOYALTY_TERMS'])[1]
+1,accountMarketingTermsElem,(//*[@id='form--registration_short--field--ACCEPTED_PRIVACY_POLICY'])[1],
+1,accountMarketingSubmitRegistrationElem,//input[@value='Cadastrar-se'],.btn--full.js-loyalty-form-submit
+1,mobAccountMarketingSubmitRegistrationElem,input.signup-submit,.btn--full.js-loyalty-form-submit
+1,accountRegisterEmailElem,,#form--loyalty_email--field--PC_EMAIL_ADDRESS
+1,mobMarketingJoinNowElem,(//a[@href='https://m.clinique.com.br/account/index.tmpl'])[1],//a[text()='CADASTRE-SE AGORA']
+1,mobHomeJoinLoyaltyFooterElem,"(//a[contains(text(),'Smart Rewards – Programa de Fidelidade')])[2]",(//li/a[@href='https://m.maccosmetics.com.br/account/mac-lover.tmpl'])[1]
+1,loyaltyJoinPopupElem,,
+1,profilePopupCloseElem,,
+1,checkoutLoyaltyRegFirstNameElem,#form--checkout_registration--field--FULL_NAME,#form--checkout_registration--field--FULL_NAME
+1,checkoutLoyaltyRegLastNameElem,,
+1,checkoutLoyaltyRegEmailIdElem,#form--checkout_registration--field--PC_EMAIL_ADDRESS,#form--checkout_registration--field--PC_EMAIL_ADDRESS
+1,checkoutLoyaltyRegPasswordElem,#form--checkout_registration--field--PASSWORD,#form--checkout_registration--field--PASSWORD
+1,checkoutCpfElem,#form--federal_id_check--field--FEDERAL_ID1,#form--federal_id_check--field--FEDERAL_ID1
+1,checkoutAccountTermsElem,#form--checkout_registration--field--ACCEPTED_PRIVACY_POLICY,div.form-item.checkbox.accepted-privacy-policy div.picker-flag
+1,checkoutCreateAccountContinueElem,(//input[@class='btn btn-primary form-submit'])[1],(//input[@id='checkout_signin_guest_user-submit'])[1]
+1,orderConfirmationRegisterContinueElem,//a[@class='button form-submit'],input[value='Participar Agora']
+1,orderConfirmationJoinPopupElem,(//a[@class='js-elc-button basic_cta_partial elc-button button--dark'])[1],
+1,orderConfirmationLoyaltyAcceptElem,(//input[@name='ACCEPTED_LOYALTY_TERMS'])[2],
+1,mobOrderConfirmationLoyaltyAcceptElem,//input[@name='ACCEPTED_LOYALTY_TERMS'],
+1,orderConfirmationSignupContinueElem,input[data-test-id='loyalty_submit'],

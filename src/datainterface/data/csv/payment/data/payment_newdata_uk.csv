@@ -1,0 +1,130 @@
+﻿tt,BrandLocale,AV-UK,BB-UK,BK-UK,BU-UK,CL-UK,DA-UK,DJ-UK,EL-UK,FM-UK,JM-UK,LM-UK,LS-UK,MC-UK,OR-UK,TF-UK
+1,expressPayPalEmail,afuller@aveda.co.uk,afuller@aveda.co.uk,afuller@aveda.co.uk,afuller@aveda.co.uk,afuller@aveda.co.uk,afuller@aveda.co.uk,afuller@aveda.co.uk,afuller@aveda.co.uk,afuller@aveda.co.uk,afuller@aveda.co.uk,afuller@aveda.co.uk,afuller@aveda.co.uk,afuller@aveda.co.uk,afuller@aveda.co.uk,afuller@aveda.co.uk
+1,expressPaypalPassword,Elconline1,Elconline1,Elconline1,Elconline1,Elconline1,Elconline1,Elconline1,Elconline1,Elconline1,Elconline1,Elconline1,Elconline1,Elconline1,Elconline1,Elconline1
+1,checkoutConfUrl2,/checkout/index.tmpl,/checkout/index.tmpl,/checkout/index.tmpl,/checkout/index.tmpl,/checkout/index.tmpl,/checkout/index.tmpl,/checkout/index.tmpl,/checkout/index.tmpl,/checkout/index.tmpl,/checkout/index.tmpl,/checkout/index.tmpl,/checkout/index.tmpl,/checkout/index.tmpl,/checkout/index.tmpl,/checkout/index.tmpl
+1,checkoutConfUrl1,/checkout/confirm.tmpl,/checkout/confirm.tmpl,/checkout/confirm.tmpl,/checkout/confirm.tmpl,/checkout/confirm.tmpl,/checkout/confirm.tmpl,/checkout/confirm.tmpl,/checkout/confirm.tmpl,/checkout/confirm.tmpl,/checkout/confirm.tmpl,/checkout/confirm.tmpl,/checkout/confirm.tmpl,/checkout/confirm.tmpl,/checkout/confirm.tmpl,/checkout/confirm.tmpl
+1,giftCardNo,7.78E+15,"7777085424568162	",,7.78E+15,"7777085424662588	",,,7.78E+15,,"7777080810723862	",7.78E+15,7.78E+15,7.78E+15,7.78E+15,
+1,pinNo,56518651,26057416,,97423683,97374827,,,26269723,,26066987,93764666,6905723,54340411,63696235,
+1,clearpayEmail,csstesterelc3@gmail.com,csstesterelc3@gmail.com,csstesterelc3@gmail.com,csstesterelc3@gmail.com,csstesterelc3@gmail.com,csstesterelc3@gmail.com,csstesterelc3@gmail.com,csstesterelc3@gmail.com,csstesterelc3@gmail.com,csstesterelc3@gmail.com,csstesterelc3@gmail.com,csstesterelc3@gmail.com,csstesterelc3@gmail.com,csstesterelc3@gmail.com,csstesterelc2@gmail.com
+1,clearpayPassword,July20202021,July20202021,July20202021,July20202021,July20202021,July20202021,July20202021,July20202021,July20202021,July20202021,July20202021,July20202021,July20202021,July20202021,July20202021
+1,engravingProductSkuId,,SKU94793,,,,,,SKU114795,,SKU107120,SKU101933,,,SKU95503,SKU94151
+1,productSkuId,,,SKU125687,,SKU107379,,,,,SKU139035,,,,SKU95503,SKU94152
+1,enterCcPostCode,PO144FL,PO144FL,PO144FL,PO144FL,PO144FL,PO144FL,,PO144FL,PO144FL,PO144FL,PO144FL,PO144FL,PO144FL,PO144FL,PO144FL
+1,firstName,UKDTXAutomationQA,UKDTXAutomationQA,UKDTXAutomationQA,UKDTXAutomationQA,UKDTXAutomationQA,UKDTXAutomationQA,UKDTXAutomationQA,UKDTXAutomationQA,UKDTXAutomationQA,UKDTXAutomationQA,UKDTXAutomationQA,UKDTXAutomationQA,UKDTXAutomationQA,UKDTXAutomationQA,UKDTXAutomationQA
+1,lastName,DoNotShip,DoNotShip,DoNotShip,DoNotShip,DoNotShip,DoNotShip,DoNotShip,DoNotShip,DoNotShip,DoNotShip,DoNotShip,DoNotShip,DoNotShip,DoNotShip,DoNotShip
+1,address1,"Estee Lauder, Unit 3","Estee Lauder, Unit 3","Estee Lauder, Unit 3","Estee Lauder, Unit 3","Estee Lauder, Unit 3","Estee Lauder, Unit 3","Estee Lauder, Unit 3","Estee Lauder, Unit 3","Estee Lauder, Unit 3","Estee Lauder, Unit 3","Estee Lauder, Unit 3","Estee Lauder, Unit 3","Estee Lauder, Unit 3","Estee Lauder, Unit 3","Estee Lauder, Unit 3"
+1,address2,Kites Croft Business Park,Kites Croft Business Park,Kites Croft Business Park,Kites Croft Business Park,Kites Croft Business Park,Kites Croft Business Park,Kites Croft Business Park,Kites Croft Business Park,Kites Croft Business Park,Kites Croft Business Park,Kites Croft Business Park,Kites Croft Business Park,Kites Croft Business Park,Kites Croft Business Park,Kites Croft Business Park
+1,phone,7448778960,7448778960,7448778960,7448778960,7448778960,7448778960,7448778960,7448778960,7448778960,7448778960,7448778960,7448778960,7448778960,7448778960,7448778960
+1,zipCode,PO14 4FL,PO14 4FL,PO14 4FL,PO14 4FL,PO14 4FL,PO14 4FL,PO14 4FL,PO14 4FL,PO14 4FL,PO14 4FL,PO14 4FL,PO14 4FL,PO14 4FL,PO14 4FL,PO14 4FL
+1,city,FAREHAM,FAREHAM,FAREHAM,FAREHAM,FAREHAM,FAREHAM,FAREHAM,FAREHAM,FAREHAM,FAREHAM,FAREHAM,FAREHAM,FAREHAM,FAREHAM,FAREHAM
+1,address4,Hampshire,Hampshire,,Hampshire,Hampshire,Hampshire,Hampshire,Hampshire,Hampshire,Hampshire,Hampshire,Hampshire,Hampshire,Hampshire,Hampshire
+1,country,,United Kingdom,,United Kingdom,United Kingdom,,,United Kingdom,,United Kingdom,United Kingdom,,United Kingdom,United Kingdom,
+1,accountConfirmUrl,/account/index.tmpl,/account/signin.tmpl,/account/index.tmpl,/account/index.tmpl,/account/index.tmpl,/checkout/confirm.tmpl,/account/index.tmpl,/account/index.tmpl,/account/index.tmpl,/account/index.tmpl,/account/index.tmpl,/account/index.tmpl,/checkout/confirm.tmpl,/checkout/confirm.tmpl,/account/index.tmpl
+1,ruId,csstester2@gmail.com,csstester2@gmail.com,csstester2@gmail.com,csstester2@gmail.com,csstester2@gmail.com,csstester3@gmail.com,csstester2@gmail.com,elcqeaukreg+2@gmail.com,csstester2@gmail.com,csstester2@gmail.com,csstester2@gmail.com,csstester2@gmail.com,elcqeaukreg+2@gmail.com,csstester2@gmail.com,csstester2@gmail.com
+1,ruId1,csstester3@gmail.com,csstester3@gmail.com,csstester3@gmail.com,csstester3@gmail.com,csstester3@gmail.com,csstester4@gmail.com,csstester3@gmail.com,elcqeaukreg+3@gmail.com,csstester3@gmail.com,csstester3@gmail.com,csstester3@gmail.com,csstester4@gmail.com,elcqeaukreg+3@gmail.com,csstester3@gmail.com,csstester3@gmail.com
+1,ruId2,csstester4@gmail.com,csstester4@gmail.com,csstester4@gmail.com,csstester4@gmail.com,csstester4@gmail.com,csstester5@gmail.com,csstester4@gmail.com,elcqeaukreg+4@gmail.com,csstester4@gmail.com,csstester4@gmail.com,csstester4@gmail.com,csstester6@gmail.com,elcqeaukreg+4@gmail.com,csstester4@gmail.com,csstester4@gmail.com
+1,ruId3,csstester+1@gmail.com,csstester6@gmail.com,csstester5@gmail.com,csstester5@gmail.com,csstester5@gmail.com,csstester6@gmail.com,csstester5@gmail.com,elcqeaukreg+5@gmail.com,csstester5@gmail.com,csstester5@gmail.com,csstester1@gmail.com,csstester7@gmail.com,elcqeaukreg+5@gmail.com,csstester5@gmail.com,csstester5@gmail.com
+1,ruId4,csstester+2@gmail.com,csstester7@gmail.com,csstester6@gmail.com,csstester6@gmail.com,csstester6@gmail.com,csstester7@gmail.com,csstester6@gmail.com,elcqeaukreg+6@gmail.com,csstester6@gmail.com,csstester6@gmail.com,csstester2@gmail.com,csstester8@gmail.com,elcqeaukreg+6@gmail.com,csstester6@gmail.com,csstester6@gmail.com
+1,ruId5,csstester+3@gmail.com,csstester8@gmail.com,csstester7@gmail.com,csstester7@gmail.com,csstester7@gmail.com,csstester8@gmail.com,csstester7@gmail.com,elcqeaukreg+7@gmail.com,csstester7@gmail.com,csstester7@gmail.com,csstester3@gmail.com,csstester9@gmail.com,elcqeaukreg+7@gmail.com,csstester7@gmail.com,csstester7@gmail.com
+1,ruId6,csstester+4@gmail.com,csstester9@gmail.com,csstester8@gmail.com,csstester8@gmail.com,csstester8@gmail.com,csstester10@gmail.com,csstester8@gmail.com,elcqeaukreg+8@gmail.com,csstester8@gmail.com,csstester8@gmail.com,csstester4@gmail.com,csstester10@gmail.com,elcqeaukreg+8@gmail.com,csstester8@gmail.com,csstester8@gmail.com
+1,ruId7,csstester5@gmail.com,csstester1@gmail.com,csstester9@gmail.com,csstester9@gmail.com,csstester9@gmail.com,csstester11@gmail.com,csstester9@gmail.com,elcqeaukreg+9@gmail.com,csstester9@gmail.com,csstester9@gmail.com,csstester1@gmail.com,csstester11@gmail.com,elcqeaukreg+9@gmail.com,csstester9@gmail.com,csstester9@gmail.com
+1,ruId8,csstester6@gmail.com,csstester2@gmail.com,csstester10@gmail.com,csstester10@gmail.com,csstester10@gmail.com,csstester12@gmail.com,csstester10@gmail.com,elcqeaukreg+10@gmail.com,csstester10@gmail.com,csstester10@gmail.com,csstester2@gmail.com,csstester12@gmail.com,elcqeaukreg+10@gmail.com,csstester10@gmail.com,csstester10@gmail.com
+1,ruId9,csstester7@gmail.com,csstester3@gmail.com,csstester11@gmail.com,csstester11@gmail.com,csstester11@gmail.com,csstester13@gmail.com,csstester11@gmail.com,elcqeaukreg+11@gmail.com,csstester11@gmail.com,csstester11@gmail.com,csstester3@gmail.com,csstester13@gmail.com,elcqeaukreg+11@gmail.com,csstester11@gmail.com,csstester11@gmail.com
+1,ruId10,csstester8@gmail.com,csstester4@gmail.com,csstester12@gmail.com,csstester12@gmail.com,csstester12@gmail.com,csstester14@gmail.com,csstester12@gmail.com,elcqeaukreg+12@gmail.com,csstester12@gmail.com,csstester12@gmail.com,csstester4@gmail.com,csstester14@gmail.com,elcqeaukreg+12@gmail.com,csstester12@gmail.com,csstester12@gmail.com
+1,ruId11,csstester9@gmail.com,csstester1@gmail.com,csstester13@gmail.com,csstester13@gmail.com,csstester13@gmail.com,csstester7@gmail.com,csstester13@gmail.com,elcqeaukreg+13@gmail.com,csstester13@gmail.com,csstester13@gmail.com,csstester1@gmail.com,csstester15@gmail.com,elcqeaukreg+13@gmail.com,csstester13@gmail.com,csstester13@gmail.com
+1,ruId12,csstester10@gmail.com,csstester2@gmail.com,csstester14@gmail.com,csstester14@gmail.com,csstester14@gmail.com,csstester8@gmail.com,csstester4@gmail.com,elcqeaukreg+14@gmail.com,csstester14@gmail.com,csstester14@gmail.com,csstester2@gmail.com,csstester16@gmail.com,elcqeaukreg+14@gmail.com,csstester14@gmail.com,csstester14@gmail.com
+1,ruId13,csstester+3@gmail.com,csstester3@gmail.com,csstester4@gmail.com,csstester4@gmail.com,csstester10@gmail.com,csstester10@gmail.com,csstester5@gmail.com,elcqeaukreg+5@gmail.com,csstester5@gmail.com,csstester4@gmail.com,csstester3@gmail.com,csstester4@gmail.com,elcqeaukreg+5@gmail.com,csstester5@gmail.com,csstester5@gmail.com
+1,ruId14,csstester+4@gmail.com,csstester4@gmail.com,csstester5@gmail.com,csstester5@gmail.com,csstester11@gmail.com,csstester11@gmail.com,csstester4@gmail.com,elcqeaukreg+5@gmail.com,csstester2@gmail.com,csstester7@gmail.com,csstester4@gmail.com,csstester6@gmail.com,elcqeaukreg+5@gmail.com,csstester4@gmail.com,csstester4@gmail.com
+1,ruPassword,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123,1234Qwert,Test@123,Test@123,Test@123,Test@123,1234Qwert,Test@123,Test@123
+1,nuPassword,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123
+1,skuId1,SKU78666,SKU17621,SKU125687,SKU128501,SKU43065,SKU59030,SKU126952,SKU133087,SKU82570,SKU46465,SKU60983,SKU136714,SKU10772,SKU130992,SKU107017
+1,skuId2,SKU34359,SKU88668,SKU98214,SKU51461,SKU150243,SKU41327,SKU126949,SKU133093,SKU124493,SKU21705,SKU26767,SKU136717,SKU60148,SKU72003,SKU175200
+1,skuId3,SKU110151,SKU156515,SKU115048,SKU86408,SKU95656,SKU65472,SKU126952,SKU133089,SKU142150,SKU92191,SKU117869,SKU136715,SKU118970,SKU36934,SKU107772
+1,skuId4,SKU110152,SKU119241,SKU115067,SKU86410,SKU135941,SKU106713,SKU126948,SKU114795,SKU142149,SKU50351,SKU117870,SKU136717,SKU151332,SKU98644,SKU117892
+1,skuId5,SKU110153,SKU132494,SKU98213,SKU65389,SKU130763,SKU62181,SKU126947,SKU133085,SKU86680,SKU21484,SKU117874,SKU136714,SKU75884,SKU72003,SKU118023
+1,engrMsg,,Test,,,,,,Test,,Tes,Test,,,,
+1,engrFont,,,,,,,,,,Script,,,,,
+1,validGiftMessage,,Testing,,,Testing,,,,Testing,,,,,,
+1,invalidGiftMessage,,~|/shit,,,~|/shit,,,,~|/shit,,,,,,
+1,giftWrapFieldTxt,,GIFT WRAP,,,GIFT WRAP,,,,GIFT WRAP,,,,,,
+1,loyTier2RuMailID,,bbloyaltyuser1@gmail.com,,,clloyaltyuser01@gmail.com,,,elloyaltyuser1@gmail.com,,,lmloyaltyuser1@gmail.com,,,,
+1,loyTier2RuPassword,,Test@123,,,Test@123,,,Test@123,,,Test@123,,,,
+1,loyTier3RuMailID,,bbloyaltyuser2@gmail.com,,,clloyaltyuser02@gmail.com,,,elloyaltyuser2@gmail.com,,,lmloyaltyuser2@gmail.com,,,,
+1,loyTier3RuPassword,,Test@123,,,Test@123,,,Test@123,,,Test@123,,,,
+1,fbMailID,cssmaheesh@gmail.com,cssmaheesh@gmail.com,cssmaheesh@gmail.com,cssmaheesh@gmail.com,cssmaheesh@gmail.com,cssmaheesh@gmail.com,cssmaheesh@gmail.com,cssmaheesh@gmail.com,cssmaheesh@gmail.com,cssmaheesh@gmail.com,cssmaheesh@gmail.com,cssmaheesh@gmail.com,cssmaheesh@gmail.com,cssmaheesh@gmail.com,cssmaheesh@gmail.com
+1,fbPassword,Tester@123,Tester@123,Tester@123,Tester@123,Tester@123,Tester@123,Tester@123,Tester@123,Tester@123,Tester@123,Tester@123,Tester@123,Tester@123,Tester@123,Tester@123
+1,proUserMailID,,cssholidayqa502@gmail.com,,,,,,,,,,,elcqea+pro12@gmail.com,,
+1,proUserPassword,,Holidayqa@123,,,,,,,,,,,1234Qwert,,
+1,salonAddress,1,,,,,,,,,,,,,,
+1,stylistName,TEST,,,,,,,,,,,,,,
+1,poaId,,rishabh.gupta@agileengine.com,,rishabh.gupta@agileengine.com,rishabh.gupta@agileengine.com,,,rishabh.gupta@agileengine.com,,rishabh.gupta@agileengine.com,rishabh.gupta@agileengine.com,,rishabh.gupta@agileengine.com,rishabh.gupta@agileengine.com,
+1,poaPwd,,sp$@juja,,sp$@juja,sp$@juja,,,sp$@juja,,sp$@juja,sp$@juja,,sp$@juja,sp$@juja,
+1,pblCreditCardNumber,,"4444333322221111	",,"4444333322221111	","4444333322221111	",,,"4444333322221111	",,"4444333322221111	","4444333322221111	",,"4444333322221111	","4444333322221111	",
+1,pblExpDate,,330,,330,330,,,330,,330,330,,330,330,
+1,pblSecCode,,737,,737,737,,,737,,737,737,,737,737,
+1,pblCardHolderName,,Test,,Test,Test,,,Test,,Test,Test,,Test,Test,
+1,paymentPaidText,,Payment successful!,,Payment successful!,Payment successful!,,,Payment successful!,,Payment successful!,Payment successful!,,Payment successful!,Payment successful!,
+1,vsSkuId1,SKU151440,SKU155989,SKU168514,,SKU156731,SKU169781,,SKU164595,SKU119492,SKU159646,SKU153761,,SKU89706,SKU168845,SKU153520
+1,vsSkuId2,SKU161896,SKU164389,SKU168872,,SKU153608,SKU169779,,SKU152557,SKU89781,SKU152891,SKU168864,,SKU91969,SKU168848,SKU107017
+1,vsSkuId3,SKU151439,SKU161991,SKU163409,,SKU168768,SKU169778,,SKU164596,SKU127085,SKU159647,SKU164054,,SKU159161,SKU158354,SKU158560
+1,vsSkuId4,SKU161876,SKU161977,SKU115033,,SKU168770,SKU174464,,SKU155135,SKU141719,SKU150625,SKU153771,,SKU116624,SKU152997,SKU158569
+1,vsSkuId5,SKU122903,SKU155988,SKU122502,,SKU168769,SKU169559,,SKU161462,SKU161018,SKU150619,SKU153765,,SKU103021,SKU162724,SKU158566
+1,donationValueOne,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,donationValueFive,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
+1,donationValueTen,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10
+1,donationSkuId,,,,SKU119563,,,,,,,SKU119568,,,,
+1,fbTitle,Facebook,Facebook,,Facebook,,,,,,,,,,,
+1,twitterTitle,Log in to Twitter / X,Log in to Twitter / X,,Log in to Twitter / X,,,,,,,,,,,
+1,pinterestTitle,Pinterest,Pinterest,,Pinterest,,,,,,,,,,,
+1,validOfferCode,,,,,,,,,,std-bath,,,,,
+1,validOfferMsg,,,,,,,,,,Offer code std has been successfully applied.,,,,,
+1,expectedDel,,,,,,,,,,0,,,,,
+1,expectedDelType,,,,,,,,,,Standard Delivery,,,,,
+1,validOfferCodeND,,,,,,,,,,nd-bath,,,,,
+1,validOfferMsgND,,,,,,,,,,Offer code nd has been successfully applied.,,,,,
+1,expectedDelTypeND,,,,,,,,,,Next Day Delivery,,,,,
+1,intlBillingFirstName,UKDTXAutomationQA,UKDTXAutomationQA,UKDTXAutomationQA,UKDTXAutomationQA,UKDTXAutomationQA,UKDTXAutomationQA,UKDTXAutomationQA,UKDTXAutomationQA,UKDTXAutomationQA,UKDTXAutomationQA,UKDTXAutomationQA,UKDTXAutomationQA,UKDTXAutomationQA,UKDTXAutomationQA,UKDTXAutomationQA
+1,intlBillingLastName,DoNotShip,DoNotShip,DoNotShip,DoNotShip,DoNotShip,DoNotShip,DoNotShip,DoNotShip,DoNotShip,DoNotShip,DoNotShip,DoNotShip,DoNotShip,DoNotShip,DoNotShip
+1,intlBillingAddress1,Ambedkar Nagar Housing Society,Ambedkar Nagar Housing Society,Ambedkar Nagar Housing Society,Ambedkar Nagar Housing Society,Ambedkar Nagar Housing Society,Ambedkar Nagar Housing Society,Ambedkar Nagar Housing Society,Ambedkar Nagar Housing Society,Ambedkar Nagar Housing Society,Ambedkar Nagar Housing Society,Ambedkar Nagar Housing Society,Ambedkar Nagar Housing Society,Ambedkar Nagar Housing Society,Ambedkar Nagar Housing Society,Ambedkar Nagar Housing Society
+1,intlBillingAddress2,Ashwamegh Township,Ashwamegh Township,Ashwamegh Township,Ashwamegh Township,Ashwamegh Township,Ashwamegh Township,Ashwamegh Township,Ashwamegh Township,Ashwamegh Township,Ashwamegh Township,Ashwamegh Township,Ashwamegh Township,Ashwamegh Township,Ashwamegh Township,Ashwamegh Township
+1,intlBillingZipcode,391101,391101,391101,391101,391101,391101,391101,391101,391101,391101,391101,391101,391101,391101,391101
+1,intlBillingPhone,2652652301,2652652301,2652652301,2652652301,2652652301,2652652301,2652652301,2652652301,2652652301,2652652301,2652652301,2652652301,2652652301,2652652301,2652652301
+1,intlBillingCity,Vadodara,Vadodara,Vadodara,Vadodara,Vadodara,Vadodara,Vadodara,Vadodara,Vadodara,Vadodara,Vadodara,Vadodara,Vadodara,Vadodara,Vadodara
+1,intlBillingAddress4,Gujarat,Gujarat,Gujarat,Gujarat,Gujarat,Gujarat,Gujarat,Gujarat,Gujarat,Gujarat,Gujarat,Gujarat,Gujarat,Gujarat,Gujarat
+1,intlBillingCountry,India,India,India,India,India,India,India,India,India,India,India,India,India,India,India
+1,regExpOrdNumPat1,,,,[^0-9],[^0-9],,,[^0-9],,,,,,,
+1,regExpOrdNumPat2,,,,g,g,,,g,,,,,,,
+1,paymentClearpayEmail,csstesterelc3@gmail.com,csstesterelc3@gmail.com,csstesterelc3@gmail.com,csstesterelc3@gmail.com,csstesterelc3@gmail.com,csstesterelc3@gmail.com,csstesterelc3@gmail.com,csstesterelc3@gmail.com,csstesterelc3@gmail.com,csstesterelc3@gmail.com,csstesterelc3@gmail.com,csstesterelc3@gmail.com,csstesterelc3@gmail.com,csstesterelc3@gmail.com,csstesterelc2@gmail.com
+1,paymentClearpayPasswrod,July20202021,July20202021,July20202021,July20202021,July20202021,July20202021,July20202021,July20202021,July20202021,July20202021,July20202021,July20202021,July20202021,July20202021,July20202021
+1,paymentGiftCardNumber,"7777086012499140	","7777085424568162	",,"7777085738772840	","7777085424662588	",,,"7777085738898455	",,"7777080810723862	","7777085734416018	","7777085734807842	","7777080810834339	","7777085734549963	",
+1,paymentGiftCardPin,56518651,26057416,,97423683,97374827,,,26269723,,26066987,93764666,6905723,54340411,63696235,
+1,cartNamedDayDeliveryTypeOption,22,,,,,,,,,22,,,,,
+1,cartNextDayDeliveryTypeOption,12,,,,,,,,,12,,,,,
+1,cartSaturdayDeliveryTypeOption,17,,,,,,,,,17,,,,,
+1,namedDayDeliveryType,NAMED DAY DELIVERY,NAMED DAY DELIVERY,NAMED DAY DELIVERY,NAMED DAY DELIVERY,NAMED DAY DELIVERY,NAMED DAY DELIVERY,NAMED DAY DELIVERY,NAMED DAY DELIVERY,NAMED DAY DELIVERY,NAMED DAY DELIVERY,NAMED DAY DELIVERY,NAMED DAY DELIVERY,NAMED DAY DELIVERY,NAMED DAY DELIVERY,NAMED DAY DELIVERY
+1,saturdayDeliveryType,SATURDAY DELIVERY,SATURDAY DELIVERY,SATURDAY DELIVERY,SATURDAY DELIVERY,SATURDAY DELIVERY,SATURDAY DELIVERY,SATURDAY DELIVERY,SATURDAY DELIVERY,SATURDAY DELIVERY,SATURDAY DELIVERY,SATURDAY DELIVERY,SATURDAY DELIVERY,SATURDAY DELIVERY,SATURDAY DELIVERY,SATURDAY DELIVERY
+1,nextDayDeliveryType,NEXT DAY DELIVERY,NEXT DAY DELIVERY,NEXT DAY DELIVERY,NEXT DAY DELIVERY,NEXT DAY DELIVERY,NEXT DAY DELIVERY,NEXT DAY DELIVERY,NEXT DAY DELIVERY,NEXT DAY DELIVERY,NEXT DAY DELIVERY,NEXT DAY DELIVERY,NEXT DAY DELIVERY,NEXT DAY DELIVERY,NEXT DAY DELIVERY,NEXT DAY DELIVERY
+1,payPalEmail,afuller@aveda.co.uk,afuller@aveda.co.uk,afuller@aveda.co.uk,afuller@aveda.co.uk,afuller@aveda.co.uk,afuller@aveda.co.uk,afuller@aveda.co.uk,afuller@aveda.co.uk,afuller@aveda.co.uk,afuller@aveda.co.uk,afuller@aveda.co.uk,afuller@aveda.co.uk,afuller@aveda.co.uk,afuller@aveda.co.uk,afuller@aveda.co.uk
+1,payPalPassword,Elconline1,Elconline1,Elconline1,Elconline1,Elconline1,Elconline1,Elconline1,Elconline1,Elconline1,Elconline1,Elconline1,Elconline1,Elconline1,Elconline1,Elconline1
+1,cartOfferCode,,,,,,,,,,std-bath,,,,,
+1,cartOfferMessage,,,,,,,,,,Offer code std has been successfully applied,,,,,
+1,cartDeliveryCost,,,,,,,,,,£0.00,,,,,
+1,cartDeliveryType,,,,,,,,,,Standard Delivery,,,,,
+1,toPlaceOrder,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+1,CHECKOUTCONFIRMURL,,,,,,,,,,checkout/index,,,,,
+1,shipZipCode,PO14 4FL,PO14 4FL,PO14 4FL,PO14 4FL,PO14 4FL,,,PO14 4FL,PO14 4FL,PO14 4FL,PO14 4FL,PO14 4FL,PO14 4FL,PO14 4FL,
+1,shipPurchaserFirstName,,AutomationQA,AutomationQA,AutomationQA,AutomationQA,,,AutomationQA,AutomationQA,,AutomationQA,AutomationQA,AutomationQA,AutomationQA,
+1,shipPurchaserLastName,,Do Not Ship,Do Not Ship,Do Not Ship,Do Not Ship,,,Do Not Ship,Do Not Ship,,Do Not Ship,Do Not Ship,Do Not Ship,Do Not Ship,
+1,shipPurchaserMobileNumber,,7903365418,7903365418,7903365418,7903365418,,,7903365418,7903365418,,7903365418,7903365418,7903365418,7903365418,
+1,shipBillingFirstName,AutomationQA,AutomationQA,AutomationQA,AutomationQA,AutomationQA,,,AutomationQA,AutomationQA,AutomationQA,AutomationQA,AutomationQA,AutomationQA,AutomationQA,
+1,shipBillingLastName,Do Not Ship,Do Not Ship,Do Not Ship,Do Not Ship,Do Not Ship,,,Do Not Ship,Do Not Ship,Do Not Ship,Do Not Ship,Do Not Ship,Do Not Ship,Do Not Ship,
+1,shipBillingAddressOne,3 Kites Croft Business Park,3 Kites Croft Business Park,3 Kites Croft Business Park,3 Kites Croft Business Park,3 Kites Croft Business Park,,,3 Kites Croft Business Park,3 Kites Croft Business Park,3 Kites Croft Business Park,3 Kites Croft Business Park,3 Kites Croft Business Park,3 Kites Croft Business Park,3 Kites Croft Business Park,
+1,shipBillingAddressTwo,Fareham,Fareham,Fareham,Fareham,Fareham,,,Fareham,Fareham,Fareham,Fareham,Fareham,Fareham,Fareham,
+1,shipBillingZipCode,PO14 4FL,PO14 4FL,PO14 4FL,PO14 4FL,PO14 4FL,,,PO14 4FL,PO14 4FL,PO14 4FL,PO14 4FL,PO14 4FL,PO14 4FL,PO14 4FL,
+1,shipBillingPhone,7903365418,7903365418,7903365418,7903365418,7903365418,,,7903365418,7903365418,7903365418,7903365418,7903365418,7903365418,7903365418,
+1,shipDeliveryFirstName,AutomationQA,,,,,,,,,AutomationQA,,,,,
+1,shipDeliveryLastName,Do Not Ship,,,,,,,,,Do Not Ship,,,,,
+1,shipDeliveryPhone,7903365418,,,,,,,,,7903365418,,,,,
+1,shipFindStore,,"PO14 4FLFareham, UK","PO14 4FLFareham, UK","PO14 4FLFareham, UK","PO14 4FLFareham, UK","PO14 4FLFareham, UK","PO14 4FLFareham, UK","PO14 4FLFareham, UK","PO14 4FLFareham, UK",,"PO14 4FLFareham, UK","PO14 4FLFareham, UK","PO14 4FLFareham, UK","PO14 4FLFareham, UK","PO14 4FLFareham, UK"
+1,cartCCDeliveryType,Local Collection Point,,,,,,,,,Collect from a Local Collection Point (3-5 working days),,,,,
+1,isRCO,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE

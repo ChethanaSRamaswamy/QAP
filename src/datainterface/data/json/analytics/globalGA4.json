@@ -1,0 +1,318 @@
+[
+    {
+        "home": {
+            "tt": "internal",
+            "ep.page_type": "home",
+            "ep.content_group": "home",
+            "ep.page_template": "home",
+            "cg3": "home"
+        },
+        "plp": {
+            "tt": "internal",
+            "ep.page_template": "mpp",
+            "ep.page_type": "category",
+            "ep.content_group": "category"
+        },
+        "quickview": {
+            "tt": "internal",
+            "ep.feature_action": "product detail view - quickview",
+            "ep.feature_name": "ecommerce",
+            "ep.page_type": "category"
+        },
+        "select_item": {
+            "en": "select_item",
+            "ep.feature_action": "product click",
+            "ep.feature_name": "ecommerce",
+            "ep.page_type": "category",
+            "ep.content_group": "category"
+        },
+        "spp": {
+            "tt": "internal",
+            "ep.page_template": "spp"
+        },
+        "view_item": {
+            "tt": "internal",
+            "ep.feature_action": "spp",
+            "ep.feature_name": "ecommerce",
+            "ep.feature_label": "view_item",
+            "en": "view_item"
+        },
+        "view_item_list": {
+            "ep.feature_name": "ecommerce",
+            "en": "view_item_list",
+            "ep.feature_action": "view_item_list",
+            "ep.feature_label": "view_item_list"
+        },
+        "view_cart": {
+            "en": "view_cart"
+        },
+        "add_to_cart": {
+            "en": "add_to_cart",
+            "ep.feature_name": "viewcart",
+            "ep.feature_action": "view_cart",
+            "ep.feature_label": "view_cart_overlay"
+        },
+        "checkout_basket": {
+            "en": "checkout_basket",
+            "ep.feature_name": "viewcart",
+            "ep.feature_action": "view_cart",
+            "ep.feature_label": "view_cart_overlay"
+        },
+        "begin_checkout": {
+            "en": "begin_checkout"
+        },
+        "cart": {
+            "ep.page_type": "cart",
+            "ep.ep.content_group": "checkout",
+            "ep.page_template": "checkout"
+        },
+        "checkout": {
+            "ep.page_type": "checkout",
+            "ep.content_group": "checkout",
+            "ep.page_template": "checkout"
+        },
+        "page_view": {
+            "en": "page_view"
+        },
+        "login success": {
+            "en": "login success",
+            "ec": "ecommerce",
+            "el": "sign in",
+            "t": "event"
+        },
+        "samples": {
+            "pa": "checkout"
+        },
+        "return checkout": {
+            "tt": "internal",
+            "ep.feature_action": "checkout option",
+            "ec": "ecommerce",
+            "en": "return checkout",
+            "ep.feature_label": "return checkout",
+            "t": "event"
+        },
+        "new user checkout": {
+            "tt": "internal",
+            "ep.feature_action": "checkout option",
+            "ec": "ecommerce",
+            "en": "new user checkout",
+            "ep.feature_label": "new user checkout",
+            "t": "event"
+        },
+        "guest_checkout": {
+            "ep.feature_action": "checkout option",
+            "ep.feature_name": "ecommerce",
+            "ep.feature_label": "guest checkout",
+            "en": "guest_checkout"
+        },
+        "deliveryType": {
+            "ep.feature_action": "order delivery type - checkout",
+            "ep.feature_name": "ecommerce",
+            "ep.feature_label": "sign in"
+        },
+        "shippingAdress": {
+            "ep.feature_action": "checkout",
+            "ep.feature_name": "ecommerce",
+            "ep.feature_label": "shipping_address_add"
+        },
+        "shipping": {
+            "ep.feature_action": "checkout",
+            "ep.feature_label": "checkout",
+            "en": "checkout",
+            "cos": "2"
+        },
+        "add_shipping_info": {
+            "en": "add_shipping_info",
+            "ep.feature_name": "ecommerce",
+            "ep.feature_label": "add_shipping_info",
+            "ep.page_type": "checkout",
+            "ep.content_group": "checkout"
+        },
+        "view_payment_info": {
+            "ep.feature_label": "view_payment_info",
+            "ep.feature_name": "ecommerce",
+            "ep.feature_action": "view_payment_info",
+            "en": "view_payment_info",
+            "ep.page_type": "checkout",
+            "ep.content_group": "checkout"
+        },
+        "add_payment_info": {
+            "en": "add_payment_info",
+            "ep.feature_action": "add_payment_info",
+            "ep.feature_name": "ecommerce",
+            "ep.feature_label": "creditcard",
+            "ep.payment_type": "creditcard",
+            "ep.page_type": "checkout",
+            "ep.content_group": "checkout"
+        },
+        "beginCheckout": {
+            "ep.feature_action": "begin_checkout",
+            "en": "begin_checkout"
+        },
+        "purchase": {
+            "ep.page_type": "order",
+            "ep.page_template": "checkout",
+            "rc_order_complete": "1",
+            "ep.order_delivery_type": "standard"
+        },
+        "purchase_Pageview": {
+            "ep.page_type": "order",
+            "ep.query_string": "GUEST_TRANS_ID",
+            "ep.page_template": "checkout",
+            "rc_order_complete": "1"
+        },
+        "productAttributes": {
+            "pID": "//*[text()='PRODUCT_ID']//following-sibling::td//following-sibling::td",
+            "pPrice": "//*[text()='PRICE' or text()='PRIS']//following-sibling::td//following-sibling::td",
+            "pName": "//*[text()='Product']//following-sibling::td//following-sibling::td",
+            "pVariant": "//*[text()='PRODUCT_CODE']//following-sibling::td//following-sibling::td",
+            "pSize": "//*[text()='PRODUCT_SIZE']//following-sibling::td//following-sibling::td",
+            "pSkuID": "//*[text()='SKU_ID']//following-sibling::td//following-sibling::td"
+        },
+        "paymentRevenueDetails": {
+            "subtotal": "//div[contains(text(),'Subtotal')]/following-sibling::div | //div[@data-test-id='dp_value_sub_total'][normalize-space(text())]",
+            "tax": "//span[contains(text(),'Tax')]//following::div[contains(@data-test-id,'tax')] | //div[contains(@class,'vat-value')][normalize-space(text())]",
+            "shipping": "//div[contains(text(),'Shipping')]//following-sibling::div[contains(@data-test-id,'shipping')] | //div[@data-test-id='dp_value_shipping'][normalize-space(text())]",
+            "revenue": "//div[contains(text(),'Total')]//following-sibling::div[contains(@data-test-id,'amount')] | //div[@data-test-id='dp_value_total_amount'][normalize-space(text())]"
+        },
+        "prodImpression": {
+            "homePageImpression":  "//div[contains(@class,'js-product-grid-item')] | //a[contains(@class,'add-to-cart')] | //div[contains(@class,'elc-product-brief')]" ,
+            "productImpression": "//div[contains(@class,'js-product-grid-item') and @tabindex=0]",
+            "plpProductImpression": "//div[@data-controller='product'][1]",
+            "pdpProductImpression": "//div[contains(@class,'js-product-grid-item')]",
+            "firstProductInThePage" : "//*[contains(@class,'product-full__container')] | //div[@data-controller='product'] | //div[@data-test-id='product_brief']",
+             "pageImpression": "//div[@class='js-product js-product-brief product-brief product-brief__container'] | //div//div[contains(@classflex flex-col justify-between h-full gap-1 font-normal select-none font-headline)] | //div[@class='js-product js-product-brief product-brief product-brief__container'])",
+            "prodID": "//div[contains(@class,'product-card_product-container')] | //div[contains(@class,'js-product js-access-content js-product-grid-item')] | //div[@tabindex='0']//div[contains(@class,'js-product js-product') or contains(@class,'js-product-brief product-brief') and @data-product-id] | //div[@tabindex='-1' and contains(@class,'slick-slide slick-active') or @class='relative w-full']//div[contains(@class,'elc-product-brief js-product-brief') or contains(@class,'flex justify-center max-w-lg')] | //div[ contains(@id,'phx-F48z2xT71r8Vwfgj')]//div[contains(@class,'flex flex-col justify') and @data-product-productid-value] | //li[@class='discover_more__product']//a[@data-productid] | //div[contains(@class,'slick-active')]//div[contains(@class,'product-brief js-product-brief') or @tabindex='0' and @data-product-id or @data-productid] | //div[contains(@class,'elc-product-brief js-product-brief') and @data-product-id]"
+        },
+        "productAttribute": {
+            "dataProductID": "data-sku-base-id",
+            "dataProductIDValue": "data-product-selectedsku-value"           
+        },
+        "ga4Page": [
+            "home",
+            "category",
+            "plp",
+            "spp",
+            "pdp",
+            "viewcart",
+            "cart",
+            "checkout",
+            "order",
+            "account"
+        ],
+        "events": [
+            "page_view",
+            "select_promotion",
+            "view_item_list",
+            "view_item",
+            "select_item",
+            "checkout_option",
+            "add_to_cart",
+            "checkout_basket",
+            "view_cart",
+            "email_signup",
+            "begin_checkout",
+            "guest_checkout",
+            "add_shipping_info",
+            "view_payment_info",
+            "add_payment_info",
+            "purchase",
+            "login"
+        ],
+        "misc": {
+            "GA4Regex": "**/collect?v=2**",
+            "acceptCookie": "//button[@id='onetrust-accept-btn-handler']",
+            "actualDataTrim": "https://www.google-analytics.com/",
+            "googleAnalytics": "https://www.google-analytics.com/g/collect?",
+            "analyticsGoogle": "https://www.analytics.google.com/g/collect?",
+            "closePopup": "//button[@id='cboxClose']"
+        },
+        "skuLocator": "//*[contains(@class,'product-full__container')] | //div[@data-controller='product'] | //*[contains(@class,'add-to-cart')]",
+        "skuBaseID": "data-sku-base-id",
+        "selectedsku": "data-product-selectedsku-value",
+        "prodAttrubute1": "data-product-id",
+        "prodAttrubute2": "data-product-productid-value",
+        "sharedTool": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=",
+        "sanityReport": [
+            {
+                "home": [
+                    "page_view",
+                    "view_item_list"
+                ]
+            },
+            {
+                "plp": [
+                    "page_view",
+                    "view_item_list",
+                    "add_to_cart"
+                ]
+            },
+            {
+                "spp": [
+                    "page_view",
+                    "view_item",
+                    "view_item_list",
+                    "add_to_cart",
+                    "checkout_basket"
+                ]
+            },
+            {
+                "checkout": [
+                    "page_view"
+                ]
+            }
+        ],
+        "regionFromLocal": {
+            "NA": [
+                "US",
+                "CA"
+            ],
+            "UK": [
+                "UK"
+            ],
+            "EMEA": [
+                "DE",
+                "FR",
+                "GR",
+                "IL",
+                "ES",
+                "EU",
+                "TR",
+                "IT",
+                "ZA",
+                "CH",
+                "CZ",
+                "DK",
+                "FI",
+                "RU",
+                "RO",
+                "NO",
+                "AT",
+                "NL",
+                "BE",
+                "IN",
+                "SE",
+                "HU",
+                "PL"
+            ],
+            "LATAM": [
+                "BR",
+                "MX",
+                "CE"
+            ],
+            "APAC": [
+                "AU",
+                "JP",
+                "TW",
+                "CN",
+                "KR",
+                "SG",
+                "PH",
+                "HK",
+                "MY",
+                "NZ",
+                "TH"
+            ]
+        }
+    }
+]

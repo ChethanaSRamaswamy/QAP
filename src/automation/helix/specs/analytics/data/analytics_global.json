@@ -1,0 +1,407 @@
+[
+    {
+        "Home": {
+            "cd39": "home",
+            "cd41": "home",
+            "cd42": "home",
+            "cg1": "home",
+            "il1nm": "/"
+        },
+        "MPP": {
+            "cd41": "MPP",
+            "cd42": "category"
+        },
+        "SPP": {
+            "pa": "detail",
+            "cd41": "SPP",
+            "cd42": "product",
+            "dt": "SPP"
+        },
+        "productClick": {
+            "cd100": "link",
+            "pa": "click",
+            "ea": "product click",
+            "ec": "ecommerce",
+            "el": "",
+            "t": "event"
+        },
+        "productdetailview": {
+            "cd100": "link",
+            "pa": "detail",
+            "ea": "product detail view - quickview",
+            "ec": "ecommerce",
+            "el": "",
+            "t": "event"
+        },
+        "viewItem": {
+            "cd100": "link",
+            "ea": "spp",
+            "ec": "ecommerce",
+            "el": "view_item",
+            "t": "event"
+        },
+        "viewItemList": {
+            "cd100": "link",
+            "ea": "view_item_list",
+            "ec": "ecommerce",
+            "el": "view_item_list",
+            "t": "event"
+        },
+        "addToBag": {
+            "cd100": "link",
+            "pa": "add",
+            "ea": "add to bag",
+            "ec": "ecommerce",
+            "el": "",
+            "t": "event"
+        },
+        "viewCartOverlay": {
+            "cd100": "link",
+            "ea": "view_cart",
+            "el": "view_cart_overlay",
+            "pa": "checkout",
+            "cos": "1",
+            "col": "standard",
+            "t": "event"
+        },
+        "viewcartPage": {
+            "dt": "checkout | viewcart",
+            "cd39": "checkout | viewcart",
+            "cd41": "checkout",
+            "cd42": "cart",
+            "cos": "1",
+            "col": "standard",
+            "pa": "checkout"
+        },
+        "productXpath": {
+            "xpr1id": "//*[text()='PRODUCT_ID']//following-sibling::td//following-sibling::td",
+            "xpr1cd1": "//*[text()='PRODUCT_SIZE']//following-sibling::td//following-sibling::td",
+            "xpr1cd50": "//*[text()='SHADENAME']//following-sibling::td//following-sibling::td",
+            "xpr1cd52": "//*[text()='SKU_ID']//following-sibling::td//following-sibling::td",
+            "xpr1cd85": "//*[text()='UPC_CODE']//following-sibling::td//following-sibling::td",
+            "xpr1cd84": "//*[text()='PRODUCT_CODE']//following-sibling::td//following-sibling::td",
+            "xpr1pr": "//*[text()='PRICE']//following-sibling::td//following-sibling::td"
+        },
+        "pageview": {
+            "t": "pageview",
+            "cd100": "view"
+        },
+        "event": {
+            "t": "event",
+            "cd100": "link"
+        },
+        "loginSucess": {
+            "cd100": "link",
+            "ea": "login success",
+            "ec": "ecommerce",
+            "el": "sign in",
+            "t": "event"
+        },
+        "samples": {
+            "pa": "checkout"
+        },
+        "createSuccess": {
+            "t": "event",
+            "dt": "account",
+            "ea": "create success",
+            "ec": "account",
+            "el": "standard",
+            "cd39": "account",
+            "cd41": "account",
+            "cd42": "account",
+            "cd100": "view",
+            "linkid": "registration"
+        },
+        "returnUser": {
+            "cd100": "link",
+            "ea": "checkout option",
+            "ec": "ecommerce",
+            "el": "return checkout",
+            "t": "event"
+        },
+        "newUser": {
+            "cd100": "link",
+            "ea": "checkout option",
+            "ec": "ecommerce",
+            "el": "new user checkout",
+            "t": "event"
+        },
+        "guestCheckout": {
+            "cd100": "link",
+            "dt": "checkout | signin",
+            "ea": "checkout option",
+            "ec": "ecommerce",
+            "el": "guest checkout",
+            "t": "event",
+            "pa": "checkout_option",
+            "cos": "2"
+        },
+        "deliveryType": {
+            "ea": "order delivery type - checkout",
+            "ec": "ecommerce",
+            "el": "sign in",
+            "t": "event"
+        },
+        "shippingAdress": {
+            "ea": "checkout",
+            "ec": "ecommerce",
+            "el": "shipping_address_add",
+            "t": "event"
+        },
+        "shipping": {
+            "39": "checkout | shipping",
+            "dt": "checkout | shipping",
+            "cd41": "checkout",
+            "cd42": "checkout",
+            "pa": "checkout"
+        },
+        "shipping1": {
+            "39": "checkout | registration",
+            "dt": "checkout | registration",
+            "cd41": "checkout",
+            "cd42": "checkout",
+            "pa": "checkout",
+            "cos": "1"
+        },
+        "addShippingInfo": {
+            "cd100": "link",
+            "ea": "add_shipping_info",
+            "ec": "ecommerce",
+            "el": "add_shipping_info",
+            "t": "event"
+        },
+        "paymentInfo": {
+            "cd100": "link",
+            "ea": "view_payment_info",
+            "ec": "ecommerce",
+            "el": "view_payment_info",
+            "t": "event",
+            "cos": "4",
+            "pa": "checkout"
+        },
+        "paymentCC": {
+            "cd100": "link",
+            "ea": "add_payment_info",
+            "ec": "ecommerce",
+            "el": "creditcard",
+            "t": "event"
+        },
+        "beginCheckout": {
+            "cd100": "link",
+            "ea": "begin_checkout",
+            "ec": "ecommerce",
+            "el": "begin_checkout",
+            "t": "event",
+            "cos": "3"
+        },
+        "purchase": {
+            "cd28": "PP - Adyen",
+            "cd29": "Visa - visacorporatecredit",
+            "pa": "purchase",
+            "dt": "checkout | confirm",
+            "cd78": "2063317127",
+            "cd79": "2063317127",
+            "cd2": "2146784786",
+            "cd5": "2146784786",
+            "cd49": "GUEST_TRANS_ID",
+            "cd86": "standard",
+            "cd87": "post"
+        },
+        "signin": {
+            "cd39": "checkout | signin",
+            "cd41": "checkout",
+            "cd42": "checkout"
+        },
+        "rcoCheckout": {
+            "cd39": "rco | checkout",
+            "cd41": "checkout",
+            "cd42": "checkout",
+            "dt": "rco | checkout"
+        },
+        "payment": {
+            "dt": "checkout | payment",
+            "cd39": "checkout | payment",
+            "cd41": "checkout",
+            "cd42": "checkout"
+        },
+        "payment1": {
+            "dt": "checkout | review",
+            "cd39": "checkout | review",
+            "cd41": "checkout",
+            "cd42": "checkout",
+            "cos": "2",
+            "pa": "checkout"
+        },
+        "newUserCheckoutLogin": {
+            "dt": "account",
+            "cd39": "account",
+            "cd41": "account",
+            "cd42": "account",
+            "cd15": "email",
+            "cd16": "logged in",
+            "linkid": "registration"
+        },
+        "revenueDetails": {
+            "revenue": "//div[@id='subtotal-row-total' or @id='subtotalrowtotal' or @data-test-id='dp_value_sub_total' or contains(@class,'subtotal value') or contains(@class,'subtotal-value')] | //td[text()='ΜΕΡΙΚΟ ΣΥΝΟΛΟ' or text()='Total']/following-sibling::td[@class='price'] | //div[contains(text(),'Zwischensumme')]/following-sibling::div[contains(@class,'price')]",
+            "shipping": "//div[contains(text(),'Delivery') or contains(text(),'Shipping')  or contains(@class,'shipping')]/following-sibling::div[contains(@class,'shipping value')or contains(@class,'value')]|//div[@data-test-id='dp_value_shipping' or contains(@class,'shipping value')] | //td[text()='STANDARD ΑΠΟΣΤΟΛΗ ΕΛΛΑΔΑ' or text()='Standard levering']/following-sibling::td[@class='price'] | //div[contains(text(),'Standard')]/following-sibling::div[contains(@class,'price')]  | //section[contains(@class,'order-summary__content')]//following::div[contains(@class,'value')]/following-sibling::div[contains(@class,'value')] | //div[contains(@class, 'summery_row') and (contains(div/font, 'default shipping') or contains(div/font, 'Expected Total'))]//div[contains(@class, 'subtotal value') or contains(@class, 'total value')]/font | //div[contains(text(), '運費：')]/following-sibling::div[contains(@class, 'subtotal value') and not(contains(text(), '-$'))] | //div[contains(@class, 'subtotal') and (contains(text(), '기본 배송비') or contains(text(), '총 합계'))]/following-sibling::div[@class='subtotal value order-summary__subtotal-value' or @class='total value order-summary__total-value'][position()=1 or position()=3] | //table//tr/following::th[contains(text(),'배송비') or contains(text(),'총 합계')]//following-sibling::td//text() | //section[contains(@class,'{{panel.order_summary.display}}')]//div[contains(text(), '運費') or contains(text(),'消費總金額')] //following-sibling::div[contains(@class, 'subtotal value') and not (contains(text(), '-$'))] | //div[@id='status-table']//div[contains(text(), '기본 배송') or contains(text(),'예상 합계:')]/following::div[contains(@class,'value')][position()=1]",
+            "tax": "//div[@data-test-id='dp_value_sales_tax' or contains(@class,'tax value') or contains(@class,'tax-value')] | //div[contains(@class,'tax price')] | //td[text()='Inkl. moms']/following-sibling::td[@class='price']"
+        },
+        "XPathPurchase": {
+            "OrderConfirmationMsgid1": "//span[@data-test-id='order_id'] | //a[@data-test-id='order_id']",
+            "Placeordervalidation": "checkout/confirm.tmpl",
+            "orderPagePopUpClose1": "//*[contains(@class,'extole-controls extole-controls--close')]"
+        },
+        "prodImpression": {
+            "prodID": "//div[contains(@class,'product-card_product-container')] | //div[contains(@class,'js-product js-access-content js-product-grid-item')] | //div[@tabindex='0']//div[contains(@class,'js-product js-product') or contains(@class,'js-product-brief product-brief') and @data-product-id] | //div[@tabindex='-1' and contains(@class,'slick-slide slick-active') or @class='relative w-full']//div[contains(@class,'elc-product-brief js-product-brief') or contains(@class,'flex justify-center max-w-lg')] | //div[ contains(@id,'phx-F48z2xT71r8Vwfgj')]//div[contains(@class,'flex flex-col justify') and @data-product-productid-value] | //li[@class='discover_more__product']//a[@data-productid] | //div[contains(@class,'slick-active')]//div[(contains(@class,'product-brief js-product-brief') or @tabindex='0') and @data-product-id or @data-productid] | //div[(contains(@class,'elc-product-brief js-product-brief') or contains(@class,'js-product js-pr-product js-product-brief')) and @data-product-id] | //div[contains(@class,'slick-slide') and @data-slick-index>='0' and @data-product-id]|//div[contains(@class,'flex flex-col justify-between') and @data-product-productid-value]"
+        },
+        "misc": {
+            "pagegrid": "//div[contains(@class,'sd-product-grid')] | //div[contains(@class,'product-full')] | //div[@class='sc-qQKPx fdmyUd elc-product-brief js-product-brief']",
+            "ScrollDownvalue": "",
+            "prodClick": 0,
+            "homePage": 0,
+            "home_pageview": 0,
+            "mpp_pageview": 0,
+            "productdetailview": 0,
+            "SPP": 0,
+            "MPP": 0,
+            "viewcart": 0,
+            "signin": 0,
+            "mppaddToBag_count": 0,
+            "spp_pageview": 0,
+            "view_item_count": 0,
+            "view_item_list_Count": 0,
+            "view_cart_overlay": "false",
+            "sppview_cart_overlay_count": 0,
+            "mppview_cart_overlay_count": 0,
+            "sppaddToBag_count": 0,
+            "hpViewItemList": 0,
+            "mppViewItemList": 0,
+            "sppPageViewItemList": 0,
+            "viewcart_pageview": 0,
+            "shipping": 0,
+            "shipping1": 0,
+            "payment": 0,
+            "payment1": 0,
+            "Payment_pageview": 0,
+            "Shipping_pageview": 0,
+            "Signin_pageview": 0,
+            "purchase_pageview": 0,
+            "Payment_event": 0,
+            "Shipping_event": 0,
+            "Signin_event": 0,
+            "beginCheckout": 0,
+            "beginCheckoutEvent": 0,
+            "beginCheckoutPage": 0,
+            "login_event": 0,
+            "purchase": 0,
+            "OrderConfirmationMsgid1": 0,
+            "Placeordervalidation": 0,
+            "negOne": -1,
+            "posFive": 5,
+            "posSix": 6,
+            "posTen": 10,
+            "newUserLogPageview": 0,
+            "newUserLog": 0,
+            "acceptCookie": "//button[@id='onetrust-accept-btn-handler']",
+            "cookieCloseButton": "//button[@class='onetrust-close-btn-handler banner-close-button ot-close-icon'] | //button[@id='cboxClose']",
+            "qtyXpathMob": "//div[contains(@class,'pc-hidden')]/descendant::input[@name='QTY']",
+            "gaInterceptURL": "https://www.google-analytics.com/*",
+            "actualDataTrim": "*/collect?v=1"
+        },
+        "tagValues": {
+            "home": "home",
+            "pageView": "pageview",
+            "event": "event",
+            "viewItemList": "view_item_list",
+            "mpp": "MPP",
+            "spp": "SPP",
+            "plp": "PLP",
+            "pdp": "PDP",
+            "viewItem": "view_item",
+            "addToBag": "add to bag",
+            "viewcartOverlay": "view_cart_overlay",
+            "checkoutViewcart": "checkout | viewcart",
+            "checkoutSignin": "checkout | signin",
+            "guestCheckout": "guest checkout",
+            "returnCheckout": "return checkout",
+            "logSuccess": "login success",
+            "chekOut": "checkout",
+            "checkShipping": "checkout | shipping",
+            "beginChckOut": "begin_checkout",
+            "rcoChckOut": "rco | checkout",
+            "addShipping": "add_shipping_info",
+            "reviewPayment": "checkout | review",
+            "chckPayment": "checkout | payment",
+            "creditCard": "creditcard",
+            "viewPayment": "view_payment_info",
+            "purchaseConfirm": "checkout | confirm",
+            "chckoutRegister": "checkout | registration",
+            "newUserLogin": "registration",
+            "linkid": "linkid",
+            "cSuccess": "create success",
+            "dt": "dt",
+            "gtag": "t",
+            "el": "el",
+            "ea": "ea",
+            "pa": "pa",
+            "cd39": "cd39",
+            "cd41": "cd41",
+            "detail": "detail",
+            "productClick": "product click",
+            "quickviewClick": "product detail view - quickview"
+        },
+        "regionFromLocal": {
+            "na": [
+                "US",
+                "CA"
+            ],
+            "uk": [
+                "UK"
+            ],
+            "emea": [
+                "DE",
+                "FR",
+                "GR",
+                "IL",
+                "ES",
+                "EU",
+                "TR",
+                "IT",
+                "ZA",
+                "CH",
+                "CZ",
+                "DK",
+                "FI",
+                "RU",
+                "RO",
+                "NO",
+                "AT",
+                "NL",
+                "BE",
+                "IN",
+                "SE",
+                "HU",
+                "PL",
+                "ME"
+            ],
+            "latam": [
+                "BR",
+                "MX",
+                "CE"
+            ],
+            "apac": [
+                "AU",
+                "JP",
+                "TW",
+                "CN",
+                "KR",
+                "SG",
+                "PH",
+                "HK",
+                "MY",
+                "NZ",
+                "TH"
+            ]
+        }
+    }
+]

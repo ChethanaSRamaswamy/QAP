@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Set to no cache, else the page will be served from cache without htaccess authentication -->
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <link rel="stylesheet" href="ct.css" />
+    <script src="../libraries/js/jquery-3.6.0.min.js"></script>
+    <script src="../../deployment_data.js"></script>
+    <script src="../utility/util.js"></script>
+    <script src="ct.js"></script>
+  </head>
+
+  <body>
+    <div id="name">
+      <h1 style="color: white; padding-left: 2px">
+        H<b style="color: rgb(0 176 240); font-size: larger">EL</b>IX &nbsp; -
+        &nbsp;&nbsp;
+      </h1>
+      <span style="font-size: 16px; position: absolute; top: 22px; left: 140px"
+        >End to End Test Automation Platform</span
+      >
+    </div>
+
+    <div class="Data">
+      <div class="tabcontent">
+        <div class="compare-options">
+          <label>Ticket ID: *</label>
+          <input
+            type="text"
+            class="ticket-id js-ticket-id"
+            placeholder="Enter ticket name"
+            autofocus
+            required
+          />
+        </div>
+        <div class="action-containers">
+          <button class="button js-start-va">Start</button>
+          <button class="gobutton">Go Back to HELIX Landing Page</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

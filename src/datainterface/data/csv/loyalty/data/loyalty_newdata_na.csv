@@ -1,0 +1,65 @@
+tt,BrandLocale,AV-US,BB-US,BU-US,CL-US,EL-US,EL-CA,LM-US,MC-US,MC-CA,SB-US,OR-US,CL-CA,AV-CA
+1,ID,test12@test.com,test12@test.com,test122@test.com,test12@test.com,test12@test.com,test12@test.com,test12@test.com,test12@test.com,test12@test.com,test12@test.com,test12@test.com,test12@test.com,test12@test.com
+1,FIRSTNAME,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT
+1,LASTNAME,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP
+1,ADDRESS1,Estee Lauder Co.,Estee Lauder Co.,Estee Lauder Co.,Estee Lauder Co.,Estee Lauder Co.,Estee Lauder Online Canada,Estee Lauder Co.,Estee Lauder Co.,Estee Lauder Online Canada,Estee Lauder Co.,Estee Lauder Co.,Estee Lauder Online Canada,Estee Lauder Co.
+1,ADDRESS2,40 w 23rd Street,40 w 23rd Street,40 w 23rd Street,40 w 23rd Street,40 w 23rd Street,130 Bloor Street West,40 w 23rd Street,40 w 23rd Street,130 Bloor Street West,40 w 23rd Street,40 w 23rd Street,130 Bloor Street West,40 w 23rd Street
+1,PHONEFIRSTFIVENUMBERS,3477,3477,3477,3477,3477,3477,3477,3477,3477,3477,3477,3477,3477
+1,PHONELASTFIVENUMBERS,703960,703960,703960,703960,703960,703960,703960,703960,703960,703960,703960,703960,703960
+1,ZIPCODE,80202,80202,80202,80202,80202,M5S 1N5,80202,80202,M5S 1N5,80202,80202,M5S 1N5,M5S 1N5
+1,STATE,,,,,,Ontario,,,Ontario,,,Ontario,Ontario
+1,CITY,,,,,,Toronto,,,Toronto,,,Toronto,Toronto
+1,MSTATE,,,,,,Ontario,,,Ontario,,,Ontario,Ontario
+1,CREDITCARD,2222 4000 3000 0004,5555 5555 5555 4444,5555 5555 5555 4444,5555 5555 5555 4444,5555 5555 5555 4444,5555 5555 5555 4444,5555 5555 5555 4444,5555 5555 5555 4444,5555 5555 5555 4444,5555 5555 5555 4444,4151 5000 0000 0008,5555 5555 5555 4444,2222 4000 3000 0004
+1,CVV,737,737,737,737,737,737,737,737,737,111,737,737,737
+1,CCMONTH,,2,,,January,January,3,,,2,3,2,
+1,NID,,,,,,,,,,,,,
+1,NPWD,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123
+1,YEAR,2027,2027,2027,2027,2027,2027,2027,2027,2027,2027,2027,2027,2027
+1,PCCVVMONTH,330,330,330,330,330,330,330,330,330,330,330,330,330
+1,NEWZIPCODE,,,,,,,,10010,M5S 1N5,,,,
+1,DAY,,,,,,,,,,3,,,
+1,MONTH,,,,,,,,,,January,,,
+1,INVALIDOFFERMSG,"Invalid offer code, please try again.",test_global_percent_discountt,test_global_percent_discountt,test_global_percent_discountt,test_global_percent_discountt,test_global_percent_discountt,test_global_percent_discountt,Oops! This offer code is either expired or invalid.,Oops! This offer code is either expired or invalid.,test_global_percent_discountt,test_global_percent_discountt,test_global_percent_discountt,"Invalid offer code, please try again."
+1,ORDERMESSAGE,Order Number,Your confirmation number,Your confirmation number,Your confirmation number,Your order number,Your confirmation number,Your confirmation number,,,,,Your confirmation number,Order Number
+1,CCNAME,,,Visa,Visa,Visa,Visa,Visa,Visa,Visa,,Visa,,
+1,MSTATE1,,NY,NY,NY,NY,ON,NY,NY,,NY,NY,,
+1,PHONE,3477703960,3477703960,3477703960,3477703960,3477703960,3477703960,3477703960,3477703960,3477703960,3477703960,3477703960,3477703960,3477703960
+1,curSymbol,$,$,$,$,$,$,$,$,$,$,$,$,$
+1,CARDTYPE,,MasterCard,,,,,,,,,,,
+1,REWARDSUCCMSG,,,,,,,,,,,REWARDS HAS BEEN ADDED TO YOUR CART,,
+1,VALIDOFFERMSG,,,,,,,The Waves de La Mer Welcome Offer has been applied to your order.,,,OFFER CODE WELCOME15 HAS BEEN SUCCESSFULLY APPLIED.,,,
+1,WELCOMEOFFER1,,,,first,elist15,elist15,waveswelcome,,,lyl_15_off,,,
+1,BIRTHDAYOFFER1,,,,lyl_birthday_offer,,,,,,,,,
+1,REWARDOFFER,,,,,,,,,,,150pts_loyalty_2,,
+1,CatID,CAT5352,CAT14006,CAT19047,CAT1592,CAT536,CAT631,CAT5834,CAT28373,CAT28373,CAT6025,CAT15332,CAT1592,CAT5352
+1,skuId1,SKU110189,SKU176721,SKU44578,SKU13922,SKU77963,SKU43921,SKU169129,SKU45405,SKU96256,SKU83799,SKU78167,SKU11598,SKU102284
+1,skuId2,SKU110189,SKU175661,SKU73653,SKU11825,SKU48603,SKU25734,SKU65661,SKU61210,SKU96298,SKU37073,SKU116797,SKU12504,SKU111801
+1,skuId3,SKU102284,SKU40208,SKU79308,"SKU12221	",SKU48595,SKU25735,SKU153760,SKU4914,SKU27403,SKU120817,SKU116794,SKU74855,SKU33293
+1,skuId4,SKU117278,SKU17963,SKU122629,"SKU95229	",SKU48598,SKU25733,SKU46405,SKU3951,SKU4951,SKU127693,SKU116801,SKU74910,SKU102284
+1,skuId5,SKU112797,SKU18986,SKU129414,SKU58489,SKU48288,SKU86896,SKU119967,SKU3959,SKU96294,SKU130642,SKU116800,SKU74971,SKU133118
+1,EARNPNT1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,EARNPNT2,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,EARNPNT3,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,TESTOFFER1,NA,NA,NA,NA,NA,NA,NA,NA,NA,lyl_50pts_signup,NA,NA,NA
+1,TESTOFFER2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,TESTOFFER3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,lyl_tpc_loyalty_580,NA,NA
+1,TESTOFFER4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,TESTPNT1,0,0,,0,0,,0,0,,50,,,
+1,TESTPNT2,0,0,,0,0,,0,0,,0,,,
+1,TESTPNT3,0,0,,0,0,,0,0,,0,,,
+1,PERCNDISAMNT,,,,0.15,,,,,,0.15,,,
+1,TIER1STATUS,,,,,BE EXCITED,BE EXCITED,MARINE,,,FAB,,,
+1,TIER2STATUS,,,,,BE ENTHUSIASTIC,BE ENTHUSIASTIC,AQUAMARINE,,,FIERCE,,,
+1,RUPWD,,,,,,,,Test@123,,,Test@123,,
+1,LRID1,,,,,,,,elcqaloyruna11@test.com,,,elcqaloyruna14@test.com,,
+1,LRID2,,,,,,,,elcqaloyruna12@test.com,,,elcqaloyruna15@test.com,,
+1,LRID3,,,,,,,,elcqaloyruna13@test.com,,,elcqaloyruna16@test.com,,
+1,LRID4,,,,,,,,,,,elcqaloyruna17@test.com,,
+1,LRID5,,,,,,,,,,,elcqaloyruna18@test.com,,
+1,TIER3STATUS,,,,,BE ENVIED,BE ENVIED,ULTRAMARINE,,,FEARLESS,,,
+1,TIER2POINT,,,,,,,,,,,250,,
+1,TIER3POINT,,,,,,,,,,,500,,
+1,SIGNUPFLATPNT,,,,,,,,,,50,,,
+1,BIRTHDAYDATE,,,,,,,,,,4,,,
+1,BIRTHDAYMONTH,,,,,,,,,,5,,,

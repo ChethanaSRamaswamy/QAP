@@ -1,0 +1,88 @@
+<html>
+
+<style>
+
+button 
+{
+    background-color:rgb(7,71,166);;
+  background-color:rgb(7,71,166);;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 20%;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 10px; 
+  margin-top: 8px;  
+  cursor: pointer;
+  border-radius: 30px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.h2{
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.h3{
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+</style>
+
+<body onload="setUrl();">
+
+<h2 class="h2">The test has been started...</h2>
+<div>
+	<h3 class="h3">Track the progress at</h3>
+</div>
+
+<div>
+	<button onclick="viewResult()" class="button">Jenkins</button>
+</div>
+<br>
+<div>
+    <iframe id=testwindow frameBorder = 0  src="" title="Test run window">
+    </iframe>
+</div>
+
+
+<script>
+
+function setUrl() {
+
+    var tstWindow = document.getElementById("testwindow")
+	var currUrl = window.location.href
+    
+	// We get the url and the params which are coming as base 64 encoded in the variable callParam
+	var url = new URL(currUrl);
+    var callParam = url.searchParams.get("callParam");
+	
+	// convert the base 64 encoded params to normal string and add the url base to it
+	callParam = window.atob(callParam)
+	
+	callParam = "../job/CSEML/job/TestCSEML/buildWithParameters?" + callParam
+
+	console.log(callParam)
+
+    tstWindow.setAttribute("src", callParam)
+
+}
+
+function viewResult() {
+
+    jenkinsUrl = "https://helix.esteeonline.com/job/CSEML/job/TestCSEML/"
+    window.open(
+        jenkinsUrl,
+        '_blank' 
+    );
+	
+}
+
+</script>
+
+</body>
+</html>

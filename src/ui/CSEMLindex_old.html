@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Set to no cache, else the page will be served from cache without htaccess authentication -->
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+  </head>
+
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    a:link {
+      font-size: 1px;
+      visibility: hidden;
+    }
+
+    input[type="text"],
+    select {
+      width: 49.5%;
+      padding: 8px 15px;
+      margin: 8px 0;
+      display: inline-block;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 12px;
+      border: 1px solid rgb(255, 255, 255);
+      border-radius: 4px;
+      box-sizing: border-box;
+      vertical-align: top;
+      -webkit-box-shadow: inset -2px -2px 2px 0px rgba(0, 0, 0, 0.5);
+      -moz-box-shadow: inset -2px -2px 2px 0px rgba(0, 0, 0, 0.5);
+      box-shadow: inset -2px -2px 2px 0px rgba(0, 0, 0, 0.5);
+    }
+
+    label {
+      width: 49.5%;
+      display: inline-block;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 12px;
+      margin-top: 10px;
+    }
+
+    .tagvalue {
+      width: 100%;
+      display: inline-block;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 12px;
+      margin-top: 10px;
+    }
+
+    .urlhalfpage {
+      width: 20%;
+      display: inline-block;
+      font-size: 16px !important;
+      visibility: visible !important;
+    }
+
+    div {
+      background-color: #f2f2f2;
+    }
+
+    .button {
+      background-color: rgb(7, 71, 166);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      width: 15%;
+      border-radius: 4px;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 12px;
+      margin-right: 10px;
+      margin-top: 8px;
+      cursor: pointer;
+      border-radius: 30px;
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .button:hover {
+      box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.5),
+        0 17px 50px 0 rgba(0, 0, 0, 0.3);
+      background-color: #3a1d8a; /* Dark Blue */
+      color: white;
+    }
+
+    .gobutton {
+      background-color: rgb(7, 71, 166);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      width: 25%;
+      border-radius: 4px;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-overflow: clip;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 12px;
+      margin-right: 10px;
+      margin-top: 8px;
+      cursor: pointer;
+      border-radius: 30px;
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .gobutton:hover {
+      box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.5),
+        0 17px 50px 0 rgba(0, 0, 0, 0.3);
+      background-color: #3a1d8a; /* Dark Blue */
+      color: white;
+    }
+
+    .tablink {
+      background-color: rgb(128, 128, 128);
+      width: 100%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: white;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 8px 10px;
+      font-size: 14px;
+      width: 25%;
+    }
+
+    /* Style the tab content (and add height:100% for full page content) */
+    .tabcontent {
+      color: grey(0, 0, 0);
+      display: none;
+      padding: 10px 10px;
+      height: 90%;
+      -webkit-box-shadow: inset -2px -2px 2px 0px rgba(0, 0, 0, 0.5);
+      -moz-box-shadow: inset -2px -2px 2px 0px rgba(0, 0, 0, 0.5);
+      box-shadow: inset -2px -2px 2px 0px rgba(0, 0, 0, 0.5);
+    }
+
+    #Scope {
+      background-color: rgb(209, 212, 220);
+    }
+    #Release {
+      background-color: rgb(209, 212, 220);
+    }
+    #Environment {
+      background-color: rgb(209, 212, 220);
+    }
+    #Optional-Config {
+      background-color: rgb(209, 212, 220);
+    }
+
+    #name {
+      height: 20x;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: rgb(7, 71, 166);
+      font-size: small;
+      font-style: normal;
+      color: white;
+      padding: 10px;
+      text-align: left;
+      display: grid;
+      grid-template-columns: 3fr 5.5fr 0.5fr;
+      grid: gap 20rem;
+      -webkit-box-shadow: inset -2px -2px 2px 0px rgba(0, 0, 0, 0.5);
+      -moz-box-shadow: inset -2px -2px 2px 0px rgba(0, 0, 0, 0.5);
+      box-shadow: inset -2px -2px 2px 0px rgba(0, 0, 0, 0.5);
+    }
+
+    i {
+      color: #fff;
+      background-color: #50b0ff;
+      width: 30px;
+      height: 30px;
+      display: inline-block;
+      border-radius: 100%;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 17px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      -webkit-box-shadow: inset -1px -1px 1px 0px rgba(0, 0, 0, 0.25);
+      -moz-box-shadow: inset -1px -1px 1px 0px rgba(0, 0, 0, 0.25);
+      box-shadow: inset -1px -1px 1px 0px rgba(0, 0, 0, 0.25);
+      cursor: help;
+    }
+
+    .footer {
+      height: 1.5rem;
+      font-style: italic;
+      padding-top: 0.5rem;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: rgb(7, 71, 166);
+      color: white;
+      text-align: center;
+    }
+    .button.startBtn {
+      float: right;
+    }
+  </style>
+
+  <body onload="onPageLoad();">
+    <div id="name">
+      <!-- <h1>H<b style="color: rgb(0 176 240); font-size: larger;">EL</b>IX</h1>
+      <h3 style="font-size: 23px;text-align: left; padding-top: 5px;">End to End Test Automation Platform</h3> -->
+      <h1 style="color: white; padding-left: 2px;">H<B style="color: rgb(0 176 240); font-size: larger;">EL</B>IX &nbsp; - &nbsp;&nbsp;</h1> <span style="font-size: 16px; position: absolute;
+      top: 22px;left: 140px;">CSEML Validation</span> 
+    </div>
+
+    <div class="Data">
+      <div id="mainPage" class="tabcontent">
+        <label>Choose Brand-Locales:</label>
+        <label>Choose Environment:</label>
+        <select name="brandLocale" id="brandLocale" multiple>
+          <option value="@Mac_US" selected>MAC US</option>
+          <option value="@Aveda_US">Aveda US</option>
+          <option value="@Clinique_US">Clinique US</option>
+          <option value="@Smashbox_US">Smashbox US</option>
+          <option value="@Origins_US">Origins US</option>
+          <option value="@BobbiBrown_US">BobbiBrown US</option>
+          <option value="@JML_US">JoMalone US</option>
+          <option value="@Mac_CA">MAC CA</option>
+          <option value="@Aveda_CA">Aveda CA</option>
+          <option value="@Clinique_CA">Clinique CA</option>
+          <option value="@JML_CA">JoMalone CA</option>
+          <option value="@Mac_TR">MAC TR</option>
+          <option value="@Mac_FR">MAC FR</option>
+          <option value="@Mac_HK">MAC HK</option>
+        </select>
+
+        <select name="environment" id="environment">
+          <option value="DEV" selected>Dev</option>
+          <option value="PROD">Prod</option>
+          <option value="STAGE">Stage</option>
+        </select>
+
+        <button onclick="startTest()" class="button startBtn">Start</button>
+        <button onclick="goHome()" class="gobutton">
+          Go Back to HELIX Landing Page
+        </button>
+
+        <script>
+          function startTest() {
+            var select = document.getElementsByName("brandLocale")[0];
+            var options = select && select.options;
+            var brandLocaleSelected = false;
+
+            // check if any brand-locale has been selected
+            for (var i = 0, iLen = options.length; i < iLen; i++) {
+              opt = options[i];
+              if (opt.selected) brandLocaleSelected = true;
+            }
+
+            // If none of the brand-locale are not selected, default to first
+            // This is to prevent tests triggering without tag
+            if (!brandLocaleSelected) {
+              brandLocaleSelected = true;
+              options[0].selected = true;
+            }
+
+            // add the brand-locales which have been selected
+            if (brandLocaleSelected) {
+              tag = "";
+              for (var i = 0, iLen = options.length; i < iLen; i++) {
+                opt = options[i];
+                if (opt.selected) tag = tag + "," + opt.value;
+              }
+              tag = tag.substring(1);
+            }
+
+            var environ = document.getElementById("environment").value;
+            var urlParam =
+              "token=token2105&BRANDLOC=" + tag + "&ENVIRON=" + environ;
+            urlParam = encodeURI(urlParam);
+            urlParam = window.btoa(urlParam);
+            urlParam = "./CSEMLTestRun.html?callParam=" + urlParam;
+            window.open(urlParam, "_blank");
+          }
+
+          function onPageLoad() {
+            document.getElementById("mainPage").style.display = "block";
+          }
+          function goHome() {
+            document.location.href = "index.html";
+          }
+        </script>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Powered by Global QA Engineering</p>
+    </div>
+  </body>
+</html>

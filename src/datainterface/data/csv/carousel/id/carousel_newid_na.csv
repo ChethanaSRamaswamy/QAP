@@ -1,0 +1,11 @@
+tt,Page,BrandLocale,AV-CA,AV-US,BB-CA,BB-US,BK-US,BU-CA,BU-US,CL-CA,CL-US,DA-CA,DA-US,DJ-US,EL-CA,EL-US,FM-US,GG-US,JM-CA,JM-US,LM-CA,LM-US,LS-US,MC-CA,MC-US,OR-CA,OR-US,SB-CA,SB-US,TF-US
+1,CONFIG,timeoutSetting,180000,180000,180000,180000,180000,180000,180000,180000,180000,180000,180000,180000,180000,180000,180000,180000,180000,180000,180000,180000,180000,180000,180000,180000,180000,180000,180000,180000
+1,CONFIG,emulationDevice,Galaxy Note 3,Galaxy Note 3,iPhone X,iPhone X,Galaxy Note 3,Galaxy Note 3,Galaxy Note 3,Galaxy Note 3,Galaxy Note 3,Galaxy Note 3,Galaxy Note 3,Galaxy Note 3,Galaxy Note 3,Galaxy Note 3,Galaxy Note 3,Galaxy Note 3,iPhone X,Galaxy Note 3,iPhone X,Galaxy Note 3,iPhone X,Galaxy Note 3,Galaxy Note 3,iPhone X,Galaxy Note 3,iPhone X,iPhone X,Galaxy Note 3
+1,CONFIG,timeout,30000,30000,30000,30000,30000,30000,30000,30000,30000,30000,30000,30000,30000,30000,30000,30000,30000,30000,30000,30000,30000,30000,30000,30000,30000,30000,30000,30000
+1,CONFIG,waitTime,5000,5000,5000,5000,5000,5000,5000,5000,5000,5000,5000,5000,5000,5000,5000,5000,5000,5000,5000,5000,5000,5000,5000,5000,5000,5000,5000,5000
+1,CONFIG,pollingTime,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100
+1,HOME,carouselPrevArrowElem,,(//*[@class='slick-prev slick-arrow'])[1],,,,,,,,,,,,,,,,,,,,,,,,,,
+1,HOME,carouselNextArrowElem,,(//*[@class='slick-next slick-arrow'])[1],,,,,,,,,,,,,,,,,,,,,,,,,,
+1,HOME,cookieRejectElem,,#onetrust-reject-all-handler,,,,,,,#onetrust-reject-all-handler,,,,,#onetrust-reject-all-handler,,,,,,,,,#onetrust-reject-all-handler,,,,,
+1,HOME,closePopUpElem,,//*[@id='cboxClose'],,,,,,,//*[@id='cboxClose'],,,,,//*[@id='cboxClose'],,,,,,,,,"//*[contains(@class,'js-content-block-sitewide-banner-trigger')]",,,,,
+1,HOME,carouselProductLocatorElem,,"//*[contains(@class,'product-grid__content js-product-grid-content js-product-carousel')]//*[contains(@class,'slick-active')]//*[contains(@class,'product__image product__image--med js-product__image--med')]",,,,,,,,,,,,,,,,,,,,,,,,,,

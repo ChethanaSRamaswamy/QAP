@@ -1,0 +1,182 @@
+tt,BrandLocale,EL-US,CL-US
+1,timeoutSetting,180000,180000
+1,Mockcookievalue,0,0
+1,Delaytime,300,30
+1,productUrl,/shared/prodcat/sku_info.tmpl?SKU_ID=,/shared/prodcat/sku_info.tmpl?SKU_ID=
+1,testOffersUrl,/shared/offers/offers2.tmpl?testing_global_offers=1,/shared/offers/offers2.tmpl?testing_global_offers=1
+1,productUrl1,/shared/prodcat/sku_info.tmpl?CATEGORY_ID=CAT536&SKU_ID=SKU26255,/shared/prodcat/sku_info.tmpl?CATEGORY_ID=CAT1577&SKU_ID=SKU11927
+1,APOrestrictedProductUrl,,
+1,restrictedProductUrl,,
+1,cartPopupClose,"//*[@data-test-id='overlay_close']�|�//*[contains(@class,'site-banner-formatter__close-icon')]",#cboxClose
+1,checkoutButtonId,//a[@data-test-id='cart_primarycheckout' or @class='continue-checkout'],//*[@class='checkout-btns button']
+1,selectsampleproduct,,
+1,continueSample1,//a[@data-test-id='form_checkout_samples_continue' or @class='btn-primary form-submit' or @value='Continue Checkout'],"//a[contains(@class,'skip-to-checkout__link')] | //a[@class='samples_continue_checkout' or @id='no-thanks']"
+1,continueSample2,//input[@data-test-id='form_checkout_samples_continue' or @class='btn-primary form-submit' or @value='Continue Checkout'],//input[@data-test-id='form_checkout_samples_continue' or @id='add-samples']
+1,signupPopupClose,#cboxClose,#cboxClose
+1,guestUserLink,"//*[contains(@class,'js-continue-guest-link')]",//a[@data-test-id='form_signin_registernow' or @id='new-account-link']
+1,guestUserId,#form--checkout_signin_new_user--field--NEW_USER_EMAIL_ADDRESS,#form--checkout_signin_new_user--field--NEW_USER_EMAIL_ADDRESS
+1,continueAsGuest,//input[@data-test-id='form_checkout_signin_new_user_submit' or @id='checkout_signin_new_user-submit' or @value='Continue as guest'],//input[@data-test-id='form_checkout_signin_new_user_submit' or @class='button form-submit' or @value='Continue']
+1,enterFirstName,#shipping-first-name-input,#shipping-first-name-input
+1,validatefirstname,shipping-first-name-input,shipping-first-name-input
+1,enterLastName,#shipping-last-name-input,#shipping-last-name-input
+1,enterAddress1,#shipping-first-line-input,#shipping-first-line-input
+1,enterAddress2,#shipping-second-line-input,#shipping-second-line-input
+1,enterZipcode,#shipping-zip-code-input,#shipping-zip-code-input
+1,enterPhone,#shipping-number-input,#shipping-number-input
+1,validatephonenumber,#shipping-number-input,#shipping-number-input
+1,enterCity,,
+1,selectState,,
+1,selectState1,,
+1,state,,
+1,continueToPayment,//button[@data-test-id='dp_continue_checkout' or @class='js-delivery-screen-continue-button'],//button[@data-test-id='dp_continue_checkout']
+1,continueToPayment1,,
+1,selectUseThisAddress,"//button[contains(@class,'lc-alert-keep-button js-alert-keep-button elc-button--outlined')]","//button[contains(@class,'lc-alert-keep-button js-alert-keep-button elc-button--outlined')]"
+1,CCFieldId,form--checkout_billing--field--CARD_NUMBER,//*[@data-test-id='pp_radio_button_Legacy_undefined']
+1,creditCardNumber,"//*[contains(@id,'adyen-checkout-encryptedCardNumber')]",#cardNumber
+1,getCreditcardValue,cardNumber,cardNumber
+1,CreditcardLength,19,19
+1,cvvFieldId,"//*[contains(@id,'adyen-checkout-encryptedSecurityCode')]",#cvc
+1,pcMonthYear,"//*[contains(@id,'adyen-checkout-encryptedExpiryDate')]",#expiryDate
+1,selectPcMonth,,
+1,selectPcYear,,
+1,adyenPassword,//input[@class='input-field' or @name='answer'],//input[@class='input-field' or @name='answer']
+1,clickOnAdyenButton,"//button[contains(text(),'Continue')]","//button[contains(text(),'Continue')]"
+1,placeOrder,//*[@class='adyen-checkout__button adyen-checkout__button--pay'],"//*[contains(@class,'elc-radio-pay-button elc-button-spinner')]"
+1,confirmplaceorder,,
+1,orderPagePopupClose,"//button[contains(@class,'brdialog-close invitation-navigation-element')] | //div[contains(@class,'brdialog-close invitation-navigation-element')]","//button[contains(@class,'brdialog-close invitation-navigation-element')] | //div[contains(@class,'brdialog-close invitation-navigation-element')]"
+1,mobOrderPagePopupClose,"//button[contains(@class,'cnx-closeoverlay invitation-navigation-element')] | //div[contains(@class,'cnx-closeoverlay invitation-navigation-element')]","//button[contains(@class,'cnx-closeoverlay invitation-navigation-element')] | //div[contains(@class,'cnx-closeoverlay invitation-navigation-element')]"
+1,SignupRegisterEmailId,#form--checkout_signin_new_user--field--NEW_USER_EMAIL_ADDRESS,#form--checkout_signin_new_user--field--NEW_USER_EMAIL_ADDRESS
+1,SignupRegisterPWD,form--completed_checkout_registration--field--PASSWORD,form--completed_checkout_registration--field--PASSWORD
+1,SignupRegisterTerms,//input[@data-test-id='form_tc'],//input[@data-test-id='form_tc' or @id='form--loyalty_join--field--LOYALTY_ACTIVE_FLAG' or @name='LOYALTY_ACTIVE_FLAG']
+1,UseBillingaddress,,
+1,signupRegisterButton,//*[@data-test-id='form_completed_checkout_registration_submit'],//input[@data-test-id='form_completed_checkout_registration_submit' or @class='button green_bg' or @value='CREATE ACCOUNT']
+1,returnUserId,#form--checkout-_-checkout_signin--field--EMAIL_ADDRESS,#form--checkout-_-checkout_signin--field--EMAIL_ADDRESS
+1,returnUserPWD,form--checkout-_-checkout_signin--field--PASSWORD,form--checkout-_-checkout_signin--field--PASSWORD
+1,returnUserSigninButton,#checkout_signin-submit,//input[@data-test-id='form_signin_continue']
+1,returnUserSigninlabel,,
+1,returnUserShippingLinkText,?edit_shipping_panel=1,
+1,returnUserAddNewaddress,"//*[contains(@class,'elc-button--outlined-address')]","//*[contains(@class,'elc-button--outlined-address')]"
+1,returnUserPaymentLinkText,,//a[@class='add_payment_method']
+1,returnUserNewPaymentbutton,//*[@id='card'],
+1,returnUserAddNewaddress1,#address-to-use__address--new,.edit-address-link
+1,returnUserContinueCheckoutViewcart,//a[@data-test-id='cart_primarycheckout'],//a[@data-test-id='cart_primarycheckout' or @class='checkout-btns button']
+1,cookieRejectButton,#onetrust-reject-all-handler,#onetrust-reject-all-handler
+1,mobCheckoutViewcart,//a[@data-test-id='cart_primarycheckout_unhide'],//a[@data-test-id='cart_primarycheckout_unhide']
+1,mobCheckoutCreditCard,(//*[@data-test-id='cart_primarycheckout'])[1],//a[@data-test-id='cart_primarycheckout']
+1,mobContinueSample1,//div[@data-test-id='form_checkout_samples_continue'] | //*[@data-test-id='form_checkout_samples_continue'],//*[@href='/checkout/signin.tmpl']
+1,mobContinueSample2,//input[@data-test-id='form_checkout_samples_continue' or @class='btn-primary form-submit' or @value='Continue Checkout'],//input[@data-test-id='form_checkout_samples_continue' or @id='add-samples']
+1,mobGuestUserLink,"//*[contains(@class,'js-continue-guest-link')]",//a[@data-test-id='form_signin_registernow']
+1,mobReturnUserSigninLink,,
+1,quantitySelect,QTY,
+1,quantitySelect1,,"//button[contains(@class,'js-cart-qty-plus js-cart-qty-button cart-qty-plus')]"
+1,enterInvalidOfferCode,form--offer_code--field--OFFER_CODE,form--offer_code--field--OFFER_CODE
+1,offerCode,form--offer_code--field--OFFER_CODE,form--offer_code--field--OFFER_CODE
+1,offerCodeButton,//input[@data-test-id='form_offer_code_apply'],//input[@data-test-id='form_offer_code_apply']
+1,applyOfferButton1,//input[@data-test-id='form_offer_code_apply'],//input[@data-test-id='form_offer_code_apply']
+1,inValidOfferMsg,//p[@class='offer-code__messages js-offer-code-messages'],//li[@id='invalid_offer_code..']
+1,validOfferMsg,"//p[contains(@class,'offer-code__messages js-offer-code-messages')]","//li[contains(@id,'offer_criteria')]"
+1,offerEditButton,,
+1,editaddress,,
+1,ClosePopup,,//a[@class='close-link']
+1,placeOrderValidation,/checkout/confirm.tmpl,/checkout/confirm.tmpl
+1,accountPageValidation,/account/index.tmpl,/account/loyalty/index.tmpl
+1,orderConfirmationMsgid,//span[@data-test-id='order_id'] | //a[@data-test-id='order_id'],//span[@data-test-id='order_id'] | //a[@data-test-id='order_id']
+1,acRegisterNow,//*[@class='js-signin-panel-link js-create-account create-account sign-in-panel__link'],//*[@data-test-id='form_signin_registernow']
+1,acNavigateSigninurl,/account/signin.tmpl,/account/signin.tmpl
+1,acRegistrationFirstName,//input[@id='form--registration_short--field--FIRST_NAME' or @data-test-id='form_firstname'],
+1,acRegistrationLastName,,
+1,acRegisterEmailId,//input[@id='form--registration_short--field--PC_EMAIL_ADDRESS' or @data-test-id='form_email'],//input[@id='form--registration_short--field--PC_EMAIL_ADDRESS' or @data-test-id='form_email']
+1,acRegisterPWD,//input[@id='form--registration_short--field--PASSWORD' or @data-test-id='form_password'],//input[@id='form--registration_short--field--PASSWORD' or @data-test-id='form_password' or @name='PASSWORD']
+1,acRegisterationTerms,,
+1,acRegisterButton,//*[@data-test-id='form_registration_continue'],//input[@data-test-id='form_registration_continue' or @class='button form-submit' or @value='Join Now']
+1,acSignoutButton,//*[@data-test-id='myaccount_menu_signout'],(//*[@href='/account/signin.tmpl?_SUBMIT=signout'])[2]
+1,acNeedToClickLogInLinkAgain,//*[@data-test-id='account_signin'],
+1,acReturnUserEmailId,//input[@id='form--signin--field--EMAIL_ADDRESS' or @data-test-id='form_signin_email'],//input[@id='form--signin--field--EMAIL_ADDRESS' or @name='EMAIL_ADDRESS' or @data-test-id='form_signin_email']
+1,acReturnUserPWD,//*[@id='form--signin--field--PASSWORD'],(//input[@id='form--signin--field--PASSWORD' or @name='PASSWORD' or @data-test-id='form_signin_password'])[2]
+1,acReturnUserLoginButton,//*[@data-test-id='form_signin_continue'],//input[@data-test-id='form_signin_continue' or @value='Continue']
+1,acMobNavigateSigninurl,/account/signin.tmpl,/account/signin.tmpl
+1,acMobHamburgerIcon,//*[@class='page-navigation__menu-toggle button-reset'],
+1,acMobRegisterNow,//*[@class='js-signin-panel-link js-create-account create-account sign-in-panel__link'],//*[@data-test-id='form_signin_registernow']
+1,acMobSignoutButton,//*[@data-test-id='myaccount_menu_signout'],(//*[@href='/account/signin.tmpl?_SUBMIT=signout'])[2]
+1,isShoppable,//*[@id='Sku_Details']/table[9]/tbody/tr[8]/td[3],//*[@id='Sku_Details']/table[9]/tbody/tr[8]/td[3]
+1,enterCcName,"//*[contains(@id,'adyen-checkout-holderName')]",
+1,ContinueToCreateAccount,//*[@class='button'],
+1,EnterPassword,//input[@name='password'],
+1,confirmPaymentAfterPay,//*[@class='button-contained-primary button--fullwidth'],
+1,continueToProceed,//*[@automation_id='button-submit'],
+1,enterVerificationCode,//input[@name='verificationCode'],
+1,placeOrderToPasswordPage,,
+1,orderpagepopupclose1,,
+1,addTitle,,
+1,acMobRegistrationFirstName,//input[@id='form--registration_short--field--FIRST_NAME' or @data-test-id='form_firstname'],
+1,acMobRegistrationLastName,,
+1,acMobRegisterEmailId,//input[@id='form--registration_short--field--PC_EMAIL_ADDRESS' or @data-test-id='form_email'],//input[@id='form--registration_short--field--PC_EMAIL_ADDRESS' or @data-test-id='form_email']
+1,acMobRegisterPWD,//input[@id='form--registration_short--field--PASSWORD' or @data-test-id='form_password'],//input[@id='form--registration_short--field--PASSWORD' or @data-test-id='form_password' or @name='PASSWORD']
+1,acMobRegisterationTerms,,
+1,acMobRegisterButton,//*[@data-test-id='form_registration_continue'],//input[@data-test-id='form_registration_continue' or @class='button form-submit' or @value='Join Now']
+1,productUrlgg,/shared//prodcat//sku_info.tmpl?SKU_ID=,/shared//prodcat//sku_info.tmpl?SKU_ID=
+1,noDisplayableProductError,"//p[contains(text(),'NO DISPLAYABLE PRODUCT')]","//p[contains(text(),'NO DISPLAYABLE PRODUCT')]"
+1,sppPageprodHeader,"//div[contains(@class,'sd-product-spp')]","//div[contains(@class,'sd-spp-formatter')]"
+1,sppPageprodHeaderMob,"//div[contains(@class,'sd-product-spp')]","//div[contains(@class,'sd-spp-formatter')]"
+1,clickCartpageLink,//span[@class='utility-nav__cart-icon'],//a[@data-test-id='cart_overlay_checkout']
+1,clickCartpageLinkMob,//span[@class='utility-nav__cart-icon'],//a[@data-test-id='cart_overlay_checkout']
+1,addToBagSPP,"//*[contains(@data-test-id,'add')]",//button[@data-test-id='add_to_bag_btn']
+1,cartCountValue,"//*[contains(@class,'page-utilities__cart-count')]","//*[contains(@class,'header-gnav-cart__count')]"
+1,isDisplayable,//*[@id='Sku_Details']/table[9]/tbody/tr[7]/td[3],//*[@id='Sku_Details']/table[9]/tbody/tr[7]/td[3]
+1,ccDetails,//input[@data-test-id='form_checkout_billing_continue' or @class='btn-primary btn' or @value='CHECKOUT WITH CREDIT CARD'],"//*[contains(@class,'elc-radio-pay-button elc-button-spinner')]"
+1,adyenpaymentdetails,,
+1,focusingbeforccvalue,,
+1,cctabvalue,8,8
+1,mmyytabvalue,0,0
+1,cvvtabvalue,0,0
+1,ccnametabvalue,,
+1,cctime,30000,30000
+1,phonenumberLength,17,17
+1,categoryUrl,/shared/prodcat/category_info.tmpl?CATEGORY_ID=,/shared/prodcat/category_info.tmpl?CATEGORY_ID=
+1,productID,//*[@id='Category_Details']/table[13]/tbody/tr/td[1],//*[@id='Category_Details']/table[13]/tbody/tr/td[1]
+1,prodIDSingle,//*[@id='Category_Details']/table[13]/tbody/tr[,//*[@id='Category_Details']/table[13]/tbody/tr[
+1,bagIcon,"//*[contains(@href,'/checkout/viewcart.tmpl')] | //*[contains(@class,'utility-nav__cart-icon')] | //*[contains(@class,'utility-nav__cart-button')]","//*[contains(@href,'/checkout/viewcart.tmpl')] | //*[contains(@class,'js-gnav-cart')]/a"
+1,emptyCart,//*[@id='error_cart.empty'],//*[@id='error_cart.empty']
+1,emptyCartMob,//*[@id='error_cart.empty'],//*[@id='error_cart.empty']
+1,shippingType,SHIP_METHOD,
+1,giftWrap,"//*[contains(@class,'giftwrap-panel__title')]","//*[contains(@class,'gift__content--title')]"
+1,giftWrapButtonEnable,"//*[contains(@class,'giftwrap-panel__label')]","//*[contains(@class,'gift-wrap-label')]"
+1,giftWrapButton,"//*[contains(@class,'giftwrap-panel__submit checkout-buttons')]","//*[contains(@class,'gift-form-container__submit--btn js-gift-wrap-submit-btn')]"
+1,giftWrapMessage,//*[@data-test-id='form_checkout_shipping_panel_message'],//*[@id='form--checkout_giftwrap--field--CARD_MESSAGE']
+1,cartPageSampleProduct,(//a[@data-test-id='form_checkout_samples_select_samples'])[5],"(//*[contains(@class,'js-sample-item-select-button')])[5]"
+1,productText,"//a[contains(text(),'Add to Cart')]","//a[contains(text(),'Add to Cart')]"
+1,selectPaypal,//*[@data-test-id='pp_radio_button_GSIPayPal_undefined'],//*[@data-test-id='pp_radio_button_GSIPayPal_undefined']
+1,continuePaypal,"//button[contains(@class,'elc-button-spinner')]","//*[contains(@class,'elc-radio-pay-button elc-button-spinner')]"
+1,continueToLoginPaypal,//*[@id='btnLogin'],//*[@id='btnLogin']
+1,enterPasswordPaypal,//*[@id='password'],//*[@id='password']
+1,EnterenterEmailPaypalEmailPaypal,//*[@id='email'],//*[@id='email']
+1,confirmPaymentPaypal,//*[@id='payment-submit-btn'],//*[@id='payment-submit-btn']
+1,ContinuetoproceedPaypal,//*[@id='btnNext'],//*[@id='btnNext']
+1,submitPaypal,,
+1,ppRadiobutton,//*[@data-test-id='pp_radio_button_Braintree_undefined'],//*[@data-test-id='pp_radio_button_GSIPayPal_undefined']
+1,ppCheckout,,
+1,Paywith,,//*[@for='CC-KVC8J8LWGTTGL-funding-option']
+1,confirmPaypal,,//*[text()='Continue with PayPal']
+1,ppMobCheckoutCreditCard,(//*[@data-test-id='cart_primarycheckout'])[1],//a[@data-test-id='cart_primarycheckout']
+1,ppSelectPaypal,//*[@data-test-id='pp_radio_button_Braintree_undefined'],
+1,expressPaypalCheckout,//a[@data-test-id='cart_primarycheckout' or @class='continue-checkout'],//a[@data-test-id='cart_primarycheckout' or @class='checkout-btns button']
+1,selectAfterpay,"//*[contains(@class,'acac-payment-method-accordion AfterPay-accordion')]",//*[@data-test-id='pp_radio_button_AfterPay_undefined']
+1,continueAfterpay,//*[@data-test-id='placeorder'],//*[@data-test-id='placeorder']
+1,continueToLogin,//*[@data-testid='login-password-button'],//*[@data-testid='login-password-button']
+1,enterPassword,//*[@data-testid='login-password-input'],//*[@data-testid='login-password-input']
+1,ConfirmPaymentAfterPay,//*[@data-testid='add-payment-method-button'],//*[@data-testid='add-payment-method-button']
+1,AfterPayMobile1,,
+1,enterEmail,//*[@data-testid='login-identity-input'],//*[@data-testid='login-identity-input']
+1,submitAfterpay,//*[@data-testid='summary-button'],//*[@data-testid='summary-button']
+1,AfterPayMobile,//*[@data-testid='login-identity-input'],//*[@data-testid='login-identity-input']
+1,continueToProceed,//*[@data-testid='login-identity-button'],//*[@data-testid='login-identity-button']
+1,loginAfterPay,"(//*[contains(@data-testid,'login-anchor')])[2]","(//*[contains(@data-testid,'login-anchor')])[2]"
+1,placeOrder1,,
+1,orderConfirmationMsgid1,//span[@data-test-id='order_id'] | //a[@data-test-id='order_id'],//span[@data-test-id='order_id'] | //a[@data-test-id='order_id']
+1,placeOrderValidation1,/checkout/confirm.tmpl,/checkout/confirm.tmpl
+1,waitFortime,9000,9000
+1,shippingMethod1,,(//*[@data-test-id='dp_shipping_method_radio_button'])[1]
+1,shippingMethod2,,(//*[@data-test-id='dp_shipping_method_radio_button'])[2]
+1,shippingMethod3,,(//*[@data-test-id='dp_shipping_method_radio_button'])[3]
+1,getOrderIDREG,//span[@data-test-id='order_id'] | //a[@data-test-id='order_id'],//span[@data-test-id='order_id'] | //a[@data-test-id='order_id']
+1,productUrlRom,"//table/tbody/tr[contains(.,'displayableProduct')]/td[last()]/a","//table/tbody/tr[contains(.,'displayableProduct')]/td[last()]/a"

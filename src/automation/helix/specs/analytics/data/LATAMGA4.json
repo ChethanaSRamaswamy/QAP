@@ -1,0 +1,1455 @@
+[
+    {
+        "brand": "AV-MX",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "MXN",
+                    "tid": "G-KKTT6DYMBE",
+                    "ul": "en-us",
+                    "cd3": "es",
+                    "ep.brand_id": "aveda_mx",
+                    "ep.brand_locale": "mx",
+                    "ep.brand": "aveda",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "es"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU42249",
+                    "sku2": "SKU34382",
+                    "sku3": "SKU33067",
+                    "sku4": "SKU122891",
+                    "sku5": "SKU122891"
+                },
+                "productdetail": {
+                    "pr1": "idPROD77161"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD21949",
+                        "pPrice": "490",
+                        "pVariant": "AAF801",
+                        "psize": ".24 fl oz/7 ml",
+                        "pSkuID": "SKU42249"
+                    },
+                    {
+                        "productID": "idPROD16922",
+                        "pPrice": "730",
+                        "pVariant": "A6HM01",
+                        "psize": "4.2 fl oz/125 ml",
+                        "pSkuID": "SKU34382"
+                    },
+                    {
+                        "productID": "idPROD80714",
+                        "pPrice": "880",
+                        "pVariant": "AX1001",
+                        "psize": "6.7 fl oz/200 ml",
+                        "pSkuID": "SKU122891"
+                    },
+                    {
+                        "productID": "idPROD80714",
+                        "pPrice": "880",
+                        "pVariant": "AX1001",
+                        "psize": "6.7 fl oz/200 ml",
+                        "pSkuID": "SKU122891"
+                    },
+                    {
+                        "productID": "idPROD80714",
+                        "pPrice": "880",
+                        "pVariant": "AX1001",
+                        "psize": "6.7 fl oz/200 ml",
+                        "pSkuID": "SKU122891"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 690,
+                    "tt": 0,
+                    "ts": "150.00"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "MasterCard - mc"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD62089",
+                    "pr3": "idPROD16789",
+                    "pr4": "idPROD16409"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "BB-MX",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "MXN",
+                    "tid": "G-E73T95RR0H",
+                    "ul": "en-us",
+                    "cd3": "es",
+                    "ep.brand_id": "bobbibrown_mx",
+                    "ep.brand_locale": "mx",
+                    "ep.brand": "bobbibrown",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "es"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU112040",
+                    "sku2": "SKU171843",
+                    "sku3": "SKU175299",
+                    "sku4": "SKU175299",
+                    "sku5": "SKU175299"
+                },
+                "productdetail": {
+                    "pr1": "idPROD77161"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD72380",
+                        "pPrice": "512",
+                        "pVariant": "EMCK05",
+                        "psize": "6 mL/.2fl oz",
+                        "pSkuID": "SKU112040"
+                    },
+                    {
+                        "productID": "idPROD120093",
+                        "pPrice": "1210",
+                        "pVariant": "EYYR01",
+                        "psize": "8g",
+                        "pSkuID": "SKU175299"
+                    },
+                    {
+                        "productID": "idPROD120093",
+                        "pPrice": "1210",
+                        "pVariant": "EYYR01",
+                        "psize": "8g",
+                        "pSkuID": "SKU175299"
+                    },
+                    {
+                        "productID": "idPROD120093",
+                        "pPrice": "1210",
+                        "pVariant": "EYYR01",
+                        "psize": "8g",
+                        "pSkuID": "SKU175299"
+                    },
+                    {
+                        "productID": "idPROD120093",
+                        "pPrice": "1210",
+                        "pVariant": "EYYR01",
+                        "psize": "8g",
+                        "pSkuID": "SKU175299"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "MasterCard - mc"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16929",
+                    "pr2": "idPROD16417"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "CL-BR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "BRL",
+                    "tid": "G-RF3YXQK0RH",
+                    "ul": "en-us",
+                    "cd3": "pt",
+                    "ep.brand_id": "clinique_br",
+                    "ep.brand_locale": "br",
+                    "ep.brand": "clinique",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "pt"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU49584",
+                    "sku2": "SKU14119",
+                    "sku3": "SKU12573",
+                    "sku4": "SKU12573",
+                    "sku5": "SKU12573"
+                },
+                "productdetail": {
+                    "pr1": "idPROD77161"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD26651",
+                        "pPrice": "369",
+                        "pVariant": "7T5R01",
+                        "psize": "125 ml",
+                        "pSkuID": "SKU49584"
+                    },
+                    {
+                        "productID": "idPROD5276",
+                        "pPrice": "309",
+                        "pVariant": "6MNY03",
+                        "psize": "30 ml",
+                        "pSkuID": "SKU14119"
+                    },
+                    {
+                        "productID": "idPROD5416",
+                        "pPrice": "239",
+                        "pVariant": "68A001",
+                        "psize": "7 ml",
+                        "pSkuID": "SKU12573"
+                    },
+                    {
+                        "productID": "idPROD5416",
+                        "pPrice": "239",
+                        "pVariant": "68A001",
+                        "psize": "7 ml",
+                        "pSkuID": "SKU12573"
+                    },
+                    {
+                        "productID": "idPROD5416",
+                        "pPrice": "239",
+                        "pVariant": "68A001",
+                        "psize": "7 ml",
+                        "pSkuID": "SKU12573"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "MasterCard - mc"
+                },
+                "impressionList": {
+                    "pr1": "idPROD94055",
+                    "pr2": "idPROD104214",
+                    "pr3": "idPROD109960",
+                    "pr4": "idPROD81833",
+                    "pr5": "idPROD8279"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "CL-CE",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "CLP",
+                    "tid": "G-XFXTVTPZPF",
+                    "ul": "en-us",
+                    "cd3": "es",
+                    "ep.brand_id": "clinique_cl",
+                    "ep.brand_locale": "cl",
+                    "ep.brand": "clinique",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "es"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU49584",
+                    "sku2": "SKU12414",
+                    "sku3": "SKU12573",
+                    "sku4": "SKU12573",
+                    "sku5": "SKU12573"
+                },
+                "productdetail": {
+                    "pr1": "idPROD77161"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD26651",
+                        "pPrice": "27700",
+                        "pVariant": "7T5R01",
+                        "psize": "125 ml.",
+                        "pSkuID": "SKU49584"
+                    },
+                    {
+                        "productID": "idPROD5416",
+                        "pPrice": "17200",
+                        "pVariant": "68A001",
+                        "psize": "8 g",
+                        "pSkuID": "SKU12573"
+                    },
+                    {
+                        "productID": "idPROD5416",
+                        "pPrice": "17200",
+                        "pVariant": "68A001",
+                        "psize": "8 g",
+                        "pSkuID": "SKU12573"
+                    },
+                    {
+                        "productID": "idPROD5416",
+                        "pPrice": "17200",
+                        "pVariant": "68A001",
+                        "psize": "8 g",
+                        "pSkuID": "SKU12573"
+                    },
+                    {
+                        "productID": "idPROD5416",
+                        "pPrice": "17200",
+                        "pVariant": "68A001",
+                        "psize": "8 g",
+                        "pSkuID": "SKU12573"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 22.4,
+                    "tt": 0,
+                    "ts": "3.990"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "MasterCard - mc"
+                },
+                "impressionList": {
+                    "pr1": "idPROD15501",
+                    "pr2": "idPROD15502",
+                    "pr3": "idPROD15504",
+                    "pr4": "idPROD15503"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "CL-MX",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "MXN",
+                    "tid": "G-G377SDE8NX",
+                    "ul": "en-us",
+                    "cd3": "es",
+                    "ep.brand_id": "clinique_mx",
+                    "ep.brand_locale": "mx",
+                    "ep.brand": "clinique",
+                    "ep.ga4_a_b_test_rule_name": 1
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU61550",
+                    "sku2": "SKU153690",
+                    "sku3": "SKU126687",
+                    "sku4": "SKU130195",
+                    "sku5": "SKU128581"
+                },
+                "productdetail": {
+                    "pr1": "idPROD77161"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD115736",
+                        "pPrice": "1050",
+                        "pVariant": "V74801",
+                        "psize": "50ml",
+                        "pSkuID": "SKU168704"
+                    },
+                    {
+                        "productID": "idPROD83690",
+                        "pPrice": "1499.25",
+                        "pVariant": "KWW601",
+                        "psize": "125ml",
+                        "pSkuID": "SKU126687"
+                    },
+                    {
+                        "productID": "idPROD83690",
+                        "pPrice": "1499.25",
+                        "pVariant": "KWW601",
+                        "psize": "125ml",
+                        "pSkuID": "SKU126687"
+                    },
+                    {
+                        "productID": "idPROD83690",
+                        "pPrice": "1499.25",
+                        "pVariant": "KWW601",
+                        "psize": "125ml",
+                        "pSkuID": "SKU126687"
+                    },
+                    {
+                        "productID": "idPROD83690",
+                        "pPrice": "1499.25",
+                        "pVariant": "KWW601",
+                        "psize": "125ml",
+                        "pSkuID": "SKU126687"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "MasterCard - mc"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16929",
+                    "pr2": "idPROD16417"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "EL-BR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "BRL",
+                    "tid": "G-PC62V2GHYT",
+                    "ul": "en-us",
+                    "cd3": "pt",
+                    "ep.brand_id": "lauder_br",
+                    "ep.brand_locale": "br",
+                    "ep.brand": "lauder",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "pt"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU85265",
+                    "sku2": "SKU164643",
+                    "sku3": "SKU47697",
+                    "sku4": "SKU47697",
+                    "sku5": "SKU47697"
+                },
+                "productdetail": {
+                    "pr1": "idPROD77161"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD77161",
+                        "pPrice": "66",
+                        "pVariant": "AXG601",
+                        "psize": "1.7 fl oz/50 ml",
+                        "pSkuID": "SKU118385"
+                    },
+                    {
+                        "productID": "idPROD67577",
+                        "pPrice": "13.6",
+                        "pVariant": "AWP201",
+                        "psize": "1.7 fl oz/50 ml - travel size",
+                        "pSkuID": "SKU111801"
+                    },
+                    {
+                        "productID": "idPROD16410",
+                        "pPrice": "14",
+                        "pVariant": "A11F01",
+                        "psize": "1.4 fl oz/40 ml - travel size",
+                        "pSkuID": "SKU33293"
+                    },
+                    {
+                        "productID": "idPROD16808",
+                        "pPrice": "17",
+                        "pVariant": "AT2X01",
+                        "psize": "1.4 fl oz/40 ml - travel size",
+                        "pSkuID": "SKU102284"
+                    },
+                    {
+                        "productID": "idPROD16808",
+                        "pPrice": "17",
+                        "pVariant": "AT2X01",
+                        "psize": "1.4 fl oz/40 ml - travel size",
+                        "pSkuID": "SKU102284"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "MasterCard - mc"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16929",
+                    "pr2": "idPROD16417"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "EL-CE",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "CLP",
+                    "tid": "G-TD5YQ2GV7H",
+                    "ul": "en-us",
+                    "cd3": "es",
+                    "ep.brand_id": "lauder_cl",
+                    "ep.brand_locale": "cl",
+                    "ep.brand": "lauder",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "es"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU170888",
+                    "sku2": "SKU180541",
+                    "sku3": "SKU121014",
+                    "sku4": "SKU144351",
+                    "sku5": "SKU26253"
+                },
+                "productdetail": {
+                    "pr1": "idPROD77161"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD123623",
+                        "pPrice": "44900",
+                        "pVariant": "G4HD01",
+                        "psize": "",
+                        "pSkuID": "SKU180541"
+                    },
+                    {
+                        "productID": "idPROD123623",
+                        "pPrice": "44900",
+                        "pVariant": "G4HD01",
+                        "psize": "",
+                        "pSkuID": "SKU180541"
+                    },
+                    {
+                        "productID": "idPROD123623",
+                        "pPrice": "44900",
+                        "pVariant": "G4HD01",
+                        "psize": "",
+                        "pSkuID": "SKU180541"
+                    },
+                    {
+                        "productID": "idPROD123623",
+                        "pPrice": "44900",
+                        "pVariant": "G4HD01",
+                        "psize": "",
+                        "pSkuID": "SKU180541"
+                    },
+                    {
+                        "productID": "idPROD123623",
+                        "pPrice": "44900",
+                        "pVariant": "G4HD01",
+                        "psize": "",
+                        "pSkuID": "SKU180541"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 46,
+                    "tt": "46.00",
+                    "ts": "7.00"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "MasterCard - mc"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16706",
+                    "pr2": "idPROD16459"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "EL-MX",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "MXN",
+                    "tid": "G-PBM9R17B7L",
+                    "ul": "en-us",
+                    "cd3": "es",
+                    "ep.brand_id": "lauder_mx",
+                    "ep.brand_locale": "mx",
+                    "ep.brand": "lauder",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "es"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU145175",
+                    "sku2": "SKU177968",
+                    "sku3": "SKU177968",
+                    "sku4": "SKU177968",
+                    "sku5": "SKU177968"
+                },
+                "productdetail": {
+                    "pr1": "idPROD77161"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD97913",
+                        "pPrice": "335",
+                        "pVariant": "PYKN01",
+                        "psize": "4ml",
+                        "pSkuID": "SKU145175"
+                    },
+                    {
+                        "productID": "idPROD121729",
+                        "pPrice": "2860",
+                        "pVariant": "ELMX36",
+                        "psize": "",
+                        "pSkuID": "SKU177968"
+                    },
+                    {
+                        "productID": "idPROD121729",
+                        "pPrice": "2860",
+                        "pVariant": "ELMX36",
+                        "psize": "",
+                        "pSkuID": "SKU177968"
+                    },
+                    {
+                        "productID": "idPROD121729",
+                        "pPrice": "2860",
+                        "pVariant": "ELMX36",
+                        "psize": "",
+                        "pSkuID": "SKU177968"
+                    },
+                    {
+                        "productID": "idPROD121729",
+                        "pPrice": "2860",
+                        "pVariant": "ELMX36",
+                        "psize": "",
+                        "pSkuID": "SKU177968"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 945,
+                    "tt": 0,
+                    "ts": "150.00"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "MasterCard - mc"
+                },
+                "impressionList": {
+                    "pr1": "idPROD112202",
+                    "pr2": "idPROD110710",
+                    "pr3": "idPROD118591",
+                    "pr4": "idPROD75655",
+                    "pr5": "idPROD97386"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "JM-BR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "BRL",
+                    "tid": "G-7PCT26XFXY",
+                    "ul": "en-us",
+                    "cd3": "pt",
+                    "ep.brand_id": "jomalone_br",
+                    "ep.brand_locale": "br",
+                    "ep.brand": "jomalone",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "pt"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU148275",
+                    "sku2": "SKU86147",
+                    "sku3": "SKU172336",
+                    "sku4": "SKU172336",
+                    "sku5": "SKU172336"
+                },
+                "productdetail": {
+                    "pr1": "idPROD77161"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD77161",
+                        "pPrice": "66",
+                        "pVariant": "AXG601",
+                        "psize": "1.7 fl oz/50 ml",
+                        "pSkuID": "SKU118385"
+                    },
+                    {
+                        "productID": "idPROD67577",
+                        "pPrice": "13.6",
+                        "pVariant": "AWP201",
+                        "psize": "1.7 fl oz/50 ml - travel size",
+                        "pSkuID": "SKU111801"
+                    },
+                    {
+                        "productID": "idPROD16410",
+                        "pPrice": "14",
+                        "pVariant": "A11F01",
+                        "psize": "1.4 fl oz/40 ml - travel size",
+                        "pSkuID": "SKU33293"
+                    },
+                    {
+                        "productID": "idPROD16808",
+                        "pPrice": "17",
+                        "pVariant": "AT2X01",
+                        "psize": "1.4 fl oz/40 ml - travel size",
+                        "pSkuID": "SKU102284"
+                    },
+                    {
+                        "productID": "idPROD16808",
+                        "pPrice": "17",
+                        "pVariant": "AT2X01",
+                        "psize": "1.4 fl oz/40 ml - travel size",
+                        "pSkuID": "SKU102284"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "MasterCard - mc"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16929",
+                    "pr2": "idPROD16417"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "JM-MX",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "MXN",
+                    "tid": "G-W5H1L3DTXS",
+                    "ul": "en-us",
+                    "cd3": "es",
+                    "ep.brand_id": "jomalone_mx",
+                    "ep.brand_locale": "mx",
+                    "ep.brand": "jomalone",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "es"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU58015",
+                    "sku2": "SKU172327",
+                    "sku3": "SKU172327",
+                    "sku4": "SKU172327",
+                    "sku5": "SKU172327"
+                },
+                "productdetail": {
+                    "pr1": "idPROD77161"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD77161",
+                        "pPrice": "66",
+                        "pVariant": "AXG601",
+                        "psize": "1.7 fl oz/50 ml",
+                        "pSkuID": "SKU118385"
+                    },
+                    {
+                        "productID": "idPROD67577",
+                        "pPrice": "13.6",
+                        "pVariant": "AWP201",
+                        "psize": "1.7 fl oz/50 ml - travel size",
+                        "pSkuID": "SKU111801"
+                    },
+                    {
+                        "productID": "idPROD16410",
+                        "pPrice": "14",
+                        "pVariant": "A11F01",
+                        "psize": "1.4 fl oz/40 ml - travel size",
+                        "pSkuID": "SKU33293"
+                    },
+                    {
+                        "productID": "idPROD16808",
+                        "pPrice": "17",
+                        "pVariant": "AT2X01",
+                        "psize": "1.4 fl oz/40 ml - travel size",
+                        "pSkuID": "SKU102284"
+                    },
+                    {
+                        "productID": "idPROD16808",
+                        "pPrice": "17",
+                        "pVariant": "AT2X01",
+                        "psize": "1.4 fl oz/40 ml - travel size",
+                        "pSkuID": "SKU102284"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "MasterCard - mc"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16929",
+                    "pr2": "idPROD16417"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "LM-BR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "BRL",
+                    "tid": "G-NBHL219RP7",
+                    "ul": "en-us",
+                    "cd3": "pt",
+                    "ep.brand_id": "lamer_br",
+                    "ep.brand_locale": "br",
+                    "ep.brand": "lamer",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "pt"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU26767",
+                    "sku2": "SKU115246",
+                    "sku3": "SKU115246",
+                    "sku4": "SKU115246",
+                    "sku5": "SKU115246"
+                },
+                "productdetail": {
+                    "pr1": "idPROD77161"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD12343",
+                        "pPrice": "1600",
+                        "pVariant": "332802",
+                        "psize": "30ml",
+                        "pSkuID": "SKU26767"
+                    },
+                    {
+                        "productID": "idPROD74983",
+                        "pPrice": "1670",
+                        "pVariant": "40HW01",
+                        "psize": "15ml",
+                        "pSkuID": "SKU115246"
+                    },
+                    {
+                        "productID": "idPROD74983",
+                        "pPrice": "1670",
+                        "pVariant": "40HW01",
+                        "psize": "15ml",
+                        "pSkuID": "SKU115246"
+                    },
+                    {
+                        "productID": "idPROD74983",
+                        "pPrice": "1670",
+                        "pVariant": "40HW01",
+                        "psize": "15ml",
+                        "pSkuID": "SKU115246"
+                    },
+                    {
+                        "productID": "idPROD74983",
+                        "pPrice": "1670",
+                        "pVariant": "40HW01",
+                        "psize": "15ml",
+                        "pSkuID": "SKU115246"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 1.6,
+                    "tt": 0,
+                    "ts": "1.60000"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "MasterCard - mc"
+                },
+                "impressionList": {
+                    "pr1": "idPROD74983"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "LM-MX",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "MXN",
+                    "tid": "G-CX9HP0GER6",
+                    "ul": "en-us",
+                    "cd3": "es",
+                    "ep.brand_id": "lamer_mx",
+                    "ep.brand_locale": "mx",
+                    "ep.brand": "lamer",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "es"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU101933",
+                    "sku2": "SKU176901",
+                    "sku3": "SKU176901",
+                    "sku4": "SKU176901",
+                    "sku5": "SKU176901"
+                },
+                "productdetail": {
+                    "pr1": "idPROD77161"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD77161",
+                        "pPrice": "66",
+                        "pVariant": "AXG601",
+                        "psize": "1.7 fl oz/50 ml",
+                        "pSkuID": "SKU118385"
+                    },
+                    {
+                        "productID": "idPROD67577",
+                        "pPrice": "13.6",
+                        "pVariant": "AWP201",
+                        "psize": "1.7 fl oz/50 ml - travel size",
+                        "pSkuID": "SKU111801"
+                    },
+                    {
+                        "productID": "idPROD16410",
+                        "pPrice": "14",
+                        "pVariant": "A11F01",
+                        "psize": "1.4 fl oz/40 ml - travel size",
+                        "pSkuID": "SKU33293"
+                    },
+                    {
+                        "productID": "idPROD16808",
+                        "pPrice": "17",
+                        "pVariant": "AT2X01",
+                        "psize": "1.4 fl oz/40 ml - travel size",
+                        "pSkuID": "SKU102284"
+                    },
+                    {
+                        "productID": "idPROD16808",
+                        "pPrice": "17",
+                        "pVariant": "AT2X01",
+                        "psize": "1.4 fl oz/40 ml - travel size",
+                        "pSkuID": "SKU102284"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "MasterCard - mc"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16929",
+                    "pr2": "idPROD16417"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-BR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "BRL",
+                    "tid": "G-ES45GQGYD4",
+                    "ul": "en-us",
+                    "cd3": "pt",
+                    "ep.brand_id": "mac_br",
+                    "ep.brand_locale": "br",
+                    "ep.brand": "mac",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "pt"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU76727",
+                    "sku2": "SKU21988",
+                    "sku3": "SKU49743",
+                    "sku4": "SKU49743",
+                    "sku5": "SKU49743"
+                },
+                "productdetail": {
+                    "pr1": "idPROD77161"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD46045",
+                        "pPrice": "211",
+                        "pVariant": "S4HM01",
+                        "psize": "",
+                        "pSkuID": "SKU76727"
+                    },
+                    {
+                        "productID": "idPROD10181",
+                        "pPrice": "174",
+                        "pVariant": "MGT909",
+                        "psize": "9ml",
+                        "pSkuID": "SKU21988"
+                    },
+                    {
+                        "productID": "idPROD26749",
+                        "pPrice": "113",
+                        "pVariant": "MN6501",
+                        "psize": "13ml",
+                        "pSkuID": "SKU49743"
+                    },
+                    {
+                        "productID": "idPROD26749",
+                        "pPrice": "113",
+                        "pVariant": "MN6501",
+                        "psize": "13ml",
+                        "pSkuID": "SKU49743"
+                    },
+                    {
+                        "productID": "idPROD26749",
+                        "pPrice": "113",
+                        "pVariant": "MN6501",
+                        "psize": "13ml",
+                        "pSkuID": "SKU49743"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "MasterCard - mc"
+                },
+                "impressionList": {
+                    "pr1": "idPROD105333",
+                    "pr2": "idPROD1231",
+                    "pr3": "idPROD99811"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-CE",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "CLP",
+                    "tid": "G-04RE3WV2WD",
+                    "ul": "en-us",
+                    "cd3": "es",
+                    "ep.brand_id": "mac_cl",
+                    "ep.brand_locale": "cl",
+                    "ep.brand": "mac",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "es"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU110272",
+                    "sku2": "SKU132072",
+                    "sku3": "SKU174403",
+                    "sku4": "SKU174403",
+                    "sku5": "SKU174403"
+                },
+                "productdetail": {
+                    "pr1": "idPROD77161"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD907",
+                        "pPrice": "7493",
+                        "pVariant": "S73TPH",
+                        "psize": "1.5 g / 0.05 oz",
+                        "pSkuID": "SKU110272"
+                    },
+                    {
+                        "productID": "idPROD119586",
+                        "pPrice": "46990",
+                        "pVariant": "SYP841",
+                        "psize": "30 ml",
+                        "pSkuID": "SKU174403"
+                    },
+                    {
+                        "productID": "idPROD119586",
+                        "pPrice": "46990",
+                        "pVariant": "SYP841",
+                        "psize": "30 ml",
+                        "pSkuID": "SKU174403"
+                    },
+                    {
+                        "productID": "idPROD119586",
+                        "pPrice": "46990",
+                        "pVariant": "SYP841",
+                        "psize": "30 ml",
+                        "pSkuID": "SKU174403"
+                    },
+                    {
+                        "productID": "idPROD119586",
+                        "pPrice": "46990",
+                        "pVariant": "SYP841",
+                        "psize": "30 ml",
+                        "pSkuID": "SKU174403"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 46,
+                    "tt": "46.00",
+                    "ts": "7.00"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "MasterCard - mc"
+                },
+                "impressionList": {
+                    "pr1": "idPROD33821",
+                    "pr2": "idPROD515"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-MX",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "MXN",
+                    "tid": "G-141EPS1R54",
+                    "ul": "en-us",
+                    "cd3": "es",
+                    "ep.brand_id": "mac_mx",
+                    "ep.brand_locale": "mx",
+                    "ep.brand": "mac",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "es"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU3830",
+                    "sku2": "SKU1468",
+                    "sku3": "SKU113656",
+                    "sku4": "SKU173646",
+                    "sku5": "SKU173646"
+                },
+                "productdetail": {
+                    "pr1": "idPROD77161"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD968",
+                        "pPrice": "439",
+                        "pVariant": "M4XA01",
+                        "psize": "1.7 g",
+                        "pSkuID": "SKU3830"
+                    },
+                    {
+                        "productID": "idPROD119065",
+                        "pPrice": "599",
+                        "pVariant": "NXPW01",
+                        "psize": ".06 oz / 1.8 g",
+                        "pSkuID": "SKU173646"
+                    },
+                    {
+                        "productID": "idPROD119065",
+                        "pPrice": "599",
+                        "pVariant": "NXPW01",
+                        "psize": ".06 oz / 1.8 g",
+                        "pSkuID": "SKU173646"
+                    },
+                    {
+                        "productID": "idPROD119065",
+                        "pPrice": "599",
+                        "pVariant": "NXPW01",
+                        "psize": ".06 oz / 1.8 g",
+                        "pSkuID": "SKU173646"
+                    },
+                    {
+                        "productID": "idPROD119065",
+                        "pPrice": "599",
+                        "pVariant": "NXPW01",
+                        "psize": ".06 oz / 1.8 g",
+                        "pSkuID": "SKU173646"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 559,
+                    "tt": 0,
+                    "ts": "150.00"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "MasterCard - mc"
+                },
+                "impressionList": {
+                    "pr1": "idPROD52595"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "OR-MX",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "MXN",
+                    "tid": "G-PBM9R17B7L",
+                    "ul": "en-us",
+                    "cd3": "es",
+                    "ep.brand_id": "lauder_mx",
+                    "ep.brand_locale": "mx",
+                    "ep.brand": "lauder",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "es"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU177968",
+                    "sku2": "SKU177968",
+                    "sku3": "SKU177968",
+                    "sku4": "SKU177968",
+                    "sku5": "SKU177968"
+                },
+                "productdetail": {
+                    "pr1": "idPROD77161"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD77161",
+                        "pPrice": "66",
+                        "pVariant": "AXG601",
+                        "psize": "1.7 fl oz/50 ml",
+                        "pSkuID": "SKU118385"
+                    },
+                    {
+                        "productID": "idPROD67577",
+                        "pPrice": "13.6",
+                        "pVariant": "AWP201",
+                        "psize": "1.7 fl oz/50 ml - travel size",
+                        "pSkuID": "SKU111801"
+                    },
+                    {
+                        "productID": "idPROD16410",
+                        "pPrice": "14",
+                        "pVariant": "A11F01",
+                        "psize": "1.4 fl oz/40 ml - travel size",
+                        "pSkuID": "SKU33293"
+                    },
+                    {
+                        "productID": "idPROD16808",
+                        "pPrice": "17",
+                        "pVariant": "AT2X01",
+                        "psize": "1.4 fl oz/40 ml - travel size",
+                        "pSkuID": "SKU102284"
+                    },
+                    {
+                        "productID": "idPROD16808",
+                        "pPrice": "17",
+                        "pVariant": "AT2X01",
+                        "psize": "1.4 fl oz/40 ml - travel size",
+                        "pSkuID": "SKU102284"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "MasterCard - mc"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16929",
+                    "pr2": "idPROD16417"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "TF-BR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "BRL",
+                    "tid": "G-11XCE9VNMB",
+                    "ul": "en-us",
+                    "cd3": "pt",
+                    "ep.brand_id": "toofaced_br",
+                    "ep.brand_locale": "br",
+                    "ep.brand": "toofaced",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "pt"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU118027",
+                    "sku2": "SKU176392",
+                    "sku3": "SKU176392",
+                    "sku4": "SKU176392",
+                    "sku5": "SKU176392"
+                },
+                "productdetail": {
+                    "pr1": "idPROD77161"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD77161",
+                        "pPrice": "66",
+                        "pVariant": "AXG601",
+                        "psize": "1.7 fl oz/50 ml",
+                        "pSkuID": "SKU118385"
+                    },
+                    {
+                        "productID": "idPROD67577",
+                        "pPrice": "13.6",
+                        "pVariant": "AWP201",
+                        "psize": "1.7 fl oz/50 ml - travel size",
+                        "pSkuID": "SKU111801"
+                    },
+                    {
+                        "productID": "idPROD16410",
+                        "pPrice": "14",
+                        "pVariant": "A11F01",
+                        "psize": "1.4 fl oz/40 ml - travel size",
+                        "pSkuID": "SKU33293"
+                    },
+                    {
+                        "productID": "idPROD16808",
+                        "pPrice": "17",
+                        "pVariant": "AT2X01",
+                        "psize": "1.4 fl oz/40 ml - travel size",
+                        "pSkuID": "SKU102284"
+                    },
+                    {
+                        "productID": "idPROD16808",
+                        "pPrice": "17",
+                        "pVariant": "AT2X01",
+                        "psize": "1.4 fl oz/40 ml - travel size",
+                        "pSkuID": "SKU102284"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "MasterCard - mc"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16929",
+                    "pr2": "idPROD16417"
+                }
+            }
+        ]
+    }
+]

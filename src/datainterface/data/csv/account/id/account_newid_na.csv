@@ -1,0 +1,13 @@
+tt,Page,BrandLocale,MC-US
+1,HOMEPAGE,cookieRejectButton,#onetrust-reject-all-handler
+1,HOMEPAGE,closePopUp,"//button[contains(@title,'close')]"
+1,GNAVHEADER,myAccount,//a[@data-test-id='home_gnav_button_signin']
+1,ACCOUNTSIGNIN,accSigninTabElem,
+1,ACCOUNTSIGNIN,accUsernameElem,//div[@class='field-container-section']//input[@id='form--signin--field--EMAIL_ADDRESS']
+1,ACCOUNTSIGNIN,accPasswordElem,//div[@class='field-container-section']//input[@id='form--signin--field--PASSWORD']
+1,ACCOUNTSIGNIN,accSigninContinueElem,//input[@data-test-id='form_signin_continue']
+1,MYACCOUNT,accountProfile,//nav[@class='account-nav']
+1,MYACCOUNT,orderHistory,//a[@data-test-id='myaccount_menu_orders']
+1,MYACCOUNT,historyLog,(//div[@class='shipments-list'])[1]
+1,MYACCOUNT,noHistoryLog,//div[@id='purchase_id']
+1,MYACCOUNT,accountSignOut,//a[@data-test-id='myaccount_menu_signout']

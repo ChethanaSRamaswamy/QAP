@@ -1,0 +1,164 @@
+tt,BrandLocale,CL-IT,EL-ZA,MC-BE,MC-DE,BB-FR,EL-IT
+1,timeoutSetting,200000,180000,180000,200000,200000,220000
+1,emulationDevice,iPhone X,iPhone X,iPhone X,Galaxy S5,iPhone X,iPhone X
+1,timeout,40000,40000,60000,40000,60000,40000
+1,pollingTime,100,100,100,100,100,100
+1,waitForLtySec,,,600000,,,
+1,prodcatUrl,/shared/prodcat/sku_info.tmpl?SKU_ID=,/shared/prodcat/sku_info.tmpl?SKU_ID=,/shared/prodcat/sku_info.tmpl?SKU_ID=,/shared/prodcat/sku_info.tmpl?SKU_ID=,/shared/prodcat/sku_info.tmpl?SKU_ID=,/shared/prodcat/sku_info.tmpl?SKU_ID=
+1,loyIndexUrl1,,,/account/signin.tmpl,,,
+1,loyIndexUrl,/account/loyalty/index.tmpl,/account/loyalty/index.tmpl,/account/loyalty/index.tmpl,/account/loyalty/index.tmpl,/account/loyalty/index.tmpl,/account/loyalty/index.tmpl
+1,offerManagerUrl,/shared/offers/offers2.tmpl,/shared/offers/offers2.tmpl,/shared/offers/offers2.tmpl,/shared/offers/offers2.tmpl,/shared/offers/offers2.tmpl,/shared/offers/offers2.tmpl
+1,viewCartPageUrl,/checkout/viewcart.tmpl,/checkout/viewcart.tmpl,/checkout/viewcart.tmpl,/checkout/viewcart.tmpl,/checkout/viewcart.tmpl,/checkout/viewcart.tmpl
+1,isShoppable,//*[@id='Sku_Details']/table[9]/tbody/tr[8]/td[3],//*[@id='Sku_Details']/table[9]/tbody/tr[8]/td[3],//*[@id='Sku_Details']/table[9]/tbody/tr[8]/td[3],//*[@id='Sku_Details']/table[9]/tbody/tr[8]/td[3],//*[@id='Sku_Details']/table[9]/tbody/tr[8]/td[3],
+1,isShoppable1,//*[@id='Sku_Details']/table[9]/tbody/tr[8]/td[3],//*[@id='Sku_Details']/table[9]/tbody/tr[8]/td[3],//*[@id='Sku_Details']/table[9]/tbody/tr[8]/td[3],//*[@id='Sku_Details']/table[9]/tbody/tr[8]/td[3],//*[@id='Sku_Details']/table[9]/tbody/tr[8]/td[3],//*[@id='Sku_Details']/table[9]/tbody/tr[8]/td[3]
+1,isDisplayable,//*[@id='Sku_Details']/table[9]/tbody/tr[7]/td[3],//*[@id='Sku_Details']/table[9]/tbody/tr[7]/td[3],//*[@id='Sku_Details']/table[9]/tbody/tr[7]/td[3],//*[@id='Sku_Details']/table[9]/tbody/tr[7]/td[3],//*[@id='Sku_Details']/table[9]/tbody/tr[7]/td[3],//*[@id='Sku_Details']/table[9]/tbody/tr[7]/td[3]
+1,productUrl,"//table/tbody/tr[contains(.,'displayableProduct')]/td[last()]/a","//table/tbody/tr[contains(.,'displayableProduct')]/td[last()]/a","//table/tbody/tr[contains(.,'displayableProduct')]/td[last()]/a","//table/tbody/tr[contains(.,'displayableProduct')]/td[last()]/a","//table/tbody/tr[contains(.,'displayableProduct')]/td[last()]/a","//table/tbody/tr[contains(.,'displayableProduct')]/td[last()]/a"
+1,popUpId,,#cboxClose,,#cboxClose,#cboxClose,[id='cboxClose']
+1,emailPopUp,,,.icon-remove,.icon-remove,,[id='cboxClose']
+1,checkoutButtonId,.continue-checkout-bottom,//div[@id='loyalty-offer-panel']/following-sibling::div//a[@data-test-id='cart_primarycheckout'],[data-test-id='cart_primarycheckout'],"//*[contains(@class,'bottom-viewcart-buttons')]//a|//*[@data-test-id='cart_primarycheckout_unhide']",.btn.btn-primary.continue-checkout,[data-test-id='cart_primarycheckout']
+1,checkoutButtonMob,//*[@data-test-id='cart_primarycheckout'],//a[@data-test-id='cart_primarycheckout'],[data-test-id='cart_primarycheckout'],//a[@data-test-id='cart_primarycheckout'],//a[@data-test-id='cart_primarycheckout'],[data-test-id='cart_primarycheckout']
+1,sampleContinue,input.btn.btn-primary.form-submit,,//input[@data-test-id='form_checkout_samples_continue']|//*[@data-test-id='form_checkout_samples_continue']//input,,,
+1,sampleContinueMob,,,//input[@data-test-id='form_checkout_samples_continue']|//*[@data-test-id='form_checkout_samples_continue']//input,,,
+1,signupPopUp,#cboxClose,[id='cboxClose'],,[class='icon-remove'],,
+1,guestUserId,#form--checkout_signin_new_user--field--GUEST_USER_EMAIL_ADDRESS,//*[@data-test-id='form_signin_new_user_email'],#form--checkout_signin_new_user--field--NEW_USER_EMAIL_ADDRESS,//*[@data-test-id='form_signin_new_user_email'],//*[@data-test-id='form_signin_new_user_email'],#form--checkout_signin_new_user--field--NEW_USER_EMAIL_ADDRESS
+1,guestUserContinue,//*[@data-test-id='form_checkout_signin_new_user_submit'],//*[@data-test-id='checkout_signin_new_user_submit'],[data-test-id='form_checkout_signin_new_user_submit'],//input[@data-test-id='form_checkout_signin_new_user_submit'],//*[@data-test-id='form_registration_continue'],[data-test-id='checkout_signin_new_user_submit']
+1,guestUserSubmitMob,//*[@data-test-id='form_checkout_signin_new_user_submit'],//*[@data-test-id='checkout_signin_new_user_submit'],.form-submit.new-account__submit.js-analytics-guest-user,//input[@data-test-id='form_checkout_signin_new_user_submit'],//input[@data-test-id='form_checkout_signin_new_user_submit'],[data-test-id='checkout_signin_new_user_submit']
+1,titleId,,,//input[@id='form--shipping_-_-address--field--SHIPFORM_TITLE--index--dhr'],,,
+1,TitleDropDownMob,,,form--shipping_-_-address--field--SHIPFORM_TITLE,,,
+1,titleDropdownPc,,,,,,
+1,firstNameId,#form--address_shipping--field--SHIPFORM_FIRST_NAME,#shipping-first-name-input,"//input[contains(@id,'form--shipping_-_-address--field--SHIPFORM_FIRST_NAME')]",#shipping-first-name-input,[id='form--shipping_-_-address--field--SHIPFORM_FIRST_NAME'],#form--shipping_-_-address--field--SHIPFORM_FIRST_NAME
+1,lastNameId,#form--address_shipping--field--SHIPFORM_LAST_NAME,#shipping-last-name-input,"//input[contains(@id,'form--shipping_-_-address--field--SHIPFORM_LAST_NAME')]",#shipping-last-name-input,[id='form--shipping_-_-address--field--SHIPFORM_LAST_NAME'],#form--shipping_-_-address--field--SHIPFORM_LAST_NAME
+1,addressId,#form--address_shipping--field--SHIPFORM_ADDRESS2,#shipping-first-line-input,"//input[contains(@id,'form--shipping_-_-address--field--SHIPFORM_ADDRESS4')]",//*[@data-test-id='form_address_first_line_field'],//*[@id='form--shipping_-_-address--field--SHIPFORM_ADDRESS2'],#form--shipping_-_-address--field--SHIPFORM_ADDRESS2
+1,addressId2,#form--address_shipping--field--SHIPFORM_ADDRESS3,#shipping-second-line-input,"//input[contains(@id,'form--shipping_-_-address--field--SHIPFORM_ADDRESS5')]",#shipping-second-line-input,//*[@id='form--shipping_-_-address--field--SHIPFORM_ADDRESS1'],#form--shipping_-_-address--field--SHIPFORM_ADDRESS3
+1,phoneId,#form--address_shipping--field--SHIPFORM_PHONE1,[data-test-id='form_phone_field'],"//input[contains(@id,'form--shipping_-_-address--field--SHIPFORM_PHONE1')]",//*[@data-test-id='form_phone_field'],[id='form--shipping_-_-address--field--SHIPFORM_PHONE1'],#form--shipping_-_-address--field--SHIPFORM_PHONE1
+1,postalCodeId,#form--address_shipping--field--SHIPFORM_POSTAL_CODE,#shipping-zip-code-input,"//input[contains(@id,'form--shipping_-_-address--field--SHIPFORM_POSTAL_CODE')]",#shipping-zip-code-input,//*[@id='form--shipping_-_-address--field--SHIPFORM_POSTAL_CODE'],#form--shipping_-_-address--field--SHIPFORM_POSTAL_CODE
+1,cityId,#form--address_shipping--field--SHIPFORM_CITY,#shipping-city-input,"//input[contains(@id,'form--shipping_-_-address--field--SHIPFORM_CITY')]",#shipping-city-input,//*[@id='form--shipping_-_-address--field--SHIPFORM_CITY'],#form--shipping_-_-address--field--SHIPFORM_CITY
+1,streetId,,,,,,
+1,cityDropdown,,,,,,
+1,subDistrictId,,,,,,
+1,provinceId,#form--address_shipping--field--SHIPFORM_STATE,,,,,
+1,shippingAddressContinue,.btn.btn-primary.form-submit.button,[data-test-id='dp_continue_checkout'],//input[@data-test-id='form_checkout_shipping_panel_continue'],[data-test-id='dp_continue_checkout'],//*[@id='continue-checkout'],#continue-checkout
+1,shippingContinueMob,.btn.btn-primary.form-submit,[data-test-id='dp_continue_checkout'],[data-test-id='shipping_checkout_btn'],[data-test-id='dp_continue_checkout'],//*[@id='continue-checkout'],//*[@id='continue-checkout']
+1,paymentMethRadioBtn,#form--checkout_payment_type--field--PAYMENT_OPTION--index--payment_option_cc,#form--checkout_payment_type--field--PAYMENT_OPTION--index--payment_option_payu_label,,[data-test-id='pp_radio_button_Ingenico_CC'],#form--checkout_payment_type--field--PAYMENT_OPTION--index--payment_option_visa_label,#form--checkout_payment_type--field--PAYMENT_OPTION--index--payment_option_cc_label
+1,paymentMethRadioBtnMob,#form--checkout_payment_type--field--PAYMENT_OPTION--index--payment_option_cc,#form--checkout_payment_type--field--PAYMENT_OPTION--index--payment_option_payu_label,,[data-test-id='pp_radio_button_Ingenico_CC'],//*[@id='form--checkout_payment_type--field--PAYMENT_OPTION--index--payment_option_visa_label'],#form--checkout_payment_type--field--PAYMENT_OPTION--index--payment_option_cc_label
+1,termsAndConditionForAge,,,,,//*[@id='form--checkout_payment_type--field--ORDER_TERMS'],[for='form--checkout_payment_type--field--ORDER_TERMS']
+1,completeTheOrder,#continue-btn .btn.btn-mini.form-submit.js-continue-checkout,[data-test-id='placeorder'],//*[@test_id='continue-checkout'],,//*[@id='continue-checkout-btm']/input  | //*[@class='btn default-na btn-primary form-submit js_analytics_checkout_payment'],[data-test-id='payment_select_continue_checkout']
+1,completeTheOrderMob,#continue-btn .btn.btn-mini.form-submit.js-continue-checkout,[data-test-id='placeorder'],[data-test-id='form_checkout_confirm'],,#continue-checkout-btm a.form-submit.mobile_sticky_bottom,[data-test-id='checkout_continue_checkout']
+1,cardTypeId,//*[@id='paymentoptionslist']/li[1]/form/button,//input[@name='pay_meth'],#form--checkout_payment_type--field--PAYMENT_OPTION--index--payment_option_visa,,,//*[@id='paymentoptionslist']/li[1]/form/button
+1,cardTypeIdMob,//*[@id='paymentoptionslist']/li[1]/form/button,,form--checkout_payment_type--field--PAYMENT_OPTION,,//*[@id='paymentoptionslist']/li[1]/form/button,//*[@id='paymentoptionslist']/li[1]/form/button
+1,confirmPaymentContinue,,,,,,
+1,creditCardHolderName,#cardholderName,//*[@name='paymentMethods[CREDITCARD][0].nameOnCard'],,"//*[contains(@id,'adyen-checkout-holderName')]",,//*[@id='cardholderName']
+1,creditCardId,#cardNumber,//*[@name='paymentMethods[CREDITCARD][0].cardNumber'],[name='CREDITCARDNUMBER'],"//*[contains(@id,'adyen-checkout-encryptedCardNumber')]",,//*[@id='cardNumber']
+1,expDateId,#expiryDate,,,"//*[contains(@id,'adyen-checkout-encryptedExpiryDate')]",,//*[@id='expiryDate']
+1,cvvId,#cvv,//div/input[@name='paymentMethods[CREDITCARD][0].cvv'],[name='CVV'],"//*[contains(@id,'adyen-checkout-encryptedSecurityCode')]",,//*[@id='cvv']
+1,creditCardMonthDd,,paymentMethods[CREDITCARD][0].expMonth,EXPIRYDATE_MM,,,
+1,creditCardYearDd,,paymentMethods[CREDITCARD][0].expYear,EXPIRYDATE_YY,,,
+1,payButtonId,#primaryButton,,#btnSubmit,//button[@class='adyen-checkout__button adyen-checkout__button--pay'],#btnSubmit,#primaryButton
+1,returnuserMobId,#returning-customer-radio,#returning-customer-radio,,#returning-customer-radio,#returning-customer-radio,
+1,loginId1,[class='gnav-block__courtesy-navigation-list'] > li >[aria-label='Accedi'],[data-test-id='gnav_account_menu_login'],#site-my-mac,a#site-my-mac,[class='gnav-utility-item__trigger-label js-gnav-utility-item-trigger'],[data-test-id='gnav_account_menu_login']
+1,LoginID,,[data-test-id='home_myaccount_button_register'],,[data-test-id='home_myaccount_button_register'],[data-test-id='home_myaccount_button_register'],
+1,mobLoginId,.header-gnav-account-link__text.header-gnav-account-link--anon.js-header-gnav-account-link--anon,//span[@data-test-id='gnav_account_menu_login'],[class='icon icon--icon--user site-my-mac__link-icon'],a#site-my-mac,.footer-links__link > a[href='https://m.bobbibrowncosmetics.fr/account/signin.tmpl'],[data-test-id='home_myaccount_button_register']
+1,accRegisterNow,#new-account-link,,.registration> a,,,.signin-overlay__toggle-form--dont-have-account > a
+1,accRegisterNowMob,#new-account-link,,.registration> a,,,.signin-overlay__toggle-form--dont-have-account > a
+1,accRegFirstName,,//input[@data-test-id='form_firstname'],,//*[@id='form--loyalty--field--FIRST_NAME'],,#sign-in-component__FIRST_NAME
+1,accRegLastName,,,,//*[@id='form--loyalty--field--LAST_NAME'],//input[@id='form--registration_short--field--LAST_NAME'],
+1,accRegEmailId,#form--registration_short--field--PC_EMAIL_ADDRESS,//input[@data-test-id='form_pc_email_address'],#form--registration_short--field--PC_EMAIL_ADDRESS,//input[@id='form--registration_short--field--PC_EMAIL_ADDRESS'],//*[@id='form--registration_short--field--PC_EMAIL_ADDRESS'],#sign-in-component__PC_EMAIL_ADDRESS
+1,accRegPwd,#form--registration_short--field--PASSWORD,//input[@data-test-id='form_password'],#form--registration_short--field--PASSWORD,//input[@id='form--registration_short--field--PASSWORD'] | //*[@id='form--loyalty--field--PASSWORD'],//input[@id='form--registration_short--field--PASSWORD'],[data-test-id='gnav_register_form_password']
+1,accRegisterYear,,,,,,
+1,accRegisterMonth,,,,s2id_form--loyalty--field--BIRTH_MONTH,form--registration_short--field--BIRTH_MONTH,
+1,accRegisterDay,,,,//*[@id='s2id_form--loyalty--field--BIRTH_DAY'],form--registration_short--field--BIRTH_DAY,
+1,accRegCreateAcBtn,//*[@data-test-id='form_registration_continue'],//input[@value='Create Your Account'],[data-test-id='form_registration_continue'],[data-test-id='form_registration_continue'],//*[@class='sign-in-page__submit js_analytics_checkout_new_user'] | //*[@class='btn btn-primary js_analytics_checkout_new_user'],//input[@class='form-submit js-home-page__enrollment']
+1,addToBag,//*[@data-test-id='add_to_bag_btn'],//*[@class='product-full__button-container js-quantity']/button[@data-test-id='add-to-cart'] | //*[@class='js-add-to-cart spp-product__add-button button cta button--dark'],"//a[contains(@data-test-id,'add-to-cart')]","//a[contains(@data-test-id,'add-to-cart')]",.product-full__bag-btn >a.js-add-to-cart.js-product-cta,"//*[contains(@data-test-id,'add-to-cart')]"
+1,loyaltySection,#loyalty__panel__benefits,//div[@class='loyalty__panel__points__cta'],#progress_bar,/html/body/div[4]/nav/div/section[3],/html/body/div[4]/nav/div/section[3],
+1,lpointsIndexPage,.star-points,.points__current,.mac-select__account-panel__header-right >h4,.mac-select__account-panel__header-right,.points__current,[class='points__current']
+1,tier1StatusId,.star-points-benifits,//div[@class='status status-tier-status-1']//div[@class='tier-1'],.mac-select__color-tier.mac-select__color-tier1,.mac-select__account-panel__header-left,[class='loyalty__panel__points__title loyalty__panel__points__title--account'] > span[class='loyalty__panel__points__title__level tier-1'],[class='status status-tier-status-1']
+1,loyPopOverBtn,,,,,,"//*[contains(@class,'button cta cta__button button--inverted')]"
+1,profilePopupClose,,//button[@id='cboxClose'],,//button[@id='cboxClose'],//button[@id='cboxClose'],button#cboxClose
+1,joinLoyaltyFooter,div.footer-links__link > a[href='/smartrewards'],.page-sticky-footer__loyalty--join__link,li >a[href='/be/nl/account/mac-lover.tmpl'],.menu >li >a.js-mac-lover-redirect-link,.footer-links__link > a[href='/loyalty-program/bobbibrownclub'],[class='drawer-formatter__trigger'] >a
+1,joinLoyaltyFooterMob,div.footer-links__link > a[href='/smartrewards'],.loyalty,"//ul[@class='menu']//a[contains(@href,'/account/mac-lover.tmpl')]",.menu >li >a.js-mac-lover-redirect-link,.footer-links__link > a[href='/loyalty-program/bobbibrownclub'],.last >a[href='/elist']
+1,joinNowMarktPage,div.guest_join_now_button.js-guest_join_now_button .button,//button[@class='form-submit btn_join js-join-popup'],,.btn.mac-select__marketing-page__join,,[class='form-submit btn_join js-join-popup']
+1,orderConfMsgId,[data-test-id='order_id'],,"//*[contains(@class,'confirmation-panel__order-number')] |  //*[@id='confirmation-number']","//*[contains(@class,'confirmation-panel__order-number')]",[data-test-id='order_id'],[class='confirmation-panel-confirmation-number']
+1,loyPwdConPage,,,,,,#form--completed_checkout_registration--field--PASSWORD
+1,loyTermsConPage,,,,,,[for='form--completed_checkout_registration--field--TERMS']
+1,loyaltyJoinConPage,#registration-panel > div > div > a,"//a[contains(text(),'JOIN NOW')]",.btn.button,"//a[contains(text(),'MAC Lover')]","//*[contains(@class,'confirmation_cta')]/input",//*[@data-test-id='form_registration_continue'] | //*[@class='form-submit result-submit']
+1,rewardSection,div.loyalty__panel__points__button a.button.view-all,//span/a[@href='/account/loyalty/index.tmpl#rewards'],,,,[class='user-logged-in__link']
+1,orderNum,//*[@id='confirmation-panel']/div[1]/span/a,//span/a[@data-test-id='order_id'],"//a[contains(@href,'/order_history/detail.tmpl')]",//span/a[@data-test-id='order_id'],#confirmation-number,[class='confirmation-panel-confirmation-number'] >a
+1,rewOrderId,tr:nth-child(2) .loyalty__panel__transactions__list__column-activity__transaction-link__order-id,.loyalty__panel__transactions__list__column-activity__transaction-link__order-id,[class='loyalty__panel__transactions__list__column-activity__transaction-link__order-id'],.loyalty__panel__transactions__list__column-activity__transaction-link__order-id,.loyalty__panel__transactions__list__column-activity__transaction-link__order-id,
+1,pendingId,tr:nth-of-type(2) .loyalty__panel__transactions__list__pending,tr:nth-of-type(1)  .loyalty__panel__transactions__list__pending,.loyalty__panel__transactions__list__pending,tr:nth-of-type(1)  .loyalty__panel__transactions__list__pending,tr:nth-of-type(1)  .loyalty__panel__transactions__list__pending,
+1,rewardSectionMob,div.header-gnav-account-link__loyalty.js-header-gnav-loyalty-link--auth > a,//div/a[@href='/account/loyalty/index.tmpl#rewards'],,//a[@href='/account/loyalty/index.tmpl'],//a[@href='/account/loyalty/index.tmpl'],.last >[href='/elist']
+1,appliedOffersId,body > p:nth-of-type(8),body > p:nth-of-type(8),body > p:nth-of-type(8),body > p:nth-of-type(8),body > p:nth-of-type(8),body > p:nth-of-type(8)
+1,appliedOffersId1,body > p:nth-of-type(7),body > p:nth-of-type(7),body > p:nth-of-type(7),body > p:nth-of-type(7),body > p:nth-of-type(7),body > p:nth-of-type(7)
+1,firstNameProfile,#form--profile_preferences--field--FIRST_NAME,//input[@data-test-id='form_firstname'],[data-test-id='form_firstname'],//input[@data-test-id='form_firstname'],//input[@data-test-id='form_firstname'],
+1,lastNameProfile,#form--profile_preferences--field--LAST_NAME,//input[@data-test-id='form_lastname'],[data-test-id='form_lastname'],//input[@data-test-id='form_lastname'],//input[@data-test-id='form_lastname'],
+1,birthDateProfile,form--profile_preferences--field--BIRTH_DAY,form--registration--field--BIRTH_DAY,form--profile_preferences--field--BIRTH_DAY,form--registration--field--BIRTH_DAY,form--profile_preferences--field--BIRTH_DAY,form--registration--field--BIRTH_DAY
+1,birthMonthProfile,form--profile_preferences--field--BIRTH_MONTH,form--registration--field--BIRTH_MONTH,form--profile_preferences--field--BIRTH_MONTH,form--registration--field--BIRTH_MONTH,form--profile_preferences--field--BIRTH_MONTH,form--registration--field--BIRTH_MONTH
+1,birthYearProfile,form--profile_preferences--field--BIRTH_YEAR,,form--profile_preferences--field--BIRTH_YEAR,,,
+1,profileUpdate,.submit_btn.full-width-wrap > input.form-submit,//div[@class='main-button-wrapper']/input[@class='button button--dark registration-page__submit'],[data-test-id='form_profile_update'],//div[@class='main-button-wrapper']/input[@class='button button--dark registration-page__submit'],[class='form-submit'],[data-test-id='profile_update']
+1,profileUpdateMob,//*[@data-test-id='form_profile_update'],//div[@class='main-button-wrapper']/input[@class='button button--dark registration-page__submit'],[data-test-id='form_profile_update'],//div[@class='main-button-wrapper']/input[@class='button button--dark registration-page__submit'],//div[@class='main-button-wrapper']/input[@class='button button--dark registration-page__submit'],[data-test-id='profile_update']
+1,loyaltyOfferPanel,,,,#offer-code-panel,#offer-code-panel,
+1,accountInfo,[data-test-id='myaccount_menu_profile'],//li[@class='sidebar-menu__item view_account_profile_text']/a,[class='sidebar-menu__item registration'] >a,//a[@data-test-id='myaccount_menu_profile'],//a[@data-test-id='myaccount_menu_profile'],[data-test-id='myaccount_menu_profile']
+1,gnavCartButton,.js-header-gnav-cart__trigger,.utility-nav__cart-icon,[data-test-id='home_gnav_carticon'],//a[@data-test-id='cart_overlay_checkout'],[class='gnav-cart__link site-utils__link js-site_utils'],[class='page-utilities__cart-button button-reset']
+1,gnavCartButtonMob,.js-header-gnav-cart__trigger,.utility-nav__cart-icon,"//a[contains(@href, 'checkout')]",//a[@data-test-id='cart_overlay_checkout'],"//span[contains(text(),'Panier')]",[class='utility-nav__cart-button page-utilities__cart-button button-reset']
+1,accountInfoMob,"//*[contains(@href,'/account/profile_preferences.tmpl')]",//a[@data-test-id='myaccount_menu_profile'],[data-test-id='myaccount_menu_profile'],//a[@data-test-id='myaccount_menu_profile'],//a[@data-test-id='myaccount_menu_profile'],[data-test-id='myaccount_menu_profile']
+1,ltySideMenu,,.sidebar-menu__item >a[class='account-utilities__link active'],,,,[class='button cta']
+1,ltySideMenuMob,.point_history > a,,,,,[class='button cta']
+1,accGnav,,,,,,[class='user-greeting']
+1,accGnavMob,,,,,,[class='accedi---il-mio-profilo level-1']
+1,purchaseAmnt,.total.value.order-summary__total-value.js-total-value-refresh,.total.price,.total.value.order-summary__total-value,//*[@id='subtotal-row-total'],[class='total value order-summary__total-value'],[class='total price background-hidden']
+1,editProfile,//*[@href='/account/profile_preferences.tmpl'],,,,,
+1,accLoyRegisterTerms,#form--registration_short--field--LOYALTY_ACTIVE_FLAG,//label[@for='form--registration--field--ACCEPTED_LOYALTY_POLICY'],[for='form--registration_short--field--LOYALTY_ACTIVE_FLAG'],//input[@id='form--registration_short--field--ACCEPTED_PRIVACY_POLICY'],[for='form--registration_short--field--LOYALTY_ACTIVE_FLAG'],//label[@for='loyalty_popover__loyalty_checkbox']
+1,accRegisterTerms,,,,,,//label[@for='sign-in-component__ACCEPTED_PRIVACY_POLICY']
+1,loginBtn,,,,,,
+1,lpntVcart,,//div[@class='loyalty-points-description__panel'],.loyalty-points-content__summary__member-content,[class='loyalty-points-content__summary__member-content'],[class='loyalty-points-content__summary__member-content'],
+1,lpntOrConPg,#loyalty-points-confirm,,.loyalty__points-earned.confirmation-panel__email-coming,.loyalty__points-earned.confirmation-panel__email-coming,,[class='confirmation-page__points__earned']
+1,stateDropdown,,,,,,form--shipping_-_-address--field--SHIPFORM_STATE
+1,welcomeRwdRedeemBtn,,//*[@class='loyalty__panel__offers__button button--offers' and @data-offer-id='lyl_15_since'],,.loyalty__panel__offers__button-container [data-offer-id='lover'],"//*[contains(@class,'loyalty__panel__offers__button') and @data-offer-id='lyl_welcomeoffer']",//*[@class='loyalty__panel__offers__button button--offers' and @data-offer-id='elist20']
+1,birthdRwdRedeemBtn,li:nth-child(1) .loyalty__panel__offers__button.button--offers.button,,[class='loyalty__panel__offers__button loyalty__panel__product__button button--offers button    '],,,
+1,titleSetting,#form--profile_preferences--field--TITLE--index--siga,#form--registration--field--TITLE--index--dr_label,#form--profile_preferences--field--TITLE--index--mej,#form--profile_preferences--field--TITLE--index--herr_label,#form--profile_preferences--field--TITLE--index--herr_label,
+1,purchaseAmntMob,#subtotal-row-total,//div[@class='subtotal value order-summary__total-value'],.total.value.order-summary__total-value,#subtotal-row-total,//div[@data-test-id='cart_subtotal'],[class='subtotal value order-summary__total-value']
+1,expandButtonViewCart,,//h2[@class ='offer-code-panel__title checkout__panel-title align-center js-loyalty-offer-code-subtitle'],,,,
+1,joinNowMarktPageMob,div.guest_join_now_button.js-guest_join_now_button .button,//a[@class='loyalty_market__btn__join button cta js-join-popup'],,.btn.mac-select__marketing-page__join,,[class='loyalty_market__btn__join button cta js-join-popup']
+1,loyRegLname,,,#form--registration_short--field--FIRST_NAME,,//input[@id='form--registration_short--field--LAST_NAME'],
+1,loyRegFname,,,#form--registration_short--field--LAST_NAME,,//input[@id='form--registration_short--field--FIRST_NAME'],
+1,loyRegPostCode,,,#form--registration_short--field--POSTAL_CODE,,//input[@id='form--registration_short--field--POSTAL_CODE'],
+1,mrktPgLoyRegFname,,,,,,[class='form-text js-firstname'] 
+1,mrktPgLoyRegPwd,,,,//input[@id='form--signin--field--PASSWORD' and @data-test-id='form_signin_password'],,input.form-password.js-password
+1,mrktPgloySubmit,,,,[class='btn--full js-login-submit'],,.form-submit.enrollment-form-submit
+1,cookieRejectBtn,div >#onetrust-reject-all-handler,[id='onetrust-accept-btn-handler'],div >#onetrust-reject-all-handler,button#onetrust-reject-all-handler,[id='onetrust-reject-all-handler'],button#onetrust-reject-all-handler
+1,ordReviewPageTnC,[for='form--checkout_payment_type--field--ORDER_TERMS'],,//*[@id='form--checkout_review--field--TERMS'],,,
+1,continueToPayment,,,#continue-to-payment-btn,,,
+1,shippingPageTnC,,,#form--checkout_registration--field--TERMS,,,
+1,prgBar,#progress_bar,,#progress_bar,#progress_bar,#progress_bar,
+1,titleSettings,#form--profile_preferences--field--TITLE--index--siga,#form--registration--field--TITLE--index--mrs_label,,,#form--profile_preferences--field--TITLE--index--mlle_label,
+1,titleSettingsMob,form--profile_preferences--field--TITLE,,form--profile_preferences--field--TITLE,,,
+1,selectTitleMob,,#form--registration--field--TITLE--index--mrs_label,,,,
+1,loyRegisterTerms,,,,//label[@for='form--loyalty--field--LOYALTY_ACTIVE_FLAG'],,//label[@for='sign-in-component__ACCEPTED_LOYALTY_POLICY'] | //label[@for='loyalty_elist__loyalty_checkbox']
+1,accEmailTerms,,,,//label[@for='form--loyalty--field--LOYALTY_EMAIL_PROMOTIONS'],,//label[@for='loyalty_join_signin_terms_privacy']
+1,LoyRegisterTerms1,,,,//*[@id='form--loyalty--field--LOYALTY_ACTIVE_FLAG'],,
+1,ACemailterms1,,,,//*[@id='form--loyalty--field--LOYALTY_EMAIL_PROMOTIONS'],,
+1,postCode1,,,,//*[@id='form--loyalty--field--POSTAL_CODE'],,
+1,loyaltySubmit,,,,//input[@class='btn--full js-loyalty-form-submit'],,//input[@data-test-id='gnav_form_register']
+1,loyJoinIndexPg,,,,,,//button[@class='form-submit btn_join js-join-popup'] | //*[@class='loyalty_market__btn__join button cta js-join-popup']
+1,registerEmailId,#form--registration_short--field--PC_EMAIL_ADDRESS,//input[@data-test-id='form_pc_email_address'],//input[@id='form--registration_short--field--PC_EMAIL_ADDRESS'],#form--loyalty_email--field--PC_EMAIL_ADDRESS,//*[@id='form--registration_short--field--PC_EMAIL_ADDRESS'] | //*[@class='marketing__enrollment__signup-section']/input[@class='marketing__enrollment__email'],.loyalty_popover__submit-container > input[class='form-text']
+1,accLoyalty,,,,//a[@href='/account/loyalty/about.tmpl'],,
+1,joinNow,,,,//input[@class='btn--full js-email-validate'],//*[@id='js-marketing__enrollment__signup'],
+1,accRegisterNow1,#new-account-link,//div[@class='signin-overlay__toggle-form signin-overlay__toggle-form--dont-have-acount']/a,,[class='registration'] >a,,
+1,accRegisterNowMob1,,//div[@class='signin-overlay__toggle-form signin-overlay__toggle-form--dont-have-acount']/a,,[class='registration'] >a,//a[text()='Mon Compte'],
+1,PaymentMethodTnC,#form--checkout_payment_type--field--ORDER_TERMS,,,,,
+1,lpntCheckout,.review-panel__loyalty-points__earning,,,,,[class='loyalty-points-description__panel']
+1,javaAlertPopup,,,,,,
+1,purchaseAmntVcart,#subtotal-row-total,,,,,
+1,TitleProfilePrefId,#form--profile_preferences--field--TITLE--index--siga,,,,,
+1,proceedToCheckout,//*[@data-test-id='cart_overlay_checkout'],,//a[@data-test-id='cart_overlay_checkout'],,,
+1,proceedToCheckoutMob,//*[@href='/checkout/viewcart.tmpl'],,,,,
+1,joinNowMarktPage1,,.form-submit.btn_join.js-join-popup,,//a[text()='JETZT MITMACHEN'],,
+1,pressTab,,,,,,Tab
+1,myRewardCtaMob,,,,,,[class='button cta']
+1,clickSelectState,,//*[@data-test-id='dp_form_state_dropdown']//button,,,,
+1,paymentButton,,//div[@class='offset-container text-nowrap']//button[@id='btnPay'],,,,
+1,loyRegBirthday,,,,,form--registration_short--field--BIRTH_DAY,
+1,loyRegBirthmonth,,,,,form--registration_short--field--BIRTH_MONTH,
+1,entKbdCCDetails,,,,,//*[@id='F1009'],
+1,profileUpdateMsg,li.server,,,,,
+1,hamburgerMenu,.js-gnav-header-formatter__hamburger.button-as-link,,,,,
+1,accountGnav,.header-gnav-account-link__text-default,,,,,

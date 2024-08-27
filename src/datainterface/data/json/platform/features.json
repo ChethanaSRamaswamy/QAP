@@ -1,0 +1,152 @@
+[
+  {
+    "feature": "Checkout",
+    "featureId": 1,
+    "isActive": 1,
+    "featurePrefix": "chk"
+  },
+  {
+    "feature": "Account",
+    "featureId": 2,
+    "isActive": 1,
+    "featurePrefix": "acc"
+  },
+  {
+    "feature": "MPPSPP",
+    "featureId": 3,
+    "isActive": 1,
+    "featurePrefix": "pld"
+  },
+  {
+    "feature": "Store Locator",
+    "featureId": 4,
+    "isActive": 1,
+    "featurePrefix": "stl"
+  },
+  {
+    "feature": "GNAV Footer",
+    "featureId": 5,
+    "isActive": 1,
+    "featurePrefix": "gnf"
+  },
+  {
+    "feature": "Loyalty",
+    "featureId": 6,
+    "isActive": 1,
+    "featurePrefix": "lty"
+  },
+  {
+    "feature": "OAB",
+    "featureId": 7,
+    "isActive": 1,
+    "featurePrefix": "oab"
+  },
+  {
+    "feature": "Search",
+    "featureId": 8,
+    "isActive": 1,
+    "featurePrefix": "sch"
+  },
+  {
+    "feature": "SEO",
+    "featureId": 9,
+    "isActive": 1,
+    "featurePrefix": "seo"
+  },
+  {
+    "feature": "RAMP",
+    "featureId": 10,
+    "isActive": 1,
+    "featurePrefix": "rmp"
+  },
+  {
+    "feature": "React Checkout",
+    "featureId": 11,
+    "isActive": 1,
+    "featurePrefix": "rco"
+  },
+  {
+    "feature": "VTO",
+    "featureId": 12,
+    "isActive": 1,
+    "featurePrefix": "vto"
+  },
+  {
+    "feature": "CMS",
+    "featureId": 13,
+    "isActive": 1,
+    "featurePrefix": "cms"
+  },
+  {
+    "feature": "Live Chat",
+    "featureId": 14,
+    "isActive": 1,
+    "featurePrefix": "lct"
+  },
+  {
+    "feature": "Find Me",
+    "featureId": 15,
+    "isActive": 1,
+    "featurePrefix": "fme"
+  },
+  {
+    "feature": "PAYMENT",
+    "featureId": 16,
+    "isActive": 1,
+    "featurePrefix": "pay"
+  },
+  {
+    "feature": "AUTO REPLENISHMENT",
+    "featureId": 17,
+    "isActive": 1,
+    "featurePrefix": "arp"
+  },
+  {
+    "feature": "Optin",
+    "featureId": 18,
+    "isActive": 1,
+    "featurePrefix": "opt"
+  },
+  {
+    "feature": "A-Comm",
+    "featureId": 19,
+    "isActive": 1,
+    "featurePrefix": "acm"
+  },
+  {
+    "feature": "Analytics",
+    "featureId": 20,
+    "isActive": 1,
+    "featurePrefix": "anl"
+  },
+  {
+    "feature": "ROM",
+    "featureId": 21,
+    "isActive": 1,
+    "featurePrefix": "rom"
+  },
+  {
+    "feature": "BOPIS",
+    "featureId": 22,
+    "isActive": 1,
+    "featurePrefix": "bop"
+  },
+  {
+    "feature": "Offers",
+    "featureId": 23,
+    "isActive": 1,
+    "featurePrefix": "off"
+  },
+  {
+    "feature": "Example",
+    "featureId": 24,
+    "isActive": 1,
+    "featurePrefix": "exm"
+  },
+  {
+    "feature": "QUIZ",
+    "featureId": 25,
+    "isActive": 1,
+    "featurePrefix": "quz"
+  }
+]

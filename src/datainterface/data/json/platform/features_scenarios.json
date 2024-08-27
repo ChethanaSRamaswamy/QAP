@@ -1,0 +1,2314 @@
+[
+  {
+    "featureScenarioCode": "TC01",
+    "feature": "Checkout",
+    "featureScenario": "Verify Guest User checkout",
+    "mobIsActive": 1,
+    "tag": "GU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC02",
+    "feature": "Checkout",
+    "featureScenario": "Verify Return User checkout",
+    "mobIsActive": 1,
+    "tag": "RU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC03",
+    "feature": "Checkout",
+    "featureScenario": "Verify Return User checkout using saved card",
+    "mobIsActive": 1,
+    "tag": "SCRU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC04",
+    "feature": "Checkout",
+    "featureScenario": "Verify New User checkout",
+    "mobIsActive": 1,
+    "tag": "NU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC05",
+    "feature": "Checkout",
+    "featureScenario": "Verify User can edit quantity and offers in Cart",
+    "mobIsActive": 1,
+    "tag": "CART",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC06",
+    "feature": "Checkout",
+    "featureScenario": "Verify New User Checkout by Signing Up through GNAV",
+    "mobIsActive": 1,
+    "tag": "SIGNUPGNAVNU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC07",
+    "feature": "Checkout",
+    "featureScenario": "Verify GU order details with Offer & billing address saved in a .csv file",
+    "mobIsActive": 0,
+    "tag": "GUDISBILLORDDET2CSV",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC08",
+    "feature": "Checkout",
+    "featureScenario": "Verify RU order details with multiple product are  saved in a .csv file",
+    "mobIsActive": 1,
+    "tag": "undefined",
+    "pcIsActive": 0
+  },
+  {
+    "featureScenarioCode": "TC09",
+    "feature": "Checkout",
+    "featureScenario": "Verify Guest User Is Able To Complete CC Checkout With NEXTDAY Delivery type",
+    "mobIsActive": 1,
+    "tag": "GUCCNEXTDAYDELIVERY",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC10",
+    "feature": "Checkout",
+    "featureScenario": "Verify New User Is Able To Complete CC Checkout With NAMEDDAY Delivery types",
+    "mobIsActive": 1,
+    "tag": "NUCCNAMEDDAYDELIVERY",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC11",
+    "feature": "Checkout",
+    "featureScenario": "Verify Return User Is Able To Complete CC Checkout With SATURDAY Delivery type",
+    "mobIsActive": 1,
+    "tag": "RUCCSATURDAYDELIVERY",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC12",
+    "feature": "Account",
+    "featureScenario": "Verify User can edit billing/shipping address",
+    "mobIsActive": 1,
+    "tag": "ACC",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC13",
+    "feature": "Account",
+    "featureScenario": "Verify Return User can edit billing/shipping address (CN,KR)",
+    "mobIsActive": 1,
+    "tag": "ACCRU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC14",
+    "feature": "Account",
+    "featureScenario": "Verify Return User updates My Profile and Add product to cart from Re-order",
+    "mobIsActive": 1,
+    "tag": "GNAVSIGNINACCPURO",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC15",
+    "feature": "MPPSPP",
+    "featureScenario": "Spot Check: Add product from MPP, verify Cart retains same",
+    "mobIsActive": 1,
+    "tag": "SANITYCHECKMPPSPP",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC16",
+    "feature": "MPPSPP",
+    "featureScenario": "View the added product in the Cart by clicking on Bag Icon",
+    "mobIsActive": 1,
+    "tag": "BAGICONCHECKONMPPSPP",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC17",
+    "feature": "MPPSPP",
+    "featureScenario": "Verify New User add products to favorites from MPP and SPP and add a product to cart via favorites",
+    "mobIsActive": 1,
+    "tag": "ACCMPPSPPFAV",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC18",
+    "feature": "MPPSPP",
+    "featureScenario": "As a Guest User Add Engraving product and complete the checkout",
+    "mobIsActive": 1,
+    "tag": "GUENGRAVE",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC19",
+    "feature": "MPPSPP",
+    "featureScenario": "As a Return User Add Engraving and Normal product and complete the checkout",
+    "mobIsActive": 1,
+    "tag": "RUENGRAVENORMAL",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC20",
+    "feature": "MPPSPP",
+    "featureScenario": "Verify MPP quickview,shade,quanity,subscribe, ATB, ATF",
+    "mobIsActive": 1,
+    "tag": "MPPQVSHADEQTYSUBFAV",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC21",
+    "feature": "MPPSPP",
+    "featureScenario": "Verify MPP ATB single,mutisized items",
+    "mobIsActive": 1,
+    "tag": "MPPSIZED",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC22",
+    "feature": "MPPSPP",
+    "featureScenario": "Validate Sort,Filter on MPP",
+    "mobIsActive": 1,
+    "tag": "MPPSORTFILTERFAQ",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC23",
+    "feature": "MPPSPP",
+    "featureScenario": "Verify MPP OOS,Notify me,Reviews,share",
+    "mobIsActive": 1,
+    "tag": "SPPOOSNOTIFY",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC24",
+    "feature": "MPPSPP",
+    "featureScenario": "Validate SPP Item details,ATB,Product View",
+    "mobIsActive": 1,
+    "tag": "SPPSHADEQTYDET",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC25",
+    "feature": "MPPSPP",
+    "featureScenario": "Verify SPP Histogram for Review,Ask & Ans",
+    "mobIsActive": 1,
+    "tag": "SPPREVIEWASKANS",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC26",
+    "feature": "MPPSPP",
+    "featureScenario": "Verify SPP Social sites Share",
+    "mobIsActive": 1,
+    "tag": "SPPSHARESOCIALMED",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC27",
+    "feature": "MPPSPP",
+    "featureScenario": "Verify sized SPP price vary with size, viewcart",
+    "mobIsActive": 1,
+    "tag": "SPPSIZEDIMGVAL",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC28",
+    "feature": "MPPSPP",
+    "featureScenario": "Verify viewcart shade/size,sticky overlay  SPP",
+    "mobIsActive": 1,
+    "tag": "SPPSTICKYOVERLAY",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC29",
+    "feature": "MPPSPP",
+    "featureScenario": "Verify SPP Sub, SAG,FIS ,Cross Sell, AP, Learn More",
+    "mobIsActive": 1,
+    "tag": "SPPSUBGIFTSTOREAP",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC30",
+    "feature": "MPPSPP",
+    "featureScenario": "Add Engraving to the Product  and validate on SPP",
+    "mobIsActive": 1,
+    "tag": "SPPENGRAVING",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC31",
+    "feature": "Store Locator",
+    "featureScenario": "Verify User can get store location with valid zipcode/city",
+    "mobIsActive": 1,
+    "tag": "STORELOC",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC32",
+    "feature": "GNAV Footer",
+    "featureScenario": "Verify User can navigate through all link in GNAV",
+    "mobIsActive": 1,
+    "tag": "GNAV",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC33",
+    "feature": "GNAV Footer",
+    "featureScenario": "Verify User can navigate through all link in Footer",
+    "mobIsActive": 1,
+    "tag": "FOOTER",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC34",
+    "feature": "GNAV Footer",
+    "featureScenario": "Verify User can Track Order",
+    "mobIsActive": 1,
+    "tag": "TRACKORDER",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC35",
+    "feature": "Loyalty",
+    "featureScenario": "As a Guest User enroll into loyalty using Order confirmation page",
+    "mobIsActive": 1,
+    "tag": "GULENROLLINCONPAGE",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC36",
+    "feature": "Loyalty",
+    "featureScenario": "As a New User enroll into loyalty using account registration page",
+    "mobIsActive": 1,
+    "tag": "NULENROLLINREGPAGE",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC37",
+    "feature": "Loyalty",
+    "featureScenario": "As a New User enroll into loyalty using Marketing page",
+    "mobIsActive": 1,
+    "tag": "NULENROLLINMARKTPAGE",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC38",
+    "feature": "Loyalty",
+    "featureScenario": "Verify whether Loyalty user is able to redeem Welcome offer",
+    "mobIsActive": 1,
+    "tag": "NULOYALTYWELCOMEOFFER",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC39",
+    "feature": "Loyalty",
+    "featureScenario": "Verify Pure Privilege case",
+    "mobIsActive": 1,
+    "tag": "PUREPRIVILEGE",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC40",
+    "feature": "Loyalty",
+    "featureScenario": "Verify whether Loyalty user is able to redeem Birthday offer",
+    "mobIsActive": 1,
+    "tag": "NULOYALTYBIRTHDAYOFFER",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC45",
+    "feature": "Search",
+    "featureScenario": "Verify user can search for a product and add to bag",
+    "mobIsActive": 1,
+    "tag": "SANITYSEARCH",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC46",
+    "feature": "SEO",
+    "featureScenario": "Verify SEO requirements for Home Page",
+    "mobIsActive": 1,
+    "tag": "SEOSANITYHOMEPAGE",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC47",
+    "feature": "SEO",
+    "featureScenario": "Verify SEO requirements for MPP",
+    "mobIsActive": 1,
+    "tag": "SEOSANITYMPP",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC48",
+    "feature": "SEO",
+    "featureScenario": "Verify SEO requirements for SPP",
+    "mobIsActive": 1,
+    "tag": "SEOSANITYSPP",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC49",
+    "feature": "RAMP",
+    "featureScenario": "Completed user can login into Account page from eform overlay",
+    "mobIsActive": 1,
+    "tag": "RAMPCUOL",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC50",
+    "feature": "RAMP",
+    "featureScenario": "RAMP fields validation check",
+    "mobIsActive": 1,
+    "tag": "RAMPFVC",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC51",
+    "feature": "RAMP",
+    "featureScenario": "Register a new user from RAMP partial user overlay page",
+    "mobIsActive": 1,
+    "tag": "RAMPPUOL",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC52",
+    "feature": "RAMP",
+    "featureScenario": "Register a new completed user on RAMP",
+    "mobIsActive": 1,
+    "tag": "RAMPRNCU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC53",
+    "feature": "RAMP",
+    "featureScenario": "Register a new mobile only user on RAMP",
+    "mobIsActive": 1,
+    "tag": "RAMPRNMOU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC54",
+    "feature": "RAMP",
+    "featureScenario": "RAMP page translation check",
+    "mobIsActive": 1,
+    "tag": "RAMPTC",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC55",
+    "feature": "React Checkout",
+    "featureScenario": "Verify Guest User checkout with Manual offer",
+    "mobIsActive": 1,
+    "tag": "RCOGUMO",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC56",
+    "feature": "React Checkout",
+    "featureScenario": "Verify New User checkout with Automatic offer",
+    "mobIsActive": 1,
+    "tag": "RCONUAO",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC57",
+    "feature": "React Checkout",
+    "featureScenario": "Verify Return User checkout with saved Credit card",
+    "mobIsActive": 1,
+    "tag": "RCORUSC",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC58",
+    "feature": "React Checkout",
+    "featureScenario": "Verify Guest User checkout with Restricted Product in cart",
+    "mobIsActive": 1,
+    "tag": "RCOGURPAPO",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC59",
+    "feature": "React Checkout",
+    "featureScenario": "Verify Return User checkout after saved billing address",
+    "mobIsActive": 1,
+    "tag": "RCORUEB",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC60",
+    "feature": "React Checkout",
+    "featureScenario": "Verify Guest User checkout with new billing address",
+    "mobIsActive": 1,
+    "tag": "RCOGUEB",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC61",
+    "feature": "React Checkout",
+    "featureScenario": "Verify Newly Registered User checkout",
+    "mobIsActive": 1,
+    "tag": "RCOSIGNUPNU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC62",
+    "feature": "React Checkout",
+    "featureScenario": "Verify Guest User checkout with PickupInstore",
+    "mobIsActive": 1,
+    "tag": "RCOBOPISGU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC63",
+    "feature": "React Checkout",
+    "featureScenario": "Verify Return User checkout with PickupInstore",
+    "mobIsActive": 1,
+    "tag": "RCOBOPISRU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC64",
+    "feature": "React Checkout",
+    "featureScenario": "Verify Return User Edit PickupInstore checkout with Delivery",
+    "mobIsActive": 1,
+    "tag": "RCOBOPISRUED",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC65",
+    "feature": "React Checkout",
+    "featureScenario": "Verify New User Checkout with Sample and COD",
+    "mobIsActive": 1,
+    "tag": "RCOADDSAMPLENU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC66",
+    "feature": "React Checkout",
+    "featureScenario": "Verify Return User Checkout with edit product from Payment Page",
+    "mobIsActive": 1,
+    "tag": "RCOEDPRODPAYAORU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC67",
+    "feature": "React Checkout",
+    "featureScenario": "Verify Return User Checkout with edit product from Delivery Page and 3DS1 Payment",
+    "mobIsActive": 1,
+    "tag": "RCOEDPRODDELRU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC68",
+    "feature": "React Checkout",
+    "featureScenario": "Verify New User Checkout with PickupInstore and Manual offer",
+    "mobIsActive": 1,
+    "tag": "RCOBOPISNUMO",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC69",
+    "feature": "React Checkout",
+    "featureScenario": "Verify Guest User checkout for Automatic offer product",
+    "mobIsActive": 1,
+    "tag": "RCOGUAO",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC70",
+    "feature": "VTO",
+    "featureScenario": "Verify click back arrow",
+    "mobIsActive": 1,
+    "tag": "BACKARROWV",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC71",
+    "feature": "VTO",
+    "featureScenario": "Verify choose a model",
+    "mobIsActive": 1,
+    "tag": "CHOOSEAMODELE2EV",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC72",
+    "feature": "VTO",
+    "featureScenario": "Verify click close icon",
+    "mobIsActive": 1,
+    "tag": "CLOSEICONV",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC73",
+    "feature": "VTO",
+    "featureScenario": "Verify share icon",
+    "mobIsActive": 1,
+    "tag": "SHAREICONV",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC74",
+    "feature": "VTO",
+    "featureScenario": "Verify split slider",
+    "mobIsActive": 1,
+    "tag": "SPLITSLIDERV",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC75",
+    "feature": "CMS",
+    "featureScenario": "Add block content",
+    "mobIsActive": 0,
+    "tag": "CMSADDCB",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC76",
+    "feature": "CMS",
+    "featureScenario": "Add page content",
+    "mobIsActive": 0,
+    "tag": "CMSADDPAGE",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC77",
+    "feature": "CMS",
+    "featureScenario": "Add SPPRCIS content",
+    "mobIsActive": 0,
+    "tag": "CMSADDSPPRCIS",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC78",
+    "feature": "CMS",
+    "featureScenario": "Admin page check",
+    "mobIsActive": 0,
+    "tag": "CMSADMIN",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC79",
+    "feature": "CMS",
+    "featureScenario": "Alfresco check",
+    "mobIsActive": 0,
+    "tag": "CMSALFRESCO",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC80",
+    "feature": "CMS",
+    "featureScenario": "Add auto URL alias",
+    "mobIsActive": 0,
+    "tag": "CMSAUTOALIAS",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC81",
+    "feature": "CMS",
+    "featureScenario": "Autolocalization",
+    "mobIsActive": 0,
+    "tag": "CMSAUTOLOC",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC82",
+    "feature": "CMS",
+    "featureScenario": "Add custom URL alias",
+    "mobIsActive": 0,
+    "tag": "CMSCUSTOMALIAS",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC83",
+    "feature": "CMS",
+    "featureScenario": "Find content bulk",
+    "mobIsActive": 0,
+    "tag": "CMSFCBULK",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC84",
+    "feature": "CMS",
+    "featureScenario": "Find content filters",
+    "mobIsActive": 0,
+    "tag": "CMSFCFILTERS",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC85",
+    "feature": "CMS",
+    "featureScenario": "Localize one to many",
+    "mobIsActive": 0,
+    "tag": "CMSO2MLOC",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC86",
+    "feature": "CMS",
+    "featureScenario": "Localize one to one",
+    "mobIsActive": 0,
+    "tag": "CMSO2OLOC",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC87",
+    "feature": "CMS",
+    "featureScenario": "Revision tag functionality",
+    "mobIsActive": 0,
+    "tag": "CMSQABYREV",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC88",
+    "feature": "CMS",
+    "featureScenario": "Templates page",
+    "mobIsActive": 0,
+    "tag": "CMSTEMPLATES",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC89",
+    "feature": "CMS",
+    "featureScenario": "Workflow status",
+    "mobIsActive": 0,
+    "tag": "CMSWORKFLOW",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC90",
+    "feature": "CMS",
+    "featureScenario": "Clone from workflow",
+    "mobIsActive": 0,
+    "tag": "CMSCLONEWF",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC91",
+    "feature": "CMS",
+    "featureScenario": "Clone from find content",
+    "mobIsActive": 0,
+    "tag": "CMSCLONEFC",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC92",
+    "feature": "Live Chat",
+    "featureScenario": "Validating the Live Chat feature in Home page",
+    "mobIsActive": 1,
+    "tag": "LIVECHATHOME",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC93",
+    "feature": "Live Chat",
+    "featureScenario": "Validating the Live Chat feature in MPP",
+    "mobIsActive": 1,
+    "tag": "LIVECHATMPP",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC94",
+    "feature": "Live Chat",
+    "featureScenario": "Validating the Live Chat feature in SPP",
+    "mobIsActive": 1,
+    "tag": "LIVECHATSPP",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC95",
+    "feature": "Find Me",
+    "featureScenario": "Take foundation quiz and add a product to cart from results page",
+    "mobIsActive": 1,
+    "tag": "FOUNDATIONQUIZ",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC96",
+    "feature": "Find Me",
+    "featureScenario": "Retake foundation quiz from results page",
+    "mobIsActive": 1,
+    "tag": "FOUNDATIONQUIZRETAKE",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC97",
+    "feature": "Find Me",
+    "featureScenario": "Take hair quiz and add a product to cart from results page",
+    "mobIsActive": 1,
+    "tag": "HAIRQUIZ",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC98",
+    "feature": "Find Me",
+    "featureScenario": "Retake hair quiz from results page",
+    "mobIsActive": 1,
+    "tag": "HAIRQUIZRETAKE",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC99",
+    "feature": "Find Me",
+    "featureScenario": "Take moisturizer quiz and add a product to cart from results page",
+    "mobIsActive": 1,
+    "tag": "MOISTURIZERQUIZ",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC100",
+    "feature": "Find Me",
+    "featureScenario": "Retake moisturizer quiz from results page",
+    "mobIsActive": 1,
+    "tag": "MOISTURIZERQUIZRETAKE",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC101",
+    "feature": "Find Me",
+    "featureScenario": "Take scent quiz and add a product to cart from results page",
+    "mobIsActive": 1,
+    "tag": "SCENTQUIZ",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC102",
+    "feature": "Find Me",
+    "featureScenario": "Retake scent quiz from results page",
+    "mobIsActive": 1,
+    "tag": "SCENTQUIZRETAKE",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC103",
+    "feature": "Find Me",
+    "featureScenario": "Take skincare quiz and add a product to cart from results page",
+    "mobIsActive": 1,
+    "tag": "SKINCAREQUIZ",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC104",
+    "feature": "Find Me",
+    "featureScenario": "Retake skincare quiz from results page",
+    "mobIsActive": 1,
+    "tag": "SKINCAREQUIZRETAKE",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC105",
+    "feature": "PAYMENT",
+    "featureScenario": "Verify Guest User  Is Able To Complete Clearpay Checkout",
+    "mobIsActive": 1,
+    "tag": "GUCLEARPAY",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC106",
+    "feature": "PAYMENT",
+    "featureScenario": "Verify New User Is Able To Complete Clearpay Checkout",
+    "mobIsActive": 1,
+    "tag": "NUCLEARPAY",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC107",
+    "feature": "PAYMENT",
+    "featureScenario": "Verify Return User Is Able To Complete Clearpay Checkout",
+    "mobIsActive": 1,
+    "tag": "RUCLEARPAY",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC108",
+    "feature": "PAYMENT",
+    "featureScenario": "Verify Guest User  Is Able To Complete Paypal Checkout",
+    "mobIsActive": 1,
+    "tag": "GUPAYPAL",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC109",
+    "feature": "PAYMENT",
+    "featureScenario": "Verify New User Is Able To Complete Paypal Checkout",
+    "mobIsActive": 1,
+    "tag": "NUPAYPAL",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC110",
+    "feature": "PAYMENT",
+    "featureScenario": "Verify Return User Is Able To Complete Paypal Checkout",
+    "mobIsActive": 1,
+    "tag": "RUPAYPAL",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC111",
+    "feature": "PAYMENT",
+    "featureScenario": "Guest User i would like to Add a product and complete Click and Collect checkout",
+    "mobIsActive": 1,
+    "tag": "CLICKCOLLECTGU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC112",
+    "feature": "PAYMENT",
+    "featureScenario": "Verify Guest User is Able To complete ExpressPay Checkout",
+    "mobIsActive": 1,
+    "tag": "GUEXPAYPAL",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC113",
+    "feature": "PAYMENT",
+    "featureScenario": "Verify New User Is Able To complete ExpressPay Checkout",
+    "mobIsActive": 1,
+    "tag": "NUEXPAYPAL",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC114",
+    "feature": "PAYMENT",
+    "featureScenario": "Verify Return User Is Able To complete ExpressPay Checkout",
+    "mobIsActive": 1,
+    "tag": "RUEXPAYPAL",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC115",
+    "feature": "PAYMENT",
+    "featureScenario": "Verify Guest User  would like to Add Product and complete Gift Card checkout",
+    "mobIsActive": 0,
+    "tag": "GUGIFTCARD",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC116",
+    "feature": "PAYMENT",
+    "featureScenario": "Verify New User would like to Add Product and complete Gift Card checkout",
+    "mobIsActive": 1,
+    "tag": "undefined",
+    "pcIsActive": 0
+  },
+  {
+    "featureScenarioCode": "TC117",
+    "feature": "PAYMENT",
+    "featureScenario": "Verify Guest User is Able to complete After Pay checkout",
+    "mobIsActive": 1,
+    "tag": "GUPCAFTERP",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC118",
+    "feature": "PAYMENT",
+    "featureScenario": "Verify New User is Able to complete After Pay checkout",
+    "mobIsActive": 1,
+    "tag": "NUPCAFTERP",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC119",
+    "feature": "PAYMENT",
+    "featureScenario": "Verify Return User is Able to complete After Pay checkout",
+    "mobIsActive": 1,
+    "tag": "RUPCAFTERP",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC120",
+    "feature": "AUTO REPLENISHMENT",
+    "featureScenario": "Verify able to place AR order and changing date , canceling the AR",
+    "mobIsActive": 1,
+    "tag": "ARRU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC121",
+    "feature": "AUTO REPLENISHMENT",
+    "featureScenario": "Verify able to place AR order and Edit shipping and billing address",
+    "mobIsActive": 1,
+    "tag": "AREDIT",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC122",
+    "feature": "Optin",
+    "featureScenario": "Verify Optin via Registration page",
+    "mobIsActive": 1,
+    "tag": "COMMREGOPT",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC123",
+    "feature": "Optin",
+    "featureScenario": "Verify Optin via My Accounts page",
+    "mobIsActive": 1,
+    "tag": "COMMACCNOPT",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC124",
+    "feature": "Optin",
+    "featureScenario": "Verify Optin via Email signup page (SMS)",
+    "mobIsActive": 1,
+    "tag": "COMMSIGNUPSMSOPT",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC125",
+    "feature": "Optin",
+    "featureScenario": "Verify Optin via Registration page (Loyalty)",
+    "mobIsActive": 1,
+    "tag": "COMMREGNLOPT",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC126",
+    "feature": "Optin",
+    "featureScenario": "Verify Optin via Registration page (SMS)",
+    "mobIsActive": 1,
+    "tag": "COMMREGSMSOPT",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC127",
+    "feature": "Optin",
+    "featureScenario": "Verify Optin via My Accounts page (Loyalty)",
+    "mobIsActive": 1,
+    "tag": "COMMACCNLOPT",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC128",
+    "feature": "Optin",
+    "featureScenario": "Verify Optin via My Accounts page (SMS)",
+    "mobIsActive": 1,
+    "tag": "COMMACCSMSOPT",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC129",
+    "feature": "Optin",
+    "featureScenario": "Verify Optout via My Accounts page",
+    "mobIsActive": 1,
+    "tag": "COMMACCOPTOUT",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC130",
+    "feature": "Optin",
+    "featureScenario": "Verify Optin via Gnav Footer",
+    "mobIsActive": 1,
+    "tag": "COMMGFNLOPT",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC131",
+    "feature": "A-Comm",
+    "featureScenario": "Alter the salon selection during checkout",
+    "mobIsActive": 1,
+    "tag": "ACOMMFLAGSALTERSALONSELECTIONRU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC132",
+    "feature": "A-Comm",
+    "featureScenario": "Alter the stylist name during checkout",
+    "mobIsActive": 1,
+    "tag": "ACOMMFLAGSALTERTHESTYLISTNAMERU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC133",
+    "feature": "A-Comm",
+    "featureScenario": "Visit legacy A-Comm artist page but expire salon_referral_start_time before checkout",
+    "mobIsActive": 1,
+    "tag": "ACOMMFLAGSARTISTPAGETIMERESETRU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC134",
+    "feature": "A-Comm",
+    "featureScenario": "Visit Hausmart artist page but expire salon_referral_start_time before checkout",
+    "mobIsActive": 1,
+    "tag": "ACOMMFLAGSHAUSMARTARTISTTIMERESETRU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC135",
+    "feature": "A-Comm",
+    "featureScenario": "Visit Hausmart salon page but expire salon_referral_start_time before checkout",
+    "mobIsActive": 1,
+    "tag": "ACOMMFLAGSHAUSMARTSALONTIMERESETRU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC136",
+    "feature": "A-Comm",
+    "featureScenario": "Expire salon_flags_last_modified before checkout",
+    "mobIsActive": 1,
+    "tag": "ACOMMFLAGSLASTMODIFIEDBEFORECHECKOUTRU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC137",
+    "feature": "A-Comm",
+    "featureScenario": "Make no changes during checkout",
+    "mobIsActive": 1,
+    "tag": "ACOMMFLAGSNOCHANGERU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC138",
+    "feature": "A-Comm",
+    "featureScenario": "Visit legacy A-Comm salon page but expire salon_referral_start_time before checkout",
+    "mobIsActive": 1,
+    "tag": "ACOMMFLAGSSALONPAGETIMERESETRU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC139",
+    "feature": "A-Comm",
+    "featureScenario": "Unselect the salon preference during checkout",
+    "mobIsActive": 1,
+    "tag": "ACOMMFLAGSUNSELECTSALONRU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC140",
+    "feature": "A-Comm",
+    "featureScenario": "Visit legacy A-Commerce artist page",
+    "mobIsActive": 1,
+    "tag": "ACOMMFLAGSVISITARTISTPAGERU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC141",
+    "feature": "A-Comm",
+    "featureScenario": "Visit Hausmart artist page",
+    "mobIsActive": 1,
+    "tag": "ACOMMFLAGSVISITHAUSMARTARTISTPAGERU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC142",
+    "feature": "A-Comm",
+    "featureScenario": "Visit Hausmart salon page",
+    "mobIsActive": 1,
+    "tag": "ACOMMFLAGSVISITHAUSMARTSALONPAGERU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC143",
+    "feature": "A-Comm",
+    "featureScenario": "Visit legacy A-Commerce salon page",
+    "mobIsActive": 1,
+    "tag": "ACOMMFLAGSVISITSALONPAGERU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC144",
+    "feature": "Analytics",
+    "featureScenario": "Verify google analytics for Homepage,MPP,SPP,Cart",
+    "mobIsActive": 1,
+    "tag": "GAVALIDATIONMPPSPP",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC145",
+    "feature": "Analytics",
+    "featureScenario": "Verify google analytics for Guest user checkout",
+    "mobIsActive": 1,
+    "tag": "GAGU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC146",
+    "feature": "Analytics",
+    "featureScenario": "Verify google analytics for Return user checkout",
+    "mobIsActive": 1,
+    "tag": "GARU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC147",
+    "feature": "ROM",
+    "featureScenario": "Guest User Checkout using CC with ROM specific sku",
+    "mobIsActive": 1,
+    "tag": "GUROM",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC148",
+    "feature": "ROM",
+    "featureScenario": "Return User Checkout using CC with different test data specific to ROM",
+    "mobIsActive": 1,
+    "tag": "RUROM",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC149",
+    "feature": "ROM",
+    "featureScenario": "Guest User Checkout using Express Paypal with ROM specific sku",
+    "mobIsActive": 1,
+    "tag": "GUEXPROMPAYPAL",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC150",
+    "feature": "ROM",
+    "featureScenario": "Return User Checkout using Express Paypal with different test data specific to ROM",
+    "mobIsActive": 1,
+    "tag": "RUEXPROMPAYPAL",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC151",
+    "feature": "ROM",
+    "featureScenario": "Return User Checkout using Paypal with different test data specific to ROM",
+    "mobIsActive": 1,
+    "tag": "RUROMPAYPAL",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC152",
+    "feature": "ROM",
+    "featureScenario": "Return User Checkout using AfterPay with different test data specific to ROM",
+    "mobIsActive": 1,
+    "tag": "RUROMAFTERPAY",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC153",
+    "feature": "ROM",
+    "featureScenario": "Return User Checkout using Paypal with two products",
+    "mobIsActive": 1,
+    "tag": "MPRUROMPAYPAL",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC154",
+    "feature": "ROM",
+    "featureScenario": "Return User Checkout using AfterPay with two products",
+    "mobIsActive": 1,
+    "tag": "MPRUROMAFTERPAY",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC155",
+    "feature": "ROM",
+    "featureScenario": "Return User Checkout using CC with Sample Product and gift wrap",
+    "mobIsActive": 1,
+    "tag": "SPRUROM",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC156",
+    "feature": "ROM",
+    "featureScenario": "Return User Checkout using CC with two products",
+    "mobIsActive": 1,
+    "tag": "MPRUROM",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC157",
+    "feature": "ROM",
+    "featureScenario": "Return User Checkout using CC with three products",
+    "mobIsActive": 1,
+    "tag": "TPRUROM",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC158",
+    "feature": "BOPIS",
+    "featureScenario": "Verify whether user is able to place BOPIS order as Guest user",
+    "mobIsActive": 1,
+    "tag": "ALRTMSGFRSMPLGU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC159",
+    "feature": "BOPIS",
+    "featureScenario": "Verify whether user is able to place BOPIS order as Return user",
+    "mobIsActive": 1,
+    "tag": "HMDELMETBOPRU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC160",
+    "feature": "BOPIS",
+    "featureScenario": "Verify whether user is able to place SDD order as Guest user",
+    "mobIsActive": 1,
+    "tag": "SDDUPDDELADDGU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC161",
+    "feature": "BOPIS",
+    "featureScenario": "Verify whether user is able to place SDD order as Return user",
+    "mobIsActive": 1,
+    "tag": "SDDCHGTDIFDELADDRU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC162",
+    "feature": "BOPIS",
+    "featureScenario": "Validate BOPIS and SDD options on SPP",
+    "mobIsActive": 1,
+    "tag": "BOPNSDDOPTONSPP",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC163",
+    "feature": "Loyalty",
+    "featureScenario": "Verify non loyalty users are enroll into loyalty using Order confirmation page",
+    "mobIsActive": 1,
+    "tag": "NULENROLLINCONPAGE",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC164",
+    "feature": "Loyalty",
+    "featureScenario": "Verify whether Loyalty user is able to redeem Welcome and Birthday offer",
+    "mobIsActive": 1,
+    "tag": "LUWELCOMEANDBIRTHDAYOFFER",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC165",
+    "feature": "OAB",
+    "featureScenario": "Online Appointment Booking Drupal",
+    "mobIsActive": 1,
+    "tag": "OABPCDRUP",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC166",
+    "feature": "OAB",
+    "featureScenario": "Online Appointment Booking Stardust",
+    "mobIsActive": 1,
+    "tag": "OABPCSTARDU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC167",
+    "feature": "OAB",
+    "featureScenario": "Virtual Online Appointment Booking Drupal",
+    "mobIsActive": 1,
+    "tag": "VOABPCDRUP",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC168",
+    "feature": "OAB",
+    "featureScenario": "Virtual Online Appointment Booking Stardust",
+    "mobIsActive": 1,
+    "tag": "VOABPCSTARDU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC169",
+    "feature": "OAB",
+    "featureScenario": "OAB Book appointment for guest user",
+    "mobIsActive": 1,
+    "tag": "OABUSERGUEST",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC170",
+    "feature": "OAB",
+    "featureScenario": "VOAB Book appointment for guest user",
+    "mobIsActive": 1,
+    "tag": "VOABUSERGUEST",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC171",
+    "feature": "OAB",
+    "featureScenario": "OAB Book appointment for registered user",
+    "mobIsActive": 1,
+    "tag": "OABUSERREGISTERED",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC172",
+    "feature": "OAB",
+    "featureScenario": "VOAB Book appointment for registered user",
+    "mobIsActive": 1,
+    "tag": "VOABUSERREGISTERED",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC173",
+    "feature": "OAB",
+    "featureScenario": "OAB Book appointment for logged-in user",
+    "mobIsActive": 1,
+    "tag": "OABUSERLOGGEDIN",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC174",
+    "feature": "OAB",
+    "featureScenario": "VOAB Book appointment for logged-in user",
+    "mobIsActive": 1,
+    "tag": "VOABUSERLOGGEDIN",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC175",
+    "feature": "OAB",
+    "featureScenario": "OAB My Appointments section",
+    "mobIsActive": 1,
+    "tag": "OABMYAPPOINTMENTS",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC176",
+    "feature": "OAB",
+    "featureScenario": "VOAB My Appointments section",
+    "mobIsActive": 1,
+    "tag": "VOABMYAPPOINTMENTS",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC177",
+    "feature": "OAB",
+    "featureScenario": "OAB Basic functional flow",
+    "mobIsActive": 1,
+    "tag": "OABSTARDUST",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC178",
+    "feature": "OAB",
+    "featureScenario": "VOAB Basic functional flow",
+    "mobIsActive": 1,
+    "tag": "VOABSTARDUST",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC179",
+    "feature": "OAB",
+    "featureScenario": "OAB Full Regression",
+    "mobIsActive": 0,
+    "tag": "OABFULLREGRESSION",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC180",
+    "feature": "OAB",
+    "featureScenario": "VOAB Full Regression",
+    "mobIsActive": 0,
+    "tag": "VOABFULLREGRESSION",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC181",
+    "feature": "OAB",
+    "featureScenario": "OAB Regression",
+    "mobIsActive": 0,
+    "tag": "OABREGRESSION",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC182",
+    "feature": "OAB",
+    "featureScenario": "VOAB Regression",
+    "mobIsActive": 0,
+    "tag": "VOABREGRESSION",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC183",
+    "feature": "OAB",
+    "featureScenario": "OAB Sanity",
+    "mobIsActive": 0,
+    "tag": "OABSANITY",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC184",
+    "feature": "OAB",
+    "featureScenario": "VOAB Sanity",
+    "mobIsActive": 0,
+    "tag": "VOABSANITY",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC185",
+    "feature": "BOPIS",
+    "featureScenario": "Change to Home delivery from bopis popup and place order as Return user",
+    "mobIsActive": 1,
+    "tag": "BOPDELMETHMRU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC186",
+    "feature": "BOPIS",
+    "featureScenario": "Change to sdd from bopis and place asap order as Return user",
+    "mobIsActive": 1,
+    "tag": "BOPDELMETSDDRU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC187",
+    "feature": "BOPIS",
+    "featureScenario": "Drop unavailable items and place bopis order as Return user",
+    "mobIsActive": 1,
+    "tag": "BOPDRPUNVITMRU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC188",
+    "feature": "BOPIS",
+    "featureScenario": "Place bopis order as Return user with percentage discount",
+    "mobIsActive": 1,
+    "tag": "BOPPRCTGDSCRU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC189",
+    "feature": "BOPIS",
+    "featureScenario": "Place bopis proxy order as Return user with sample and all items verification",
+    "mobIsActive": 1,
+    "tag": "BOPPRXYSMPLALLITMSRU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC190",
+    "feature": "BOPIS",
+    "featureScenario": "Verify shipping charge and delivery method for bopis checkout as Free and Bopis",
+    "mobIsActive": 1,
+    "tag": "BOPSHPCHRGNDELMETRU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC191",
+    "feature": "BOPIS",
+    "featureScenario": "Place bopis order with gift card as Return user",
+    "mobIsActive": 1,
+    "tag": "BOPWTHGCRU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC192",
+    "feature": "BOPIS",
+    "featureScenario": "Place bopis order with mixed tender as Return user",
+    "mobIsActive": 1,
+    "tag": "BOPWTHMTRU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC193",
+    "feature": "BOPIS",
+    "featureScenario": "Place bopis order with afterpay as Return user",
+    "mobIsActive": 1,
+    "tag": "HMDELWTHAPAYRU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC194",
+    "feature": "BOPIS",
+    "featureScenario": "Change to Home delivery from sdd popup and place order as Return user",
+    "mobIsActive": 1,
+    "tag": "SDDDELMETHMRU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC195",
+    "feature": "BOPIS",
+    "featureScenario": "Drop unavailable items and place sdd order as Return user",
+    "mobIsActive": 1,
+    "tag": "SDDDRPUNVLITMRU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC196",
+    "feature": "BOPIS",
+    "featureScenario": "Verify error message displayed in delivery page for sdd checkout",
+    "mobIsActive": 1,
+    "tag": "SDDERRMSGFRUNVLADDRU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC197",
+    "feature": "BOPIS",
+    "featureScenario": "Verify shipping charge and delivery method for sdd checkout as Non zero and Sdd",
+    "mobIsActive": 1,
+    "tag": "SDDSHPCHRGNDELMETRU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC198",
+    "feature": "BOPIS",
+    "featureScenario": "Verify shipping discount for sdd order as Return user",
+    "mobIsActive": 1,
+    "tag": "SDDSHPDSCRU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC199",
+    "feature": "MPPSPP",
+    "featureScenario": "Validate Youtube video on SPP",
+    "mobIsActive": 1,
+    "tag": "SPPYOUTUBEVIDEO",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC200",
+    "feature": "PAYMENT",
+    "featureScenario": "As a New User I would like to optin as a Loyalty and place an order",
+    "mobIsActive": 1,
+    "tag": "LOYOPTINNU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC201",
+    "feature": "PAYMENT",
+    "featureScenario": "As a Loyalty Tier2 User intends to complete checkout",
+    "mobIsActive": 1,
+    "tag": "LOYTIERTWO",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC202",
+    "feature": "PAYMENT",
+    "featureScenario": "As a Loyalty Tier3 User intends to complete checkout",
+    "mobIsActive": 1,
+    "tag": "LOYTIERTHREE",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC203",
+    "feature": "Account",
+    "featureScenario": "Verify user able to sign in with their FB account from account page",
+    "mobIsActive": 0,
+    "tag": "CMSBULKLOCM2O",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC204",
+    "feature": "Account",
+    "featureScenario": "Verify user able to sign in with their FB account from checkout page",
+    "mobIsActive": 0,
+    "tag": "CMSBULKLOCM2M",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC205",
+    "feature": "React Checkout",
+    "featureScenario": "Verify Guest User checkout for Physical Gift Card",
+    "mobIsActive": 1,
+    "tag": "RCOGUPGC",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC206",
+    "feature": "React Checkout",
+    "featureScenario": "Verify Guest User Is Able To Complete Click and Collect Checkout",
+    "mobIsActive": 1,
+    "tag": "RCOCLICKANDCOLLECTGU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC207",
+    "feature": "React Checkout",
+    "featureScenario": "Verify Guest User is able to complete checkout with NextDay Delivery type",
+    "mobIsActive": 1,
+    "tag": "RCOGUNEXTDAYDELIVERY",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC208",
+    "feature": "React Checkout",
+    "featureScenario": "Verify New User is able to complete checkout with NamedDay Delivery type",
+    "mobIsActive": 1,
+    "tag": "RCONUNAMEDDAYDELIVERY",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC209",
+    "feature": "React Checkout",
+    "featureScenario": "Verify Return User is able to complete checkout with SaturdayDay Delivery type",
+    "mobIsActive": 1,
+    "tag": "RCORUSATURDAYDELIVERY",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC210",
+    "feature": "PAYMENT",
+    "featureScenario": "Login as POA customer and Perform PBL Payment",
+    "mobIsActive": 0,
+    "tag": "RUPBL",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC211",
+    "feature": "PAYMENT",
+    "featureScenario": "Verify user able to add vset and complete checkout",
+    "mobIsActive": 1,
+    "tag": "GUVIRTUALSET",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC212",
+    "feature": "PAYMENT",
+    "featureScenario": "As a PRO User I would like to Add a product and complete checkout",
+    "mobIsActive": 1,
+    "tag": "PROUSERCHK",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC213",
+    "feature": "PAYMENT",
+    "featureScenario": "Verify that the able to place order successfully with E-Salon",
+    "mobIsActive": 1,
+    "tag": "ESALONCHK",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC214",
+    "feature": "GNAV Footer",
+    "featureScenario": "Verify User can navigate Country Location dropdown on Footer and check Options",
+    "mobIsActive": 0,
+    "tag": "COUNTRYCHECKONFOOTER",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC215",
+    "feature": "GNAV Footer",
+    "featureScenario": "Verify User can navigate Country Location dropdown on Stores and check Options",
+    "mobIsActive": 0,
+    "tag": "COUNTRYCHECKONSTORES",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC216",
+    "feature": "CMS",
+    "featureScenario": "Disable Autolocalization",
+    "mobIsActive": 0,
+    "tag": "CMSDISABLEAUTOLOC",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC217",
+    "feature": "PAYMENT",
+    "featureScenario": "Verify guest user can place order with donation and check Clearpay availability",
+    "mobIsActive": 1,
+    "tag": "DONATIONGU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC218",
+    "feature": "PAYMENT",
+    "featureScenario": "Validate Social Sharing Functionality",
+    "mobIsActive": 1,
+    "tag": "SOCIALSHARE",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC219",
+    "feature": "Checkout",
+    "featureScenario": "Verify GU order with Offer, billing, PayPal payment and details saved in .csv",
+    "mobIsActive": 0,
+    "tag": "GUDISBILLORDDET2CSVPAYPAL",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC220",
+    "feature": "Checkout",
+    "featureScenario": "Verify RU order with Offer, billing, PayPalExpress payment and details saved in .csv",
+    "mobIsActive": 0,
+    "tag": "RUDISBILLORDDET2CSVPAYPALEXP",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC221",
+    "feature": "Checkout",
+    "featureScenario": "Verify RU order with multiple products, PayPal payment and details saved in .csv",
+    "mobIsActive": 1,
+    "tag": "RUPRDTSORDDET2CSVPAYPAL",
+    "pcIsActive": 0
+  },
+  {
+    "featureScenarioCode": "TC222",
+    "feature": "Checkout",
+    "featureScenario": "Verify RU order with multiple products, PayPalExpress payment and details saved in .csv",
+    "mobIsActive": 1,
+    "tag": "RUPRDTSORDDET2CSVPAYPALEXP",
+    "pcIsActive": 0
+  },
+  {
+    "featureScenarioCode": "TC223",
+    "feature": "Analytics",
+    "featureScenario": "Verify GA4 for Homepage, MPP, SPP, Cart",
+    "mobIsActive": 1,
+    "tag": "GA4SANITY",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC224",
+    "feature": "Analytics",
+    "featureScenario": "Verify GA4 for Guest user checkout",
+    "mobIsActive": 1,
+    "tag": "GA4GU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC225",
+    "feature": "Analytics",
+    "featureScenario": "Verify GA4 for Return user checkout",
+    "mobIsActive": 1,
+    "tag": "GA4RU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC226",
+    "feature": "PAYMENT",
+    "featureScenario": "Verify the user able to place order with embossing gift",
+    "mobIsActive": 1,
+    "tag": "EMBOSSING",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC227",
+    "feature": "PAYMENT",
+    "featureScenario": "Verify the user able to place order with embossing gift and normal sku",
+    "mobIsActive": 1,
+    "tag": "EMBOSSINGNORMAL",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC228",
+    "feature": "PAYMENT",
+    "featureScenario": "Verify the user able to place order with International Billing Address",
+    "mobIsActive": 1,
+    "tag": "INTLBILLINGGU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC229",
+    "feature": "CMS",
+    "featureScenario": "To verify API Endpoint Response for Requested Endpoint",
+    "mobIsActive": 0,
+    "tag": "CMSAPIVALIDATION",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC230",
+    "feature": "Analytics",
+    "featureScenario": "Verify google analytics for New user checkout",
+    "mobIsActive": 1,
+    "tag": "GANU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC231",
+    "feature": "PAYMENT",
+    "featureScenario": "Guest User complete checkout with the STD offer code with PBL",
+    "mobIsActive": 0,
+    "tag": "PBLSTDGU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC232",
+    "feature": "PAYMENT",
+    "featureScenario": "Guest User complete checkout with the ND offer code with PBL",
+    "mobIsActive": 0,
+    "tag": "PBLNDGU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC233",
+    "feature": "A-Comm",
+    "featureScenario": "As a guest user i would checkout as a y flag user",
+    "mobIsActive": 1,
+    "tag": "ACOMMFLAGSALTERSALONSELECTIONGU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC234",
+    "feature": "A-Comm",
+    "featureScenario": "As a guest user i would checkout as HM-V flag user",
+    "mobIsActive": 1,
+    "tag": "ACOMMFLAGSVISITHAUSMARTSALONPAGEGU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC235",
+    "feature": "PAYMENT",
+    "featureScenario": "Verify Guest User is getting Warning Message when Invalid Message entered",
+    "mobIsActive": 1,
+    "tag": "GWINVALIDMSGGU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC236",
+    "feature": "PAYMENT",
+    "featureScenario": "Verify Return User is getting Warning Message when Invalid Message entered",
+    "mobIsActive": 1,
+    "tag": "GWINVALIDMSGRU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC237",
+    "feature": "PAYMENT",
+    "featureScenario": "Verify Guest User is able To Edit Gift Wrap Message and Checkout",
+    "mobIsActive": 1,
+    "tag": "GWEDITGU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC238",
+    "feature": "PAYMENT",
+    "featureScenario": "Verify Return User is able To Edit Gift Wrap Message and Checkout",
+    "mobIsActive": 1,
+    "tag": "GWEDITRU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC239",
+    "feature": "PAYMENT",
+    "featureScenario": "Verify Return User Gift Wrap fields are available in Order Summery sections",
+    "mobIsActive": 1,
+    "tag": "GWFLDSORDSUMSECRU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC240",
+    "feature": "CMS",
+    "featureScenario": "To verify Translations Download as expected",
+    "mobIsActive": 0,
+    "tag": "CMSTRANSLATIONS",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC241",
+    "feature": "CMS",
+    "featureScenario": "To verify PLP API Endpoint Response for Requested Endpoint",
+    "mobIsActive": 0,
+    "tag": "CMSPLPAPIVALIDATION",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC242",
+    "feature": "Analytics",
+    "featureScenario": "Verify GA4 for New user checkout",
+    "mobIsActive": 1,
+    "tag": "GA4NU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC243",
+    "feature": "Offers",
+    "featureScenario": "Verify user to check GWP Loyalty functionalities",
+    "mobIsActive": 1,
+    "tag": "GWPLOYALTY",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC244",
+    "feature": "Offers",
+    "featureScenario": "Verify user to Add a product and complete GWP Offer Code",
+    "mobIsActive": 0,
+    "tag": "GWPOFFERS",
+    "pcIsActive": 0
+  },
+  {
+    "featureScenarioCode": "TC245",
+    "feature": "Offers",
+    "featureScenario": "Verify user to Add a product and complete GWP Sample Page checkout",
+    "mobIsActive": 0,
+    "tag": "GWPSAMPLE",
+    "pcIsActive": 0
+  },
+  {
+    "featureScenarioCode": "TC246",
+    "feature": "Offers",
+    "featureScenario": "Verify user to check the check table offer and complete checkout",
+    "mobIsActive": 1,
+    "tag": "CHECKTABLE",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC247",
+    "feature": "Offers",
+    "featureScenario": "Verify user to check first-time buyer offer and complete checkout",
+    "mobIsActive": 1,
+    "tag": "FIRSTTIMERBUYER",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC248",
+    "feature": "Offers",
+    "featureScenario": "Verify user to check loyalty deferral offer and complete checkout",
+    "mobIsActive": 1,
+    "tag": "LOYALTYMEMBER",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC249",
+    "feature": "Offers",
+    "featureScenario": "Verify user to check one-time buyer offer and complete checkout",
+    "mobIsActive": 1,
+    "tag": "ONETIMEUSE",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC250",
+    "feature": "Offers",
+    "featureScenario": "Verify user to check loyalty one-time use offer and complete checkout",
+    "mobIsActive": 1,
+    "tag": "LOYALTYONETIMEUSE",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC251",
+    "feature": "Offers",
+    "featureScenario": "Verify user to add a product and auto applied offers on order checkout",
+    "mobIsActive": 1,
+    "tag": "AUTOOFFERS",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC252",
+    "feature": "Offers",
+    "featureScenario": "Verify user  to add a product and complete free shipping on orders checkout",
+    "mobIsActive": 1,
+    "tag": "SHIPPINGPRICE",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC253",
+    "feature": "BOPIS",
+    "featureScenario": "Verify user is able to place BOPIS order as Return user with GWP",
+    "mobIsActive": 0,
+    "tag": "BOPWTGWPRU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC254",
+    "feature": "BOPIS",
+    "featureScenario": "Verify user is able to place SDD order as Return user with GWP",
+    "mobIsActive": 0,
+    "tag": "SDDWTGWPRU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC255",
+    "feature": "BOPIS",
+    "featureScenario": "Verify user is able to place BOPIS order as Guest user with GWP",
+    "mobIsActive": 1,
+    "tag": "BOPWGWPGU",
+    "pcIsActive": 0
+  },
+  {
+    "featureScenarioCode": "TC256",
+    "feature": "BOPIS",
+    "featureScenario": "Verify user is able to place SDD order as Guest user with GWP",
+    "mobIsActive": 1,
+    "tag": "SDDWGWPGU",
+    "pcIsActive": 0
+  },
+  {
+    "featureScenarioCode": "TC257",
+    "feature": "CMS",
+    "featureScenario": "Verify correct Image got Localized to Target Locale",
+    "mobIsActive": 0,
+    "tag": "CMSIMAGELOC",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC258",
+    "feature": "A-Comm",
+    "featureScenario": " Negative Edge cases for A-comm",
+    "mobIsActive": 1,
+    "tag": "ACOMMFLAGSNEGATIVECASES",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC259",
+    "feature": "OAB",
+    "featureScenario": "AppHQ Use feature as brand admin",
+    "mobIsActive": 0,
+    "tag": "HQACLBRANDADMIN",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC260",
+    "feature": "OAB",
+    "featureScenario": "AppHQ Use feature as artist",
+    "mobIsActive": 0,
+    "tag": "HQACLARTIST",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC261",
+    "feature": "OAB",
+    "featureScenario": "AppHQ Use feature as counter manager",
+    "mobIsActive": 0,
+    "tag": "HQACLCOUNTERMANAGER",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC262",
+    "feature": "OAB",
+    "featureScenario": "AppHQ Use feature as password manager",
+    "mobIsActive": 0,
+    "tag": "HQACLPASSWORDMANAGER",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC263",
+    "feature": "OAB",
+    "featureScenario": "AppHQ Use feature as report manager",
+    "mobIsActive": 0,
+    "tag": "HQACLREPORTMANAGER",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC264",
+    "feature": "OAB",
+    "featureScenario": "AppHQ ACL Sanity for all roles",
+    "mobIsActive": 0,
+    "tag": "HQACLSANITY",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC265",
+    "feature": "OAB",
+    "featureScenario": "AppHQ Create, update delete service and service category",
+    "mobIsActive": 0,
+    "tag": "HQCRUDSERVICE",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC266",
+    "feature": "OAB",
+    "featureScenario": "AppHQ Create, update delete store and schedule",
+    "mobIsActive": 0,
+    "tag": "HQCRUDSTORE",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC267",
+    "feature": "OAB",
+    "featureScenario": "AppHQ Create, update delete appointment",
+    "mobIsActive": 0,
+    "tag": "HQCRUDAPPO",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC268",
+    "feature": "OAB",
+    "featureScenario": "AppHQ Verify Features functionality",
+    "mobIsActive": 0,
+    "tag": "HQFEATURES",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC269",
+    "feature": "OAB",
+    "featureScenario": "AppHQ Verify Dashboard functionality",
+    "mobIsActive": 0,
+    "tag": "HQDASHBOARD",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC270",
+    "feature": "OAB",
+    "featureScenario": "AppHQ Relese regression",
+    "mobIsActive": 0,
+    "tag": "HQREGRESSION",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC271",
+    "feature": "OAB",
+    "featureScenario": "AppHQ Set-up sanity of existing OABs",
+    "mobIsActive": 0,
+    "tag": "HQSETUPSANITY",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC272",
+    "feature": "OAB",
+    "featureScenario": "AppHQ Use feature as superadministrator",
+    "mobIsActive": 0,
+    "tag": "HQACLSUPERADMINISTRATOR",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC273",
+    "feature": "OAB",
+    "featureScenario": "AppHQ Create, update delete user",
+    "mobIsActive": 0,
+    "tag": "HQCRUDUSER",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC274",
+    "feature": "PAYMENT",
+    "featureScenario": "Verify user able to add virtual bundles and complete checkout",
+    "mobIsActive": 1,
+    "tag": "GUVIRTUALBUNDLES",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC275",
+    "feature": "Offers",
+    "featureScenario": "Verify user to check GWP Threshold Message Offer Code",
+    "mobIsActive": 1,
+    "tag": "GWPOFFERSTHRESHOLD",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC276",
+    "feature": "Offers",
+    "featureScenario": "Verify user to check GWP Auto Sample Page checkout",
+    "mobIsActive": 1,
+    "tag": "GWPAUTOSAMPLE",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC277",
+    "feature": "Offers",
+    "featureScenario": "Verify user to check GWP Manual Sample Page checkout",
+    "mobIsActive": 1,
+    "tag": "GWPMANUALOFFER",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC279",
+    "feature": "Offers",
+    "featureScenario": "Verify user to check Auto Offers Threshold Message",
+    "mobIsActive": 1,
+    "tag": "AUTOTHRESHOLDMESSAGE",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC280",
+    "feature": "Offers",
+    "featureScenario": "Verify User to check Manual offer and complete checkout",
+    "mobIsActive": 1,
+    "tag": "MANUALOFF",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC281",
+    "feature": "Offers",
+    "featureScenario": "Verify User to check Manual offer with Threshold message and complete checkout",
+    "mobIsActive": 1,
+    "tag": "MANUALTHRESHOLD",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC282",
+    "feature": "Offers",
+    "featureScenario": "Verify user to check one use loyalty anniversary offer and complete checkout",
+    "mobIsActive": 1,
+    "tag": "ONEUSEPERLOYALTYANNIVERSARY",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC283",
+    "feature": "Offers",
+    "featureScenario": "Verify user to check success message offer in cart page",
+    "mobIsActive": 1,
+    "tag": "SUCCESSMESSAGE",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC284",
+    "feature": "Offers",
+    "featureScenario": "Verify user to check error message offer in cart page",
+    "mobIsActive": 1,
+    "tag": "ERRORMESSAGE",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC285",
+    "feature": "Offers",
+    "featureScenario": "Verify user to check backup SKU message offer in cart page",
+    "mobIsActive": 1,
+    "tag": "BACKUPSKUMESSAGE",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC286",
+    "feature": "Offers",
+    "featureScenario": "Verify user to check do not defer message offer in cart page",
+    "mobIsActive": 1,
+    "tag": "DONOTDEFERMESSAGE",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC287",
+    "feature": "Offers",
+    "featureScenario": "Verify User to check Manual offer with Backup SKU message and complete checkout",
+    "mobIsActive": 1,
+    "tag": "MANUALBACKUPSKU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC288",
+    "feature": "Loyalty",
+    "featureScenario": "Verify whether the Loyalty user can redeem point rewards (DEV & STAGE)",
+    "mobIsActive": 1,
+    "tag": "RULOYALTYTIER3REWARDREDEEM",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC289",
+    "feature": "CMS",
+    "featureScenario": "To verify Images are Localizing to Target Locale",
+    "mobIsActive": 0,
+    "tag": "CMSTRANSLATIONSWF",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC290",
+    "feature": "React Checkout",
+    "featureScenario": "As a user I would like to check the Forget password link functionalities",
+    "mobIsActive": 1,
+    "tag": "AMPIAMFORGETPWD",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC291",
+    "feature": "React Checkout",
+    "featureScenario": "As a guest user, I want to verify sign-up during checkout",
+    "mobIsActive": 1,
+    "tag": "AMPIAMGU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC292",
+    "feature": "React Checkout",
+    "featureScenario": "As a returning user, I want to verify the sign-in during checkout",
+    "mobIsActive": 1,
+    "tag": "AMPIAMRU",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC293",
+    "feature": "React Checkout",
+    "featureScenario": "As a user I would like to check the authentication actions",
+    "mobIsActive": 1,
+    "tag": "AMPIAMUSERAUTHACTIONS",
+    "pcIsActive": 1
+  },
+  {
+    "featureScenarioCode": "TC294",
+    "feature": "React Checkout",
+    "featureScenario": "As a user I would like to check the links on sign-in page",
+    "mobIsActive": 1,
+    "tag": "AMPIAMSIGNINPAGEVAL",
+    "pcIsActive": 1
+  }
+]

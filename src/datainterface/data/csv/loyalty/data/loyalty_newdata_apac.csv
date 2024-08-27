@@ -1,0 +1,66 @@
+﻿tt,BrandLocale,EL-AU,EL-JP,MC-JP,LM-JP,EL-HK,MC-HK,LM-HK,BB-HK
+1,skuId1,SKU114415,SKU44632,SKU68635,SKU119968,SKU105432,SKU1994,SKU85321,SKU130400
+1,skuId2,SKU149174,SKU122744,SKU118971,SKU115246,SKU44503,SKU5841,SKU101643,SKU140143
+1,skuId3,SKU149096,SKU88852,SKU118969,SKU26149,SKU9585,SKU21981,SKU105541,SKU144098
+1,skuId4,SKU43935,SKU41261,SKU118970,SKU141353,SKU9578,SKU32073,SKU101933,SKU117217
+1,skuId5,SKU58998,SKU167494,SKU118944,SKU70584,SKU53808,SKU32074,SKU26744,SKU89421
+1,REGNAME,,DO NOT SHIP,DO NOT SHIP,テスト名,DO NOT SHIP,DO NOT SHIP,DO NOT SHIP,DO NOT SHIP
+1,FIRSTNAME,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT
+1,FIRSTNAMEKAT,,テスト,テスト,テスト,,,,
+1,LASTNAME,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP
+1,LASTNAMEKAT,,テスト,テスト,テスト,,,,
+1,ADDRESS,BRADLEY STREET,清川,清川,清川,25 Canton Road 33/F,25 Canton Road 33/F,25 Canton Road 33/F,25 Canton Road 33/F
+1,ADDRESS2,1 BRADLEY ST,,,,The Gateway Tower 2 Harbour City,The Gateway Tower 2 Harbour City,The Gateway Tower 2 Harbour City,The Gateway Tower 2 Harbour City
+1,PHONE,480009028,81353540111,81353540111,81353540111,91552110,91552110,91552110,91552110
+1,Mobile1,,3123412340,,,,,,
+1,Mobile2,,,,,,,,
+1,ZIPCODE,2835,1110022,1110022,1110022,,,,
+1,STATE,,,東京都,東京都,九龍,九龍,九龍,九龍
+1,STATEAC,,,,,九龍,九龍,九龍,九龍
+1,CITY,COBAR,台東区,台東区,台東区,尖沙咀,尖沙咀,尖沙咀,尖沙咀
+1,CITYAC,,,,,尖沙咀,尖沙咀,尖沙咀,尖沙咀
+1,SUBDISTRICT,,,,,,,,
+1,STREET,,,,,,,,
+1,ADDRESS4,,,,,,,,
+1,CCHOLDERNAME,Testing card,Testing card,testing card,Test Test,testing card,testing card,testing card,testing card
+1,CREDITCARD,4111 1111 1111 1111,4111 1111 1111 1111,4111 1111 1111 1111,4111 1111 1111 1111,4335 9000 0014 0040,4335 9000 0014 0040,4335 9000 0014 0040,4335 9000 0014 0040
+1,CVV,737,737,737,737,123,123,123,123
+1,CCMONTH,'03-30,'03-30,'03-30,'03-30,,,,
+1,RID,,test888@test.com,test888@test.com,test888@test.com,test888@test.com,test888@test.com,test888@test.com,test888@test.com
+1,RPWD,,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123
+1,NPWD,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123
+1,TITLE,,,,,Mr,Mr,Mr,Mr
+1,PAYMENTMETHOD,,,,,,,,
+1,CCM,,2,2,2,7,7,7,7
+1,CCY,,9,9,9,9,10,9,10
+1,CCBANK,,,,,,,,
+1,BIRTHYEAR,,1995,1998,1992,,,,
+1,SIGNOUTASSERTTXT,,ログアウトしました。,ログアウトしました。,一定時間操作が行われなかったためログアウトしました。もう一度サインインしてください。,你已登出。,你已登出。,您已經登出，請您重新登入,你已登出。
+1,ORDERMESSAGE1,,お客さまの注文番号 ,お客さまの注文番号 ,お客さまの注文番号,,,,
+1,ORDERCONFIRMURL,,/checkout/confirm.tmpl,/checkout/confirm.tmpl,/checkout/confirm.tmpl,,,,
+1,LRID1,,,,lmjptest001@gmail.com,csselcuser10+ru1@gmail.com,csselcuser10+ru1@gmail.com,csselcuser10+ru1@gmail.com,
+1,LRID2,,,,lmjptest001+lyl2@gmail.com,csselcuser10+ru2@gmail.com,csselcuser10+ru2@gmail.com,csselcuser10+ru2@gmail.com,
+1,LRID3,,,,lmjptest001+lyl3@gmail.com,csselcuser10+ru3@gmail.com,csselcuser10+ru3@gmail.com,csselcuser10+ru3@gmail.com,
+1,LRID4,,,,lmjptest001+lyl4@gmail.com,csselcuser10+ru4@gmail.com,csselcuser10+ru4@gmail.com,csselcuser10+ru4@gmail.com,
+1,LRID5,,,,lmjptest001+lyl5@gmail.com,csselcuser10+ru5@gmail.com,csselcuser10+ru5@gmail.com,csselcuser10+ru5@gmail.com,
+1,WELCOMEOFFER1,,ly_welcome_10,ly_welcome10,ly_welcome10,ly_welcome_gift,ly_welcome,ly_welcome_gift,
+1,BIRTHDAYOFFER1,,ly_bday_point_t1,ly_bd_100p,ly_bd_50,ly_birthday_double_points_t1,ly_birthday_20off,ly_birthday_double_points,
+1,TIER1STATUS,,ブルー,ラバー,マリン,BLUE,LOVER,MARINE,
+1,EARNPNT1,,100,100,100,1,1,1.2,
+1,EARNPNT2,,,,100,1,1,1.5,
+1,EARNPNT3,,,,100,1,1,1.5,
+1,BDAYBONUS,,,,,2,,0.5,
+1,TIER2UPBONUS,,,,,0,,0,1.5
+1,TESTFLATPNT,,,,,0,0,0,
+1,TESTOFFER1,,NA,NA,NA,test_ly_case10,0,test_ly_case10,
+1,TESTOFFER2,,NA,NA,NA,test_global_pnts_chkout,0,test_global_pnts_chkout,
+1,TESTOFFER3,,ly_double_pt_2311,NA,ly_doblepoint_lm2309,test_global_doublepoints,0,test_global_doublepoints,
+1,TESTOFFER4,,NA,NA,NA,test_acac5401,0,test_acac5401,
+1,TESTPNT1,,,,0,2000,0,2000,
+1,TESTPNT2,,,,0,50,0,50,
+1,TESTPNT3,,,2,0,2,0,2,
+1,TESTPNT4,,,,0,0.3,0,0.3,
+1,BRLOC,,EL-JP,MC-JP,LM-JP,,,,
+1,TIMEOUT,30000,30000,30000,30000,30000,30000,30000,30000
+1,POLLINGTIME,100,100,100,100,100,100,100,100
+1,WAITFORLYLSECTION,,50000,50000,50000,50000,50000,50000,50000

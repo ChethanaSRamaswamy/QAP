@@ -1,0 +1,1285 @@
+[
+    {
+        "brand": "AV-DE",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-GJWSSFFE9Y",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "aveda_de",
+                    "ep.brand_locale": "de",
+                    "ep.brand": "aveda",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "AV-EU",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-GYBWQE75JW",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "aveda_eu",
+                    "ep.brand_locale": "eu",
+                    "ep.brand": "aveda",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "AV-FR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-GYBWQE75JW",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "aveda_fr",
+                    "ep.brand_locale": "fr",
+                    "ep.brand": "aveda",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "BB-DE",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-QYH4DJ3LD4",
+                    "ul": "en-us",
+                    "cd3": "de",
+                    "ep.brand_id": "bobbibrown_de",
+                    "ep.brand_locale": "de",
+                    "ep.brand": "bobbibrown",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "BB-ES",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-BJN6PW24FP",
+                    "ul": "en-us",
+                    "cd3": "de",
+                    "ep.brand_id": "bobbibrown_es",
+                    "ep.brand_locale": "es",
+                    "ep.brand": "bobbibrown",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "es"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "BB-FR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-F0QQZV6J2L",
+                    "ul": "en-us",
+                    "cd3": "de",
+                    "ep.brand_id": "bobbibrown_fr",
+                    "ep.brand_locale": "fr",
+                    "ep.brand": "bobbibrown",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "fr"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "BB-GR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-TBKBSKXZH6",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "bobbibrown_gr",
+                    "ep.brand_locale": "gr",
+                    "ep.brand": "bobbibrown",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "BB-IL",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "ILS",
+                    "tid": "G-CC9Z0JZEF5",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "bobbibrown_il",
+                    "ep.brand_locale": "il",
+                    "ep.brand": "bobbibrown",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "he"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "BB-TR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "TRY",
+                    "tid": "G-0Y0V7QFDG6",
+                    "ul": "en-us",
+                    "cd3": "tr",
+                    "ep.brand_id": "bobbibrown_tr",
+                    "ep.brand_locale": "tr",
+                    "ep.brand": "bobbibrown",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "tr"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "BB-ZA",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "ZAR",
+                    "tid": "G-BBWQWK8XM8",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "bobbibrown_za",
+                    "ep.brand_locale": "za",
+                    "ep.brand": "bobbibrown",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "BK-FR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-TEHNGW44QK",
+                    "ul": "en-us",
+                    "cd3": "de",
+                    "ep.brand_id": "kilian_fr",
+                    "ep.brand_locale": "fr",
+                    "ep.brand": "kilian",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "fr"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "CL-DE",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-FX92KM0ME0",
+                    "ul": "en-us",
+                    "ep.brand_id": "clinique_de",
+                    "ep.brand_locale": "de",
+                    "ep.brand": "clinique",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "CL-ES",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-SNLM4XPPLY",
+                    "ul": "en-us",
+                    "ep.brand_id": "clinique_es",
+                    "ep.brand_locale": "es",
+                    "ep.brand": "clinique",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "es"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "CL-FI",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-4ZR94JYGN1",
+                    "ul": "en-us",
+                    "ep.brand_id": "clinique_fi",
+                    "ep.brand_locale": "fi",
+                    "ep.brand": "clinique",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "fi"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "CL-FR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-N2SC8QLFSZ",
+                    "ul": "en-us",
+                    "ep.brand_id": "clinique_fr",
+                    "ep.brand_locale": "fr",
+                    "ep.brand": "clinique",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "fr"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "CL-GR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-3WEJP81V6R",
+                    "ul": "en-us",
+                    "ep.brand_id": "clinique_gr",
+                    "ep.brand_locale": "gr",
+                    "ep.brand": "clinique",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "CL-IL",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "ILS",
+                    "tid": "G-LNP5PWWGSY",
+                    "ul": "en-us",
+                    "ep.brand_id": "clinique_il",
+                    "ep.brand_locale": "il",
+                    "ep.brand": "clinique",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "he"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "CL-SE",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "SEK",
+                    "tid": "G-M2X51TLLZ2",
+                    "ul": "en-us",
+                    "ep.brand_id": "clinique_se",
+                    "ep.brand_locale": "se",
+                    "ep.brand": "clinique",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "sv"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "CL-TR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "TRY",
+                    "tid": "G-2CRVZFC11H",
+                    "ul": "en-us",
+                    "ep.brand_id": "clinique_tr",
+                    "ep.brand_locale": "tr",
+                    "ep.brand": "clinique",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "tr"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "CL-ZA",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "ZAR",
+                    "tid": "G-Y7185DS81H",
+                    "ul": "en-us",
+                    "ep.brand_id": "clinique_za",
+                    "ep.brand_locale": "za",
+                    "ep.brand": "clinique",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "DA-BE",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-6M96T2H07J",
+                    "ul": "en-us",
+                    "ep.brand_id": "darphin_be",
+                    "ep.brand_locale": "be",
+                    "ep.brand": "darphin",
+                    "ep.platform": "modernized",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "nl"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU41327"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "DA-DE",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-GFJ90E88V5",
+                    "ul": "en-us",
+                    "ep.brand_id": "darphin_de",
+                    "ep.brand_locale": "de",
+                    "ep.brand": "darphin",
+                    "ep.platform": "modernized",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "de"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU41327"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "DA-ES",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-Y3H7N73JT5",
+                    "ul": "en-us",
+                    "ep.brand_id": "darphin_es",
+                    "ep.brand_locale": "es",
+                    "ep.brand": "darphin",
+                    "ep.platform": "modernized",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "es"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU41327"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "DA-FR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-7E22J3J2LG",
+                    "ul": "en-us",
+                    "ep.brand_id": "darphin_fr",
+                    "ep.brand_locale": "fr",
+                    "ep.brand": "darphin",
+                    "ep.platform": "modernized",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU41327"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "DA-IT",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-PXG2E0DK7L",
+                    "ul": "en-us",
+                    "ep.brand_id": "darphin_it",
+                    "ep.brand_locale": "it",
+                    "ep.brand": "darphin",
+                    "ep.platform": "modernized",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "it"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU41327"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "DA-NL",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-Z40TW9DP38",
+                    "ul": "en-us",
+                    "ep.brand_id": "darphin_nl",
+                    "ep.brand_locale": "nl",
+                    "ep.brand": "darphin",
+                    "ep.platform": "modernized",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "nl"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU41327"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "EL-BE",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-L47NB4876G",
+                    "ul": "en",
+                    "cd3": "en",
+                    "ep.brand_id": "lauder_be",
+                    "ep.brand_locale": "be",
+                    "ep.brand": "lauder",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "nl"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU41327"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "EL-DE",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-80DPWV0BEE",
+                    "ul": "en",
+                    "cd3": "en",
+                    "ep.brand_id": "lauder_de",
+                    "ep.brand_locale": "de",
+                    "ep.brand": "lauder",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "EL-DK",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-5BJ1THENP0",
+                    "ul": "en",
+                    "cd3": "da",
+                    "ep.brand_id": "lauder_dk",
+                    "ep.brand_locale": "dk",
+                    "ep.brand": "lauder",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "da"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "EL-ES",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-B4TXEK1V20",
+                    "ul": "en-us",
+                    "cd3": "es",
+                    "ep.brand_id": "lauder_es",
+                    "ep.brand_locale": "es",
+                    "ep.brand": "lauder",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "es"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "EL-FR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-QLHLCSY0NJ",
+                    "ul": "en-us",
+                    "cd3": "fr",
+                    "ep.brand_id": "lauder_fr",
+                    "ep.brand_locale": "fr",
+                    "ep.brand": "lauder",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "fr"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "EL-GR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-Y4SF3T9M2N",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "lauder_gr",
+                    "ep.brand_locale": "gr",
+                    "ep.brand": "lauder",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "EL-IL",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "ILS",
+                    "tid": "G-V3Z8BX0H7W",
+                    "ul": "en-us",
+                    "cd3": "he",
+                    "ep.brand_id": "lauder_il",
+                    "ep.brand_locale": "il",
+                    "ep.brand": "lauder",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "he"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "EL-TR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "TRY",
+                    "tid": "G-S4CFE0238W",
+                    "ul": "en-us",
+                    "cd3": "tr",
+                    "ep.brand_id": "lauder_tr",
+                    "ep.brand_locale": "tr",
+                    "ep.brand": "lauder",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "tr"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "EL-ZA",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "ZAR",
+                    "tid": "G-76B25Y0H79",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "lauder_za",
+                    "ep.brand_locale": "za",
+                    "ep.brand": "lauder",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "JM-EU",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-V41D1REDYK",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "jomalone_eu",
+                    "ep.brand_locale": "eu",
+                    "ep.brand": "jomalone",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "JM-FR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-4V2PYXK4PC",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "jomalone_fr",
+                    "ep.brand_locale": "fr",
+                    "ep.brand": "jomalone",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "JM-ME",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-7E04GBWP4W",
+                    "ul": "en-us",
+                    "cd3": "ar",
+                    "ep.brand_id": "jomalone_sa",
+                    "ep.brand_locale": "sa",
+                    "ep.brand": "jomalone",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "ar"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "LM-DE",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-L0YV93CHN4",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "lamer_de",
+                    "ep.brand_locale": "de",
+                    "ep.brand": "lamer",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "LM-GR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-JMH6ZKGXB4",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "lamer_gr",
+                    "ep.brand_locale": "gr",
+                    "ep.brand": "lamer",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-AT",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-DQPQSX0R5N",
+                    "ul": "en-us",
+                    "cd3": "de",
+                    "ep.brand_id": "mac_at",
+                    "ep.brand_locale": "at",
+                    "ep.brand": "mac",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "de"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU25410"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-BE",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-NLGVV3EJFT",
+                    "ul": "en-us",
+                    "cd3": "nl",
+                    "ep.brand_id": "mac_be",
+                    "ep.brand_locale": "be",
+                    "ep.brand": "mac",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "nl"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU25410"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-DE",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-R2LF7TMGNR",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "mac_de",
+                    "ep.brand_locale": "de",
+                    "ep.brand": "mac",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU25410"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-ES",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-1S60CN7NWV",
+                    "ul": "en-us",
+                    "cd3": "es",
+                    "ep.brand_id": "mac_es",
+                    "ep.brand_locale": "es",
+                    "ep.brand": "mac",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "es"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU25410"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-FR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-Q65K1YKX04",
+                    "ul": "en-us",
+                    "cd3": "fr",
+                    "ep.brand_id": "mac_fr",
+                    "ep.brand_locale": "fr",
+                    "ep.brand": "mac",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "fr"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU25410"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-GR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-2MHMFN62EY",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "mac_gr",
+                    "ep.brand_locale": "gr",
+                    "ep.brand": "mac",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU25410"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-HU",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "HUF",
+                    "tid": "G-SX997PJ1F9",
+                    "ul": "en-us",
+                    "cd3": "hu",
+                    "ep.brand_id": "mac_hu",
+                    "ep.brand_locale": "hu",
+                    "ep.brand": "mac",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "hu"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU25410"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-IL",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "ILS",
+                    "tid": "G-54ER0P6C17",
+                    "ul": "en-us",
+                    "cd3": "he",
+                    "ep.brand_id": "mac_il",
+                    "ep.brand_locale": "il",
+                    "ep.brand": "mac",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "he"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU25410"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-IN",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "INR",
+                    "tid": "G-C9C2CSWW0G",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "mac_in",
+                    "ep.brand_locale": "in",
+                    "ep.brand": "mac",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU25410"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-NO",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "NOK",
+                    "tid": "G-DJYVS8D1B2",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "mac_no",
+                    "ep.brand_locale": "no",
+                    "ep.brand": "mac",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU25410"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-PL",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "PLN",
+                    "tid": "G-435L5LJD6Z",
+                    "ul": "en-us",
+                    "cd3": "fr",
+                    "ep.brand_id": "mac_pl",
+                    "ep.brand_locale": "pl",
+                    "ep.brand": "mac",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "fr"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU25410"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-RO",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "RON",
+                    "tid": "G-ZXWND0TWL6",
+                    "ul": "en-us",
+                    "cd3": "ro",
+                    "ep.brand_id": "mac_ro",
+                    "ep.brand_locale": "ro",
+                    "ep.brand": "mac",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "ro"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU25410"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-TR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "TRY",
+                    "tid": "G-T6FSWXH612",
+                    "ul": "en-us",
+                    "cd3": "tr",
+                    "ep.brand_id": "mac_tr",
+                    "ep.brand_locale": "tr",
+                    "ep.brand": "mac",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "tr"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU25410"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-ZA",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "ZAR",
+                    "tid": "G-C9Z7TFBVY5",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "mac_za",
+                    "ep.brand_locale": "za",
+                    "ep.brand": "mac",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU25410"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "OR-DE",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-D60KNHXYNC",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "origins_de",
+                    "ep.brand_locale": "de",
+                    "ep.brand": "origins",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "OR-EU",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-SZTY827W8H",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "origins_eu",
+                    "ep.brand_locale": "eu",
+                    "ep.brand": "origins",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "SB-GR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-DH6D9LR2EW",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "smashbox_us",
+                    "ep.brand_locale": "us",
+                    "ep.brand": "smashbox",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "SB-EU",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-FYXV1WKXFM",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "smashbox_de",
+                    "ep.brand_locale": "de",
+                    "ep.brand": "smashbox",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "TF-DE",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-JM4F6Z31Y8",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "toofaced_eu",
+                    "ep.brand_locale": "de",
+                    "ep.brand": "toofaced",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,112 @@
+<html>
+  <style>
+    button {
+      background-color: rgb(7, 71, 166);
+      background-color: rgb(7, 71, 166);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      width: 20%;
+      border-radius: 4px;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin-right: 10px;
+      margin-top: 8px;
+      cursor: pointer;
+      border-radius: 30px;
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .buttonJenkins {
+      background-color: rgba(2, 103, 255, 0.55);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      width: 15%;
+      border-radius: 2px;
+      border: none;
+      color: white;
+      padding: 5px 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      margin-right: 6px;
+      margin-top: 3px;
+      cursor: pointer;
+      border-radius: 15px;
+    }
+    .h2 {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .h3 {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  </style>
+
+  <body onload="setUrl();">
+    <!--<h2 class="h2">The test has been started...</h2>
+    <div>
+      <h3 class="h3">Track the progress in Report Portal</h3>
+    </div>-->
+    <div>
+      <h3 class="h3">To view the progress and test results, click 
+      <button onclick="viewResult()" class="button">Report Portal</button></h3>
+    </div>
+    <div>
+      <h5 class="h3">If the test has not been started, click <button onclick="viewJenkins()" class="buttonJenkins">Jenkins Report</button> for more information 
+        
+      </h5>
+    </div>
+    <div>
+      <div>If you don't have access to Report Portal, please reachout to the slack channel #qa-automation-platform.</div> 
+    </div>
+    <br />
+    <div>
+      <iframe id="testwindow" frameborder="0" src="" title="Test run window">
+      </iframe>
+    </div>
+
+    <script>
+      function setUrl() {
+        var tstWindow = document.getElementById('testwindow');
+        var currUrl = window.location.href;
+
+        // We get the url and the params which are coming as base 64 encoded in the variable callParam
+        var url = new URL(currUrl);
+        var callParam = url.searchParams.get('callParam');
+
+        // convert the base 64 encoded params to normal string and add the url base to it
+        callParam = window.atob(callParam);
+        if (
+          new URLSearchParams(window.location.search).get('enablepw') === '1'
+        ) {
+          callParam = '../job/qaprun/buildWithParameters?' + callParam;
+        } else {
+          callParam = '../job/Ubuntu/job/QAPUI/buildWithParameters?' + callParam;
+        }
+        console.log(callParam);
+        tstWindow.setAttribute('src', callParam);
+      }
+
+      function viewResult() {
+        // Get the resultId from the url and pass it on to the ReportPortal url
+        var currUrl = window.location.href;
+        var url = new URL(currUrl);
+        var resultId = url.searchParams.get('resultId');
+
+        window.open(
+          'https://helix-rp.esteeonline.com/ui/#elc_tests/launches/' + resultId,
+          '_blank'
+        );
+      }
+
+      function viewJenkins() {
+        window.open('https://helix.esteeonline.com/job/Ubuntu/job/QAPUI/', '_blank');
+      }
+    </script>
+  </body>
+</html>

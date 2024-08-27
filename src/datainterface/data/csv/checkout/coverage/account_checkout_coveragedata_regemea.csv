@@ -1,0 +1,9 @@
+﻿tt,BrandLocale,AV-DE,AV-EU,AV-FR,BB-DE,BB-ES,BB-FR,BB-GR,BB-IL,BB-TR,BK-FR,CL-DE,CL-ES,CL-FI,CL-FR,CL-GR,CL-IL,CL-TR,CL-IT,DA-IT,EL-BE,EL-DE,EL-ES,EL-FR,EL-GR,EL-IL,EL-TR,JM-EU,JM-FR,JM-ME,LM-DE,LM-EU,MC-AT,MC-BE,MC-DE,MC-ES,MC-FR,MC-GR,MC-HU,MC-IL,MC-IN,MC-KSA,MC-PL,MC-RO,MC-TR,OR-EU,SB-EU,TF-DE
+1,spec_gnavsigninaccpuropc,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+1,spec_gnavsigninaccpuromob,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+1,spec_gudisbillorddet2csvpc,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,1,0,1,1,1,1,1,0,1,1,1,1,0,1,1,0,1,0,1,1,1,1,1,1
+1,spec_ruprdtsorddet2csvmob,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,1,0,1,1,1,1,1,0,1,1,1,1,0,1,1,0,1,0,1,1,1,1,1,1
+1,spec_gudisbillorddet2csvpaypalpc,1,1,1,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,1,1,0,1,0,0,0,0,1,0,1,0,1,0,1,0,1,0,0,0,0,0,1,0,0,0,1,0
+1,spec_ruprdtsorddet2csvpaypalmob,1,1,1,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,1,1,0,1,0,0,0,0,1,0,1,0,1,0,1,0,1,0,0,0,0,0,1,0,0,0,1,0
+1,spec_rudisbillorddet2csvpaypalexppc,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0
+1,spec_ruprdtsorddet2csvpaypalexpmob,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0

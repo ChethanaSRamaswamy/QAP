@@ -1,0 +1,364 @@
+[{
+    "Home": {
+        "tt": "internal",
+        "ep.page_type": "home",
+        "ep.content_group": "home",
+        "ep.page_template": "home",
+        "cg3": "home"
+    },
+    "PLPTag": {
+        "tt": "internal",
+        "ep.page_template": "mpp",
+        "ep.page_type": "category",
+        "ep.content_group": "category"
+    },
+    "quickview": {
+        "tt": "internal",
+        "ep.feature_action": "product detail view - quickview",
+        "ep.feature_name": "ecommerce",
+        "ep.page_type": "category"
+    },
+    "productClick": {
+        "en": "select_item",
+        "ep.feature_action": "product click",
+        "ep.feature_name": "ecommerce",
+        "ep.page_type": "category",
+        "ep.content_group": "category"
+    },
+    "PDP": {
+        "tt": "internal",
+        "ep.page_template": "spp",
+        "ep.page_type": "product",
+        "ep.content_group": "product"
+    },
+    "viewItem": {
+        "tt": "internal",
+        "ep.feature_action": "spp",
+        "ep.feature_name": "ecommerce",
+        "ep.feature_label": "view_item",
+        "en": "view_item"
+    },
+    "viewItemList": {
+        "ep.feature_name": "ecommerce",
+        "en": "view_item_list",
+        "ep.feature_action": "view_item_list",
+        "ep.feature_label": "view_item_list"
+    },
+    "viewcartTag": {
+        "en": "view_cart"
+    },
+    "addToBag": {
+        "en": "add_to_cart",
+        "ep.feature_name": "viewcart",
+        "ep.feature_action": "view_cart",
+        "ep.feature_label": "view_cart_overlay"
+    },
+    "viewCartOverlay": {
+        "ep.feature_action": "view_cart",
+        "ep.feature_name": "ecommerce",
+        "ep.feature_label": "view_cart_overlay",
+        "en": "checkout_basket"
+    },
+    "viewcartPageTag": {
+        "ep.feature_name": "cart",
+        "ep.page_type": "product",
+        "ep.content_group": "product",
+        "ep.page_template": "spp"
+    },
+    "checkoutBasketTags": {
+        "en": "checkout_basket",
+        "ep.feature_name": "viewcart",
+        "ep.feature_action": "view_cart",
+        "ep.feature_label": "view_cart_overlay"
+    },
+    "begin_checkout": {
+        "en": "begin_checkout"
+    },
+    "cart": {
+        "ep.page_type": "cart",
+        "ep.ep.content_group": "checkout",
+        "ep.page_template": "checkout"
+    },
+    "checkout": {
+        "ep.page_type": "checkout",
+        "ep.ep.content_group": "checkout",
+        "ep.page_template": "checkout"
+    },
+    "productAttributes": {
+        "productID": "//*[text()='PRODUCT_ID']//following-sibling::td//following-sibling::td",
+        "pPrice": "//*[text()='PRICE' or text()='PRIS']//following-sibling::td//following-sibling::td",
+        "pName": "//*[text()='Product']//following-sibling::td//following-sibling::td",
+        "pVariant": "//*[text()='PRODUCT_CODE']//following-sibling::td//following-sibling::td",
+        "pSize": "//*[text()='PRODUCT_SIZE']//following-sibling::td//following-sibling::td",
+        "pSkuID": "//*[text()='SKU_ID']//following-sibling::td//following-sibling::td",
+        "isShoppableSku": "//*[text()='isShoppable']//following-sibling::td//following-sibling::td",
+        "isDisplayableSku": "//*[text()='isDisplayable']//following-sibling::td//following-sibling::td"
+    },
+    "pageview": {
+        "en": "page_view"
+    },
+    "loginSucess": {
+        "ea": "login success",
+        "ec": "ecommerce",
+        "el": "sign in",
+        "t": "event"
+    },
+    "samples": {
+        "pa": "checkout"
+    },
+    "returnUser": {
+        "tt": "internal",
+        "ep.feature_action": "checkout option",
+        "ec": "ecommerce",
+        "ep.feature_label": "return checkout",
+        "t": "event"
+    },
+    "newUser": {
+        "tt": "internal",
+        "ep.feature_action": "checkout option",
+        "ec": "ecommerce",
+        "ep.feature_label": "new user checkout",
+        "t": "event"
+    },
+    "guestCheckout": {
+        "ep.feature_action": "checkout option",
+        "ep.feature_name": "ecommerce",
+        "ep.feature_label": "guest checkout",
+        "en": "guest_checkout"
+    },
+    "deliveryType": {
+        "ep.feature_action": "order delivery type - checkout",
+        "ep.feature_name": "ecommerce",
+        "ep.feature_label": "sign in"
+    },
+    "shippingAdress": {
+        "ep.feature_action": "checkout",
+        "ep.feature_name": "ecommerce",
+        "ep.feature_label": "shipping_address_add"
+    },
+    "shipping": {
+        "ep.feature_action": "checkout",
+        "ep.feature_label": "checkout",
+        "en": "checkout",
+        "cos": "2"
+    },
+    "addShippingInfo": {
+        "en": "add_shipping_info",
+        "ep.feature_name": "ecommerce",
+        "ep.feature_label": "add_shipping_info"
+    },
+    "paymentInfo": {
+        "ep.feature_label": "view_payment_info",
+        "ep.feature_name": "ecommerce",
+        "ep.feature_action": "view_payment_info",
+        "en": "view_payment_info",
+        "ep.page_type": "checkout",
+        "ep.content_group": "checkout"
+    },
+    "paymentCC": {
+        "en": "add_payment_info",
+        "ep.feature_action": "add_payment_info",
+        "ep.feature_name": "ecommerce",
+        "ep.feature_label": "creditcard",
+        "ep.payment_type": "creditcard",
+        "ep.page_type": "checkout",
+        "ep.content_group": "checkout"
+    },
+    "beginCheckout": {
+        "ep.feature_action": "begin_checkout",
+        "en": "begin_checkout"
+    },
+    "purchase": {
+        "ep.page_type": "order",
+        "ep.page_template": "checkout",
+        "rc_order_complete": "1",
+        "ep.order_delivery_type": "standard"
+    },
+    "purchase_Pageview": {
+        "ep.page_type": "order",
+        "ep.query_string": "GUEST_TRANS_ID",
+        "ep.page_template": "checkout",
+        "rc_order_complete": "1"
+    },
+    "signin": {
+        "dt": "checkout | signin",
+        "cd39": "checkout | signin",
+        "cd41": "checkout",
+        "cd42": "checkout",
+        "pa": "checkout",
+        "cos": "2"
+    },
+    "rcoCheckout": {
+        "cd39": "rco | checkout",
+        "dt": "rco | checkout",
+        "cd41": "checkout",
+        "cd42": "checkout"
+    },
+    "payment": {
+        "dt": "checkout | payment",
+        "cd39": "checkout | payment",
+        "cd41": "checkout",
+        "cd42": "checkout"
+    },
+    "revenueDetails": {
+        "revenue": "//div[@id='subtotal-row-total' or @id='subtotalrowtotal' or @data-test-id='dp_value_sub_total' or contains(@class,'subtotal value') or contains(@class,'subtotal-value')] | //td[text()='ΜΕΡΙΚΟ ΣΥΝΟΛΟ']/following-sibling::td[@class='price'] | //div[contains(text(),'Zwischensumme')]/following-sibling::div[contains(@class,'price')]",
+        "shipping": "//div[contains(text(),'Delivery') or contains(text(),'Shipping')  or contains(@class,'shipping')]/following-sibling::div[contains(@class,'shipping value')or contains(@class,'value')]|//div[@data-test-id='dp_value_shipping' or contains(@class,'shipping value')] | //td[text()='STANDARD ΑΠΟΣΤΟΛΗ ΕΛΛΑΔΑ']/following-sibling::td[@class='price'] | //div[contains(text(),'Standard')]/following-sibling::div[contains(@class,'price')]  | //section[contains(@class,'order-summary__content')]//following::div[contains(@class,'value')]/following-sibling::div[contains(@class,'value')] | //div[contains(@class, 'summery_row') and (contains(div/font, 'default shipping') or contains(div/font, 'Expected Total'))]//div[contains(@class, 'subtotal value') or contains(@class, 'total value')]/font | //div[contains(text(), '運費：')]/following-sibling::div[contains(@class, 'subtotal value') and not(contains(text(), '-$'))] | //div[contains(@class, 'subtotal') and (contains(text(), '기본 배송비') or contains(text(), '총 합계'))]/following-sibling::div[@class='subtotal value order-summary__subtotal-value' or @class='total value order-summary__total-value'][position()=1 or position()=3] | //table//tr/following::th[contains(text(),'배송비') or contains(text(),'총 합계')]//following-sibling::td//text() | //section[contains(@class,'{{panel.order_summary.display}}')]//div[contains(text(), '運費') or contains(text(),'消費總金額')] //following-sibling::div[contains(@class, 'subtotal value') and not (contains(text(), '-$'))]| //div[@id='status-table']//div[contains(text(), '기본 배송') or contains(text(),'예상 합계:')]/following::div[contains(@class,'value')][position()=1] | //div[contains(text(), '一般寄送方式')]/following-sibling::div[contains(@class, 'subtotal value') and not(contains(text(), '-$'))] | //div[contains(text(), '배송비') or contains (text(),'총 합계')]//following-sibling::div[contains(@class, 'total value') and not (contains(text(), '-₩'))]",
+        "tax": "//div[@data-test-id='dp_value_sales_tax' or contains(@class,'tax value') or contains(@class,'tax-value')] | //div[contains(@class,'tax price')]"
+    },
+    "XPathPurchase": {
+        "OrderConfirmationMsgid1": "//span[@data-test-id='order_id'] | //a[@data-test-id='order_id']",
+        "Placeordervalidation": "checkout/confirm.tmpl",
+        "orderPagePopUpClose1": "//*[contains(@class,'extole-controls extole-controls--close')]"
+    },
+    "viewcartTagging": {
+        "ep.page_template": "checkout",
+        "ep.page_type": "cart",
+        "ep.content_group": "cart"
+    },
+    "prodImpression": {
+        "prodID": "//div[contains(@class,'product-card_product-container')] | //div[contains(@class,'js-product js-access-content js-product-grid-item')] | //div[@tabindex='0']//div[contains(@class,'js-product js-product') or contains(@class,'js-product-brief product-brief') and @data-product-id] | //div[@tabindex='-1' and contains(@class,'slick-slide slick-active') or @class='relative w-full']//div[contains(@class,'elc-product-brief js-product-brief') or contains(@class,'flex justify-center max-w-lg')] | //div[ contains(@id,'phx-F48z2xT71r8Vwfgj')]//div[contains(@class,'flex flex-col justify') and @data-product-productid-value] | //li[@class='discover_more__product']//a[@data-productid] | //div[contains(@class,'slick-active')]//div[(contains(@class,'product-brief js-product-brief') or @tabindex='0') and @data-product-id or @data-productid] | //div[(contains(@class,'elc-product-brief js-product-brief') or contains(@class,'js-product js-pr-product js-product-brief')) and @data-product-id] | //div[contains(@class,'slick-slide') and @data-slick-index>='0' and @data-product-id]|//div[contains(@class,'flex flex-col justify-between') and @data-product-productid-value]"
+    },
+    "misc": {
+        "AnalRegex": "https://www.google-analytics.com/g/collect\\?v=2[^\\s]*",
+        "AnalRegex1": "https://analytics.google.com/g/collect\\?v=2[^\\s]*",
+        "acceptCookie": "//button[@id='onetrust-accept-btn-handler']",
+        "view_cart_overlaySPP": "0",
+        "view_cart_overlayMPP": 0,
+        "ScrollDownvalue": "400",
+        "prodClickMPP": 0,
+        "prodClick": 0,
+        "homePage": 0,
+        "home_pageview": 0,
+        "viewcartcount": 0,
+        "checkoutBasket": 0,
+        "mpp_pageview": 0,
+        "productdetailview": 0,
+        "actualDataTrim": "https://www.google-analytics.com/",
+        "googleAnalytics": "https://www.google-analytics.com/g/collect?",
+        "analyticsGoogle": "https://www.analytics.google.com/g/collect?",
+        "posTen": 10,
+        "SPP": 0,
+        "PLP": 0,
+        "viewcart": 0,
+        "signin": 0,
+        "mppaddToBagCount": 0,
+        "spp_pageview": 0,
+        "view_item_count": 0,
+        "addShippingInfoCount": 0,
+        "view_item_list_Count": 0,
+        "view_cart_overlay": "false",
+        "sppview_cart_overlay_count": 0,
+        "view_item_list_Count_home": 0,
+        "mppview_cart_overlay_count": 0,
+        "sppaddToBag_count": 0,
+        "SPPview_item": 0,
+        "hpViewItemList": 0,
+        "timeoutSetting": "150000",
+        "navTime": "1200000",
+        "viewItemCountMPP": 0,
+        "mppViewItemList": 0,
+        "sppPageViewItemList": 0,
+        "viewcart_pageview": 0,
+        "shipping": 0,
+        "payment": 0,
+        "Payment_pageview": 0,
+        "Shipping_pageview": 0,
+        "Signin_pageview": 0,
+        "purchase_pageview": 0,
+        "Payment_event": 0,
+        "Shipping_event": 0,
+        "emulationDevice": "Galaxy Note 3",
+        "Signin_event": 0,
+        "beginCheckout": 0,
+        "beginCheckoutEvent": 0,
+        "beginCheckoutPage": 0,
+        "login_event": 0,
+        "JSONPath": "helix-app/src/automation/specs/analytics/data/NAGA4.json",
+        "OrderConfirmationMsgid1": 0,
+        "Placeordervalidation": 0,
+        "exact": "exact",
+        "closePopup": "//button[@id='cboxClose']",
+        "partial": "partial"
+    },
+    "msg": {
+        "errMsg": "One or more tags are not fired as expected."
+    },
+    "tagValues": {
+        "home": "home",
+        "pageView": "page_view",
+        "viewItemList": "view_item_list",
+        "action": "ep.feature_action",
+        "addShippingTag": "add_shipping_info",
+        "mpp": "mpp",
+        "selectItem": "select_item",
+        "viewItem": "view_item",
+        "addToCart": "add_to_cart",
+        "pageTemplate": "ep.page_template",
+        "checkoutBaket": "checkout_basket",
+        "spp": "spp",
+        "view": "view",
+        "label": "ep.feature_label",
+        "guestCkOut": "guest_checkout",
+        "beginCkOut": "begin_checkout",
+        "addPayment": "add_payment_info",
+        "viewPayment": "view_payment_info",
+        "purchase": "purchase",
+        "delvieryType": "ep.order_delivery_type",
+        "delvieryStd": "standard",
+        "en": "en",
+        "pageTypeTag": "ep.page_type"
+    },
+    "regionFromLocal": {
+        "NA": [
+            "US",
+            "CA"
+        ],
+        "UK": [
+            "UK"
+        ],
+        "EMEA": [
+            "DE",
+            "FR",
+            "GR",
+            "IL",
+            "ES",
+            "EU",
+            "TR",
+            "IT",
+            "ZA",
+            "CH",
+            "CZ",
+            "DK",
+            "FI",
+            "RU",
+            "RO",
+            "NO",
+            "AT",
+            "NL",
+            "BE",
+            "IN",
+            "SE",
+            "HU",
+            "PL",
+            "ME"
+        ],
+        "LATAM": [
+            "BR",
+            "MX",
+            "CE"
+        ],
+        "APAC": [
+            "AU",
+            "JP",
+            "TW",
+            "CN",
+            "KR",
+            "SG",
+            "PH",
+            "HK",
+            "MY",
+            "NZ",
+            "TH"
+        ]
+    }
+}]

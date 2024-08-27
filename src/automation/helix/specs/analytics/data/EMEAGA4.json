@@ -1,0 +1,4731 @@
+[
+    {
+        "brand": "AV-DE",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-GJWSSFFE9Y",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "aveda_de",
+                    "ep.brand_locale": "de",
+                    "ep.brand": "aveda",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU33536",
+                    "sku2": "SKU50785",
+                    "sku3": "SKU105590",
+                    "sku4": "SKU118385",
+                    "sku5": "SKU133118"
+                },
+                "productdetail": {
+                    "pr1": "idPROD77161"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16543",
+                        "pPrice": "18",
+                        "pVariant": "AF4M01",
+                        "psize": "4.25g",
+                        "pSkuID": "SKU50785"
+                    },
+                    {
+                        "productID": "idPROD67577",
+                        "pPrice": "35.5",
+                        "pVariant": "AT2R01",
+                        "psize": "200 ml",
+                        "pSkuID": "SKU105590"
+                    },
+                    {
+                        "productID": "idPROD77161",
+                        "pPrice": "65.5",
+                        "pVariant": "AXG601",
+                        "psize": "50 ml",
+                        "pSkuID": "SKU118385"
+                    },
+                    {
+                        "productID": "idPROD77161",
+                        "pPrice": "65.5",
+                        "pVariant": "AXG601",
+                        "psize": "50 ml",
+                        "pSkuID": "SKU118385"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD17178",
+                    "pr2": "idPROD16410",
+                    "pr3": "idPROD17164"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "AV-EU",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-GYBWQE75JW",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "aveda_eu",
+                    "ep.brand_locale": "eu",
+                    "ep.brand": "aveda",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU175913",
+                    "sku2": "SKU175913",
+                    "sku3": "SKU175913",
+                    "sku4": "SKU175913",
+                    "sku5": "SKU175913"
+                },
+                "productdetail": {
+                    "pr1": "idPROD77161"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16543",
+                        "pPrice": "18",
+                        "pVariant": "AF4M01",
+                        "psize": "4.25g",
+                        "pSkuID": "SKU50785"
+                    },
+                    {
+                        "productID": "idPROD67577",
+                        "pPrice": "35.5",
+                        "pVariant": "AT2R01",
+                        "psize": "200 ml",
+                        "pSkuID": "SKU105590"
+                    },
+                    {
+                        "productID": "idPROD77161",
+                        "pPrice": "65.5",
+                        "pVariant": "AXG601",
+                        "psize": "50 ml",
+                        "pSkuID": "SKU118385"
+                    },
+                    {
+                        "productID": "idPROD77161",
+                        "pPrice": "65.5",
+                        "pVariant": "AXG601",
+                        "psize": "50 ml",
+                        "pSkuID": "SKU118385"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD17178",
+                    "pr2": "idPROD16410",
+                    "pr3": "idPROD17164"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "AV-FR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-GYBWQE75JW",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "aveda_fr",
+                    "ep.brand_locale": "fr",
+                    "ep.brand": "aveda",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU33536",
+                    "sku2": "SKU50785",
+                    "sku3": "SKU105590",
+                    "sku4": "SKU118385",
+                    "sku5": "SKU133118"
+                },
+                "productdetail": {
+                    "pr1": "idPROD77161"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "BB-DE",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-QYH4DJ3LD4",
+                    "ul": "en-us",
+                    "cd3": "de",
+                    "ep.brand_id": "bobbibrown_de",
+                    "ep.brand_locale": "de",
+                    "ep.brand": "bobbibrown",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU88561",
+                    "sku2": "SKU120844",
+                    "sku3": "SKU140110",
+                    "sku4": "SKU140108",
+                    "sku5": "SKU140109"
+                },
+                "productdetail": {
+                    "pr1": "idPROD2061"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD55680",
+                        "pPrice": "57",
+                        "pVariant": "EGXR17",
+                        "psize": "30 ml",
+                        "pSkuID": "SKU88561"
+                    },
+                    {
+                        "productID": "idPROD7485",
+                        "pPrice": "25",
+                        "pVariant": "EPGN01",
+                        "psize": "15ml",
+                        "pSkuID": "SKU120844"
+                    },
+                    {
+                        "productID": "idPROD93885",
+                        "pPrice": "135",
+                        "pVariant": "EREP01",
+                        "psize": "50 ml",
+                        "pSkuID": "SKU140110"
+                    },
+                    {
+                        "productID": "idPROD93883",
+                        "pPrice": "98",
+                        "pVariant": "EP7P01",
+                        "psize": "15 ml",
+                        "pSkuID": "SKU140108"
+                    },
+                    {
+                        "productID": "idPROD93883",
+                        "pPrice": "98",
+                        "pVariant": "EP7P01",
+                        "psize": "15 ml",
+                        "pSkuID": "SKU140108"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "BB-ES",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-BJN6PW24FP",
+                    "ul": "en-us",
+                    "cd3": "de",
+                    "ep.brand_id": "bobbibrown_es",
+                    "ep.brand_locale": "es",
+                    "ep.brand": "bobbibrown",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "es"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU140112",
+                    "sku2": "SKU176717",
+                    "sku3": "SKU176717",
+                    "sku4": "SKU176717",
+                    "sku5": "SKU176717"
+                },
+                "productdetail": {
+                    "pr1": "idPROD2061"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD93887",
+                        "pPrice": "67",
+                        "pVariant": "ERAN01",
+                        "psize": "100 ml",
+                        "pSkuID": "SKU140112"
+                    },
+                    {
+                        "productID": "idPROD121032",
+                        "pPrice": "100",
+                        "pVariant": "HYMEY3",
+                        "psize": "",
+                        "pSkuID": "SKU176717"
+                    },
+                    {
+                        "productID": "idPROD121032",
+                        "pPrice": "100",
+                        "pVariant": "HYMEY3",
+                        "psize": "",
+                        "pSkuID": "SKU176717"
+                    },
+                    {
+                        "productID": "idPROD121032",
+                        "pPrice": "100",
+                        "pVariant": "HYMEY3",
+                        "psize": "",
+                        "pSkuID": "SKU176717"
+                    },
+                    {
+                        "productID": "idPROD121032",
+                        "pPrice": "100",
+                        "pVariant": "HYMEY3",
+                        "psize": "",
+                        "pSkuID": "SKU176717"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "BB-FR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-F0QQZV6J2L",
+                    "ul": "en-us",
+                    "cd3": "de",
+                    "ep.brand_id": "bobbibrown_fr",
+                    "ep.brand_locale": "fr",
+                    "ep.brand": "bobbibrown",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "fr"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU88561",
+                    "sku2": "SKU176726",
+                    "sku3": "SKU176726",
+                    "sku4": "SKU176726",
+                    "sku5": "SKU176726"
+                },
+                "productdetail": {
+                    "pr1": "idPROD2061"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "BB-GR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-TBKBSKXZH6",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "bobbibrown_gr",
+                    "ep.brand_locale": "gr",
+                    "ep.brand": "bobbibrown",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU17621",
+                    "sku2": "SKU120844",
+                    "sku3": "SKU164120",
+                    "sku4": "SKU140108",
+                    "sku5": "SKU140109"
+                },
+                "productdetail": {
+                    "pr1": "idPROD77161"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "BB-IL",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "ILS",
+                    "tid": "G-CC9Z0JZEF5",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "bobbibrown_il",
+                    "ep.brand_locale": "il",
+                    "ep.brand": "bobbibrown",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "he"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU138935",
+                    "sku2": "SKU164120",
+                    "sku3": "SKU139765",
+                    "sku4": "SKU139765",
+                    "sku5": "SKU139765"
+                },
+                "productdetail": {
+                    "pr1": "idPROD77161"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "BB-TR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "TRY",
+                    "tid": "G-0Y0V7QFDG6",
+                    "ul": "en-us",
+                    "cd3": "tr",
+                    "ep.brand_id": "bobbibrown_tr",
+                    "ep.brand_locale": "tr",
+                    "ep.brand": "bobbibrown",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "tr"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU140109",
+                    "sku2": "SKU177449",
+                    "sku3": "SKU177449",
+                    "sku4": "SKU177449",
+                    "sku5": "SKU177449"
+                },
+                "productdetail": {
+                    "pr1": "idPROD77161"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "BB-ZA",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "ZAR",
+                    "tid": "G-BBWQWK8XM8",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "bobbibrown_za",
+                    "ep.brand_locale": "za",
+                    "ep.brand": "bobbibrown",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU87164",
+                    "sku2": "SKU176704",
+                    "sku3": "SKU176704",
+                    "sku4": "SKU176704",
+                    "sku5": "SKU176704"
+                },
+                "productdetail": {
+                    "pr1": "idPROD77161"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD53791",
+                        "pPrice": "840",
+                        "pVariant": "EJ0R01",
+                        "psize": "1.8g",
+                        "pSkuID": "SKU87164"
+                    },
+                    {
+                        "productID": "idPROD121025",
+                        "pPrice": "1500",
+                        "pVariant": "BBCEY3",
+                        "psize": "",
+                        "pSkuID": "SKU176704"
+                    },
+                    {
+                        "productID": "idPROD121025",
+                        "pPrice": "1500",
+                        "pVariant": "BBCEY3",
+                        "psize": "",
+                        "pSkuID": "SKU176704"
+                    },
+                    {
+                        "productID": "idPROD121025",
+                        "pPrice": "1500",
+                        "pVariant": "BBCEY3",
+                        "psize": "",
+                        "pSkuID": "SKU176704"
+                    },
+                    {
+                        "productID": "idPROD121025",
+                        "pPrice": "1500",
+                        "pVariant": "BBCEY3",
+                        "psize": "",
+                        "pSkuID": "SKU176704"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD7637",
+                    "pr2": "idnull"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "BK-FR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-TEHNGW44QK",
+                    "ul": "en-us",
+                    "cd3": "de",
+                    "ep.brand_id": "kilian_fr",
+                    "ep.brand_locale": "fr",
+                    "ep.brand": "kilian",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "fr"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU114715",
+                    "sku2": "SKU158729",
+                    "sku3": "SKU158729",
+                    "sku4": "SKU158729",
+                    "sku5": "SKU158729"
+                },
+                "productdetail": {
+                    "pr1": "idPROD2061"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "CL-DE",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-FX92KM0ME0",
+                    "ul": "en-us",
+                    "ep.brand_id": "clinique_de",
+                    "ep.brand_locale": "de",
+                    "ep.brand": "clinique",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU13489",
+                    "sku2": "SKU13289",
+                    "sku3": "SKU11915",
+                    "sku4": "SKU31797",
+                    "sku5": "SKU46492"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD8279",
+                        "pPrice": "27",
+                        "pVariant": "6G0R01",
+                        "psize": "200 ml - Sehr trockene Haut",
+                        "pSkuID": "SKU13489"
+                    },
+                    {
+                        "productID": "idPROD8279",
+                        "pPrice": "27",
+                        "pVariant": "6F3901",
+                        "psize": "200 ml - Ölige bis Mischhaut",
+                        "pSkuID": "SKU13289"
+                    },
+                    {
+                        "productID": "idPROD4772",
+                        "pPrice": "28",
+                        "pVariant": "635906",
+                        "psize": "1.9 g",
+                        "pSkuID": "SKU11915"
+                    },
+                    {
+                        "productID": "idPROD15601",
+                        "pPrice": "56",
+                        "pVariant": "6LF601",
+                        "psize": "30 ml",
+                        "pSkuID": "SKU31797"
+                    },
+                    {
+                        "productID": "idPROD15601",
+                        "pPrice": "56",
+                        "pVariant": "6LF601",
+                        "psize": "30 ml",
+                        "pSkuID": "SKU31797"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD15502",
+                    "pr2": "idPROD26651",
+                    "pr3": "idPROD5047",
+                    "pr4": "idPROD15502"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "CL-ES",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-SNLM4XPPLY",
+                    "ul": "en-us",
+                    "ep.brand_id": "clinique_es",
+                    "ep.brand_locale": "es",
+                    "ep.brand": "clinique",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "es"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU15724",
+                    "sku2": "SKU49584",
+                    "sku3": "SKU49584",
+                    "sku4": "SKU49584",
+                    "sku5": "SKU49584"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "CL-FI",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-4ZR94JYGN1",
+                    "ul": "en-us",
+                    "ep.brand_id": "clinique_fi",
+                    "ep.brand_locale": "fi",
+                    "ep.brand": "clinique",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "fi"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU150244",
+                    "sku2": "SKU49584",
+                    "sku3": "SKU49584",
+                    "sku4": "SKU49584",
+                    "sku5": "SKU49584"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD26651",
+                        "pPrice": "55",
+                        "pVariant": "7T5R01",
+                        "psize": "125 ml",
+                        "pSkuID": "SKU49584"
+                    },
+                    {
+                        "productID": "idPROD26651",
+                        "pPrice": "55",
+                        "pVariant": "7T5R01",
+                        "psize": "125 ml",
+                        "pSkuID": "SKU49584"
+                    },
+                    {
+                        "productID": "idPROD26651",
+                        "pPrice": "55",
+                        "pVariant": "7T5R01",
+                        "psize": "125 ml",
+                        "pSkuID": "SKU49584"
+                    },
+                    {
+                        "productID": "idPROD26651",
+                        "pPrice": "55",
+                        "pVariant": "7T5R01",
+                        "psize": "125 ml",
+                        "pSkuID": "SKU49584"
+                    },
+                    {
+                        "productID": "idPROD26651",
+                        "pPrice": "55",
+                        "pVariant": "7T5R01",
+                        "psize": "125 ml",
+                        "pSkuID": "SKU49584"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "ingenico",
+                    "tr": 1525,
+                    "tt": "1525",
+                    "ts": "395"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "id4976",
+                    "pr2": "id5375",
+                    "pr3": "id29793"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "CL-FR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-N2SC8QLFSZ",
+                    "ul": "en-us",
+                    "ep.brand_id": "clinique_fr",
+                    "ep.brand_locale": "fr",
+                    "ep.brand": "clinique",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "fr"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU13037",
+                    "sku2": "SKU49584",
+                    "sku3": "SKU49584",
+                    "sku4": "SKU49584",
+                    "sku5": "SKU49584"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "CL-GR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-3WEJP81V6R",
+                    "ul": "en-us",
+                    "ep.brand_id": "clinique_gr",
+                    "ep.brand_locale": "gr",
+                    "ep.brand": "clinique",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU31723",
+                    "sku2": "SKU130760",
+                    "sku3": "SKU130765",
+                    "sku4": "SKU128591",
+                    "sku5": "SKU126685"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD15504",
+                        "pPrice": "24.19354839",
+                        "pVariant": "76X601",
+                        "psize": "200ml Πολύ Λιπαρή",
+                        "pSkuID": "SKU31723"
+                    },
+                    {
+                        "productID": "idPROD86691",
+                        "pPrice": "25",
+                        "pVariant": "KTJM01",
+                        "psize": "",
+                        "pSkuID": "SKU130760"
+                    },
+                    {
+                        "productID": "idPROD86691",
+                        "pPrice": "25",
+                        "pVariant": "KTJM05",
+                        "psize": "",
+                        "pSkuID": "SKU130765"
+                    },
+                    {
+                        "productID": "idPROD86691",
+                        "pPrice": "25",
+                        "pVariant": "KTJM02",
+                        "psize": "",
+                        "pSkuID": "SKU130761"
+                    },
+                    {
+                        "productID": "idPROD86691",
+                        "pPrice": "25",
+                        "pVariant": "KTJM02",
+                        "psize": "",
+                        "pSkuID": "SKU130761"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "id8279",
+                    "pr2": "id5047"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "CL-IL",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "ILS",
+                    "tid": "G-LNP5PWWGSY",
+                    "ul": "en-us",
+                    "ep.brand_id": "clinique_il",
+                    "ep.brand_locale": "il",
+                    "ep.brand": "clinique",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "he"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU13037",
+                    "sku2": "SKU49584",
+                    "sku3": "SKU49584",
+                    "sku4": "SKU49584",
+                    "sku5": "SKU49584"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "CL-SE",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "SEK",
+                    "tid": "G-M2X51TLLZ2",
+                    "ul": "en-us",
+                    "ep.brand_id": "clinique_se",
+                    "ep.brand_locale": "se",
+                    "ep.brand": "clinique",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "sv"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU133384",
+                    "sku2": "SKU13489",
+                    "sku3": "SKU13489",
+                    "sku4": "SKU13489",
+                    "sku5": "SKU13489"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD8279",
+                        "pPrice": "270",
+                        "pVariant": "6G0R01",
+                        "psize": "200ml Extra Mild",
+                        "pSkuID": "SKU13489"
+                    },
+                    {
+                        "productID": "idPROD8279",
+                        "pPrice": "270",
+                        "pVariant": "6G0R01",
+                        "psize": "200ml Extra Mild",
+                        "pSkuID": "SKU13489"
+                    },
+                    {
+                        "productID": "idPROD8279",
+                        "pPrice": "270",
+                        "pVariant": "6G0R01",
+                        "psize": "200ml Extra Mild",
+                        "pSkuID": "SKU13489"
+                    },
+                    {
+                        "productID": "idPROD8279",
+                        "pPrice": "270",
+                        "pVariant": "6G0R01",
+                        "psize": "200ml Extra Mild",
+                        "pSkuID": "SKU13489"
+                    },
+                    {
+                        "productID": "idPROD8279",
+                        "pPrice": "270",
+                        "pVariant": "6G0R01",
+                        "psize": "200ml Extra Mild",
+                        "pSkuID": "SKU13489"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "id5416",
+                    "pr2": "id5276",
+                    "pr3": "idnull",
+                    "pr4": "idnull"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "CL-TR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "TRY",
+                    "tid": "G-2CRVZFC11H",
+                    "ul": "en-us",
+                    "ep.brand_id": "clinique_tr",
+                    "ep.brand_locale": "tr",
+                    "ep.brand": "clinique",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "tr"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU126682",
+                    "sku2": "SKU12573",
+                    "sku3": "SKU49589",
+                    "sku4": "SKU49589",
+                    "sku5": "SKU49589"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "CL-ZA",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "ZAR",
+                    "tid": "G-Y7185DS81H",
+                    "ul": "en-us",
+                    "ep.brand_id": "clinique_za",
+                    "ep.brand_locale": "za",
+                    "ep.brand": "clinique",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU12414",
+                    "sku2": "SKU49584",
+                    "sku3": "SKU49584",
+                    "sku4": "SKU49584",
+                    "sku5": "SKU49584"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD5003",
+                        "pPrice": "575",
+                        "pVariant": "667H01",
+                        "psize": "100ml",
+                        "pSkuID": "SKU12414"
+                    },
+                    {
+                        "productID": "idPROD26651",
+                        "pPrice": "760",
+                        "pVariant": "7T5R01",
+                        "psize": "125ml",
+                        "pSkuID": "SKU49584"
+                    },
+                    {
+                        "productID": "idPROD26651",
+                        "pPrice": "760",
+                        "pVariant": "7T5R01",
+                        "psize": "125ml",
+                        "pSkuID": "SKU49584"
+                    },
+                    {
+                        "productID": "idPROD26651",
+                        "pPrice": "760",
+                        "pVariant": "7T5R01",
+                        "psize": "125ml",
+                        "pSkuID": "SKU49584"
+                    },
+                    {
+                        "productID": "idPROD26651",
+                        "pPrice": "760",
+                        "pVariant": "7T5R01",
+                        "psize": "125ml",
+                        "pSkuID": "SKU49584"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD5380",
+                    "pr2": "idPROD6424",
+                    "pr3": "idPROD5003"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "DA-FR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-7E22J3J2LG",
+                    "ul": "en-us",
+                    "ep.brand_id": "darphin_fr",
+                    "ep.brand_locale": "fr",
+                    "ep.brand": "darphin",
+                    "ep.platform": "modernized",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU41327",
+                    "sku2": "SKU151029",
+                    "sku3": "SKU130267",
+                    "sku4": "SKU161838",
+                    "sku5": "SKU151029"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD21522",
+                        "pPrice": "52",
+                        "pVariant": "D0CM01",
+                        "psize": "50 ml",
+                        "pSkuID": "SKU41327"
+                    },
+                    {
+                        "productID": "idPROD105465",
+                        "pPrice": "41",
+                        "pVariant": "DCKJ01",
+                        "psize": "15ml",
+                        "pSkuID": "SKU151029"
+                    },
+                    {
+                        "productID": "idPROD86353",
+                        "pPrice": "78",
+                        "pVariant": "DAWW01",
+                        "psize": "100ml",
+                        "pSkuID": "SKU130267"
+                    },
+                    {
+                        "productID": "idPROD21522",
+                        "pPrice": "35",
+                        "pVariant": "DE3P01",
+                        "psize": "30ml",
+                        "pSkuID": "SKU161838"
+                    },
+                    {
+                        "productID": "idPROD21522",
+                        "pPrice": "35",
+                        "pVariant": "DE3P01",
+                        "psize": "30ml",
+                        "pSkuID": "SKU161838"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "DA-IT",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-PXG2E0DK7L",
+                    "ul": "en-us",
+                    "ep.brand_id": "darphin_it",
+                    "ep.brand_locale": "it",
+                    "ep.brand": "darphin",
+                    "ep.platform": "modernized",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "it"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU96509",
+                    "sku2": "SKU139254",
+                    "sku3": "SKU176840",
+                    "sku4": "SKU176840",
+                    "sku5": "SKU176840"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD60685",
+                        "pPrice": "62",
+                        "pVariant": "D9AT01",
+                        "psize": "15 ml",
+                        "pSkuID": "SKU96509"
+                    },
+                    {
+                        "productID": "idPROD121115",
+                        "pPrice": "92",
+                        "pVariant": "DEHTY3",
+                        "psize": "",
+                        "pSkuID": "SKU176840"
+                    },
+                    {
+                        "productID": "idPROD121115",
+                        "pPrice": "92",
+                        "pVariant": "DEHTY3",
+                        "psize": "",
+                        "pSkuID": "SKU176840"
+                    },
+                    {
+                        "productID": "idPROD121115",
+                        "pPrice": "92",
+                        "pVariant": "DEHTY3",
+                        "psize": "",
+                        "pSkuID": "SKU176840"
+                    },
+                    {
+                        "productID": "idPROD121115",
+                        "pPrice": "92",
+                        "pVariant": "DEHTY3",
+                        "psize": "",
+                        "pSkuID": "SKU176840"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "EL-BE",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-L47NB4876G",
+                    "ul": "en",
+                    "cd3": "en",
+                    "ep.brand_id": "lauder_be",
+                    "ep.brand_locale": "be",
+                    "ep.brand": "lauder",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "nl"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU144353",
+                    "sku2": "SKU133804",
+                    "sku3": "SKU128777",
+                    "sku4": "SKU170099",
+                    "sku5": "SKU170099"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD116695",
+                        "pPrice": "126",
+                        "pVariant": "G7W201",
+                        "psize": "50ml",
+                        "pSkuID": "SKU170099"
+                    },
+                    {
+                        "productID": "idPROD116695",
+                        "pPrice": "126",
+                        "pVariant": "G7W201",
+                        "psize": "50ml",
+                        "pSkuID": "SKU170099"
+                    },
+                    {
+                        "productID": "idPROD116695",
+                        "pPrice": "126",
+                        "pVariant": "G7W201",
+                        "psize": "50ml",
+                        "pSkuID": "SKU170099"
+                    },
+                    {
+                        "productID": "idPROD116695",
+                        "pPrice": "126",
+                        "pVariant": "G7W201",
+                        "psize": "50ml",
+                        "pSkuID": "SKU170099"
+                    },
+                    {
+                        "productID": "idPROD116695",
+                        "pPrice": "126",
+                        "pVariant": "G7W201",
+                        "psize": "50ml",
+                        "pSkuID": "SKU170099"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "EL-DE",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-80DPWV0BEE",
+                    "ul": "en",
+                    "cd3": "en",
+                    "ep.brand_id": "lauder_de",
+                    "ep.brand_locale": "de",
+                    "ep.brand": "lauder",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU114795",
+                    "sku2": "SKU118340",
+                    "sku3": "SKU66141",
+                    "sku4": "SKU66141",
+                    "sku5": "SKU66141"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD77491",
+                        "pPrice": "135",
+                        "pVariant": "PG5001",
+                        "psize": "50 ml",
+                        "pSkuID": "SKU114795"
+                    },
+                    {
+                        "productID": "idPROD37764",
+                        "pPrice": "20",
+                        "pVariant": "R8R501",
+                        "psize": "15 ml",
+                        "pSkuID": "SKU66141"
+                    },
+                    {
+                        "productID": "idPROD37764",
+                        "pPrice": "20",
+                        "pVariant": "R8R501",
+                        "psize": "15 ml",
+                        "pSkuID": "SKU66141"
+                    },
+                    {
+                        "productID": "idPROD37764",
+                        "pPrice": "20",
+                        "pVariant": "R8R501",
+                        "psize": "15 ml",
+                        "pSkuID": "SKU66141"
+                    },
+                    {
+                        "productID": "idPROD37764",
+                        "pPrice": "20",
+                        "pVariant": "R8R501",
+                        "psize": "15 ml",
+                        "pSkuID": "SKU66141"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD71600",
+                    "pr2": "idPROD77491"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "EL-DK",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-5BJ1THENP0",
+                    "ul": "en",
+                    "cd3": "da",
+                    "ep.brand_id": "lauder_dk",
+                    "ep.brand_locale": "dk",
+                    "ep.brand": "lauder",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "da"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU79304",
+                    "sku2": "SKU162559",
+                    "sku3": "SKU162559",
+                    "sku4": "SKU162559",
+                    "sku5": "SKU162559"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD110713",
+                        "pPrice": "695",
+                        "pVariant": "GYYK01",
+                        "psize": "20 ml",
+                        "pSkuID": "SKU162559"
+                    },
+                    {
+                        "productID": "idPROD110713",
+                        "pPrice": "695",
+                        "pVariant": "GYYK01",
+                        "psize": "20 ml",
+                        "pSkuID": "SKU162559"
+                    },
+                    {
+                        "productID": "idPROD110713",
+                        "pPrice": "695",
+                        "pVariant": "GYYK01",
+                        "psize": "20 ml",
+                        "pSkuID": "SKU162559"
+                    },
+                    {
+                        "productID": "idPROD110713",
+                        "pPrice": "695",
+                        "pVariant": "GYYK01",
+                        "psize": "20 ml",
+                        "pSkuID": "SKU162559"
+                    },
+                    {
+                        "productID": "idPROD110713",
+                        "pPrice": "695",
+                        "pVariant": "GYYK01",
+                        "psize": "20 ml",
+                        "pSkuID": "SKU162559"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "EL-ES",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-B4TXEK1V20",
+                    "ul": "en-us",
+                    "cd3": "es",
+                    "ep.brand_id": "lauder_es",
+                    "ep.brand_locale": "es",
+                    "ep.brand": "lauder",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "es"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU121015",
+                    "sku2": "SKU162560",
+                    "sku3": "SKU162560",
+                    "sku4": "SKU162560",
+                    "sku5": "SKU162560"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "EL-FR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-QLHLCSY0NJ",
+                    "ul": "en-us",
+                    "cd3": "fr",
+                    "ep.brand_id": "lauder_fr",
+                    "ep.brand_locale": "fr",
+                    "ep.brand": "lauder",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "fr"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU97231",
+                    "sku2": "SKU94535",
+                    "sku3": "SKU177394",
+                    "sku4": "SKU177394",
+                    "sku5": "SKU177394"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "EL-GR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-Y4SF3T9M2N",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "lauder_gr",
+                    "ep.brand_locale": "gr",
+                    "ep.brand": "lauder",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU95587",
+                    "sku2": "SKU170725",
+                    "sku3": "SKU147543",
+                    "sku4": "SKU155140",
+                    "sku5": "SKU48288"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD117056",
+                        "pPrice": "37.90322581",
+                        "pVariant": "PY0901",
+                        "psize": "8ml",
+                        "pSkuID": "SKU170725"
+                    },
+                    {
+                        "productID": "idPROD25959",
+                        "pPrice": "29.83870968",
+                        "pVariant": "YCF401",
+                        "psize": "150ml",
+                        "pSkuID": "SKU48603"
+                    },
+                    {
+                        "productID": "idPROD25952",
+                        "pPrice": "34.67741935",
+                        "pVariant": "YCE801",
+                        "psize": "150ml",
+                        "pSkuID": "SKU48595"
+                    },
+                    {
+                        "productID": "idPROD105372",
+                        "pPrice": "295",
+                        "pVariant": "GW6G01",
+                        "psize": "",
+                        "pSkuID": "SKU155140"
+                    },
+                    {
+                        "productID": "idPROD105372",
+                        "pPrice": "295",
+                        "pVariant": "GW6G01",
+                        "psize": "",
+                        "pSkuID": "SKU155140"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "id117056",
+                    "pr2": "id117058",
+                    "pr3": "id9518",
+                    "pr4": "id68489"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "EL-IL",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "ILS",
+                    "tid": "G-V3Z8BX0H7W",
+                    "ul": "en-us",
+                    "cd3": "he",
+                    "ep.brand_id": "lauder_il",
+                    "ep.brand_locale": "il",
+                    "ep.brand": "lauder",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "he"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU114795",
+                    "sku2": "SKU114795",
+                    "sku3": "SKU114795",
+                    "sku4": "SKU114795",
+                    "sku5": "SKU114795"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "EL-TR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "TRY",
+                    "tid": "G-S4CFE0238W",
+                    "ul": "en-us",
+                    "cd3": "tr",
+                    "ep.brand_id": "lauder_tr",
+                    "ep.brand_locale": "tr",
+                    "ep.brand": "lauder",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "tr"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU144351",
+                    "sku2": "SKU153498",
+                    "sku3": "SKU153498",
+                    "sku4": "SKU153498",
+                    "sku5": "SKU153498"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "EL-ZA",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "ZAR",
+                    "tid": "G-76B25Y0H79",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "lauder_za",
+                    "ep.brand_locale": "za",
+                    "ep.brand": "lauder",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU144168",
+                    "sku2": "SKU170990",
+                    "sku3": "SKU170990",
+                    "sku4": "SKU170990",
+                    "sku5": "SKU170990"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD117221",
+                        "pPrice": "1280",
+                        "pVariant": "G40801",
+                        "psize": "",
+                        "pSkuID": "SKU170990"
+                    },
+                    {
+                        "productID": "idPROD117221",
+                        "pPrice": "1280",
+                        "pVariant": "G40801",
+                        "psize": "",
+                        "pSkuID": "SKU170990"
+                    },
+                    {
+                        "productID": "idPROD117221",
+                        "pPrice": "1280",
+                        "pVariant": "G40801",
+                        "psize": "",
+                        "pSkuID": "SKU170990"
+                    },
+                    {
+                        "productID": "idPROD117221",
+                        "pPrice": "1280",
+                        "pVariant": "G40801",
+                        "psize": "",
+                        "pSkuID": "SKU170990"
+                    },
+                    {
+                        "productID": "idPROD117221",
+                        "pPrice": "1280",
+                        "pVariant": "G40801",
+                        "psize": "",
+                        "pSkuID": "SKU170990"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 56000,
+                    "tt": "56000",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idnull",
+                    "pr2": "idnull"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "JM-EU",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-V41D1REDYK",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "jomalone_eu",
+                    "ep.brand_locale": "eu",
+                    "ep.brand": "jomalone",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU172301",
+                    "sku2": "SKU172301",
+                    "sku3": "SKU172301",
+                    "sku4": "SKU172301",
+                    "sku5": "SKU172301"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD107872",
+                        "pPrice": "62",
+                        "pVariant": "LHWN01",
+                        "psize": "200g",
+                        "pSkuID": "SKU172335"
+                    },
+                    {
+                        "productID": "idPROD107872",
+                        "pPrice": "62",
+                        "pVariant": "LHWN01",
+                        "psize": "200g",
+                        "pSkuID": "SKU172335"
+                    },
+                    {
+                        "productID": "idPROD107872",
+                        "pPrice": "62",
+                        "pVariant": "LHWN01",
+                        "psize": "200g",
+                        "pSkuID": "SKU172335"
+                    },
+                    {
+                        "productID": "idPROD107872",
+                        "pPrice": "62",
+                        "pVariant": "LHWN01",
+                        "psize": "200g",
+                        "pSkuID": "SKU172335"
+                    },
+                    {
+                        "productID": "idPROD107872",
+                        "pPrice": "62",
+                        "pVariant": "LHWN01",
+                        "psize": "200g",
+                        "pSkuID": "SKU172335"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "JM-FR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-4V2PYXK4PC",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "jomalone_fr",
+                    "ep.brand_locale": "fr",
+                    "ep.brand": "jomalone",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU21485",
+                    "sku2": "SKU162568",
+                    "sku3": "SKU172335",
+                    "sku4": "SKU172335",
+                    "sku5": "SKU172335"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD10101",
+                        "pPrice": "138",
+                        "pVariant": "L00401",
+                        "psize": "100ml",
+                        "pSkuID": "SKU21485"
+                    },
+                    {
+                        "productID": "idPROD107872",
+                        "pPrice": "62",
+                        "pVariant": "LHWN01",
+                        "psize": "200g",
+                        "pSkuID": "SKU172335"
+                    },
+                    {
+                        "productID": "idPROD107872",
+                        "pPrice": "62",
+                        "pVariant": "LHWN01",
+                        "psize": "200g",
+                        "pSkuID": "SKU172335"
+                    },
+                    {
+                        "productID": "idPROD107872",
+                        "pPrice": "62",
+                        "pVariant": "LHWN01",
+                        "psize": "200g",
+                        "pSkuID": "SKU172335"
+                    },
+                    {
+                        "productID": "idPROD107872",
+                        "pPrice": "62",
+                        "pVariant": "LHWN01",
+                        "psize": "200g",
+                        "pSkuID": "SKU172335"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "JM-ME",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-7E04GBWP4W",
+                    "ul": "en-us",
+                    "cd3": "ar",
+                    "ep.brand_id": "jomalone_sa",
+                    "ep.brand_locale": "sa",
+                    "ep.brand": "jomalone",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "ar"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU172301",
+                    "sku2": "SKU172301",
+                    "sku3": "SKU172301",
+                    "sku4": "SKU172301",
+                    "sku5": "SKU172301"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD107872",
+                        "pPrice": "62",
+                        "pVariant": "LHWN01",
+                        "psize": "200g",
+                        "pSkuID": "SKU172335"
+                    },
+                    {
+                        "productID": "idPROD107872",
+                        "pPrice": "62",
+                        "pVariant": "LHWN01",
+                        "psize": "200g",
+                        "pSkuID": "SKU172335"
+                    },
+                    {
+                        "productID": "idPROD107872",
+                        "pPrice": "62",
+                        "pVariant": "LHWN01",
+                        "psize": "200g",
+                        "pSkuID": "SKU172335"
+                    },
+                    {
+                        "productID": "idPROD107872",
+                        "pPrice": "62",
+                        "pVariant": "LHWN01",
+                        "psize": "200g",
+                        "pSkuID": "SKU172335"
+                    },
+                    {
+                        "productID": "idPROD107872",
+                        "pPrice": "62",
+                        "pVariant": "LHWN01",
+                        "psize": "200g",
+                        "pSkuID": "SKU172335"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "LM-DE",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-L0YV93CHN4",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "lamer_de",
+                    "ep.brand_locale": "de",
+                    "ep.brand": "lamer",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU115246",
+                    "sku2": "SKU105462",
+                    "sku3": "SKU147755",
+                    "sku4": "SKU147755",
+                    "sku5": "SKU147755"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "LM-GR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-JMH6ZKGXB4",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "lamer_gr",
+                    "ep.brand_locale": "gr",
+                    "ep.brand": "lamer",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU147755",
+                    "sku2": "SKU147755",
+                    "sku3": "SKU147755",
+                    "sku4": "SKU147755",
+                    "sku5": "SKU147755"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-AT",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-DQPQSX0R5N",
+                    "ul": "en-us",
+                    "cd3": "de",
+                    "ep.brand_id": "mac_at",
+                    "ep.brand_locale": "at",
+                    "ep.brand": "mac",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "de"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU116574",
+                    "sku2": "SKU114558",
+                    "sku3": "SKU75885",
+                    "sku4": "SKU3830",
+                    "sku5": "SKU3830"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD75924",
+                        "pPrice": "19",
+                        "pVariant": "SK3801",
+                        "psize": "1.5 g",
+                        "pSkuID": "SKU116574"
+                    },
+                    {
+                        "productID": "idPROD968",
+                        "pPrice": "28",
+                        "pVariant": "M4XA01",
+                        "psize": "1.7 g",
+                        "pSkuID": "SKU3830"
+                    },
+                    {
+                        "productID": "idPROD968",
+                        "pPrice": "28",
+                        "pVariant": "M4XA01",
+                        "psize": "1.7 g",
+                        "pSkuID": "SKU3830"
+                    },
+                    {
+                        "productID": "idPROD968",
+                        "pPrice": "28",
+                        "pVariant": "M4XA01",
+                        "psize": "1.7 g",
+                        "pSkuID": "SKU3830"
+                    },
+                    {
+                        "productID": "idPROD968",
+                        "pPrice": "28",
+                        "pVariant": "M4XA01",
+                        "psize": "1.7 g",
+                        "pSkuID": "SKU3830"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD26749",
+                    "pr2": "idPROD74508"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-BE",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-NLGVV3EJFT",
+                    "ul": "en-us",
+                    "cd3": "nl",
+                    "ep.brand_id": "mac_be",
+                    "ep.brand_locale": "be",
+                    "ep.brand": "mac",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "nl"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU54098",
+                    "sku2": "SKU176851",
+                    "sku3": "SKU176851",
+                    "sku4": "SKU176851",
+                    "sku5": "SKU176851"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD121124",
+                        "pPrice": "30",
+                        "pVariant": "SX5402",
+                        "psize": "",
+                        "pSkuID": "SKU176851"
+                    },
+                    {
+                        "productID": "idPROD121124",
+                        "pPrice": "30",
+                        "pVariant": "SX5402",
+                        "psize": "",
+                        "pSkuID": "SKU176851"
+                    },
+                    {
+                        "productID": "idPROD121124",
+                        "pPrice": "30",
+                        "pVariant": "SX5402",
+                        "psize": "",
+                        "pSkuID": "SKU176851"
+                    },
+                    {
+                        "productID": "idPROD121124",
+                        "pPrice": "30",
+                        "pVariant": "SX5402",
+                        "psize": "",
+                        "pSkuID": "SKU176851"
+                    },
+                    {
+                        "productID": "idPROD121124",
+                        "pPrice": "30",
+                        "pVariant": "SX5402",
+                        "psize": "",
+                        "pSkuID": "SKU176851"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-DE",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-R2LF7TMGNR",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "mac_de",
+                    "ep.brand_locale": "de",
+                    "ep.brand": "mac",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU129845",
+                    "sku2": "SKU76952",
+                    "sku3": "SKU4920",
+                    "sku4": "SKU120642",
+                    "sku5": "SKU57995"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-ES",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-1S60CN7NWV",
+                    "ul": "en-us",
+                    "cd3": "es",
+                    "ep.brand_id": "mac_es",
+                    "ep.brand_locale": "es",
+                    "ep.brand": "mac",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "es"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU49840",
+                    "sku2": "SKU2266",
+                    "sku3": "SKU174987",
+                    "sku4": "SKU174987",
+                    "sku5": "SKU174987"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-FR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-Q65K1YKX04",
+                    "ul": "en-us",
+                    "cd3": "fr",
+                    "ep.brand_id": "mac_fr",
+                    "ep.brand_locale": "fr",
+                    "ep.brand": "mac",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "fr"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU2956",
+                    "sku2": "SKU175835",
+                    "sku3": "SKU175835",
+                    "sku4": "SKU175835",
+                    "sku5": "SKU175835"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-GR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-2MHMFN62EY",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "mac_gr",
+                    "ep.brand_locale": "gr",
+                    "ep.brand": "mac",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU10772",
+                    "sku2": "SKU160095",
+                    "sku3": "SKU4920",
+                    "sku4": "SKU120642",
+                    "sku5": "SKU2956"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD4467",
+                        "pPrice": "25.8064516129032",
+                        "pVariant": "M7LA01",
+                        "psize": "15 ml",
+                        "pSkuID": "SKU10772"
+                    },
+                    {
+                        "productID": "idPROD108905",
+                        "pPrice": "44.3548387096774",
+                        "pVariant": "NY4001",
+                        "psize": "200ml",
+                        "pSkuID": "SKU160095"
+                    },
+                    {
+                        "productID": "idPROD472",
+                        "pPrice": "21.7741935483871",
+                        "pVariant": "M6H301",
+                        "psize": "15 ml",
+                        "pSkuID": "SKU4920"
+                    },
+                    {
+                        "productID": "idPROD52595",
+                        "pPrice": "21.7741935483871",
+                        "pVariant": "SK5HCN",
+                        "psize": "3 g",
+                        "pSkuID": "SKU120642"
+                    },
+                    {
+                        "productID": "idPROD52595",
+                        "pPrice": "21.7741935483871",
+                        "pVariant": "SK5HCN",
+                        "psize": "3 g",
+                        "pSkuID": "SKU120642"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD105333",
+                    "pr2": "idPROD108908"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-HU",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "HUF",
+                    "tid": "G-SX997PJ1F9",
+                    "ul": "en-us",
+                    "cd3": "hu",
+                    "ep.brand_id": "mac_hu",
+                    "ep.brand_locale": "hu",
+                    "ep.brand": "mac",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "hu"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU1672",
+                    "sku2": "SKU82413",
+                    "sku3": "SKU176830",
+                    "sku4": "SKU176830",
+                    "sku5": "SKU176830"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD363",
+                        "pPrice": "9000",
+                        "pVariant": "M2502T",
+                        "psize": "1.5 g / 0.05 oz",
+                        "pSkuID": "SKU1672"
+                    },
+                    {
+                        "productID": "idPROD121106",
+                        "pPrice": "13600",
+                        "pVariant": "STX527",
+                        "psize": "",
+                        "pSkuID": "SKU176830"
+                    },
+                    {
+                        "productID": "idPROD121106",
+                        "pPrice": "13600",
+                        "pVariant": "STX527",
+                        "psize": "",
+                        "pSkuID": "SKU176830"
+                    },
+                    {
+                        "productID": "idPROD121106",
+                        "pPrice": "13600",
+                        "pVariant": "STX527",
+                        "psize": "",
+                        "pSkuID": "SKU176830"
+                    },
+                    {
+                        "productID": "idPROD121106",
+                        "pPrice": "13600",
+                        "pVariant": "STX527",
+                        "psize": "",
+                        "pSkuID": "SKU176830"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD33821",
+                    "pr2": "idPROD54005"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-IL",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "ILS",
+                    "tid": "G-54ER0P6C17",
+                    "ul": "en-us",
+                    "cd3": "he",
+                    "ep.brand_id": "mac_il",
+                    "ep.brand_locale": "il",
+                    "ep.brand": "mac",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "he"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU57995",
+                    "sku2": "SKU155097",
+                    "sku3": "SKU155097",
+                    "sku4": "SKU155097",
+                    "sku5": "SKU155097"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD32212",
+                        "pPrice": "125",
+                        "pVariant": "MW5K01",
+                        "psize": "100 מ\"ל",
+                        "pSkuID": "SKU57995"
+                    },
+                    {
+                        "productID": "idPROD105333",
+                        "pPrice": "203",
+                        "pVariant": "SYM601",
+                        "psize": "30 מ\"ל",
+                        "pSkuID": "SKU155097"
+                    },
+                    {
+                        "productID": "idPROD105333",
+                        "pPrice": "203",
+                        "pVariant": "SYM601",
+                        "psize": "30 מ\"ל",
+                        "pSkuID": "SKU155097"
+                    },
+                    {
+                        "productID": "idPROD105333",
+                        "pPrice": "203",
+                        "pVariant": "SYM601",
+                        "psize": "30 מ\"ל",
+                        "pSkuID": "SKU155097"
+                    },
+                    {
+                        "productID": "idPROD105333",
+                        "pPrice": "203",
+                        "pVariant": "SYM601",
+                        "psize": "30 מ\"ל",
+                        "pSkuID": "SKU155097"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD1231",
+                    "pr2": "idPROD251"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-IN",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "INR",
+                    "tid": "G-C9C2CSWW0G",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "mac_in",
+                    "ep.brand_locale": "in",
+                    "ep.brand": "mac",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU174971",
+                    "sku2": "SKU174971",
+                    "sku3": "SKU174971",
+                    "sku4": "SKU174971",
+                    "sku5": "SKU174971"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-NO",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "NOK",
+                    "tid": "G-DJYVS8D1B2",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "mac_no",
+                    "ep.brand_locale": "no",
+                    "ep.brand": "mac",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU118970",
+                    "sku2": "SKU175862",
+                    "sku3": "SKU175862",
+                    "sku4": "SKU175862",
+                    "sku5": "SKU175862"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD25561",
+                        "pPrice": "105",
+                        "pVariant": "SK0R01",
+                        "psize": "15 ml / 0.51 oz",
+                        "pSkuID": "SKU118970"
+                    },
+                    {
+                        "productID": "idPROD120453",
+                        "pPrice": "225",
+                        "pVariant": "STP3Y3",
+                        "psize": "",
+                        "pSkuID": "SKU175862"
+                    },
+                    {
+                        "productID": "idPROD120453",
+                        "pPrice": "225",
+                        "pVariant": "STP3Y3",
+                        "psize": "",
+                        "pSkuID": "SKU175862"
+                    },
+                    {
+                        "productID": "idPROD120453",
+                        "pPrice": "225",
+                        "pVariant": "STP3Y3",
+                        "psize": "",
+                        "pSkuID": "SKU175862"
+                    },
+                    {
+                        "productID": "idPROD120453",
+                        "pPrice": "225",
+                        "pVariant": "STP3Y3",
+                        "psize": "",
+                        "pSkuID": "SKU175862"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-PL",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "PLN",
+                    "tid": "G-435L5LJD6Z",
+                    "ul": "en-us",
+                    "cd3": "fr",
+                    "ep.brand_id": "mac_pl",
+                    "ep.brand_locale": "pl",
+                    "ep.brand": "mac",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "fr"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU114558",
+                    "sku2": "SKU175835",
+                    "sku3": "SKU175835",
+                    "sku4": "SKU175835",
+                    "sku5": "SKU175835"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-RO",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "RON",
+                    "tid": "G-ZXWND0TWL6",
+                    "ul": "en-us",
+                    "cd3": "ro",
+                    "ep.brand_id": "mac_ro",
+                    "ep.brand_locale": "ro",
+                    "ep.brand": "mac",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "ro"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU2287",
+                    "sku2": "SKU92427",
+                    "sku3": "SKU175859",
+                    "sku4": "SKU175859",
+                    "sku5": "SKU175859"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD120450",
+                        "pPrice": "445",
+                        "pVariant": "STMXY3",
+                        "psize": "",
+                        "pSkuID": "SKU175859"
+                    },
+                    {
+                        "productID": "idPROD120450",
+                        "pPrice": "445",
+                        "pVariant": "STMXY3",
+                        "psize": "",
+                        "pSkuID": "SKU175859"
+                    },
+                    {
+                        "productID": "idPROD120450",
+                        "pPrice": "445",
+                        "pVariant": "STMXY3",
+                        "psize": "",
+                        "pSkuID": "SKU175859"
+                    },
+                    {
+                        "productID": "idPROD120450",
+                        "pPrice": "445",
+                        "pVariant": "STMXY3",
+                        "psize": "",
+                        "pSkuID": "SKU175859"
+                    },
+                    {
+                        "productID": "idPROD120450",
+                        "pPrice": "445",
+                        "pVariant": "STMXY3",
+                        "psize": "",
+                        "pSkuID": "SKU175859"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD1480",
+                    "pr2": "idPROD255"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-TR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "TRY",
+                    "tid": "G-T6FSWXH612",
+                    "ul": "en-us",
+                    "cd3": "tr",
+                    "ep.brand_id": "mac_tr",
+                    "ep.brand_locale": "tr",
+                    "ep.brand": "mac",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "tr"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU49743",
+                    "sku2": "SKU174987",
+                    "sku3": "SKU174987",
+                    "sku4": "SKU174987",
+                    "sku5": "SKU174987"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-ZA",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "ZAR",
+                    "tid": "G-C9Z7TFBVY5",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "mac_za",
+                    "ep.brand_locale": "za",
+                    "ep.brand": "mac",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU130356",
+                    "sku2": "SKU175859",
+                    "sku3": "SKU175859",
+                    "sku4": "SKU175859",
+                    "sku5": "SKU175859"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD120450",
+                        "pPrice": "2200",
+                        "pVariant": "STMXY3",
+                        "psize": "",
+                        "pSkuID": "SKU175859"
+                    },
+                    {
+                        "productID": "idPROD120450",
+                        "pPrice": "2200",
+                        "pVariant": "STMXY3",
+                        "psize": "",
+                        "pSkuID": "SKU175859"
+                    },
+                    {
+                        "productID": "idPROD120450",
+                        "pPrice": "2200",
+                        "pVariant": "STMXY3",
+                        "psize": "",
+                        "pSkuID": "SKU175859"
+                    },
+                    {
+                        "productID": "idPROD120450",
+                        "pPrice": "2200",
+                        "pVariant": "STMXY3",
+                        "psize": "",
+                        "pSkuID": "SKU175859"
+                    },
+                    {
+                        "productID": "idPROD120450",
+                        "pPrice": "2200",
+                        "pVariant": "STMXY3",
+                        "psize": "",
+                        "pSkuID": "SKU175859"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD1392",
+                    "pr2": "idPROD32212"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "OR-DE",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-D60KNHXYNC",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "origins_de",
+                    "ep.brand_locale": "de",
+                    "ep.brand": "origins",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU24583",
+                    "sku2": "SKU97708",
+                    "sku3": "SKU22388",
+                    "sku4": "SKU60883",
+                    "sku5": "SKU44324"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "OR-EU",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-SZTY827W8H",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "origins_eu",
+                    "ep.brand_locale": "eu",
+                    "ep.brand": "origins",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU179437",
+                    "sku2": "SKU179437",
+                    "sku3": "SKU179437",
+                    "sku4": "SKU179437",
+                    "sku5": "SKU179437"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "SB-GR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-DH6D9LR2EW",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "smashbox_us",
+                    "ep.brand_locale": "us",
+                    "ep.brand": "smashbox",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU130699",
+                    "sku2": "SKU130696",
+                    "sku3": "SKU158181",
+                    "sku4": "SKU130694",
+                    "sku5": "SKU159760"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "SB-EU",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-FYXV1WKXFM",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "smashbox_de",
+                    "ep.brand_locale": "de",
+                    "ep.brand": "smashbox",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU37073",
+                    "sku2": "SKU37073",
+                    "sku3": "SKU37073",
+                    "sku4": "SKU37073",
+                    "sku5": "SKU37073"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "TF-DE",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "EUR",
+                    "tid": "G-JM4F6Z31Y8",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "toofaced_eu",
+                    "ep.brand_locale": "de",
+                    "ep.brand": "toofaced",
+                    "ep.platform": "original",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+                },
+                "skuID": {
+                    "sku1": "SKU118049",
+                    "sku2": "SKU106896",
+                    "sku3": "SKU94148",
+                    "sku4": "SKU117892",
+                    "sku5": "SKU156930"
+                },
+                "productdetail": {
+                    "pr1": "idPROD5188"
+                },
+                "productValues": [
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    },
+                    {
+                        "productID": "idPROD16409",
+                        "pPrice": "28.5",
+                        "pVariant": "A1XG01",
+                        "psize": "250 ml",
+                        "pSkuID": "SKU33536"
+                    }
+                ],
+                "revenueInfo": {
+                    "epn.tax": 120,
+                    "epn.value": "Free",
+                    "transaction_id": "4663195571",
+                    "ep.payment_type": "PP-Adyen",
+                    "tr": 35.2,
+                    "tt": "35.20",
+                    "ts": "8.50"
+                },
+                "OrderID": {
+                    "transaction_id": "12334",
+                    "ep.credit_card_type": "Not Available"
+                },
+                "impressionList": {
+                    "pr1": "idPROD16410",
+                    "pr2": "idPROD16922"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,317 @@
+[
+    {
+        "brand": "AV-UK",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "GBP",
+                    "tid": "G-QG5GS2H4JB",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "aveda_uk",
+                    "ep.brand_locale": "uk",
+                    "ep.brand": "aveda",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU34069"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "BB-UK",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "GBP",
+                    "tid": "G-02CV5R48CF",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "bobbibrown_uk",
+                    "ep.brand_locale": "uk",
+                    "ep.brand": "bobbibrown",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU18986"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "BK-UK",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "GBP",
+                    "tid": "G-5THZ4FDRDB",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "kilian_uk",
+                    "ep.brand_locale": "uk",
+                    "ep.brand": "kilian",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU88427"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "BU-UK",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "GBP",
+                    "tid": "G-XCSZWS7PSB",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "bumble_uk",
+                    "ep.brand_locale": "uk",
+                    "ep.brand": "bumble",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU44578"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "CL-UK",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "GBP",
+                    "tid": "G-GG9MS3L104",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "clinique_uk",
+                    "ep.brand_locale": "uk",
+                    "ep.brand": "clinique",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU130761"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "DA-UK",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "GBP",
+                    "tid": "G-3NEDJGXRGQ",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "darphin_uk",
+                    "ep.brand_locale": "uk",
+                    "ep.brand": "darphin",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU67257"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "DJ-UK",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "GBP",
+                    "tid": "G-TNTHKJS7JP",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "drjart_uk",
+                    "ep.brand_locale": "uk",
+                    "ep.brand": "drjart",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU126949"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "EL-UK",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "GBP",
+                    "tid": "G-PWK2SW0MML",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "lauder_uk",
+                    "ep.brand_locale": "uk",
+                    "ep.brand": "lauder",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU128107"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "FM-UK",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "GBP",
+                    "tid": "G-97MT97GFPF",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "fredericmalle_uk",
+                    "ep.brand_locale": "uk",
+                    "ep.brand": "fredericmalle",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU88426"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "JM-UK",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "GBP",
+                    "tid": "G-3X4TCHJQ1N",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "jomalone_uk",
+                    "ep.brand_locale": "uk",
+                    "ep.brand": "jomalone",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU185748"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "LM-UK",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "GBP",
+                    "tid": "G-HBDN5EZ0X3",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "lamer_uk",
+                    "ep.brand_locale": "uk",
+                    "ep.brand": "lamer",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU105541"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "LS-UK",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "GBP",
+                    "tid": "G-X1PZ907NRF",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "labseries_uk",
+                    "ep.brand_locale": "uk",
+                    "ep.brand": "labseries",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU136935"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-UK",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "GBP",
+                    "tid": "G-7T727P35WL",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "mac_uk",
+                    "ep.brand_locale": "uk",
+                    "ep.brand": "mac",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU170723"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "OR-UK",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "GBP",
+                    "tid": "G-E556MVLFZ6",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "origins_uk",
+                    "ep.brand_locale": "uk",
+                    "ep.brand": "origins",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU130992"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "TF-UK",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "GBP",
+                    "tid": "G-B2FTZR05DC",
+                    "ul": "en-us",
+                    "cd3": "en",
+                    "ep.brand_id": "toofaced_uk",
+                    "ep.brand_locale": "uk",
+                    "ep.brand": "toofaced",
+                    "ep.ga4_a_b_test_rule_name": 1,
+                    "site_language_code": "en"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU185034"
+                }
+            }
+        ]
+    }
+]

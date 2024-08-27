@@ -1,0 +1,570 @@
+[
+    {
+      "brand": "AV-CA",
+      "brandSpecs": [
+        {
+          "BrandInfo": {
+            "cu": "CAD",
+            "tid": "G-C55BKDSRZH",
+            "ul": "en-us",
+            "cd3": "en",
+            "ep.brand_id": "aveda_ca",
+            "ep.brand_locale": "ca",
+            "ep.brand": "aveda",
+            "ep.ga4_a_b_test_rule_name": 1,
+            "site_language_code": "en"
+          },
+          "productXpath": {
+            "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+          }
+        }
+      ]
+    },
+    {
+      "brand": "AV-US",
+      "brandSpecs": [
+        {
+          "BrandInfo": {
+            "cu": "USD",
+            "tid": "G-LFEP7GFLG3",
+            "ul": "en",
+            "cd3": "en",
+            "ep.brand_id": "aveda_us",
+            "ep.brand_locale": "us",
+            "ep.brand": "aveda",
+            "ep.ga4_a_b_test_rule_name": 1,
+            "site_language_code": "en"
+          },
+          "productXpath": {
+            "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+          }
+          
+        }
+      ]
+    },
+    {
+      "brand": "BB-CA",
+      "brandSpecs": [
+        {
+          "BrandInfo": {
+            "cu": "CAD",
+            "tid": "G-CSSCJ1CR03",
+            "ul": "en-us",
+            "cd3": "en",
+            "ep.brand_id": "bobbibrown_ca",
+            "ep.brand_locale": "ca",
+            "ep.brand": "bobbibrown",
+            "ep.ga4_a_b_test_rule_name": 1,
+            "site_language_code": "en"
+          },
+          "productXpath": {
+            "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID="
+          }          
+        }
+      ]
+    },
+    {
+      "brand": "BB-US",
+      "brandSpecs": [
+        {
+          "BrandInfo": {
+            "cu": "USD",
+            "tid": "G-E0W4L00Z0Z",
+            "ul": "en-us",
+            "cd3": "en",
+            "ep.brand_id": "bobbibrown_us",
+            "ep.brand_locale": "us",
+            "ep.brand": "bobbibrown",
+            "ep.ga4_a_b_test_rule_name": 1,
+            "site_language_code": "en"
+          },
+          "productXpath": {
+            "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU176701"
+          }
+        }
+      ]
+    },
+    {
+      "brand": "BK-US",
+      "brandSpecs": [
+        {
+          "BrandInfo": {
+            "cu": "USD",
+            "tid": "G-6VB5RHKJSJ",
+            "ul": "en-us",
+            "cd3": "en",
+            "ep.brand_id": "kilian_us",
+            "ep.brand_locale": "us",
+            "ep.brand": "kilian",
+            "ep.ga4_a_b_test_rule_name": 1,
+            "site_language_code": "en"
+          },
+          "productXpath": {
+            "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU104554"
+          }
+        }
+      ]
+    },
+    {
+      "brand": "BU-CA",
+      "brandSpecs": [
+        {
+          "BrandInfo": {
+            "cu": "CAD",
+            "tid": "G-E3GWR68J4B",
+            "ul": "en-us",
+            "cd3": "en",
+            "ep.brand_id": "bumble_ca",
+            "ep.brand_locale": "ca",
+            "ep.brand": "bumble",
+            "ep.ga4_a_b_test_rule_name": 1,
+            "site_language_code": "en"
+          },
+          "productXpath": {
+            "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU70377"
+          }
+        }
+      ]
+    },
+    {
+      "brand": "BU-US",
+      "brandSpecs": [
+        {
+          "BrandInfo": {
+            "cu": "CAD",
+            "tid": "G-E3GWR68J4B",
+            "ul": "en-us",
+            "cd3": "en",
+            "ep.brand_id": "bumble_ca",
+            "ep.brand_locale": "ca",
+            "ep.brand": "bumble",
+            "ep.ga4_a_b_test_rule_name": 1,
+            "site_language_code": "en"
+          },
+          "productXpath": {
+            "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU64994"
+          }
+        }
+      ]
+    },
+    {
+      "brand": "CL-CA",
+      "brandSpecs": [
+        {
+          "BrandInfo": {
+            "cu": "CAD",
+            "tid": "G-5PF60FW0EB",
+            "ul": "en-us",
+            "cd3": "en",
+            "ep.brand_id": "clinique_ca",
+            "ep.brand_locale": "ca",
+            "ep.brand": "clinique",
+            "ep.ga4_a_b_test_rule_name": 1,
+            "site_language_code": "en"
+          },
+          "productXpath": {
+            "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU11579"
+          }
+        }
+      ]
+    },
+    {
+      "brand": "CL-US",
+      "brandSpecs": [
+        {
+          "BrandInfo": {
+            "cu": "USD",
+            "tid": "G-E0QHFTRGNX",
+            "ul": "en-us",
+            "cd3": "en",
+            "ep.brand_id": "clinique_us",
+            "ep.brand_locale": "us",
+            "ep.brand": "clinique",
+            "ep.ga4_a_b_test_rule_name": 1,
+            "site_language_code": "en"
+          },
+          "productXpath": {
+            "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU11598"
+          }
+        }
+      ]
+    },
+    {
+      "brand": "DA-CA",
+      "brandSpecs": [
+        {
+          "BrandInfo": {
+            "cu": "CAD",
+            "tid": "G-S85VCNE26F",
+            "ul": "en-us",
+            "cd3": "en",
+            "ep.brand_id": "darphin_ca",
+            "ep.brand_locale": "ca",
+            "ep.brand": "darphin",
+            "ep.ga4_a_b_test_rule_name": 1,
+            "site_language_code": "en"
+          },
+          "productXpath": {
+            "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU79287"
+          }
+        }
+      ]
+    },
+    {
+      "brand": "DA-US",
+      "brandSpecs": [
+        {
+          "BrandInfo": {
+            "cu": "USD",
+            "tid": "G-2E461T4VNE",
+            "ul": "en-us",
+            "cd3": "en",
+            "ep.brand_id": "darphin_us",
+            "ep.brand_locale": "us",
+            "ep.brand": "darphin",
+            "ep.ga4_a_b_test_rule_name": 1,
+            "site_language_code": "en"
+          },
+          "productXpath": {
+            "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU90547"
+          }
+        }
+      ]
+    },
+    {
+      "brand": "DJ-US",
+      "brandSpecs": [
+        {
+          "BrandInfo": {
+            "cu": "USD",
+            "tid": "G-E0QHFTRGNX",
+            "ul": "en-us",
+            "cd3": "en",
+            "ep.brand_id": "clinique_us",
+            "ep.brand_locale": "us",
+            "ep.brand": "clinique",
+            "ep.ga4_a_b_test_rule_name": 1,
+            "site_language_code": "en"
+          },
+          "productXpath": {
+            "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU11598"
+          }
+        }
+      ]
+    },
+    {
+      "brand": "EL-CA",
+      "brandSpecs": [
+        {
+          "BrandInfo": {
+            "cu": "CAD",
+            "tid": "G-W3RMD25ZZ7",
+            "ul": "en-us",
+            "cd3": "en",
+            "ep.brand_id": "lauder_ca",
+            "ep.brand_locale": "ca",
+            "ep.brand": "lauder",
+            "ep.ga4_a_b_test_rule_name": 1,
+            "site_language_code": "en"
+          },
+          "productXpath": {
+            "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU95035"
+          }
+        }
+      ]
+    },
+    {
+      "brand": "EL-US",
+      "brandSpecs": [
+        {
+          "BrandInfo": {
+            "cu": "USD",
+            "tid": "G-E0HSVVW46N",
+            "ul": "en-us",
+            "cd3": "en",
+            "ep.brand_id": "lauder_us",
+            "ep.brand_locale": "us",
+            "ep.brand": "lauder",
+            "ep.ga4_a_b_test_rule_name": 1,
+            "site_language_code": "en"
+          },
+          "productXpath": {
+            "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU68847"
+          }
+        }
+      ]
+    },
+    {
+      "brand": "FM-US",
+      "brandSpecs": [
+        {
+          "BrandInfo": {
+            "cu": "USD",
+            "tid": "G-RYVWF8J454",
+            "ul": "en-us",
+            "cd3": "en",
+            "ep.brand_id": "fredericmalle_us",
+            "ep.brand_locale": "us",
+            "ep.brand": "fredericmalle",
+            "ep.ga4_a_b_test_rule_name": 1,
+            "site_language_code": "en"
+          },
+          "productXpath": {
+            "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU86172"
+          }
+        }
+      ]
+    },
+    {
+      "brand": "GG-US",
+      "brandSpecs": [
+        {
+          "BrandInfo": {
+            "cu": "USD",
+            "tid": "G-R1L1YNHQEV",
+            "ul": "en-us",
+            "cd3": "en",
+            "ep.brand_id": "glamglow_us",
+            "ep.brand_locale": "us",
+            "ep.brand": "glamglow",
+            "ep.ga4_a_b_test_rule_name": 1,
+            "site_language_code": "en"
+          },
+          "productXpath": {
+            "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU73843"
+          }
+        }
+      ]
+    },
+    {
+      "brand": "JM-CA",
+      "brandSpecs": [
+        {
+          "BrandInfo": {
+            "cu": "CAD",
+            "tid": "G-C0DPYYXRS6",
+            "ul": "en-us",
+            "cd3": "en",
+            "ep.brand_id": "jomalone_ca",
+            "ep.brand_locale": "ca",
+            "ep.brand": "jomalone",
+            "ep.ga4_a_b_test_rule_name": 1,
+            "site_language_code": "en"
+          },
+          "productXpath": {
+            "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU21500"
+          }
+        }
+      ]
+    },
+    {
+      "brand": "JM-US",
+      "brandSpecs": [
+        {
+          "BrandInfo": {
+            "cu": "USD",
+            "tid": "G-E4BHRSL6LW",
+            "ul": "en-us",
+            "cd3": "en",
+            "ep.brand_id": "jomalone_us",
+            "ep.brand_locale": "us",
+            "ep.brand": "jomalone",
+            "ep.ga4_a_b_test_rule_name": 1,
+            "site_language_code": "en"
+          },
+          "productXpath": {
+            "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU172338"
+          }
+        }
+      ]
+    },
+    {
+      "brand": "LM-CA",
+      "brandSpecs": [
+        {
+          "BrandInfo": {
+            "cu": "CAD",
+            "tid": "G-2P283MX32J",
+            "ul": "en-us",
+            "cd3": "en",
+            "ep.brand_id": "lamer_ca",
+            "ep.brand_locale": "ca",
+            "ep.brand": "lamer",
+            "ep.ga4_a_b_test_rule_name": 1,
+            "site_language_code": "en"
+          },
+          "productXpath": {
+            "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU105541"
+          }
+        }
+      ]
+    },
+    {
+      "brand": "LM-US",
+      "brandSpecs": [
+        {
+          "BrandInfo": {
+            "cu": "USD",
+            "tid": "G-FZSHM1QRCP",
+            "ul": "en-us",
+            "cd3": "en",
+            "ep.brand_id": "lamer_us",
+            "ep.brand_locale": "us",
+            "ep.brand": "lamer",
+            "ep.ga4_a_b_test_rule_name": 1,
+            "site_language_code": "en"
+          },
+          "productXpath": {
+            "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU178780"
+          }
+        }
+      ]
+    },
+    {
+      "brand": "LS-US",
+      "brandSpecs": [
+        {
+          "BrandInfo": {
+            "cu": "USD",
+            "tid": "G-L9RK85ZJKR",
+            "ul": "en-us",
+            "cd3": "en",
+            "ep.brand_id": "labseries_us",
+            "ep.brand_locale": "us",
+            "ep.brand": "labseries",
+            "ep.ga4_a_b_test_rule_name": 1,
+            "site_language_code": "en"
+          },
+          "productXpath": {
+            "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU136709"
+          }
+        }
+      ]
+    },
+    {
+      "brand": "MC-CA",
+      "brandSpecs": [
+        {
+          "BrandInfo": {
+            "cu": "CAD",
+            "tid": "G-SMVW5ED2K7",
+            "ul": "en-us",
+            "cd3": "en",
+            "ep.brand_id": "mac_ca",
+            "ep.brand_locale": "ca",
+            "ep.brand": "mac",
+            "ep.ga4_a_b_test_rule_name": 1,
+            "site_language_code": "en"
+          },
+          "productXpath": {
+            "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU96127"
+          }
+        }
+      ]
+    },
+    {
+      "brand": "MC-US",
+      "brandSpecs": [
+        {
+          "BrandInfo": {
+            "cu": "USD",
+            "tid": "G-WW8G5C9VYP",
+            "ul": "en-us",
+            "cd3": "en",
+            "ep.brand_id": "mac_us",
+            "ep.brand_locale": "us",
+            "ep.brand": "mac",
+            "ep.ga4_a_b_test_rule_name": 1,
+            "site_language_code": "en"
+          },
+          "productXpath": {
+            "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU133449"
+          }
+        }
+      ]
+    },
+    {
+      "brand": "OR-CA",
+      "brandSpecs": [
+        {
+          "BrandInfo": {
+            "cu": "CAD",
+            "tid": "G-F37QJ5F5YE",
+            "ul": "en-us",
+            "cd3": "en",
+            "ep.brand_id": "origins_ca",
+            "ep.brand_locale": "ca",
+            "ep.brand": "origins",
+            "ep.ga4_a_b_test_rule_name": 1,
+            "site_language_code": "en"
+          },
+          "productXpath": {
+            "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU129742"
+          }
+        }
+      ]
+    },
+    {
+      "brand": "OR-US",
+      "brandSpecs": [
+        {
+          "BrandInfo": {
+            "cu": "USD",
+            "tid": "G-TPRV4QE4FE",
+            "ul": "en-us",
+            "cd3": "en",
+            "ep.brand_id": "origins_us",
+            "ep.brand_locale": "us",
+            "ep.brand": "origins",
+            "ep.ga4_a_b_test_rule_name": 1,
+            "site_language_code": "en"
+          },
+          "productXpath": {
+            "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU78167"
+          }
+        }
+      ]
+    },
+    {
+      "brand": "SB-US",
+      "brandSpecs": [
+        {
+          "BrandInfo": {
+            "cu": "USD",
+            "tid": "G-ZGMNRJP1CQ",
+            "ul": "en-us",
+            "cd3": "en",
+            "ep.brand_id": "smashbox_us",
+            "ep.brand_locale": "us",
+            "ep.brand": "smashbox",
+            "ep.ga4_a_b_test_rule_name": 1,
+            "site_language_code": "en"
+          },
+          "productXpath": {
+            "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU178400"
+          }
+        }
+      ]
+    },
+    {
+      "brand": "TF-US",
+      "brandSpecs": [
+        {
+          "BrandInfo": {
+            "cu": "USD",
+            "tid": "G-3YH3Q4DT1B",
+            "ul": "en-us",
+            "cd3": "en",
+            "ep.brand_id": "toofaced_us",
+            "ep.brand_locale": "us",
+            "ep.brand": "toofaced",
+            "ep.ga4_a_b_test_rule_name": 1,
+            "site_language_code": "en"
+          },
+          "productXpath": {
+            "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU163971"
+          }
+        }
+      ]
+    }
+  ]

@@ -1,0 +1,9 @@
+tt,BrandLocale,MC-US
+1,returnUserId1,elcqana+01@test.com
+1,returnUserId2,elcqana+02@test.com
+1,returnUserId3,elcqana+03@test.com
+1,returnUserId4,elcqana+04@test.com
+1,returnUserId5,elcqana+05@test.com
+1,returnUserId6,elcqana+06@test.com
+1,accPassword,Test@123
+1,orderHistoryUrl,order_history/index.tmpl

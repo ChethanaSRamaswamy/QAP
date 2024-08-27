@@ -1,0 +1,267 @@
+/* TODO: Move common styles to a base file */
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  a:link {
+    font-size: 1px;
+    visibility: hidden;
+  }
+
+  optgroup {
+    cursor: pointer;
+  }
+
+  optgroup option {
+    cursor: default;
+  }
+  input[type=number],
+  input[type=text],
+  textarea,
+  select {
+    width: 49.5%;
+    padding: 8px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    box-sizing: border-box;
+    vertical-align: top;
+    -webkit-box-shadow: inset -2px -2px 2px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: inset -2px -2px 2px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: inset -2px -2px 2px 0px rgba(0, 0, 0, 0.5);
+  }
+
+  label {
+    width: 50%;
+    padding-left: 0;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+
+
+  div {
+    background-color: #f2f2f2;
+  }
+
+  .button {
+    background-color: rgb(7, 71, 166);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 20%;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 10px 20px;   
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;  
+    margin-top: 8px;
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.50), 0 17px 50px 0 rgba(0, 0, 0, 0.30);
+    background-color: #3a1d8a;
+    /* Dark Blue */
+    color: white;
+  }
+
+  .gobutton {
+    background-color: rgb(7, 71, 166);
+    ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 40%;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-overflow: clip;
+    text-align: center;
+    text-decoration: none;    
+    font-size: 12px;
+    float: right;
+    margin-top: 8px;
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .gobutton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.50), 0 17px 50px 0 rgba(0, 0, 0, 0.30);
+    background-color: #3a1d8a;
+    /* Dark Blue */
+    color: white;
+  }
+
+
+  /* Style the tab content (and add height:100% for full page content) */
+
+  #name {
+    height: 20x;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(7, 71, 166);
+    font-size: small;
+    font-style: normal;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 3fr 5.5fr 0.5fr;
+    grid: gap 20rem;
+    -webkit-box-shadow: inset -2px -2px 2px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: inset -2px -2px 2px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: inset -2px -2px 2px 0px rgba(0, 0, 0, 0.5);
+  }
+
+  i {
+    color: #fff;
+    background-color: #50b0ff;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: inset -1px -1px 1px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: inset -1px -1px 1px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: inset -1px -1px 1px 0px rgba(0, 0, 0, 0.25);
+    cursor: help;
+  }
+
+  #txtbox {
+    width: 33%;
+    padding: 8px 10px;
+    margin: 5px 0;
+    margin-left: 0;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    box-sizing: border-box;
+    vertical-align: top;
+    -webkit-box-shadow: inset -2px -2px 2px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: inset -2px -2px 2px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: inset -2px -2px 2px 0px rgba(0, 0, 0, 0.5);
+  }
+
+  label {
+    width: 49.5%;
+    vertical-align: text-top;
+    text-align: left;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+	float: left;
+    margin-top: 10px;
+  }
+
+  .tabcontent {
+    color: grey(0, 0, 0);
+    /* display: none; (I removed the corresponding JS code as well */ 
+    padding: 10px 10px 50px; 
+    height: 90%;
+    margin: 0 auto;
+    width: 50%;
+    /*
+    -webkit-box-shadow: inset -2px -2px 2px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: inset -2px -2px 2px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: inset -2px -2px 2px 0px rgba(0, 0, 0, 0.5);
+    */
+  }
+
+  .ticket-id {
+    width: auto;
+  }
+
+  .action-containers {
+    margin-top: 20px;
+  }
+  
+  .compare-options {
+    margin: 10px 0 10px 0;
+  }
+
+  .options-left-pane,
+  .options-right-pane {
+    width: 50%;
+    float: left;
+  }
+
+  .user-selection {
+    padding-left: 0;
+    margin: 10px 0;
+	display: flex;
+  }
+  
+  .user-input {
+    width: 50%;
+  }
+
+  .user-selection input {
+    margin-top: 10px;
+  }
+
+  .options-right-pane label,
+  .user-selection label {
+    margin-top: 0;
+    padding-left: 5px;
+	float: none;
+	width: auto;
+	display: inline;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .compare-urls-selection textarea {
+    width: 50%;
+  }
+
+  .site-cookie-container .add-cookie-container {
+    float: left;
+    width: 49.5%;
+  }
+
+  .site-cookie-container .add-cookie-container label {
+    width: auto;
+    margin-top: 0;
+  }
+  .site-cookie-container .cookie-details input {
+    width: 50%;
+  }
+
+  .add-cookie {
+    width: auto;
+    padding: 3px;
+    border-radius: 3px;    
+  }
+
+  .ignore-elements-container label,
+  .hide-elements-container label {
+    float: left;
+  }
+
+  .site-cookies {
+    float: left;
+    width: 49.5%;
+  }
+  
+  .site-cookie-container {
+     display: flex;
+  }
+  .cookie-details {
+	display: flex;
+  }

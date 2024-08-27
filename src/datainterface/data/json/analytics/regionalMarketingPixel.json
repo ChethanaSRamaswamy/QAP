@@ -1,0 +1,295 @@
+[
+    {
+        "brand": "AV-US",
+        "brandSpecs": [
+            {
+                "prod": {
+                    "api_key": "dbe36b60-8ecf-47e5-8d8a-9d9b0571f99e",
+                    "sdk_version": "4.6.3"
+                },
+                "stage": {
+                    
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "BB-US",
+        "brandSpecs": [
+            {
+                "prod": {
+                    "api_key": "976d672c-1887-44c2-b0fc-0970fb83d38a",
+                    "sdk_version": "4.6.3"
+                },
+                "stage": {
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "BK-US",
+        "brandSpecs": [
+            {
+                "PROD": {
+                    "api_key": "499ad5fe-f1aa-4917-ae25-bdbb1ed5ef84",
+                    "sdk_version": "4.6.3"
+                },
+                "STAGE": {
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "BU-US",
+        "brandSpecs": [
+            {
+                "PROD": {
+                    "api_key": "668e30ef-cb55-4287-8b96-4208ff786c7c",
+                    "sdk_version": "4.6.3"
+                },
+                "STAGE": {
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "CL-US",
+        "brandSpecs": [
+            {
+                "PROD": {
+                    "api_key": "00883afa-0207-4d0f-a45b-b879ce1cbaf4",
+                    "sdk_version": "4.6.3"
+                },
+                "STAGE": {
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "DA-US",
+        "brandSpecs": [
+            {
+                "brazeInfo": {
+                    "api_key": "1e522874-719f-4a98-b004-2b5e5fd5010e",
+                    "sdk_version": "4.6.3"
+                },
+                "metaPixel": {
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "DJ-US",
+        "brandSpecs": [
+            {
+                "brazeInfo": {
+                    "api_key": "44d02c5d-a876-4f0b-a4a6-8d9dd0d8bba8",
+                    "sdk_version": "4.6.3"
+                },
+                "metaPixel": {
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "EL-US",
+        "brandSpecs": [
+            {
+                "brazeInfo": {
+                    "api_key": "ee5e5fa5-2315-41e6-9780-ecd8a70fa204",
+                    "sdk_version": "4.6.3"
+                },
+                "metaPixel": {
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "FM-US",
+        "brandSpecs": [
+            {
+                "brazeInfo": {
+                    "api_key": "dbe36b60-8ecf-47e5-8d8a-9d9b0571f99e",
+                    "sdk_version": "4.6.3"
+                },
+                "metaPixel": {
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "GG-US",
+        "brandSpecs": [
+            {
+                "brazeInfo": {
+                    "api_key": "b412ff7a-ddb9-4fd6-90c4-e11a339e127c",
+                    "sdk_version": "4.6.3"
+                },
+                "metaPixel": {
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "LM-US",
+        "brandSpecs": [
+            {
+                "brazeInfo": {
+                    "api_key": "bc4f5291-5d57-49e8-adcb-736cdd3102f0",
+                    "sdk_version": "4.6.3"
+                },
+                "metaPixel": {
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "LS-US",
+        "brandSpecs": [
+            {
+                "brazeInfo": {
+                    "api_key": "be698777-bed2-47d0-800b-3abacbd7eb47",
+                    "sdk_version": "4.6.3"
+                },
+                "metaPixel": {
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-US",
+        "brandSpecs": [
+            {
+                "brazeInfo": {
+                    "api_key": "cf043b73-3b44-43c6-a18a-06f7af0b0e57",
+                    "sdk_version": "4.6.3"
+                },
+                "metaPixel": {
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "OR-US",
+        "brandSpecs": [
+            {
+                "brazeInfo": {
+                    "api_key": "be0ede4f-4133-499b-8313-c1751457df68",
+                    "sdk_version": "4.6.3"
+                },
+                "metaPixel": {
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "SB-US",
+        "brandSpecs": [
+            {
+                "brazeInfo": {
+                    "api_key": "230bbfca-d9dc-47d5-817e-2c70951d351c",
+                    "sdk_version": "4.6.3"
+                },
+                "metaPixel": {
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "TF-US",
+        "brandSpecs": [
+            {
+                "brazeInfo": {
+                    "api_key": "fd9a6174-1d1e-4155-834b-e79c8394f6ad",
+                    "sdk_version": "4.6.3"
+                },
+                "metaPixel": {
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "DA-UK",
+        "brandSpecs": [
+            {
+                "prod": {
+                    "api_key": "25301a31-49c9-431d-b9f0-3917d1b1f4f5",
+                    "sdk_version": "4.6.3"
+                },
+                "stage": {
+                    "api_key": "9d36c74e-84c2-4a60-8e9d-0d30517e71ef",
+                    "sdk_version": "4.6.3"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "DA-FR",
+        "brandSpecs": [
+            {
+                "prod": {
+                    "api_key": "9826bf2d-5355-4721-8e39-15fac3453a88",
+                    "sdk_version": "4.6.3"
+                },
+                "stage": {
+                    "api_key": "42bcff4f-c66b-4252-b6f4-52b00a912be1",
+                    "sdk_version": "4.6.3"
+                },
+                "productXpath": {
+                    "productDetails": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU98348"
+                }
+            }
+        ]
+    }
+]

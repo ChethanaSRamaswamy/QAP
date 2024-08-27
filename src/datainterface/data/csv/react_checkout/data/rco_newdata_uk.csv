@@ -1,0 +1,13 @@
+tt,BrandLocale,DA-UK,MC-UK,OR-UK,LS-UK,BB-UK,CL-UK,EL-UK,LM-UK,DJ-UK,TF-UK,BU-UK,BK-UK,FM-UK
+1,firstName,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT,DO NOT
+1,lastName,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP,SHIP
+1,address1,"Estee Lauder, Unit 3","Estee Lauder, Unit 3","Estee Lauder, Unit 3","Estee Lauder, Unit 3","Estee Lauder, Unit 3","Estee Lauder, Unit 3","Estee Lauder, Unit 3","Estee Lauder, Unit 3","Estee Lauder, Unit 3","Estee Lauder, Unit 3","Estee Lauder, Unit 3","Estee Lauder, Unit 3","Estee Lauder, Unit 3"
+1,address2,Kites Croft Business Park,Kites Croft Business Park,Kites Croft Business Park,Kites Croft Business Park,Kites Croft Business Park,Kites Croft Business Park,Kites Croft Business Park,Kites Croft Business Park,Kites Croft Business Park,Kites Croft Business Park,Kites Croft Business Park,Kites Croft Business Park,Kites Croft Business Park
+1,phone,7448778960,7448778960,7448778960,7448778960,7448778960,7448778960,7448778960,7448778960,7448778960,7448778960,7448778960,7448778960,7448778960
+1,zipcode,PO14 4FL,PO14 4FL,PO14 4FL,PO14 4FL,PO14 4FL,PO14 4FL,PO14 4FL,PO14 4FL,PO14 4FL,PO14 4FL,PO14 4FL,PO14 4FL,PO14 4FL
+1,city,FAREHAM,FAREHAM,FAREHAM,FAREHAM,FAREHAM,FAREHAM,FAREHAM,FAREHAM,FAREHAM,FAREHAM,FAREHAM,FAREHAM,FAREHAM
+1,address4,Hampshire,Hampshire,Hampshire,Hampshire,Hampshire,Hampshire,Hampshire,Hampshire,Hampshire,Hampshire,Hampshire,Hampshire,Hampshire
+1,validOfferCode,qa_no_offers,qa_no_offers,qa_no_offers,qa_no_offers,qa_no_offers,qa_no_offers,qa_no_offers,qa_no_offers,qa_no_offers,qa_no_offers,qa_no_offers,qa_no_offers,qa_no_offers
+1,validOfferMsg,Offer code qa_no_offers has been successfully applied.,Offer code qa_no_offers has been successfully applied.,Offer code qa_no_offers has been successfully applied.,Offer code qa_no_offers has been successfully applied.,Offer code qa_no_offers has been successfully applied.,Offer code qa_no_offers has been successfully applied.,Offer code qa_no_offers has been successfully applied.,Offer code qa_no_offers has been successfully applied.,Offer code qa_no_offers has been successfully applied.,Offer code qa_no_offers has been successfully applied.,Offer code qa_no_offers has been successfully applied.,Offer code qa_no_offers has been successfully applied.,Offer code qa_no_offers has been successfully applied.
+1,npwd,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123,Test@123
+1,CITY_NAME,,Fare,Fare,Fare,Fare,Fare,Fare,Fare,Fare,Fare,Fare,Fare,Fare

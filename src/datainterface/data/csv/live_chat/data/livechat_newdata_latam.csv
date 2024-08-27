@@ -1,0 +1,17 @@
+﻿tt,BrandLocale,AV-MX,CL-BR,CL-CE,CL-MX,EL-CE,EL-MX,LM-BR,MC-BR,MC-CE,MC-MX,EL-BR,JM-BR,JM-MX,TF-BR
+1,region,LATAM,LATAM,LATAM,LATAM,LATAM,LATAM,LATAM,LATAM,LATAM,LATAM,LATAM,LATAM,LATAM,LATAM
+1,regionNumber,30910002,30910002,30910002,30910002,30910002,30910002,30910002,30910002,30910002,30910002,30910002,30910002,30910002,30910002
+1,brandShort,AV,CL,CL,CL,EL,EL,LM,MC,MC,MC,EL,JM,JM,TF
+1,brandFull,Aveda,Clinique,Clinique,Clinique,Estee Lauder,Estee Lauder,La Mer,Mac,Mac,Mac,Estee Lauder,Jo Malone,Jo Malone,Too Faced
+1,locale,MX,BR,CE,MX,CE,MX,BR,BR,CE,MX,BR,BR,MX,BR
+1,timeZone,America/Mexico_City,America/Sao_Paulo,America/Santiago,America/Mexico_City,America/Santiago,America/Mexico_City,America/Sao_Paulo,America/Sao_Paulo,America/Santiago,America/Mexico_City,America/Sao_Paulo,America/Sao_Paulo,America/Mexico_City,America/Sao_Paulo
+1,openingHours,09:00-19:00,09:00-19:00,09:00-19:00,09:00-19:00,09:00-19:00,09:00-19:00,09:00-19:00,09:00-19:00,09:00-19:00,09:00-19:00,09:00-19:00,09:00-19:00,09:00-19:00,09:00-19:00
+1,botTitle,,,Clinique Asistente virtual,Clinique Asistente virtual,,,,,,M·A·C Asistente virtual,,,,
+1,agentTitle,TestAgent,TestAgent,TestAgent,TestAgent,TestAgent,TestAgent,TestAgent,TestAgent,TestAgent,TestAgent,TestAgent,TestAgent,TestAgent,TestAgent
+1,genericTitle,Contacte con nosotros,Envie-nos uma mensagem,,,,Contacte con nosotros,Envie-nos uma mensagem,,,,,,,
+1,chatMessage,Hi,Hi,Hi,Hi,Hi,Hi,Hi,Hi,Hi,Hi,Hi,Hi,Hi,Hi
+1,userName,test,,,,,test,,,,,,,test,
+1,userEmail,test12@test.com,,,,,test12@test.com,,,,,,,test12@test.com,
+1,selectQusLabel,,,,,,platicar con el(la) consultor(a),,,,,,,,
+1,selectOption,,,,,,Consejos de color,,,,,,,,
+1,lpURL,https://authentication.liveperson.net/accountSelection.html?source=login_html,https://authentication.liveperson.net/accountSelection.html?source=login_html,https://authentication.liveperson.net/accountSelection.html?source=login_html,https://authentication.liveperson.net/accountSelection.html?source=login_html,https://authentication.liveperson.net/accountSelection.html?source=login_html,https://authentication.liveperson.net/accountSelection.html?source=login_html,https://authentication.liveperson.net/accountSelection.html?source=login_html,https://authentication.liveperson.net/accountSelection.html?source=login_html,https://authentication.liveperson.net/accountSelection.html?source=login_html,https://authentication.liveperson.net/accountSelection.html?source=login_html,https://authentication.liveperson.net/accountSelection.html?source=login_html,https://authentication.liveperson.net/accountSelection.html?source=login_html,https://authentication.liveperson.net/accountSelection.html?source=login_html,https://authentication.liveperson.net/accountSelection.html?source=login_html

@@ -1,0 +1,14 @@
+﻿tt,Page,BrandLocale,AV-US
+1,CONFIG,timeoutSetting,5000
+1,HOMEPAGE,closePopupElem,//button[@id='onetrust-reject-all-handler']
+1,HOMEPAGE,closeSecPopupElem,
+1,HOMEPAGE,closeThirdPopupElem,
+1,HOMEPAGE,quizUrl,/avhair-quiz
+1,QUIZPAGE,quizFrameElem,#iFrameResizer0
+1,QUIZPAGE,quizAnswerElem,//*[@data-question-id='index' and @class='answer'][1]
+1,QUIZPAGE,totalQuestionElem,11
+1,QUIZPAGE,addToBagElem,"//div[contains(@class,'products-sub-container')][1]//div[@class='product available'][1]//button[@class='add-to-bag-trigger--js']"
+1,QUIZPAGE,scrollY,1000
+1,DATA,availableMessage,The product has been successfully displayed
+1,DATA,unavailableMessage,The product is not displayed
+1,CONFIG,emulationDevice,Galaxy Note II

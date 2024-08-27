@@ -1,0 +1,75 @@
+tt,BrandLocale,LM-UK,AV-UK,BB-UK,CL-UK
+1,ID,test123@test.com,test123@test.com,test123@test.com,test123@test.com
+1,skuId1,SKU120025,SKU133945,SKU88668,SKU168704
+1,skuId2,SKU65661,SKU147755,SKU106323,SKU14120
+1,skuId3,SKU153763,SKU63882,SKU171186,SKU130195
+1,skuId4,SKU119968,SKU119968,SKU150149,SKU13922
+1,skuId5,SKU26766,SKU26766,SKU17621,SKU153553
+1,REGNAME,DO NOT SHIP,DO NOT SHIP,DO NOT SHIP,DO NOT SHIP
+1,FIRSTNAME,DO NOT,DO NOT,DO NOT,DO NOT
+1,LASTNAME,SHIP,SHIP,SHIP,SHIP
+1,PHONE,8516729491,8516729491,7448778960,7448778960
+1,ZIPCODE1,NW16XE,NW16XE,PO144FL,PO144FL
+1,CITY,London,London,FAREHAM,FAREHAM
+1,STREET,221b Baker St,221b Baker St,Kites Croft Business Park,Kites Croft Business Park
+1,STREET1,,,,Kites Croft Business Park
+1,CCHOLDERNAME,testing card,testing card,testing card,testing card
+1,CREDITCARD,4111 1111 1111 1111,4111 1111 1111 1111,4111 1111 1111 1111,4444 3333 2222 1111
+1,CVV,737,737,737,737
+1,CCMONTH,330,330,330,330
+1,RID,test888@test.com,test888@test.com,test888@test.com,test888@test.com
+1,RID1,test2244@test.com,test2244@test.com,test2244@test.com,test2244@test.com
+1,RID2,test1234@test.com,test1234@test.com,test1234@test.com,test1234@test.com
+1,RID3,test2255@test.com,test2255@test.com,test2255@test.com,test2255@test.com
+1,RID4,test44@44test.com,test44@44test.com,test44@44test.com,test44@44test.com
+1,RID5,test55@55test.com,test55@55test.com,test55@55test.com,test55@55test.com
+1,RID6,test66@66test.com,test66@66test.com,test66@66test.com,test66@66test.com
+1,RID7,test77@77test.com,test77@77test.com,test77@77test.com,test77@77test.com
+1,RID8,test88@88test.com,test88@88test.com,test88@88test.com,test88@88test.com
+1,RID9,test99@99test.com,test99@99test.com,test99@99test.com,test99@99test.com
+1,RID10,test10@10test.com,test10@10test.com,test10@10test.com,test10@10test.com
+1,RID11,test11@11test.com,test11@11test.com,test11@11test.com,test11@11test.com
+1,RID12,test12@12test.com,test12@12test.com,test12@12test.com,test12@12test.com
+1,RID13,test13@13test.com,test13@13test.com,test13@13test.com,test13@13test.com
+1,RID14,test14@14test.com,test14@14test.com,test14@14test.com,test14@14test.com
+1,RID15,test15@15test.com,test15@15test.com,test15@15test.com,test15@15test.com
+1,ENERID1,test2020@test.com,test2020@test.com,test2020@test.com,test2020@test.com
+1,ENERID2,test3030@test.com,test3030@test.com,test3030@test.com,test3030@test.com
+1,ENERID3,test4040@test.com,test4040@test.com,test4040@test.com,test4040@test.com
+1,RPWD,Test@123,Test@123,Test@123,Test@123
+1,NPWD,Test@123,Test@123,Test@123,Test@123
+1,SECURITYANSWER,elc,elc,elc,elc
+1,BIRTHYEAR,1990,1990,1990,1990
+1,BIRTHMONTH,2,2,2,2
+1,BIRTHDAY,1,1,1,1
+1,ORDERMESSAGE,Order Number,Order Number,Order Number,Order Number
+1,ORDERCONFIRMURL,/safepay.do?spm=CREDITCARD,/safepay.do?spm=CREDITCARD,/safepay.do?spm=CREDITCARD,/safepay.do?spm=CREDITCARD
+1,SelectQTY,2,2,2,2
+1,WELCOMEOFFER1,welcomewaves,welcomewaves,bbloyalty15,welcome10
+1,BIRTHDAYOFFER1,lyl_marine_birthday,lyl_marine_birthday,loyaltybday1,birthdaygift
+1,BIRTHDAYOFFER2,,,,
+1,LskuId1,,,,
+1,PrQty,,,,
+1,TIER1STATUS,MARINE,MARINE,ADMIRER,SMART
+1,EARNPNT1,1,1,1,1
+1,EARNPNT2,1,1,1,1
+1,EARNPNT3,1,1,1,1
+1,BDAYBONUS,1,1,1,1
+1,TIER2UPBONUS,0,0,0,0
+1,TESTFLATPNT,0,0,0,0
+1,TESTOFFER1,NA,NA,NA,NA
+1,TESTOFFER2,NA,NA,NA,NA
+1,TESTOFFER3,NA,NA,NA,NA
+1,TESTOFFER4,NA,NA,NA,NA
+1,APPLDTESTOFR1,,,loyalty_delivery,
+1,APPLDTESTOFR1,,,freedel16,
+1,TESTPNT1,0,0,0,0
+1,TESTPNT2,0,0,0,0
+1,TESTPNT3,0,0,0,0
+1,BRLOC,LM-UK,AV-UK,BB-UK,CL-UK
+1,ORDERCONFIRMURL2,/checkout/checkout.tmpl?_SUBMIT=checkout_complete&PayUReference,/checkout/checkout.tmpl?_SUBMIT=checkout_complete&PayUReference,/checkout/confirm.tmpl,/checkout/confirm.tmpl
+1,UPDATEPASSWORD,Test123!,Test123!,Test123!,Test123!
+1,BdayYear,1990,1990,1990,1990
+1,timeOut,40000,30000,40000,40000
+1,timeOut1,5000,5000,5000,5000
+1,pollintTime,100,100,100,100

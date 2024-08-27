@@ -1,0 +1,8 @@
+tt,Page,BrandLocale,MC-US
+1,HOMEPAGE,homepageExampleCookieElem,
+1,HOMEPAGE,commonExampleclosePopUpElem,"//button[contains(@title,'close')]"
+1,GNAVHEADERPAGE,gnavHeaderExampleNavElem,//a[@href='/bestsellers']
+1,GNAVHEADERPAGE,gnavHeaderExampleHamburgerElem,//div[@class='site-header-formatter__menu-icon']
+1,PLPPDPPAGE,plpPageExamplePlpGridElem,"//section[@data-controller=""collection""]"
+1,PLPPDPPAGE,plpPageExamplePdpElem,"//h2[contains(@class,'font-headline')]"
+1,PLPPDPPAGE,pdpPageExamplePdpLandElem,//div[@class='product-full__spp-block']

@@ -1,0 +1,3558 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Set to no cache, else the page will be served from cache without htaccess authentication -->
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" type="image/x-icon" href="assets/elc_online.png" />
+  <title>QA Automation Platform</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/jquery.multiselect.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<style>
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  label {
+    user-select: none;
+    cursor: default;
+  }
+
+  body {
+    user-select: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  a:link {
+    font-size: 1px;
+    visibility: hidden;
+  }
+
+  .tagvalue {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+  }
+
+  .button,
+  a[id='cseml'] {
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-width: 120px;
+    width: 15%;
+    color: #000;
+    text-overflow: ellipsis;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.4;
+    cursor: pointer;
+    border: 3px solid rgb(255, 255, 255);
+  }
+
+  .button:hover {
+    border: 3px solid rgb(255, 255, 255);
+    background-color: #0927bd;
+  }
+
+  .tablink {
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 10px;
+    font-size: 14px;
+    width: 50%;
+    float: left;
+    text-align: left;
+    border: none;
+  }
+
+  #scp {
+    border-right: 1px solid;
+  }
+
+  .col-form-label,
+  .form-check-label {
+    font-size: 14px;
+  }
+
+  .form-check-input:checked {
+    background-color: rgb(154, 205, 50);
+    border-color: rgb(154, 205, 50);
+  }
+
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    border: 1px solid rgb(255, 255, 255);
+    color: grey(0, 0, 0);
+    display: none;
+    /* -webkit-box-shadow: inset -2px -2px 2px 0px rgba(0, 0, 0, 0.5);
+      -moz-box-shadow: inset -2px -2px 2px 0px rgba(0, 0, 0, 0.5);
+      box-shadow: inset -2px -2px 2px 0px rgba(0, 0, 0, 0.5); */
+  }
+
+  .coveragemap:hover {
+    font-size: 12px;
+    visibility: visible !important;
+    text-decoration: none;
+    color: rgb(53 17 17);
+  }
+
+  .coveragemap,
+  .coveragemap:link {
+    font-size: 12px;
+    visibility: visible !important;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    color: rgb(53 17 17);
+  }
+
+  .coverageMapRow {
+    background-color: rgb(255, 255, 255, 0.8);
+    font-size: 12px;
+    color: rgb(70 65 65);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  #featureDesc {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+  }
+
+  .button.nextBtn,
+  .button.startBtn {
+    float: right;
+  }
+
+  .multiselect-dropdown {
+    width: 100% !important;
+  }
+
+  .applicationTheme {
+    background-color: #0f416d;
+    /* background-color: #172b4d; */
+    /* background-color: #142474; */
+    /* background-color: #00539c; */
+    /* background-color: #4831d4; */
+    /* CCF381 */
+    color: rgb(255, 255, 255);
+  }
+
+  .applicationTheme .nav-link {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    visibility: visible;
+  }
+
+  .leftSideBar {
+    /* -webkit-box-shadow: 10px 0px 5px -10px rgba(255, 255, 255, 1);
+      -moz-box-shadow: 10px 0px 5px -10px rgba(255, 255, 255, 1);
+      box-shadow: 10px 0px 5px -10px rgba(255, 255, 255, 1); */
+    border-right: 1px solid;
+    padding: 0;
+  }
+
+  #Scope .multiselect-dropdown {
+    padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+  }
+
+  #Scope .multiselect-dropdown span.placeholder {
+    background: none;
+    color: #a4a4a4;
+  }
+
+  .nav-item {
+    width: 120px;
+  }
+
+  @media screen and (max-width: 575px) {
+    .nav-item {
+      width: auto;
+    }
+
+    .fixed-bottom {
+      background-color: #0f416d;
+    }
+  }
+
+  .nav-item.active,
+  .nav-item.active .nav-link {
+    background-color: rgb(255, 255, 255);
+    color: #000;
+  }
+
+  .nav-item .fa {
+    font-size: 28px;
+  }
+
+  #Scope .multiselect-dropdown-list label {
+    color: #000;
+  }
+
+  #Scope .multiselect-dropdown span.optext {
+    color: #000;
+  }
+
+  #Scope .multiselect-dropdown span.optext,
+  .form-control,
+  .form-select {
+    font-size: 13px;
+  }
+
+  li[data-search-term*='scenarios'] {
+    pointer-events: none;
+  }
+
+  li[data-search-term*='scenarios'] input[type='checkbox'] {
+    display: none;
+  }
+
+  h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  #ms-list-5 .ms-options {
+    min-height: 130px !important;
+  }
+</style>
+
+<body onload="populateBrandList();trainChange();populateTcGroupName();populateTcName();">
+  <div class="container-fluid applicationTheme">
+    <div class="row">
+      <div class="col-sm-auto sticky-top leftSideBar applicationTheme">
+        <div class="d-flex flex-sm-column flex-row flex-nowrap align-items-center sticky-top">
+          <!-- <img class="logo my-3" src="assets/logo.png" alt="login" /> -->
+          <ul
+            class="nav nav-pills nav-flush flex-sm-column flex-row flex-nowrap mb-auto mx-auto text-center justify-content-between w-100 align-items-center">
+            <li class="nav-item px-2 py-3 active">
+              <i class="fa fa-bolt"></i>
+              <a href="#" class="nav-link pb-3 px-2"
+                title="This section is to execute your functional tests as per your scope" data-bs-toggle="tooltip"
+                data-bs-placement="right" data-bs-original-title="Functional Testing">
+                Functional Testing
+              </a>
+            </li>
+            <li class="nav-item px-2 py-3">
+              <i class="fa fa-cogs"></i>
+              <a href="APItesting.html" class="nav-link pb-3 px-2"
+                title="This section is to test your API endpoints as per your scope with postman collections"
+                data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="API Testing">
+                API Testing
+              </a>
+            </li>
+            <li class="nav-item px-2 py-3">
+              <i class="fa fa-eye"></i>
+              <a href="CSEMLindex.html" class="nav-link pb-3 px-2"
+                title="This section is to execute your oofis related tests using CSEML automated tests"
+                data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="CSEML Testing">
+                CSEML Validation
+              </a>
+            </li>
+            <li class="nav-item px-2 py-3">
+              <i class="fa fa-user"></i>
+              <a href="helplink.html" class="nav-link pb-3 px-2"
+                title="This section has list of useful links for your quick reference" data-bs-toggle="tooltip"
+                data-bs-placement="right" data-bs-original-title="Help Link">
+                Help Link
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm px-3 py-2 min-vh-100">
+        <h2 class="text-center my-3 py-2">
+          QA Automation Platform - Functional Testing
+        </h2>
+        <marquee behavior="alternate" scrollamount="6" style="font-size: small;">**Implementation of tests for INT,
+          INT-X and PR Environment in UI is in progress**</marquee>
+        <!-- <div class="alert alert-danger alert-dismissible" role="alert">
+            <marquee><p style="font-family: Impact; font-size: 18pt;margin-bottom: 0;">Banner</p></marquee>
+          </div> -->
+        <div class="col-sm-12">
+          <button class="tablink col-sm-6 float-left" id="scp" onclick="openPage('Scope', 'scp',0)">
+            Scope & Release
+          </button>
+          <button class="tablink col-sm-6 float-left" id="env" onclick="openPage('Environment', 'env',1)">
+            Environment
+          </button>
+        </div>
+        <div class="Data col-sm-12">
+          <div id="Scope" class="tabcontent mb-3">
+            <div class="container-fluid">
+              <div class="row mb-3 pt-3">
+                <div class="col-sm-6">
+                  <div class="form-check form-switch mb-1">
+                    <input class="form-check-input" type="checkbox" role="switch" id="smokeTest"
+                      onchange="smokeTest()" />
+                    <label class="form-check-label" for="SmokeTest">Smoke Test</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label class="col-sm-2 col-form-label">Features*</label>
+                <div class="col-sm-4"
+                  title="Please select the features for which you want to execute the scenarios based on your testing scope"
+                  data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-trigger="hover">
+                  <select name="testgroups" class="form-select" id="testgroups" onchange="populateTcName()"
+                    multiple="multiple"></select>
+                </div>
+                <label class="col-sm-2 col-form-label">Scenarios*</label>
+                <div class="col-sm-4"
+                  title="This field will dynamically populate the list of scenarios based on the feature(s) selection. Please select all the scenarios that are required to be tested"
+                  data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-trigger="hover">
+                  <select name="testcases" class="form-select multipleSelectDropdown" id="testcases" multiple>
+                    <option value="testcase1" selected>testcase1</option>
+                    <option value="testcase2">testcase2</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label class="col-sm-2 col-form-label">Brands*</label>
+                <div class="col-sm-4" title="This field is a multiselect that lists all the brands in ELC"
+                  data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-trigger="hover">
+                  <select name="brands" class="form-select multipleSelectDropdown" id="brands" multiple></select>
+                </div>
+                <label class="col-sm-2 col-form-label">Markets*</label>
+                <div class="col-sm-4"
+                  title="This field is a multiselect that lists all the markets/locales in which ELC has its presence"
+                  data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-trigger="hover">
+                  <select name="locales" class="form-select multipleSelectDropdown" id="locales" multiple>
+                    <option value="US">US</option>
+                    <option value="CA">Canada</option>
+                    <option value="UK">UK</option>
+                    <option value="APAC">APAC</option>
+                    <option value="AU">&nbsp;Australia</option>
+                    <option value="CN">&nbsp;China</option>
+                    <option value="HK">&nbsp;HongKong</option>
+                    <option value="JP">&nbsp;Japan</option>
+                    <option value="KR">&nbsp;Korea</option>
+                    <option value="MY">&nbsp;Malaysia</option>
+                    <option value="NZ">&nbsp;NewZealand</option>
+                    <option value="PH">&nbsp;Philippines</option>
+                    <option value="SG">&nbsp;Singapore</option>
+                    <option value="TW">&nbsp;Taiwan</option>
+                    <option value="TH">&nbsp;Thailand</option>
+                    <option value="EMEA">EMEA</option>
+                    <option value="AT">&nbsp;Austria</option>
+                    <option value="BE">&nbsp;Belgium</option>
+                    <option value="CZ">&nbsp;Czech Republic</option>
+                    <option value="DK">&nbsp;Denmark</option>
+                    <option value="EU">&nbsp;European Union</option>
+                    <option value="FI">&nbsp;Finland</option>
+                    <option value="FR">&nbsp;France</option>
+                    <option value="DE">&nbsp;Germany</option>
+                    <option value="GR">&nbsp;Greece</option>
+                    <option value="HU">&nbsp;Hungary</option>
+                    <option value="IN">&nbsp;India</option>
+                    <option value="IL">&nbsp;Israel</option>
+                    <option value="IT">&nbsp;Italy</option>
+                    <option value="ME">&nbsp;Middle East</option>
+                    <option value="NL">&nbsp;Netherlands</option>
+                    <option value="NO">&nbsp;Norway</option>
+                    <option value="PL">&nbsp;Poland</option>
+                    <option value="PT">&nbsp;Portugal</option>
+                    <option value="RO">&nbsp;Romania</option>
+                    <option value="KSA">&nbsp;Saudi Arabia</option>
+                    <option value="ZA">&nbsp;South Africa</option>
+                    <option value="ES">&nbsp;Spain</option>
+                    <option value="SE">&nbsp;Sweden</option>
+                    <option value="CH">&nbsp;Switzerland</option>
+                    <option value="TR">&nbsp;Turkey</option>
+                    <option value="UAE">&nbsp;United Arab Emirates</option>
+                    <option value="LATAM">LATAM</option>
+                    <option value="BR">&nbsp;Brazil</option>
+                    <option value="CE">&nbsp;Chile</option>
+                    <option value="MX">&nbsp;Mexico</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label class="col-sm-2 col-form-label">Team*</label>
+                <div class="col-sm-4" title="This the high level team that you belong to e.g. Regional"
+                  data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-trigger="hover">
+                  <select name="train" class="form-select" id="train" onchange="trainChange()">
+                    <option value="Select" selected>Select</option>
+                    <option value="Regional">Regional</option>
+                    <option value="BrandExp">BrandExp</option>
+                    <option value="BrandAssembly">BrandAssembly</option>
+                    <option value="EcommStardust">EcommStardust</option>
+                    <option value="EcommHybrid">EcommHybrid</option>
+                    <option value="AFT">AFT</option>
+                    <option value="FeatureRollouts">FeatureRollouts</option>
+                    <option value="Operations">Operations</option>
+                  </select>
+                </div>
+                <label class="col-sm-2 col-form-label">Subteam*</label>
+                <div class="col-sm-4"
+                  title="This is the subteam that you belong to. These teams are listed based on the high level team selection."
+                  data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-trigger="hover">
+                  <select name="team" id="team" class="form-select">
+                    <option value="team1" selected>team1</option>
+                    <option value="team2">team2</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label class="col-sm-2 col-form-label">Test Name </label>
+                <div class="col-sm-4"
+                  title="Optional. This is the Test Name which you want to trigger. If not provided, it would default to a value based date and timestamp the test is triggered."
+                  data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-trigger="hover">
+                  <input type="text" class="form-control" id="launchdescription" name="launchdescription"
+                    placeholder="Test Name" />
+                </div>
+                <label class="col-sm-2 col-form-label">Platform*</label>
+                <div class="col-sm-4"
+                  title="This is to select the device on which the test to be run. When PC is selected, the test will run on Desktop Chrome browser. When Mobile is selected, the test would run in the mobile emulation on the chrome browser for iPhone or Galaxy note"
+                  data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-trigger="hover">
+                  <select name="platform" id="platform" class="form-select" onchange="onChangePlatform()">
+                    <option value="PC" selected>PC</option>
+                    <option value="MOB">Mobile</option>
+                  </select>
+                </div>
+                <label class="col-sm-2 col-form-label" style="display: none;" id="browserslabel">Browsers*</label>
+                <div class="col-sm-4" title="This is applicable only for ELcelerate Test" data-bs-toggle="tooltip"
+                  data-bs-placement="bottom" data-bs-trigger="hover" hidden>
+                  <select name="browser" class="form-select multipleSelectDropdown" id="browser" multiple hidden>
+                  </select>
+                </div>
+              </div>
+              <div class="row mb-2">
+                <div class="col-sm-6">
+                  <div id="featureDesc"></div>
+                </div>
+                <div class="col-sm-6">
+                  <button onclick="openPage('Environment', 'env',1)" class="btn button nextBtn py-1">
+                    Next
+                  </button>
+                </div>
+                <div class="col-sm-6">
+                  <div class="row">
+                    <!--<label class="col-sm-4 col-form-label">Test / Jira ID*</label>
+                    <div class="col-sm-4"
+                      title="This is the Test / Jira ID for which you want to trigger the tests for."
+                      data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-trigger="hover">
+                      <input type="text" class="form-control" id="launchdescription" name="launchdescription"
+                        placeholder="Test / Jira ID" />
+                    </div>-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="Environment" class="tabcontent mb-3 col-sm-12">
+          <div class="container-fluid mt-3">
+            <div class="row mb-3 pt-3">
+              <label class="col-sm-2 col-form-label">Environment*</label>
+              <div class="col-sm-4"
+                title="Select the application environment on which the selected tests need to be executed"
+                data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-trigger="hover">
+                <select name="environment" class="form-select" id="environment" onchange="envChange()">
+                  <option value="PROD" selected>Prod</option>
+                  <option value="PREPROD">Preprod</option>
+                  <option value="STAGE">Stage</option>
+                  <option value="DEV">Dev</option>
+                  <option value="FEATURE">Feature</option>
+                  <option value="ENG">Personal Eng</option>
+                  <option value="PRENV">PR Environment</option>
+                  <option value="INT">INT</option>
+                  <option value="INTX">INTX</option>
+                  <!-- <option value="PREVIEW">Preview</option> -->
+                  <option value="PINCER">Pincer</option>
+                </select>
+              </div>
+              <label class="col-sm-2 col-form-label">List of Cookies</label>
+              <div class="col-sm-4"
+                title="If you want to have multiple cookies set apart from test order, akamai bypass, waf cookies which are already taken care in the script, please provide in this field in the specified format. Else, leave it blank."
+                data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-trigger="hover">
+                <input type="text" class="form-control" id="allcookies" name="allcookies"
+                  placeholder="cookie1:value1,cookie2:value2" />
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label class="col-sm-2 col-form-label">Akamai Bypass</label>
+              <div class="col-sm-4" title="To bypass the Akamai cache, please set true. By default, it is set as false"
+                data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-trigger="hover">
+                <select name="akamai" id="akamai" class="form-select">
+                  <option value="False" selected>False</option>
+                  <option value="True">True</option>
+                </select>
+              </div>
+              <label class="col-sm-2 col-form-label">Varnish Bypass</label>
+              <div class="col-sm-4" title="To bypass the Varnish cache, please set true. By default, it is set as false"
+                data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-trigger="hover">
+                <select name="varnish" id="varnish" class="form-select">
+                  <option value="False" selected>False</option>
+                  <option value="True">True</option>
+                </select>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label class="col-sm-2 col-form-label" id="intxlabel" style="display: none;">INTX*</label>
+              <div class="col-sm-4" title="INT server number. The values can be one of 3, 4 or 6."
+                data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-trigger="hover">
+                <input type="text" class="form-control" id="intx" name="intx" placeholder="INT X Number"
+                  style="display: none;" />
+              </div>
+              <label class="col-sm-2 col-form-label" id="intxpgenvlabel" style="display: none;">PerlGem Env*</label>
+              <div class="col-sm-4" title="PG environment for INTX environment" data-bs-toggle="tooltip"
+                data-bs-placement="bottom" data-bs-trigger="hover" onchange="pgenvchange()">
+                <select name="intxpgenv" id="intxpgenv" name="intxpgenv" class="form-select" style="display: none;">
+                  <option value="BRANCHSERVER">Branch Server</option>
+                  <option value="STAGE">Stage</option>
+                  <option value="DEV">Dev</option>
+                </select>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label class="col-sm-2 col-form-label" id="revisiontaglabel" style="display: none;">Revision Tag</label>
+              <div class="col-sm-4">
+                <input type="text" class="form-control" id="revisiontag" name="revisiontag" placeholder="Revision Tag"
+                  style="display: none;" />
+              </div>
+              <label class="col-sm-2 col-form-label" id="apienvlabel" style="display: none;">API Env</label>
+              <div class="col-sm-4" title="Applicable only for lower environments." data-bs-toggle="tooltip"
+                data-bs-placement="bottom" data-bs-trigger="hover">
+                <select name="apienv" class="form-select" id="apienv" style="display: none;">
+                  <option value="qa">QA</option>
+                  <option value="production">Production</option>
+                  <option value="uat">UAT</option>
+                  <option value="integration">Integration</option>
+                </select>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label class="col-sm-2 col-form-label" id="prnumlabel" style="display: none;">PR Number*</label>
+              <div class="col-sm-4" title="Applicable only for PR environments" data-bs-toggle="tooltip"
+                data-bs-placement="bottom" data-bs-trigger="hover">
+                <input type="text" class="form-control" id="prnum" name="prnum" placeholder="GitHub PR number"
+                  style="display: none;" />
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label class="col-sm-2 col-form-label" id="jiraidlabel" style="display: none;">Jira Id*</label>
+              <div class="col-sm-4"
+                title="Applicable only for Feature, Personal Eng, INTX (PG Env: Branch server) and Branch Server environments. This would be part of the URL. The value should be along with ELB e.g. mppfind-455-ELB3 or drp06user09 or jchellia."
+                data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-trigger="hover">
+                <input type="text" class="form-control" id="jiraid" name="jiraid"
+                  placeholder="Jira Id/User Name/Branch Server" style="display: none;" />
+              </div>
+              <label class="col-sm-2 col-form-label" id="ncsaservernumberlabel" style="display: none;">NCSA
+                server*</label>
+              <div class="col-sm-4"
+                title="Applicable only for Personal Eng, INTX (PG Env: Branch Server) and Branch Server environments. This is part of your URL as the NCSA Server number. If your URL is https://e.darphin.na.us.drp06user09.eng.ncsa6.elcdev.net, the value for this field should be 6."
+                data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-trigger="hover">
+                <input type="text" class="form-control" id="ncsaservernumber" name="ncsaservernumber"
+                  placeholder="Only number" style="display: none;" />
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label class="col-sm-2 col-form-label" id="perlgemlabel" style="display: none;">PerlGem Env*</label>
+              <div class="col-sm-4"
+                title="Applicable only for Feature environments. While spinning up the feature environment, you would have selected the perlgem api environment. Select the same here."
+                data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-trigger="hover">
+                <select name="perlgem" id="perlgem" class="form-select" style="display: none;">
+                  <option value="PREPROD">Preprod</option>
+                  <option value="STAGE">Stage</option>
+                  <option value="DEV">Dev</option>
+                </select>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-sm-6 text-left">
+                <button onclick="openPage('Scope', 'scp',0)" class="btn button backBtn">
+                  Back
+                </button>
+              </div>
+              <div class="col-sm-6 text-right">
+                <button onclick="startTest()" class="btn button startBtn">
+                  Start
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="Optional-Config" class="tabcontent col-sm-12">
+          <label>Number of Retry:</label>
+          <label>Enter Dev PR cookie value:</label>
+          <select name="retries" id="retries">
+            <option value="2" selected>One Retry</option>
+            <option value="1">No Retry</option>
+          </select>
+          <input type="text" id="cookieval" name="cookieval" placeholder="Cookie value" />
+          <label>Enter Dev PR cookie path:</label>
+          <label>List of Cookies:</label><br />
+          <input type="text" id="cookiepath" name="cookiepath" placeholder="Cookie path" />
+          <!-- <input
+              type="text"
+              id="allcookies"
+              name="allcookies"
+              placeholder="cookie1:value1,cookie2:value2"
+            /> -->
+          <br />
+          <button onclick="openPage('Environment', 'env')" class="btn button backBtn">
+            Back
+          </button>
+          <button onclick="startTest()" class="btn button startBtn">
+            Start
+          </button>
+          <br />
+        </div>
+        <div class="col-sm-12 my-2">
+          <p id="tagvalue" class="tagvalue"></p>
+        </div>
+        <div class="col-sm-12 d-none">
+          <p><a id="urlvalue" href="" target="_blank"></a></p>
+        </div>
+        <div class="coverageMapRow col-sm-12 mt-2 mb-4 p-1">
+          <b>Automation scripts for selected features may not be available for
+            all brand & markets. Please
+            <!--<a class="coveragemap" href="chatwithhelix.html" target="_blank">
+                Chat with Helix
+              </a>
+              or -->
+            refer
+            <a class="coveragemap" href="https://confluence.esteeonline.com/display/QAP/QAP+Test+Coverage"
+              target="_blank"> Coverage Map </a>
+            for details</b>
+        </div>
+        <div class="col-sm-12 text-center fixed-bottom" style="
+              font-style: italic;
+              font-family: 'Times New Roman', Times, serif;
+              font-size: large;
+            ">
+          <p>Powered by QA Automation Platform</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="tagvalues181.js"></script>
+  <script>
+    // Check for the change in Environment
+    // Revision tag is enabled for Stage and Feature
+    // PerlGem and JiraId is enabled only for Feature
+
+    function envChange() {
+      var selectVal = document.getElementById('environment').value;
+      console.log(selectVal);
+      document.getElementById('ncsaservernumber').style.display = 'none';
+      document.getElementById('ncsaservernumberlabel').style.display = 'none';
+
+      if (selectVal == 'STAGE') {
+        document.getElementById('revisiontag').style.display = 'block';
+        document.getElementById('revisiontaglabel').style.display = 'block';
+
+        document.getElementById('apienv').style.display = 'block';
+        document.getElementById('apienvlabel').style.display = 'block';
+
+        document.getElementById('perlgem').style.display = 'none';
+        document.getElementById('perlgemlabel').style.display = 'none';
+
+        document.getElementById('jiraid').style.display = 'none';
+        document.getElementById('jiraidlabel').style.display = 'none';
+
+        document.getElementById('prnum').style.display = 'none';
+        document.getElementById('prnumlabel').style.display = 'none';
+
+        document.getElementById('intx').style.display = 'none';
+        document.getElementById('intxlabel').style.display = 'none';
+
+        document.getElementById('intxpgenv').style.display = 'none';
+        document.getElementById('intxpgenvlabel').style.display = 'none';
+      } else if (selectVal == 'DEV') {
+        document.getElementById('revisiontag').style.display = 'block';
+        document.getElementById('revisiontaglabel').style.display = 'block';
+
+        document.getElementById('apienv').style.display = 'block';
+        document.getElementById('apienvlabel').style.display = 'block';
+
+        document.getElementById('perlgem').style.display = 'none';
+        document.getElementById('perlgemlabel').style.display = 'none';
+
+        document.getElementById('jiraid').style.display = 'none';
+        document.getElementById('jiraidlabel').style.display = 'none';
+
+        document.getElementById('prnum').style.display = 'none';
+        document.getElementById('prnumlabel').style.display = 'none';
+
+        document.getElementById('intx').style.display = 'none';
+        document.getElementById('intxlabel').style.display = 'none';
+
+        document.getElementById('intxpgenv').style.display = 'none';
+        document.getElementById('intxpgenvlabel').style.display = 'none';
+      } else if (selectVal == 'FEATURE') {
+        document.getElementById('revisiontag').style.display = 'block';
+        document.getElementById('revisiontaglabel').style.display = 'block';
+
+        document.getElementById('apienv').style.display = 'block';
+        document.getElementById('apienvlabel').style.display = 'block';
+
+        document.getElementById('perlgem').style.display = 'block';
+        document.getElementById('perlgemlabel').style.display = 'block';
+
+        document.getElementById('jiraid').style.display = 'block';
+        document.getElementById('jiraidlabel').style.display = 'block';
+
+        document.getElementById('prnum').style.display = 'none';
+        document.getElementById('prnumlabel').style.display = 'none';
+
+        document.getElementById('intx').style.display = 'none';
+        document.getElementById('intxlabel').style.display = 'none';
+
+        document.getElementById('intxpgenv').style.display = 'none';
+        document.getElementById('intxpgenvlabel').style.display = 'none';
+      } else if (selectVal == 'ENG') {
+        document.getElementById('revisiontag').style.display = 'block';
+        document.getElementById('revisiontaglabel').style.display = 'block';
+
+        document.getElementById('apienv').style.display = 'block';
+        document.getElementById('apienvlabel').style.display = 'block';
+
+        document.getElementById('ncsaservernumber').style.display = 'block';
+        document.getElementById('ncsaservernumberlabel').style.display = 'block';
+
+        document.getElementById('perlgem').style.display = 'none';
+        document.getElementById('perlgemlabel').style.display = 'none';
+
+        document.getElementById('jiraid').style.display = 'block';
+        document.getElementById('jiraidlabel').style.display = 'block';
+
+        document.getElementById('prnum').style.display = 'none';
+        document.getElementById('prnumlabel').style.display = 'none';
+
+        document.getElementById('intx').style.display = 'none';
+        document.getElementById('intxlabel').style.display = 'none';
+
+        document.getElementById('intxpgenv').style.display = 'none';
+        document.getElementById('intxpgenvlabel').style.display = 'none';
+      } else if (selectVal == 'PREVIEW') {
+        document.getElementById('revisiontag').style.display = 'block';
+        document.getElementById('revisiontaglabel').style.display = 'block';
+
+        document.getElementById('apienv').style.display = 'block';
+        document.getElementById('apienvlabel').style.display = 'block';
+
+        document.getElementById('perlgem').style.display = 'block';
+        document.getElementById('perlgemlabel').style.display = 'block';
+
+        document.getElementById('jiraid').style.display = 'block';
+        document.getElementById('jiraidlabel').style.display = 'block';
+
+        document.getElementById('prnum').style.display = 'none';
+        document.getElementById('prnumlabel').style.display = 'none';
+
+        document.getElementById('intx').style.display = 'none';
+        document.getElementById('intxlabel').style.display = 'none';
+
+        document.getElementById('intxpgenv').style.display = 'none';
+        document.getElementById('intxpgenvlabel').style.display = 'none';
+      } else if (selectVal == 'PRENV') {
+        document.getElementById('revisiontag').style.display = 'none';
+        document.getElementById('revisiontaglabel').style.display = 'none';
+
+        document.getElementById('apienv').style.display = 'none';
+        document.getElementById('apienvlabel').style.display = 'none';
+
+        document.getElementById('perlgem').style.display = 'none';
+        document.getElementById('perlgemlabel').style.display = 'none';
+
+        document.getElementById('jiraid').style.display = 'none';
+        document.getElementById('jiraidlabel').style.display = 'none';
+
+        document.getElementById('prnum').style.display = 'block';
+        document.getElementById('prnumlabel').style.display = 'block';
+
+        document.getElementById('intx').style.display = 'none';
+        document.getElementById('intxlabel').style.display = 'none';
+
+        document.getElementById('intxpgenv').style.display = 'none';
+        document.getElementById('intxpgenvlabel').style.display = 'none';
+      } else if (selectVal == 'INT') {
+        document.getElementById('revisiontag').style.display = 'none';
+        document.getElementById('revisiontaglabel').style.display = 'none';
+
+        document.getElementById('apienv').style.display = 'none';
+        document.getElementById('apienvlabel').style.display = 'none';
+
+        document.getElementById('perlgem').style.display = 'none';
+        document.getElementById('perlgemlabel').style.display = 'none';
+
+        document.getElementById('jiraid').style.display = 'none';
+        document.getElementById('jiraidlabel').style.display = 'none';
+
+        document.getElementById('prnum').style.display = 'none';
+        document.getElementById('prnumlabel').style.display = 'none';
+
+        document.getElementById('intx').style.display = 'none';
+        document.getElementById('intxlabel').style.display = 'none';
+
+        document.getElementById('intxpgenv').style.display = 'none';
+        document.getElementById('intxpgenvlabel').style.display = 'none';
+      } else if (selectVal == 'INTX') {
+        document.getElementById('revisiontag').style.display = 'none';
+        document.getElementById('revisiontaglabel').style.display = 'none';
+
+        document.getElementById('apienv').style.display = 'none';
+        document.getElementById('apienvlabel').style.display = 'none';
+
+        document.getElementById('perlgem').style.display = 'none';
+        document.getElementById('perlgemlabel').style.display = 'none';
+
+        document.getElementById('jiraid').style.display = 'block';
+        document.getElementById('jiraidlabel').style.display = 'block';
+
+        document.getElementById('prnum').style.display = 'none';
+        document.getElementById('prnumlabel').style.display = 'none';
+
+        document.getElementById('intx').style.display = 'block';
+        document.getElementById('intxlabel').style.display = 'block';
+
+        document.getElementById('intxpgenv').style.display = 'block';
+        document.getElementById('intxpgenvlabel').style.display = 'block';
+
+        document.getElementById('ncsaservernumber').style.display = 'block';
+        document.getElementById('ncsaservernumberlabel').style.display = 'block';
+      } else if (selectVal == 'PINCER') {
+        document.getElementById('revisiontag').style.display = 'none';
+        document.getElementById('revisiontaglabel').style.display = 'none';
+
+        document.getElementById('apienv').style.display = 'none';
+        document.getElementById('apienvlabel').style.display = 'none';
+
+        document.getElementById('perlgem').style.display = 'none';
+        document.getElementById('perlgemlabel').style.display = 'none';
+
+        document.getElementById('jiraid').style.display = 'none';
+        document.getElementById('jiraidlabel').style.display = 'none';
+
+        document.getElementById('prnum').style.display = 'none';
+        document.getElementById('prnumlabel').style.display = 'none';
+
+        document.getElementById('intx').style.display = 'none';
+        document.getElementById('intxlabel').style.display = 'none';
+
+        document.getElementById('intxpgenv').style.display = 'none';
+        document.getElementById('intxpgenvlabel').style.display = 'none';
+      } else {
+        document.getElementById('revisiontag').style.display = 'none';
+        document.getElementById('revisiontaglabel').style.display = 'none';
+
+        document.getElementById('apienv').style.display = 'none';
+        document.getElementById('apienvlabel').style.display = 'none';
+
+        document.getElementById('perlgem').style.display = 'none';
+        document.getElementById('perlgemlabel').style.display = 'none';
+
+        document.getElementById('jiraid').style.display = 'none';
+        document.getElementById('jiraidlabel').style.display = 'none';
+
+        document.getElementById('prnum').style.display = 'none';
+        document.getElementById('prnumlabel').style.display = 'none';
+
+        document.getElementById('intx').style.display = 'none';
+        document.getElementById('intxlabel').style.display = 'none';
+
+        document.getElementById('intxpgenv').style.display = 'none';
+        document.getElementById('intxpgenvlabel').style.display = 'none';
+      }
+    }
+
+    function pgenvchange() {
+      let selectPGEnvVal = document.getElementById('intxpgenv').value;
+      console.log(selectPGEnvVal);
+
+      if (selectPGEnvVal == 'BRANCHSERVER') {
+        document.getElementById('ncsaservernumber').style.display = 'block';
+        document.getElementById('ncsaservernumberlabel').style.display = 'block';
+
+        document.getElementById('jiraid').style.display = 'block';
+        document.getElementById('jiraidlabel').style.display = 'block';
+      } else {
+        document.getElementById('ncsaservernumber').style.display = 'none';
+        document.getElementById('ncsaservernumberlabel').style.display = 'none';
+
+        document.getElementById('jiraid').style.display = 'none';
+        document.getElementById('jiraidlabel').style.display = 'none';
+      }
+    }
+
+    // This value for smoke test validation flag
+    let smokeTestFlag = false;
+    let smokeTestCases = [
+      [
+        'TCAA',
+        'Checkout',
+        '*****SELECT CHECKOUT SCENARIOS*****',
+        'PC',
+        'MOB',
+        'disable',
+      ],
+      ['TC01', 'Checkout', 'Verify Guest User checkout', 'GUPC', 'GUMOB'],
+      ['TC02', 'Checkout', 'Verify Return User checkout', 'RUPC', 'RUMOB'],
+      [
+        'TC03',
+        'Checkout',
+        'Verify Return User checkout using saved card',
+        'SCRUPC',
+        'SCRUMOB',
+      ],
+      ['TC04', 'Checkout', 'Verify New User checkout', 'NUPC', 'NUMOB'],
+      [
+        'TC05',
+        'Checkout',
+        'Verify User can edit quantity and offers in Cart',
+        'CARTPC',
+        'CARTMOB',
+      ],
+      [
+        'TCEE',
+        'GNAV Footer',
+        '*****SELECT GNAV Footer SCENARIOS*****',
+        'PC',
+        'MOB',
+        'disable',
+      ],
+      [
+        'TC35',
+        'GNAV Footer',
+        'Verify User can navigate through all link in GNAV',
+        'GNAVPC',
+        'GNAVMOB',
+      ],
+      [
+        'TCHH',
+        'Search',
+        '*****SELECT SEARCH SCENARIOS*****',
+        'PC',
+        'MOB',
+        'disable',
+      ],
+      [
+        'TC81',
+        'Search',
+        'Verify user can search for a product and add to bag',
+        'SANITYSEARCHPC',
+        'SANITYSEARCHMOB',
+      ],
+    ];
+
+   
+    // This array has tc short name, tc name, tag for PC and tag for Mobile
+    var tcName = [
+      [
+        'TCAA',
+        'Checkout',
+        '*****SELECT CHECKOUT SCENARIOS*****',
+        'PC',
+        'MOB',
+        'disable',
+      ],
+      [
+        'TC01',
+        'Checkout',
+        'Verify Guest User checkout',
+        'GUPC',
+        'GUMOB',
+        'SMOKETEST',
+      ],
+      [
+        'TC02',
+        'Checkout',
+        'Verify Return User checkout',
+        'RUPC',
+        'RUMOB',
+        'SMOKETEST',
+      ],
+      [
+        'TC03',
+        'Checkout',
+        'Verify Return User checkout using saved card',
+        'SCRUPC',
+        'SCRUMOB',
+        'SMOKETEST',
+      ],
+      [
+        'TC04',
+        'Checkout',
+        'Verify New User checkout',
+        'NUPC',
+        'NUMOB',
+        'SMOKETEST',
+      ],
+      [
+        'TC05',
+        'Checkout',
+        'Verify User can edit quantity and offers in Cart',
+        'CARTPC',
+        'CARTMOB',
+        'SMOKETEST',
+      ],
+      [
+        'TC06',
+        'Checkout',
+        'Verify New User Checkout by Signing Up through GNAV',
+        'SIGNUPGNAVNUPC',
+        'SIGNUPGNAVNUMOB',
+      ],
+      [
+        'TC07',
+        'Checkout',
+        'Verify GU order details with Offer & billing address saved in a .csv file',
+        'GUDISBILLORDDET2CSVPC',
+        'GUDISBILLORDDET2CSVPCMOB',
+      ],
+      [
+        'TC08',
+        'Checkout',
+        'Verify RU order details with multiple product are  saved in a .csv file',
+        'RUPRDTSORDDET2CSVMOBPC',
+        'RUPRDTSORDDET2CSVMOB',
+      ],
+      [
+        'TC09',
+        'Checkout',
+        'Verify Guest User Is Able To Complete CC Checkout With NEXTDAY Delivery type',
+        'GUCCNEXTDAYDELIVERYPC',
+        'GUCCNEXTDAYDELIVERYMOB',
+      ],
+      [
+        'TC10',
+        'Checkout',
+        'Verify New User Is Able To Complete CC Checkout With NAMEDDAY Delivery types',
+        'NUCCNAMEDDAYDELIVERYPC',
+        'NUCCNAMEDDAYDELIVERYMOB',
+      ],
+      [
+        'TC11',
+        'Checkout',
+        'Verify Return User Is Able To Complete CC Checkout With SATURDAY Delivery type',
+        'RUCCSATURDAYDELIVERYPC',
+        'GRUCCSATURDAYDELIVERYMOB',
+      ],
+	    [
+        'TC12',
+        'Checkout',
+        'VERIFY THE FRENCH TRANSLATION AND COMPLETE CHECKOUT FLOW',
+        'TLAPC',
+        'TLAMOB',
+      ],
+      [
+        'TCBB',
+        'Account',
+        '*****SELECT ACCOUNT SCENARIOS*****',
+        'PC',
+        'MOB',
+        'disable',
+      ],
+      [
+        'TC13',
+        'Account',
+        'Verify User can edit billing/shipping address',
+        'ACCPC',
+        'ACCMOB',
+      ],
+      [
+        'TC14',
+        'Account',
+        'Verify Return User can edit billing/shipping address (CN,KR)',
+        'ACCRUPC',
+        'ACCRUMOB',
+      ],
+      [
+        'TC15',
+        'Account',
+        'Verify Return User updates My Profile and Add product to cart from Re-order',
+        'GNAVSIGNINACCPUROPC',
+        'GNAVSIGNINACCPUROMOB',
+      ],
+      [
+        'TCCC',
+        'MPPSPP',
+        '*****SELECT MPPSPP SCENARIOS*****',
+        'PC',
+        'MOB',
+        'disable',
+      ],
+      [
+        'TC16',
+        'MPPSPP',
+        'Spot Check: Add product from MPP, verify Cart retains same',
+        'SANITYCHECKMPPSPPPC',
+        'SANITYCHECKMPPSPPMOB',
+      ],
+    /*  [
+        'TC17',
+        'MPPSPP',
+        'View the added product in the Cart by clicking on Bag Icon',
+        'BAGICONCHECKONMPPSPPPC',
+        'BAGICONCHECKONMPPSPPMOB',
+      ],
+      [
+        'TC18',
+        'MPPSPP',
+        'Verify New User add products to favorites from MPP and SPP and add a product to cart via favorites',
+        'ACCMPPSPPFAVPC',
+        'ACCMPPSPPFAVMOB',
+      ],
+      [
+        'TC19',
+        'MPPSPP',
+        'As a Guest User Add Engraving product and complete the checkout',
+        'GUENGRAVEPC',
+        'GUENGRAVEMOB',
+      ],
+      [
+        'TC20',
+        'MPPSPP',
+        'As a Return User Add Engraving and Normal product and complete the checkout',
+        'RUENGRAVENORMALPC',
+        'RUENGRAVENORMALMOB',
+      ],
+      [
+        'TC21',
+        'MPPSPP',
+        'Verify MPP quickview,shade,quanity,subscribe, ATB, ATF',
+        'MPPQVSHADEQTYSUBFAVPC',
+        'MPPQVSHADEQTYSUBFAVMOB',
+      ],
+      [
+        'TC22',
+        'MPPSPP',
+        'Verify MPP ATB single,mutisized items',
+        'MPPSIZEDPC',
+        'MPPSIZEDMOB',
+      ],
+      [
+        'TC23',
+        'MPPSPP',
+        'Validate Sort,Filter on MPP',
+        'MPPSORTFILTERFAQPC',
+        'MPPSORTFILTERFAQMOB',
+      ],
+      [
+        'TC24',
+        'MPPSPP',
+        'Verify MPP OOS,Notify me,Reviews,share',
+        'SPPOOSNOTIFYPC',
+        'SPPOOSNOTIFYMOB',
+      ],
+      [
+        'TC25',
+        'MPPSPP',
+        'Validate SPP Item details,ATB,Product View',
+        'SPPSHADEQTYDETPC',
+        'SPPSHADEQTYDETMOB',
+      ],
+      [
+        'TC26',
+        'MPPSPP',
+        'Verify SPP Histogram for Review,Ask & Ans',
+        'SPPREVIEWASKANSPC',
+        'SPPREVIEWASKANSMOB',
+      ],
+      [
+        'TC27',
+        'MPPSPP',
+        'Verify SPP Social sites Share',
+        'SPPSHARESOCIALMEDPC',
+        'SPPSHARESOCIALMEDMOB',
+      ],
+      [
+        'TC28',
+        'MPPSPP',
+        'Verify sized SPP price vary with size, viewcart',
+        'SPPSIZEDIMGVALPC',
+        'SPPSIZEDIMGVALMOB',
+      ],
+      [
+        'TC29',
+        'MPPSPP',
+        'Verify viewcart shade/size,sticky overlay  SPP',
+        'SPPSTICKYOVERLAYPC',
+        'SPPSTICKYOVERLAYMOB',
+      ],
+      [
+        'TC30',
+        'MPPSPP',
+        'Verify SPP Sub, SAG,FIS ,Cross Sell, AP, Learn More',
+        'SPPSUBGIFTSTOREAPPC',
+        'SPPSUBGIFTSTOREAPMOB',
+      ],
+      [
+        'TC31',
+        'MPPSPP',
+        'Add Engraving to the Product  and validate on SPP',
+        'SPPENGRAVINGPC',
+        'SPPENGRAVINGMOB',
+      ],
+      [
+        'TC32',
+        'MPPSPP',
+        'Validate Youtube video on SPP',
+        'SPPYOUTUBEVIDEOPC',
+        'SPPYOUTUBEVIDEOMOB',
+      ],
+      [
+        'TC33',
+        'MPPSPP',
+        'Spot Check: Add product from PLP, verify PDP and Cart retains same',
+        'VALIDATEPLPPDPCARTPC',
+        'VALIDATEPLPPDPCARTMOB',
+      ], */
+      [
+        'TCDD',
+        'StoreLocator',
+        '*****SELECT STORE LOCATOR SCENARIOS*****',
+        'PC',
+        'MOB',
+        'disable',
+      ],
+      [
+        'TC34',
+        'StoreLocator',
+        'Verify User can get store location with valid zipcode/city',
+        'STORELOCPC',
+        'STORELOCMOB',
+      ],
+      [
+        'TCEE',
+        'GNAV Footer',
+        '*****SELECT GNAV Footer SCENARIOS*****',
+        'PC',
+        'MOB',
+        'disable',
+      ],
+      [
+        'TC35',
+        'GNAV Footer',
+        'Verify User can navigate through all link in GNAV',
+        'GNAVPC',
+        'GNAVMOB',
+        'SMOKETEST',
+      ],
+      [
+        'TC36',
+        'GNAV Footer',
+        'Verify User can navigate through all link in Footer',
+        'FOOTERPC',
+        'FOOTERMOB',
+      ],
+      [
+        'TC37',
+        'GNAV Footer',
+        'Verify User can Track Order',
+        'TRACKORDERPC',
+        'TRACKORDERMOB',
+      ],
+      [
+        'TCFF',
+        'Loyalty',
+        '*****SELECT LOYALTY SCENARIOS*****',
+        'PC',
+        'MOB',
+        'disable',
+      ],
+      [
+        'TC38',
+        'Loyalty',
+        'As a Guest User enroll into loyalty using Order confirmation page',
+        'GULENROLLINCONPAGEPC',
+        'GULENROLLINCONPAGEMOB',
+      ],
+      [
+        'TC39',
+        'Loyalty',
+        'As a New User enroll into loyalty using account registration page',
+        'NULENROLLINREGPAGEPC',
+        'NULENROLLINREGPAGEMOB',
+      ],
+      [
+        'TC40',
+        'Loyalty',
+        'As a New User enroll into loyalty using Marketing page',
+        'NULENROLLINMARKTPAGEPC',
+        'NULENROLLINMARKTPAGEMOB',
+      ],
+      [
+        'TC41',
+        'Loyalty',
+        'Verify whether Loyalty user is able to redeem Welcome offer',
+        'NULOYALTYWELCOMEOFFERPC',
+        'NULOYALTYWELCOMEOFFERMOB',
+      ],
+      [
+        'TC42',
+        'Loyalty',
+        'Verify Pure Privilege case',
+        'PUREPRIVILEGEPC',
+        'PUREPRIVILEGEMOB',
+      ],
+      [
+        'TC43',
+        'Loyalty',
+        'Verify whether Loyalty user is able to redeem Birthday offer',
+        'NULOYALTYBIRTHDAYOFFERPC',
+        'NULOYALTYBIRTHDAYOFFERMOB',
+      ],
+      [
+        'TC44',
+        'Loyalty',
+        'Verify whether Loyalty user is able to redeem Welcome and Birthday offer',
+        'LUWELCOMEANDBIRTHDAYOFFERPC',
+        'LUWELCOMEANDBIRTHDAYOFFERMOB',
+      ],
+      [
+        'TC45',
+        'Loyalty',
+        'Verify non loyalty users are enroll into loyalty using Order confirmation page',
+        'NULENROLLINCONPAGEPC',
+        'NULENROLLINCONPAGEMOB',
+      ],
+      [
+        'TCGG',
+        'OAB',
+        '*****SELECT OAB SCENARIOS*****',
+        'PC',
+        'MOB',
+        'disable',
+      ],
+      [
+        'TC46',
+        'OAB',
+        'Online Appointment Booking Drupal',
+        'OABPCDrupal',
+        'OABMOBDrupal',
+      ],
+      [
+        'TC47',
+        'OAB',
+        'Online Appointment Booking Stardust',
+        'OABPCStardust',
+        'OABMOBStardust',
+      ],
+      [
+        'TC48',
+        'OAB',
+        'Virtual Online Appointment Booking Drupal',
+        'VOABPCDrupal',
+        'VOABMOBDrupal',
+      ],
+      [
+        'TC49',
+        'OAB',
+        'Virtual Online Appointment Booking Stardust',
+        'VOABPCStardust',
+        'VOABMOBStardust',
+      ],
+      [
+        'TC50',
+        'OAB',
+        'OAB Book appointment for guest user',
+        'OABUSERGUESTPC',
+        'OABUSERGUESTMOB',
+      ],
+      [
+        'TC51',
+        'OAB',
+        'VOAB Book appointment for guest user',
+        'VOABUSERGUESTPC',
+        'VOABUSERGUESTMOB',
+      ],
+      [
+        'TC52',
+        'OAB',
+        'OAB Book appointment for registered user',
+        'OABUSERREGISTEREDPC',
+        'OABUSERREGISTEREDMOB',
+      ],
+      [
+        'TC53',
+        'OAB',
+        'VOAB Book appointment for registered user',
+        'VOABUSERREGISTEREDPC',
+        'VOABUSERREGISTEREDMOB',
+      ],
+      [
+        'TC54',
+        'OAB',
+        'OAB Book appointment for logged-in user',
+        'OABUSERLOGGEDINPC',
+        'OABUSERLOGGEDINMOB',
+      ],
+      [
+        'TC55',
+        'OAB',
+        'VOAB Book appointment for logged-in user',
+        'VOABUSERLOGGEDINPC',
+        'VOABUSERLOGGEDINMOB',
+      ],
+      [
+        'TC56',
+        'OAB',
+        'OAB My Appointments section',
+        'OABMYAPPOINTMENTSPC',
+        'OABMYAPPOINTMENTSMOB',
+      ],
+      [
+        'TC57',
+        'OAB',
+        'VOAB My Appointments section',
+        'VOABMYAPPOINTMENTSPC',
+        'VOABMYAPPOINTMENTSMOB',
+      ],
+      [
+        'TC58',
+        'OAB',
+        'OAB Basic functional flow',
+        'OABSTARDUSTPC',
+        'OABSTARDUSTMOB',
+      ],
+      [
+        'TC59',
+        'OAB',
+        'VOAB Basic functional flow',
+        'VOABSTARDUSTPC',
+        'VOABSTARDUSTMOB',
+      ],
+      [
+        'TC60',
+        'OAB',
+        'OAB Full Regression',
+        'OABFULLREGRESSIONPC',
+        'OABFullRegressionDummmyMOB',
+      ],
+      [
+        'TC61',
+        'OAB',
+        'VOAB Full Regression',
+        'VOABFULLREGRESSIONPC',
+        'VOABFullRegressionDummyMOB',
+      ],
+      [
+        'TC62',
+        'OAB',
+        'OAB Regression',
+        'OABREGRESSIONPC',
+        'OABRegressionDummyMOB',
+      ],
+      [
+        'TC63',
+        'OAB',
+        'VOAB Regression',
+        'VOABREGRESSIONPC',
+        'VOABRegressionDummyMOB',
+      ],
+      ['TC64', 'OAB', 'OAB Sanity', 'OABSANITYPC', 'OABSanityDummyMOB'],
+      ['TC65', 'OAB', 'VOAB Sanity', 'VOABSANITYPC', 'VOABSanityDummyMOB'],
+      ['TC66', 'OAB', 'AppHQ Use feature as superadministrator', 'HQACLSUPERADMINISTRATORPC', 'HQACLSUPERADMINISTRATORMOB'],
+      ['TC67', 'OAB', 'AppHQ Use feature as brand admin', 'HQACLBRANDADMINPC', 'HQACLBRANDADMINMOB'],
+      ['TC68', 'OAB', 'AppHQ Use feature as artist', 'HQACLARTISTPC', 'HQACLARTISTMOB'],
+      ['TC69', 'OAB', 'AppHQ Use feature as counter manager', 'HQACLCOUNTERMANAGERPC', 'HQACLCOUNTERMANAGERMOB'],
+      ['TC70', 'OAB', 'AppHQ Use feature as password manager', 'HQACLPASSWORDMANAGERPC', 'HQACLPASSWORDMANAGERMOB'],
+      ['TC71', 'OAB', 'AppHQ Use feature as report manager', 'HQACLREPORTMANAGERPC', 'HQACLREPORTMANAGERMOB'],
+      ['TC72', 'OAB', 'AppHQ ACL Sanity for all roles', 'HQACLSANITYPC', 'HQACLSANITYMOB'],
+      ['TC73', 'OAB', 'AppHQ Create, update delete service and service category', 'HQCRUDSERVICEPC', 'HQCRUDSERVICEMOB'],
+      ['TC74', 'OAB', 'AppHQ Create, update delete store and schedule', 'HQCRUDSTOREPC', 'HQCRUDSTOREMOB'],
+      ['TC75', 'OAB', 'AppHQ Create, update delete user', 'HQCRUDUSERPC', 'HQCRUDUSERMOB'],
+      ['TC76', 'OAB', 'AppHQ Create, update delete appointment', 'HQCRUDAPPOPC', 'HQCRUDAPPOMOB'],
+      ['TC77', 'OAB', 'AppHQ Verify Features functionality', 'HQFEATURESPC', 'HQFEATURESMOB'],
+      ['TC78', 'OAB', 'AppHQ Verify Dashboard functionality', 'HQDASHBOARDPC', 'HQDASHBOARDMOB'],
+      ['TC79', 'OAB', 'AppHQ Relese regression', 'HQREGRESSIONPC', 'HQREGRESSIONMOB'],
+      ['TC80', 'OAB', 'AppHQ Set-up sanity of existing OABs', 'HQSETUPSANITYPC', 'HQSETUPSANITYMOB'],
+      [
+        'TCHH',
+        'Search',
+        '*****SELECT SEARCH SCENARIOS*****',
+        'PC',
+        'MOB',
+        'disable',
+      ],
+      [
+        'TC81',
+        'Search',
+        'Verify user can search for a product and add to bag',
+        'SANITYSEARCHPC',
+        'SANITYSEARCHMOB',
+        'SMOKETEST',
+      ],
+      [
+        'TCII',
+        'SEO',
+        '*****SELECT SEO SCENARIOS*****',
+        'PC',
+        'MOB',
+        'disable',
+      ],
+      [
+        'TC82',
+        'SEO',
+        'Verify SEO requirements for Home Page',
+        'SEOSanityHomepagePC',
+        'SEOSanityHomepageMobile',
+      ],
+      [
+        'TC83',
+        'SEO',
+        'Verify SEO requirements for MPP',
+        'SEOSanityMPPPC',
+        'SEOSanityMPPMobile',
+      ],
+      [
+        'TC84',
+        'SEO',
+        'Verify SEO requirements for SPP',
+        'SEOSanitySPPPC',
+        'SEOSanitySPPMobile',
+      ],
+      /*
+      [
+        'TCJJ',
+        'RAMP',
+        '*****SELECT RAMP SCENARIOS*****',
+        'PC',
+        'MOB',
+        'disable',
+      ],
+      [
+        'TC85',
+        'RAMP',
+        'Completed user can login into Account page from eform overlay',
+        'RAMPCUOLPC',
+        'RAMPCUOLMOB',
+      ],
+      [
+        'TC86',
+        'RAMP',
+        'RAMP fields validation check',
+        'RAMPFVCPC',
+        'RAMPFVCMOB',
+      ],
+      [
+        'TC87',
+        'RAMP',
+        'Register a new user from RAMP partial user overlay page',
+        'RAMPPUOLPC',
+        'RAMPPUOLMOB',
+      ],
+      [
+        'TC88',
+        'RAMP',
+        'Register a new completed user on RAMP',
+        'RAMPRNCUPC',
+        'RAMPRNCUMOB',
+      ],
+      [
+        'TC89',
+        'RAMP',
+        'Register a new mobile only user on RAMP',
+        'RAMPRNMOUPC',
+        'RAMPRNMOUMOB',
+      ],
+      [
+        'TC90',
+        'RAMP',
+        'RAMP page translation check',
+        'RAMPTCPC',
+        'RAMPTCMOB',
+      ],
+      */
+      [
+        'TCKK',
+        'React Checkout',
+        '*****SELECT REACT CHECKOUT SCENARIOS*****',
+        'PC',
+        'MOB',
+        'disable',
+      ],
+      [
+        'TC91',
+        'React Checkout',
+        'Verify Guest User checkout with Manual offer',
+        'RCOGUMOPC',
+        'RCOGUMOMOB',
+      ],
+      [
+        'TC92',
+        'React Checkout',
+        'Verify New User checkout with Automatic offer',
+        'RCONUAOPC',
+        'RCONUAOMOB',
+      ],
+      [
+        'TC93',
+        'React Checkout',
+        'Verify Return User checkout with saved Credit card',
+        'RCORUSCPC',
+        'RCORUSCMOB',
+      ],
+      [
+        'TC94',
+        'React Checkout',
+        'Verify Guest User checkout with Restricted Product in cart',
+        'RCOGURPAPOPC',
+        'RCOGURPAPOMOB',
+      ],
+      [
+        'TC95',
+        'React Checkout',
+        'Verify Return User checkout after saved billing address',
+        'RCORUEBPC',
+        'RCORUEBMOB',
+      ],
+      [
+        'TC96',
+        'React Checkout',
+        'Verify Guest User checkout with new billing address',
+        'RCOGUEBPC',
+        'RCOGUEBMOB',
+      ],
+      [
+        'TC97',
+        'React Checkout',
+        'Verify Newly Registered User checkout',
+        'RCOSIGNUPNUPC',
+        'RCOSIGNUPNUMOB',
+      ],
+      [
+        'TC98',
+        'React Checkout',
+        'Verify Guest User checkout with PickupInstore',
+        'RCOBOPISGUPC',
+        'RCOBOPISGUMOB',
+      ],
+      [
+        'TC99',
+        'React Checkout',
+        'Verify Return User checkout with PickupInstore',
+        'RCOBOPISRUPC',
+        'RCOBOPISRUMOB',
+      ],
+      [
+        'TC100',
+        'React Checkout',
+        'Verify Return User Edit PickupInstore checkout with Delivery',
+        'RCOBOPISRUEDPC',
+        'RCOBOPISRUEDMOB',
+      ],
+      [
+        'TC101',
+        'React Checkout',
+        'Verify New User Checkout with Sample and COD',
+        'RCOADDSAMPLENUPC',
+        'RCOADDSAMPLENUMOB',
+      ],
+      [
+        'TC102',
+        'React Checkout',
+        'Verify Return User Checkout with edit product from Payment Page',
+        'RCOEDPRODPAYAORUPC',
+        'RCOEDPRODPAYAORUMOB',
+      ],
+      [
+        'TC103',
+        'React Checkout',
+        'Verify Return User Checkout with edit product from Delivery Page and 3DS1 Payment',
+        'RCOEDPRODDELRUPC',
+        'RCOEDPRODDELRUMOB',
+      ],
+      [
+        'TC104',
+        'React Checkout',
+        'Verify New User Checkout with PickupInstore and Manual offer',
+        'RCOBOPISNUMOPC',
+        'RCOBOPISNUMOMOB',
+      ],
+      [
+        'TC105',
+        'React Checkout',
+        'Verify Guest User checkout for Automatic offer product',
+        'RCOGUAOPC',
+        'RCOGUAOMOB',
+      ],
+      [
+        'TC106',
+        'React Checkout',
+        'Verify Guest User checkout with Physical Gift Card',
+        'RCOGUPGCPC',
+        'RCOGUPGCMOB',
+      ],
+      /*
+      [
+        'TCLL',
+        'VTO',
+        '*****SELECT VTO SCENARIOS*****',
+        'PC',
+        'MOB',
+        'disable',
+      ],
+      [
+        'TC107',
+        'VTO',
+        'Verify click back arrow',
+        'BackArrowVTO',
+        'BackArrowVTOMobile',
+      ],
+      [
+        'TC108',
+        'VTO',
+        'Verify choose a model',
+        'ChooseAModelE2EVTO',
+        'ChooseAModelE2EVTOMobile',
+      ],
+      [
+        'TC109',
+        'VTO',
+        'Verify click close icon',
+        'CloseIconVTO',
+        'CloseIconVTOMobile',
+      ],
+      [
+        'TC110',
+        'VTO',
+        'Verify share icon',
+        'ShareIconVTO',
+        'ShareIconVTOMobile',
+      ],
+      [
+        'TC111',
+        'VTO',
+        'Verify split slider',
+        'SplitSliderVTO',
+        'SplitSliderVTOMobile',
+      ],
+      */
+      [
+        'TCMM',
+        'CMS',
+        '*****SELECT CMS SCENARIOS*****',
+        'PC',
+        'MOB',
+        'disable',
+      ],
+      ['TC112', 'CMS', 'Add block content', 'CMSADDCBPC', 'CMSADDCBMOB'],
+      ['TC113', 'CMS', 'Add page content', 'CMSADDPAGEPC', 'CMSADDPAGEMOB'],
+      [
+        'TC114',
+        'CMS',
+        'Add SPPRCIS content',
+        'CMSADDSPPRCISPC',
+        'CMSADDSPPRCISMOB',
+      ],
+      ['TC115', 'CMS', 'Admin page check', 'CMSADMINPC', 'CMSADMINMOB'],
+      ['TC116', 'CMS', 'Alfresco check', 'CMSALFRESCOPC', 'CMSALFRESCOMOB'],
+      [
+        'TC117',
+        'CMS',
+        'Add auto URL alias',
+        'CMSAUTOALIASPC',
+        'CMSAUTOALIASMOB',
+      ],
+      ['TC118', 'CMS', 'Autolocalization', 'CMSAUTOLOCPC', 'CMSAUTOLOCMOB'],
+      [
+        'TC119',
+        'CMS',
+        'Add custom URL alias',
+        'CMSCUSTOMALIASPC',
+        'CMSCUSTOMALIASMOB',
+      ],
+      ['TC120', 'CMS', 'Find content bulk', 'CMSFCBULKPC', 'CMSFCBULKMOB'],
+      [
+        'TC121',
+        'CMS',
+        'Find content filters',
+        'CMSFCFILTERSPC',
+        'CMSFCFILTERSMOB',
+      ],
+      ['TC122', 'CMS', 'Localize one to many', 'CMSO2MLOCPC', 'CMSO2MLOCMOB'],
+      ['TC123', 'CMS', 'Localize one to one', 'CMSO2OLOCPC', 'CMSO2OLOCMOB'],
+      [
+        'TC124',
+        'CMS',
+        'Revision tag functionality',
+        'CMSQABYREVPC',
+        'CMSQABYREVMOB',
+      ],
+      ['TC125', 'CMS', 'Templates page', 'CMSTEMPLATESPC', 'CMSTEMPLATESMOB'],
+      ['TC126', 'CMS', 'Workflow status', 'CMSWORKFLOWPC', 'CMSWORKFLOWMOB'],
+      [
+        'TC127',
+        'CMS',
+        'Clone from workflow',
+        'CMSCLONEWFPC',
+        'CMSCLONEWFMOB',
+      ],
+      [
+        'TC128',
+        'CMS',
+        'Clone from find content',
+        'CMSCLONEFCPC',
+        'CMSCLONEFCMOB',
+      ],
+      [
+        'TC129',
+        'CMS',
+        'To verify Many to One Batch Localization scenario',
+        'CMSBULKLOCM2OPC',
+        'CMSBULKLOCM2OMOB',
+      ],
+      [
+        'TC130',
+        'CMS',
+        'To verify Many to Many Batch Localization scenario',
+        'CMSBULKLOCM2MPC',
+        'CMSBULKLOCM2MMOB',
+      ],
+      [
+        'TC131',
+        'CMS',
+        'Disable Autolocalization',
+        'CMSDISABLEAUTOLOCPC',
+        'CMSDISABLEAUTOLOCMOB',
+      ],
+      [
+        'TC132',
+        'CMS',
+        'To verify API Endpoint Response for Requested Endpoint',
+        'CMSAPIVALIDATIONPC',
+        'CMSAPIVALIDATIONMOB',
+      ],
+      [
+        'TC133',
+        'CMS',
+        'To verify PLP API Endpoint Response for Requested Endpoint',
+        'CMSPLPAPIVALIDATIONPC',
+        'CMSPLPAPIVALIDATIONMOB',
+      ],
+      ['TC134',
+        'CMS',
+        'To verify Download Translations from Workflow Page',
+        'CMSTRANSLATIONSWFPC',
+        'CMSTRANSLATIONSWFMOB',
+      ],
+      [
+        'TC135',
+        'CMS',
+        'To verify Download Translations From Find Content',
+        'CMSTRANSLATIONSPC',
+        'CMSTRANSLATIONSMOB',
+      ],
+      [
+        'TC136',
+        'CMS',
+        'To verify Translations import functionality',
+        'CMSIMPORTTRANSLATIONSPC',
+        'CMSIMPORTTRANSLATIONSMOB',
+      ],
+      [
+        'TCNN',
+        'Live Chat',
+        '*****SELECT Live Chat SCENARIOS*****',
+        'PC',
+        'MOB',
+        'disable',
+      ],
+      [
+        'TC137',
+        'Live Chat',
+        'Validating the Live Chat feature in Home page',
+        'LIVECHATHOMEPC',
+        'LIVECHATHOMEMOB',
+      ],
+      [
+        'TC138',
+        'Live Chat',
+        'Validating the Live Chat feature in MPP',
+        'LIVECHATMPPPC',
+        'LIVECHATMPPMOB',
+      ],
+      [
+        'TC139',
+        'Live Chat',
+        'Validating the Live Chat feature in SPP',
+        'LIVECHATSPPPC',
+        'LIVECHATSPPMOB',
+      ], [
+        'TC140',
+        'Live Chat',
+        'Validating the Global Chat feature in Home page',
+        'CHECKCHATONHOMEPAGEPC',
+        'CHECKCHATONHOMEPAGEMOB',
+      ],
+      [
+        'TC141',
+        'Live Chat',
+        'Validating the Global Chat feature in PLP page',
+        'CHECKCHATODPRODUCTLISTINGPAGEPC',
+        'CHECKCHATODPRODUCTLISTINGPAGEMOB',
+      ],
+      [
+        'TC142',
+        'Live Chat',
+        'Validating the Global Chat feature in PDP page',
+        'CHECKCHATONPRODUCTDETAILSPAGEPC',
+        'CHECKCHATONPRODUCTDETAILSPAGEMOB',
+      ],
+      [
+        'TCOO',
+        'Find Me',
+        '*****SELECT Find Me SCENARIOS*****',
+        'PC',
+        'MOB',
+        'disable',
+      ],
+      [
+        'TC143',
+        'Find Me',
+        'Take foundation quiz and add a product to cart from results page',
+        'FOUNDATIONQUIZPC',
+        'FOUNDATIONQUIZMOB',
+      ],
+      [
+        'TC144',
+        'Find Me',
+        'Retake foundation quiz from results page',
+        'FOUNDATIONQUIZRETAKEPC',
+        'FOUNDATIONQUIZRETAKEMOB',
+      ],
+      [
+        'TC145',
+        'Find Me',
+        'Take hair quiz and add a product to cart from results page',
+        'HAIRQUIZPC',
+        'HAIRQUIZMOB',
+      ],
+      [
+        'TC146',
+        'Find Me',
+        'Retake hair quiz from results page',
+        'HAIRQUIZRETAKEPC',
+        'HAIRQUIZRETAKEMOB',
+      ],
+      [
+        'TC147',
+        'Find Me',
+        'Take moisturizer quiz and add a product to cart from results page',
+        'MOISTURIZERQUIZPC',
+        'MOISTURIZERQUIZMOB',
+      ],
+      [
+        'TC148',
+        'Find Me',
+        'Retake moisturizer quiz from results page',
+        'MOISTURIZERQUIZRETAKEPC',
+        'MOISTURIZERQUIZRETAKEMOB',
+      ],
+      [
+        'TC149',
+        'Find Me',
+        'Take scent quiz and add a product to cart from results page',
+        'SCENTQUIZPC',
+        'SCENTQUIZMOB',
+      ],
+      [
+        'TC150',
+        'Find Me',
+        'Retake scent quiz from results page',
+        'SCENTQUIZRETAKEPC',
+        'SCENTQUIZRETAKEMOB',
+      ],
+      [
+        'TC151',
+        'Find Me',
+        'Take skincare quiz and add a product to cart from results page',
+        'SKINCAREQUIZPC',
+        'SKINCAREQUIZMOB',
+      ],
+      [
+        'TC152',
+        'Find Me',
+        'Retake skincare quiz from results page',
+        'SKINCAREQUIZRETAKEPC',
+        'SKINCAREQUIZRETAKEMOB',
+      ],
+      [
+        'TCPP',
+        'PAYMENT',
+        '*****SELECT PAYMENT SCENARIOS*****',
+        'PC',
+        'MOB',
+        'disable',
+      ],
+      [
+        'TC153',
+        'PAYMENT',
+        'Verify Guest User  Is Able To Complete Clearpay Checkout',
+        'GUCLEARPAYPC',
+        'GUCLEARPAYMOB',
+      ],
+      [
+        'TC154',
+        'PAYMENT',
+        'Verify New User Is Able To Complete Clearpay Checkout',
+        'NUCLEARPAYPC',
+        'NUCLEARPAYMOB',
+      ],
+      [
+        'TC155',
+        'PAYMENT',
+        'Verify Return User Is Able To Complete Clearpay Checkout',
+        'RUCLEARPAYPC',
+        'RUCLEARPAYMOB',
+      ],
+      [
+        'TC156',
+        'PAYMENT',
+        'Verify Guest User  Is Able To Complete Paypal Checkout',
+        'GUPAYPALPC',
+        'GUPAYPALMOB',
+      ],
+      [
+        'TC157',
+        'PAYMENT',
+        'Verify New User Is Able To Complete Paypal Checkout',
+        'NUPAYPALPC',
+        'NUPAYPALMOB',
+      ],
+      [
+        'TC158',
+        'PAYMENT',
+        'Verify Return User Is Able To Complete Paypal Checkout',
+        'RUPAYPALPC',
+        'RUPAYPALMOB',
+      ],
+      [
+        'TC159',
+        'PAYMENT',
+        'Guest User i would like to Add a product and complete Click and Collect checkout',
+        'CLICKCOLLECTGUPC',
+        'CLICKCOLLECTGUMOB',
+      ],
+      [
+        'TC160',
+        'PAYMENT',
+        'Verify Guest User is Able To complete ExpressPay Checkout',
+        'GUEXPAYPALPC',
+        'GUEXPAYPALMOB',
+      ],
+      [
+        'TC161',
+        'PAYMENT',
+        'Verify New User Is Able To complete ExpressPay Checkout',
+        'NUEXPAYPALPC',
+        'NUEXPAYPALMOB',
+      ],
+      [
+        'TC162',
+        'PAYMENT',
+        'Verify Return User Is Able To complete ExpressPay Checkout',
+        'RUEXPAYPALPC',
+        'RUEXPAYPALMOB',
+      ],
+      [
+        'TC163',
+        'PAYMENT',
+        'Verify Guest User  would like to Add Product and complete Gift Card checkout',
+        'GUGIFTCARDPC',
+        'GUGIFTCARDPCMOB',
+      ],
+      [
+        'TC164',
+        'PAYMENT',
+        'Verify New User would like to Add Product and complete Gift Card checkout',
+        'NUGIFTCARDMOBPC',
+        'NUGIFTCARDMOB',
+      ],
+      [
+        'TC165',
+        'PAYMENT',
+        'Verify Guest User is Able to complete After Pay checkout',
+        'GUPCAfterPay',
+        'GUMOBAfterPay',
+      ],
+      [
+        'TC166',
+        'PAYMENT',
+        'Verify New User is Able to complete After Pay checkout',
+        'NUPCAfterPay',
+        'NUMOBAfterPay',
+      ],
+      [
+        'TC167',
+        'PAYMENT',
+        'Verify Return User is Able to complete After Pay checkout',
+        'RUPCAfterPay',
+        'RUMOBAfterPay',
+      ],
+      [
+        'TC168',
+        'PAYMENT',
+        'Guest User complete checkout with the STD offer code with PBL',
+        'PBLSTDGUPC',
+        'PBLSTDGUMOB',
+      ],
+      [
+        'TC169',
+        'PAYMENT',
+        'Guest User complete checkout with the ND offer code with PBL',
+        'PBLNDGUPC',
+        'PBLNDGUMOB',
+      ],
+      [
+        'TC170',
+        'PAYMENT',
+        'Verify Guest User Is Able To Complete Checkout with International Billing Address',
+        'INTLBILLINGGUPC',
+        'INTLBILLINGGUMOB',
+      ],
+      [
+        'TC171',
+        'PAYMENT',
+        'As a guest user complete checkout with the STD offer code with PBL',
+        'STDPBLPC',
+        'STDPBLMOB',
+      ],
+      [
+        'TCQQ',
+        'AUTO REPLENISHMENT',
+        '*****SELECT AUTO REPLENISHMENT SCENARIOS*****',
+        'PC',
+        'MOB',
+        'disable',
+      ],
+      [
+        'TC172',
+        'AUTO REPLENISHMENT',
+        'Verify able to place AR order and changing date , canceling the AR',
+        'ARRUPC',
+        'ARRUMOB',
+      ],
+      [
+        'TC173',
+        'AUTO REPLENISHMENT',
+        'Verify able to place AR order and Edit shipping and billing address',
+        'AREDITPC',
+        'AREDITMOB',
+      ],
+      /*
+      [
+        'TCRR',
+        'Optin',
+        '*****SELECT OPTIN SCENARIOS*****',
+        'PC',
+        'MOB',
+        'disable',
+      ],
+      [
+        'TC174',
+        'Optin',
+        'Verify Optin via Registration page',
+        'commregoptpc',
+        'commregoptmob',
+      ],
+      [
+        'TC175',
+        'Optin',
+        'Verify Optin via My Accounts page',
+        'commaccnoptpc',
+        'commaccoptmob',
+      ],
+      [
+        'TC176',
+        'Optin',
+        'Verify Optin via Email signup page (SMS)',
+        'COMMSIGNUPSMSOPTPC',
+        'COMMSIGNUPSMSOPTMOB',
+      ],
+      [
+        'TC177',
+        'Optin',
+        'Verify Optin via Registration page (Loyalty)',
+        'commregnloptpc',
+        'commregnloptmob',
+      ],
+      [
+        'TC178',
+        'Optin',
+        'Verify Optin via Registration page (SMS)',
+        'commregsmsoptpc',
+        'commregsmsoptmob',
+      ],
+      [
+        'TC179',
+        'Optin',
+        'Verify Optin via My Accounts page  (Loyalty)',
+        'commaccnloptpc',
+        'commaccnloptmob',
+      ],
+      [
+        'TC180',
+        'Optin',
+        'Verify Optin via My Accounts page (SMS)',
+        'commaccsmsoptpc',
+        'commaccsmsoptmob',
+      ],
+      [
+        'TC181',
+        'Optin',
+        'Verify Optout via My Accounts page',
+        'commaccoptoutpc',
+        'commaccoptoutmob',
+      ],
+      [
+        'TC182',
+        'Optin',
+        'Verify Optin via Gnav Footer',
+        'commgfnloptpc',
+        'commgfnloptmob',
+      ],
+      */
+      [
+        'TCSS',
+        'A-Comm',
+        '*****SELECT A-Comm SCENARIOS*****',
+        'PC',
+        'MOB',
+        'disable',
+      ],
+      [
+        'TC183',
+        'A-Comm',
+        'Alter the salon selection during checkout',
+        'ACOMMFLAGSALTERSALONSELECTIONRUPC',
+        'ACOMMFLAGSALTERSALONSELECTIONRUMOB',
+      ],
+      [
+        'TC184',
+        'A-Comm',
+        'Alter the stylist name during checkout',
+        'ACOMMFLAGSALTERTHESTYLISTNAMERUPC',
+        'ACOMMFLAGSALTERTHESTYLISTNAMERUMOB',
+      ],
+      [
+        'TC185',
+        'A-Comm',
+        'Visit legacy A-Comm artist page but expire salon_referral_start_time before checkout',
+        'ACOMMFLAGSARTISTPAGETIMERESETRUPC',
+        'ACOMMFLAGSARTISTPAGETIMERESETRUMOB',
+      ],
+      [
+        'TC186',
+        'A-Comm',
+        'Visit Hausmart artist page but expire salon_referral_start_time before checkout',
+        'ACOMMFLAGSHAUSMARTARTISTTIMERESETRUPC',
+        'ACOMMFLAGSHAUSMARTARTISTTIMERESETRUMOB',
+      ],
+      [
+        'TC187',
+        'A-Comm',
+        'Visit Hausmart salon page but expire salon_referral_start_time before checkout',
+        'ACOMMFLAGSHAUSMARTSALONTIMERESETRUPC',
+        'ACOMMFLAGSHAUSMARTSALONTIMERESETRUMOB',
+      ],
+      [
+        'TC188',
+        'A-Comm',
+        'Expire salon_flags_last_modified before checkout',
+        'ACOMMFLAGSLASTMODIFIEDBEFORECHECKOUTRUPC',
+        'ACOMMFLAGSLASTMODIFIEDBEFORECHECKOUTRUMOB',
+      ],
+      [
+        'TC189',
+        'A-Comm',
+        'Make no changes during checkout',
+        'ACOMMFLAGSNOCHANGERUPC',
+        'ACOMMFLAGSNOCHANGERUMOB',
+      ],
+      [
+        'TC190',
+        'A-Comm',
+        'Visit legacy A-Comm salon page but expire salon_referral_start_time before checkout',
+        'ACOMMFLAGSSALONPAGETIMERESETRUPC',
+        'ACOMMFLAGSSALONPAGETIMERESETRUMOB',
+      ],
+      [
+        'TC191',
+        'A-Comm',
+        'Unselect the salon preference during checkout',
+        'ACOMMFLAGSUNSELECTSALONRUPC',
+        'ACOMMFLAGSUNSELECTSALONRUMOB',
+      ],
+      [
+        'TC192',
+        'A-Comm',
+        'Visit legacy A-Commerce artist page',
+        'ACOMMFLAGSVISITARTISTPAGERUPC',
+        'ACOMMFLAGSVISITARTISTPAGERUMOB',
+      ],
+      [
+        'TC193',
+        'A-Comm',
+        'Visit Hausmart artist page',
+        'ACOMMFLAGSVISITHAUSMARTARTISTPAGERUPC',
+        'ACOMMFLAGSVISITHAUSMARTARTISTPAGERUMOB',
+      ],
+      [
+        'TC194',
+        'A-Comm',
+        'Visit Hausmart salon page',
+        'ACOMMFLAGSVISITHAUSMARTSALONPAGERUPC',
+        'ACOMMFLAGSVISITHAUSMARTSALONPAGERUMOB',
+      ],
+      [
+        'TC195',
+        'A-Comm',
+        'Visit legacy A-Commerce salon page',
+        'ACOMMFLAGSVISITSALONPAGERUPC',
+        'ACOMMFLAGSVISITSALONPAGERUMOB',
+      ],
+      [
+        'TC196',
+        'A-Comm',
+        'As a guest user i would checkout as HM-V flag user',
+        'ACOMMFLAGSVISITHAUSMARTSALONPAGEGUPC',
+        'ACOMMFLAGSVISITHAUSMARTSALONPAGEGUMOB',
+      ],
+      [
+        'TC197',
+        'A-Comm',
+        'As a guest user i would checkout as a y flag user',
+        'ACOMMFLAGSALTERSALONSELECTIONGUPC',
+        'ACOMMFLAGSALTERSALONSELECTIONGUMOB',
+      ],
+      [
+        'TC198',
+        'A-Comm',
+        'Negative Edge cases for A-comm',
+        'ACOMMFLAGSNEGATIVECASESPC',
+        'ACOMMFLAGSNEGATIVECASESMOB',
+      ],
+      [
+        'TCTT',
+        'BOPIS',
+        '*****SELECT BOPIS SCENARIOS*****',
+        'PC',
+        'MOB',
+        'disable',
+      ],
+      [
+        'TC199',
+        'BOPIS',
+        'Verify whether user is able to place BOPIS order as Guest user',
+        'ALRTMSGFRSMPLGUPC',
+        'ALRTMSGFRSMPLGUMOB',
+      ],
+      [
+        'TC200',
+        'BOPIS',
+        'Verify whether user is able to place BOPIS order as Return user',
+        'HMDELMETBOPRUPC',
+        'HMDELMETBOPRUMOB',
+      ],
+      [
+        'TC201',
+        'BOPIS',
+        'Verify whether user is able to place SDD order as Guest user',
+        'SDDUPDDELADDGUPC',
+        'SDDUPDDELADDGUMOB',
+      ],
+      [
+        'TC202',
+        'BOPIS',
+        'Verify whether user is able to place SDD order as Return user',
+        'SDDCHGTDIFDELADDRUPC',
+        'SDDCHGTDIFDELADDRUMOB',
+      ],
+      [
+        'TC203',
+        'BOPIS',
+        'Validate BOPIS and SDD options on SPP',
+        'BOPNSDDOPTONSPPPC',
+        'BOPNSDDOPTONSPPMOB',
+      ],
+      [
+        'TCUU',
+        'Analytics',
+        '*****SELECT Analytics SCENARIOS*****',
+        'PC',
+        'MOB',
+        'disable',
+      ],
+      [
+        'TC204',
+        'Analytics',
+        'Verify google analytics for Guest user checkout',
+        'GAGUPC',
+        'GAGUMOB',
+      ],
+      [
+        'TC205',
+        'Analytics',
+        'Verify google analytics for Return user checkout',
+        'GARUPC',
+        'GARUMOB',
+      ],
+      [
+        'TC206',
+        'Analytics',
+        'Verify google analytics for Homepage,MPP,SPP,Cart',
+        'GAVALIDATIONMPPSPPPC',
+        'GAVALIDATIONMPPSPPMOB',
+      ],
+      [
+        'TC207',
+        'Analytics',
+        'Verify GA4 for Guest User',
+        'GA4GUPC',
+        'GA4GUMOB',
+      ],
+      [
+        'TC208',
+        'Analytics',
+        'Verify GA4 for Return User',
+        'GA4RUPC',
+        'GA4RUMOB',
+      ],
+      [
+        'TC209',
+        'Analytics',
+        'Verify GA4 for Homepage, MPP, SPP, Cart',
+        'GA4SANITYPC',
+        'GA4SANITYMOB',
+      ],
+      [
+        'TC210',
+        'Analytics',
+        'Verify google analytics for New user checkout',
+        'GANUPC',
+        'GANUMOB',
+      ],
+      [
+        'TC211',
+        'Analytics',
+        'Verify GA4 for New User',
+        'GA4NUPC',
+        'GA4NUMOB',
+      ],
+	  [
+        'TC212',
+        'Analytics',
+        'Verify GA4 checkout Guest User till order confirmation page',
+        'GA4CHECKOUTVALIDATIONPC',
+        'GA4CHECKOUTVALIDATIONMOB',
+      ],
+      [
+        'TC213',
+        'Analytics',
+        'Verify Google Analytics GA4 sanity check till viewcart page',
+        'GA4PLPPDPVALIDATIONPC',
+        'GA4PLPPDPVALIDATIONMOB',
+      ],
+      [
+        'TC214',
+        'Analytics',
+        'GA4 checkout New User till order confirmation page',
+        'GA4NEWUSERVALIDATIONPC',
+        'GA4NEWUSERVALIDATIONMOB',
+      ],
+      [
+        'TC215',
+        'Analytics',
+        'GA4 checkout Return User till order confirmation page',
+        'GA4RETURNUSERVALIDATIONPC',
+        'GA4RETURNUSERVALIDATIONMOB',
+      ],
+      [
+        'TCVV',
+        'GNAV',
+        '*****SELECT GNAV SCENARIOS*****',
+        'PC',
+        'MOB',
+        'disable',
+      ],
+      [
+        'TC216',
+        'GNAV',
+        'Validating the Gnav elements clickable and interactable',
+        'GLOBALNAVIGATIONPC',
+        'GLOBALNAVIGATIONMOB',
+      ],
+      [
+        'TCWW',
+        'CAROUSEL',
+        '*****SELECT CAROUSEL SCENARIOS*****',
+        'PC',
+        'MOB',
+        'disable',
+      ],
+      [
+        'TC217',
+        'CAROUSEL',
+        'AS A USER VERIFY HOME PAGE CAROUSEL IMAGE LOADING OR NOT',
+        'CAROUSELPC',
+        'CAROUSELMOB',
+      ],
+      [
+        'TCXX',
+        'TMO',
+        '*****SELECT TMO SCENARIOS*****',
+        'PC',
+        'MOB',
+        'disable',
+      ],
+      [
+        'TC218',
+        'TMO',
+        'VERIFY EXISTING ORDER ID TO TMO LANDING PAGE',
+        'EXISTINGORDERTRACKINGPC',
+        'EXISTINGORDERTRACKINGMOB',
+      ],
+      [
+        'TC219',
+        'TMO',
+        'PLACING ORDER AS GUEST USER AND VERIFYING ORDER ID ON TMO LANDING PAGE',
+        'NEWORDERTRACKINGPC',
+        'NEWORDERTRACKINGMOB',
+      ]
+    ];
+
+    var featureDescList = {
+      Account:
+        'Tests to validate account info like profile update, address book, Billing info',
+      Checkout:
+        'Tests to validate checkout scenarios covering end to end user flow of checkout as Guest, New user and Return customer right from adding product to bag from product page to completing the checkout with order confirmation',
+      MPPSPP:
+        'Tests to validate MPP(PLP) & SPP scenarios covering add to bag, filter, sorting etc for both shaded and non shaded products',
+      StoreLocator:
+        'Search for a store by providing location information like zipcode / city',
+      GNAV:
+        'Tests to validate Global navigational items like Product Nav, Product Search',
+      Loyalty:
+        'Tests to validate loyalty enrollment, welcome offer validation and loyalty points',
+      OAB: 'Test to validate booking an appointment online with a salon / stylist, get confirmation and Cancel when needed',
+      Search:
+        'Tests to validate Searching specific products/product category and adding them to bag from the search results',
+      SEO: 'Tests to validate canonical base urls, Hreflangs, bi-direction annotations',
+      RAMP: 'Tests to validate registration of new user from RAMP partial page',
+      ReactCheckout:
+        'Tests to validate all checkout scenarios covering Guest, New user and Return user for the sites using REACT CHECKOUT',
+      VTO: 'Tests to validate complete flow of virtual try on including live camera photo upload',
+      CMS: 'Tests to validate Drupal CMS features like adding/updating a content, search for a content, publish a content etc',
+      LiveChat:
+        'Basic tests around live chat feature from home page, MPP(PLP) and SPP',
+      FindMe:
+        'Tests to validate finder tools like skin care, foundation finder and its complete flow including adding product to bag from results',
+      PAYMENT:
+        'Tests to validate all payments like Paypal, Afterpay, Clearpay, Express checkout, checkout with gift card',
+      AUTOREPLENISHMENT:
+        'Placing an order with a product by selecting frequency for recurring order placement and manage the AR order in my account like canceling, changing frequency etc',
+      Optin: 'Opt in for newsletters',
+      AComm:
+        'Validate eSalon Commission Program by allowing to select salon in the checkout flow and also verify commission submission reports',
+      Analytics:
+        'Test to Verify the analytics - GA tag requirement across the site.',
+    };
+    // Based on the tc name array and the test group selected, this is populated
+    let test = 0;
+    function populateTcName() {
+      // Remove all the existing list
+      tcSelect = document.getElementById('testcases');
+      var n = tcSelect.options.length;
+      for (var i = 0; i < n; i++) tcSelect.remove(0);
+
+      // Find the test group which has been selected
+      var elem = document.getElementById('testgroups');
+      var tgName = [];
+      // elem.options[elem.selectedIndex].text;
+      for (var i = 0; i < elem?.options?.length; i++) {
+        if (elem[i]?.selected) {
+          tgName.push(elem[i].text);
+        }
+      }
+      let filteredTestCases = [];
+      if (smokeTestFlag) {
+        filteredTestCases = smokeTestCases;
+      } else {
+        filteredTestCases = tcName;
+      }
+      var j = 0;
+      for (let k = 0; k < tgName.length; k++) {
+        for (var i = 0; i < filteredTestCases.length; i++) {
+          // Only the tests of the selected test group are added
+          if (tgName[k] == filteredTestCases[i][1]) {
+            // To make the first value in selected state
+            if (j == 1) {
+              tcSelect.options[tcSelect.options.length] = new Option(
+                filteredTestCases[i][2],
+                filteredTestCases[i][0],
+                false,
+                true
+              );
+            } else {
+              tcSelect.options[tcSelect.options.length] = new Option(
+                filteredTestCases[i][2],
+                filteredTestCases[i][0],
+                false,
+                false
+              );
+            }
+            if (filteredTestCases[i][5] === 'disable') {
+              if (tcSelect.options[j]) {
+                //tcSelect.options[j].style='font-weight: bold;'
+                tcSelect.options[j].style = 'color: rgb(0 176 240);';
+                //tcSelect.options[i].innerHTML=tcSelect.options[i].innerHTML + '&#8595;'
+                tcSelect.options[j].disabled = true;
+                // var str = new TextDecoder().decode(Uint8Array.from(tcName));
+              }
+            } else {
+              // if(tcSelect.options[i]){
+              //   tcSelect.options[i].innerHTML = ("     ").concat(tcSelect.options[i].text);
+              // }
+            }
+            j++;
+          }
+        }
+      }
+      var featureDescElem = document.getElementById('featureDesc');
+      if (tgName.length == 1) {
+        featureDescElem.innerText =
+          featureDescList[tgName[0].replaceAll(' ', '').replaceAll('-', '')];
+        featureDescElem.style.display = 'block';
+      } else {
+        featureDescElem.style.display = 'none';
+      }
+      if (test === 0) {
+        $('select[multiple]').multiselect();
+        test = 1;
+      } else {
+        $('select.multipleSelectDropdown').multiselect('reload');
+      }
+      $('select#testcases').multiselect('reload');
+    }
+
+    // Based on the tc name array, the group is populated
+    function populateTcGroupName() {
+      // Remove all the existing list
+      tgSelect = document.getElementById('testgroups');
+      var n = tgSelect.options.length;
+      for (var i = 0; i < n; i++) tgSelect.remove(0);
+      let filteredTestCases = [];
+      if (smokeTestFlag) {
+        filteredTestCases = smokeTestCases;
+      } else {
+        filteredTestCases = tcName;
+      }
+
+      var uniqueTg = [];
+
+      for (var i = 0; i < filteredTestCases.length; i++) {
+        // Add only if not there in the unique list
+        if (!uniqueTg.includes(filteredTestCases[i][1])) {
+          // To make the first value in selected state
+          if (i == 0) {
+            tgSelect.options[tgSelect.options.length] = new Option(
+              filteredTestCases[i][1],
+              filteredTestCases[i][0],
+              false,
+              true
+            );
+          } else {
+            tgSelect.options[tgSelect.options.length] = new Option(
+              filteredTestCases[i][1],
+              filteredTestCases[i][0],
+              false,
+              false
+            );
+          }
+          uniqueTg.push(filteredTestCases[i][1]);
+        }
+      }
+      $('select#testgroups').multiselect('reload');
+    }
+
+    // This array has the mapping between the Train and the Team
+    // It also has the Dashboard number and the Launch filter number
+    var trainTeam = [
+      ['Select', 'Select', '', ''],
+      ['Regional', 'Select', '', ''],
+      ['Regional', 'NA', '81', '28'],
+      ['Regional', 'APAC', '82', '29'],
+      ['Regional', 'EMEA', '83', '30'],
+      ['Regional', 'LATAM', '84', '31'],
+      ['Regional', 'UK', '85', '32'],
+      ['Regional', 'GlobalQA', '86', '33'],
+      ['Regional', 'ReleaseQA', '87', '34'],
+      ['Regional', 'SiteRollouts', '88', '35'],
+      ['BrandExp', 'Select', '', ''],
+      // ['BrandExp', 'ProductFeatures', '89', '36'],
+      // ['BrandExp', 'ProductBase', '90', '37'],
+      ['BrandExp', 'SellingTools', '91', '38'],
+      // ['BrandExp', 'ContentBlocks', '92', '39'],
+      // ['BrandExp', 'Search', '93', '40'],
+      // ['BrandExp', 'ProdCat', '94', '41'],
+      ['BrandExp', 'StoreLocator', '95', '42'],
+      ['BrandExp', 'OAB', '96', '43'],
+      // ['BrandExp', 'NavFooter', '97', '44'],
+      ['BrandAssembly', 'Select', '', ''],
+      ['BrandAssembly', 'AssemblyTeam1', '98', '45'],
+      ['BrandAssembly', 'AssemblyTeam2', '99', '46'],
+      ['BrandAssembly', 'AssemblyTeam3', '100', '47'],
+      ['BrandAssembly', 'AssemblyTeam4', '101', '48'],
+      ['BrandAssembly', 'AssemblyTeam5', '102', '49'],
+      ['BrandAssembly', 'AssemblyTeam6', '103', '50'],
+      ['BrandAssembly', 'AssemblyTeam7', '104', '51'],
+      ['BrandAssembly', 'AssemblyTeam8', '105', '52'],
+      ['BrandAssembly', 'AssemblyTeam9', '106', '53'],
+      ['EcommStardust', 'Select', '', ''],
+      // ['EcommStardust', 'SDAccount', '107', '54'],
+      // ['EcommStardust', 'SDCartAndOffers', '108', '55'],
+      ['EcommStardust', 'SDCheckout', '109', '56'],
+      ['EcommStardust', 'SDCommunications', '110', '57'],
+      // ['EcommStardust', 'SDDatabase', '111', '58'],
+      ['EcommStardust', 'SDFoundations', '112', '59'],
+      // ['EcommStardust', 'SDPayments', '113', '60'],
+      ['EcommHybrid', 'Select', '', ''],
+      ['EcommHybrid', 'DGACAC', '114', '61'],
+      ['EcommHybrid', 'DGCartAndOffers', '115', '62'],
+      ['EcommHybrid', 'Loyalty', '116', '63'],
+      ['EcommHybrid', 'OOFIS', '117', '64'],
+      ['EcommHybrid', 'RCO', '118', '65'],
+      ['AFT', 'Select', '', ''],
+      // ['AFT', 'DevEx', '119', '66'],
+      // ['AFT', 'FEFoundation', '120', '67'],
+      ['AFT', 'DrupalApplication', '121', '68'],
+      ['AFT', 'SEO', '122', '69'],
+      ['AFT', 'PGFoundation', '123', '70'],
+      ['FeatureRollouts', 'Select', '', ''],
+      ['FeatureRollouts', 'RCORollout', '124', '71'],
+      ['FeatureRollouts', 'LoyaltyRollout', '125', '72'],
+      ['FeatureRollouts', 'OABRollout', '126', '73'],
+      // ['FeatureRollouts', 'CartCleanupRollout', '127', '74'],
+      ['FeatureRollouts', 'ClickAndReserveRollout', '128', '75'],
+      ['FeatureRollouts', 'PromotionAndGifting', '129', '76'],
+      ['FeatureRollouts', 'SellingTools', '130', '77'],
+      ['FeatureRollouts', 'AccountCheckout', '131', '78'],
+      ['FeatureRollouts', 'SearchAndClientelling', '132', '79'],
+      ['Operations', 'Select', '', ''],
+      ['Operations', 'Team1', '133', '80'],
+    ];
+
+    // Based on the value of the Train selscted, populate the team names
+    function trainChange() {
+      var selectVal = document.getElementById('train').value;
+
+      teamSelect = document.getElementById('team');
+      var n = teamSelect.options.length;
+      for (var i = 0; i < n; i++) teamSelect.remove(0);
+
+      var firstOption = true;
+      for (var i = 0; i < trainTeam.length; i++) {
+        if (trainTeam[i][0] == selectVal) {
+          // To set the first option as selected
+          if (firstOption) {
+            teamSelect.options[teamSelect.options.length] = new Option(
+              trainTeam[i][1],
+              trainTeam[i][1],
+              false,
+              true
+            );
+            firstOption = false;
+          } else {
+            teamSelect.options[teamSelect.options.length] = new Option(
+              trainTeam[i][1],
+              trainTeam[i][1],
+              false,
+              false
+            );
+          }
+        }
+      }
+    }
+
+    function genUrl() {
+      let alltag = '';
+      let pwalltag = '';
+      let pTestCaseTag = '';
+      let device = '';
+      let hasPWTest = 0;
+      let hasTaikoTest = 0;
+      let pAllBrands = '';
+      let pAllLocales = '';
+      let ncsaNumVal = '';
+
+      var select = document.getElementsByName('brands')[0];
+      var options = select && select.options;
+      var brandSelected = false;
+      // check if any brand has been selected
+      for (var i = 0, iLen = options.length; i < iLen; i++) {
+        opt = options[i];
+        if (opt.selected) brandSelected = true;
+      }
+
+      // If none of the Brands are not selected, default to MC
+      // This is to prevent a huge number of tests triggering
+      if (!brandSelected) {
+        brandSelected = true;
+        options[0].selected = true;
+      }
+
+      // add the brands which have been selected
+      if (brandSelected) {
+        let tag = '';
+        let ptag = '';
+        for (var i = 0, iLen = options.length; i < iLen; i++) {
+          opt = options[i];
+
+          if (opt.selected) {
+            tag = tag + ' | ' + opt.value;
+            if (searchValueInTagValuesPW(tagVals, opt.value)) {
+              ptag = ptag + ' | ' + opt.value;
+            }
+          }
+        }
+        tag = tag.substring(3);
+        ptag = ptag.substring(3);
+        allbrand = ' & ( ' + tag + ' )';
+        pAllBrands = ' & ( ' + ptag + ' )';
+        alltag = alltag + ' & ( ' + tag + ' )';
+        pwalltag = ptag !== '' ? pwalltag + ' & ( ' + ptag + ' )' : '';
+      }
+
+      // For the Locales
+      var selectLoc = document.getElementsByName('locales')[0];
+      var optionsLoc = select && selectLoc.options;
+      // Check if any one Locale is selected
+      var localeSelected = false;
+      for (var i = 0; i < optionsLoc.length; i++) {
+        if (optionsLoc[i].selected) localeSelected = true;
+      }
+      // If no Locale is selected, default to US
+      if (!localeSelected) {
+        localeSelected = true;
+        optionsLoc[0].selected = true;
+      }
+
+      // The following array is to map the Region to which the Country belongs to
+      // The regions themselves are APAC, EMEA and LATAM which are in 3, 15 and 42 poaition
+      var localesRegion = [
+        -1, -1, -1, -1, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, -1, 15, 15, 15, 15,
+        15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15,
+        15, 15, 15, 15, 15, -1, 42, 42, 42,
+      ];
+
+      // add the Locales which have been selected
+      if (localeSelected) {
+        let tag = '';
+        let ptag = '';
+        for (var i = 0; i < optionsLoc.length; i++) {
+          // Avoid action if APAC EMEA or LATAM is selected, which are at 3, 15 and 42
+          if (i == 3 || i == 15 || i == 42) continue;
+          // If the Locale is selected, add the locale to the tag
+          if (optionsLoc[i].selected) {
+            tag = tag + ' | ' + optionsLoc[i].value;
+            if (searchValueInTagValuesPW(tagVals, optionsLoc[i].value)) {
+              ptag = ptag + ' | ' + optionsLoc[i].value;
+            }
+            continue;
+          }
+          // If the Region for that Locale is selected, add the locale to the tag
+          if (
+            localesRegion[i] != -1 &&
+            optionsLoc[localesRegion[i]].selected
+          ) {
+            tag = tag + ' | ' + optionsLoc[i].value;
+            if (searchValueInTagValuesPW(tagVals, optionsLoc[i].value)) {
+              ptag = ptag + ' | ' + optionsLoc[i].value;
+            }
+          }
+        }
+        tag = tag.substring(3);
+        ptag = ptag.substring(3);
+        alllocale = ' & ( ' + tag + ' )';
+        pAllLocales = ' & ( ' + ptag + ' )';
+        alltag = alltag + ' & ( ' + tag + ' )';
+        pwalltag = ptag !== '' ? pwalltag + ' & ( ' + ptag + ' )' : '';
+      }
+      pwalltag = pwalltag.substring(3).toUpperCase();
+      console.log('Brand/Locale Tag: ' + alltag);
+      console.log('Brand/Locale Tag - PW: ' + pwalltag);
+
+      // To get the platform selection
+      var selectPF = document.getElementsByName('platform')[0];
+      var optionsPF = select && selectPF.options;
+      var PC = optionsPF[0].selected;
+      var MOB = optionsPF[1].selected;
+
+      // To get the train and team selection for Launch Name
+      var trainTeamName = '';
+      var teamName = '';
+      var trainName = '';
+      var selectTrain = document.getElementsByName('train')[0];
+      var optionsTrain = select && selectTrain.options;
+      for (var i = 0; i < optionsTrain.length; i++) {
+        if (optionsTrain[i].selected) trainName = optionsTrain[i].value;
+      }
+
+      var selectTeam = document.getElementsByName('team')[0];
+      var optionsTeam = select && selectTeam.options;
+      for (var i = 0; i < optionsTeam.length; i++) {
+        if (optionsTeam[i].selected) teamName = optionsTeam[i].value;
+      }
+
+      trainTeamName = trainName + '%2D' + teamName;
+
+      // Populate the tag based on the TC names selected and the platform selected
+      var selectTC = document.getElementsByName('testcases')[0];
+      var optionsTC = select && selectTC.options;
+      // Check if any one TC is selected
+      var tcSelected = false;
+      for (var i = 0; i < optionsTC.length; i++) {
+        if (optionsTC[i].selected) tcSelected = true;
+      }
+      // If no TC selected, select the first one
+      if (!tcSelected) {
+        optionsTC[0].selected = true;
+      }
+      alltest = '';
+      tag = '';
+      device = PC ? device + ' & (PC)' : device + ' & (MOB)';
+      console.log('Device Tag: ' + device);
+      pwalltag = pwalltag + device;
+      for (var i = 0; i < optionsTC.length; i++) {
+        if (optionsTC[i].selected) {
+          // Find the selected TC num (TC01 or TC02.. etc)
+          var selectedTC = optionsTC[i].value;
+
+          // Find the row of that TC num in tcName array
+          var tcRow = 0;
+          for (k = 0; k < tcName.length; k++)
+            if (tcName[k][0] == selectedTC) tcRow = k;
+
+          // @GU|@SANITYSEARCH
+          // pTestCaseTag =
+          //   pTestCaseTag + '@' + tcName[tcRow][3].slice(0, -2) + '|';
+
+          // Tag based on whether PC or Mobile is selected
+          if (PC) {
+            tag = tag + ' | ' + tcName[tcRow][3];
+          } else {
+            tag = tag + ' | ' + tcName[tcRow][4];
+          }
+        }
+      }
+      tag = tag.substring(3).toUpperCase();
+      alltest = ' & ( ' + tag + ' )';
+      alltag = alltag + ' & ( ' + tag + ' )';
+
+      // pTestCaseTag = pTestCaseTag.slice(0, -1);
+      // console.log('Test Case Annotations for Playwright: ' + pTestCaseTag);
+
+      //
+      // From the tagVals array and the value in Brand Locale Test find the number of specs which will match
+      // Absolute match is achieved by checking for availability of " RU " rather than "RU" to avoid
+      // partial string match into "RUPC". Similarly for "GUPC" and "ENEGUPC" etc.
+      //
+      // Brand Locale and Test are individually compared so that Brand CL and Locale CL do not mix up
+      // After Locale CL is fully renamed to Locale CE it is not needed, but given to handle transition
+      //
+
+matchingSpec = 0;
+let helixTags = '';
+let elcelerateTags = '';
+for (let i = 0; i < tagVals.length; i++) {
+  let brandsScopeHelix = '';
+  let localesScopeHelix = '';
+  let scenariosScopeHelix = '';
+  let brandsScopeElcelerate = '';
+  let localesScopeElcelerate = '';
+  let scenariosScopeElcelerate = '';
+  if (
+    allbrand.includes(' ' + tagVals[i][0] + ' ') &&
+    alllocale.includes(' ' + tagVals[i][1] + ' ') &&
+    alltest.includes(' ' + tagVals[i][2] + ' ')
+  ) {
+    // matchingSpec++;
+    if (tagVals[i][3] === 1 && tagVals[i][3] !== 3) {
+      matchingSpec++;
+      hasTaikoTest = 1;
+      brandsScopeHelix = tagVals[i][0];
+      localesScopeHelix = tagVals[i][1];
+      scenariosScopeHelix = tagVals[i][2];
+      if (brandsScopeHelix && localesScopeHelix && scenariosScopeHelix) {
+        if (helixTags !== '') {
+          helixTags += '|';
+        }
+        helixTags += '(' + brandsScopeHelix + ' & ' + localesScopeHelix + ' & ' + scenariosScopeHelix + ')';
+      }
+    } else {
+      if (
+        pAllBrands.includes(' ' + tagVals[i][0] + ' ') &&
+        pAllLocales.includes(' ' + tagVals[i][1] + ' ') &&
+        alltest.includes(' ' + tagVals[i][2] + ' ')
+      ) {
+        matchingSpec++;
+        hasPWTest = 1;
+        brandsScopeElcelerate = tagVals[i][0];
+        localesScopeElcelerate = tagVals[i][1];
+        scenariosScopeElcelerate = tagVals[i][2];
+        if (brandsScopeElcelerate && localesScopeElcelerate && scenariosScopeElcelerate) {
+          let tempDevice = PC ? tagVals[i][2].slice(-2) : tagVals[i][2].slice(-3);
+          // if (scenariosScopeElcelerate.indexOf(tempDevice) == -1) {
+          //   scenariosScopeElcelerate = scenariosScopeElcelerate + ' | ' + tempDevice;
+          // }
+          let tempTag = '(' + brandsScopeElcelerate + ' & ' + localesScopeElcelerate + ' & ' + tempDevice + ')';
+    
+          if (elcelerateTags.indexOf(tempTag) == -1) {
+            elcelerateTags += tempTag + '|';
+          }   
+          let tempScenario = PC ? tagVals[i][2].slice(0,-2) : tagVals[i][2].slice(0,-3);
+          if (pTestCaseTag.indexOf(tempScenario) == -1) {
+            pTestCaseTag = pTestCaseTag + '@' + tempScenario + '|';
+          }   
+        }
+      }
+    }
+  }
+}
+console.log('Helix Tags:', helixTags);
+helixTags = encodeURI(helixTags);
+helixTags = helixTags === '' ? '' : helixTags.replaceAll('&', '%26').toUpperCase();
+pTestCaseTag = pTestCaseTag.slice(0, -1);
+console.log('Test Case Annotations for Playwright: ' + pTestCaseTag);
+elcelerateTags = elcelerateTags.includes('|') ? elcelerateTags.slice(0, -1) : elcelerateTags;
+console.log('ELCelerate Tags: ', elcelerateTags);
+elcelerateTags = encodeURI(elcelerateTags);
+elcelerateTags = elcelerateTags === '' ? '' : elcelerateTags.replaceAll('&', '%26').toUpperCase();
+pTestCaseTag = hasPWTest === 0 ? '' : pTestCaseTag;
+//pTestCaseTag = pTestCaseTag.includes('@GU') ? '@GU' : '';
+alltag = hasTaikoTest === 0 ? '' : alltag.substring(3);
+pwalltag = hasPWTest === 0 ? '' : pwalltag;
+
+      // console.log('All Tag - Taiko: ' + alltag);
+      // console.log('All Tag - PW: ' + pwalltag);
+
+      // Getting the launch description, defaulting if not entered, enclosing in doublequote and url encoding
+      var launchVal = document.getElementById('launchdescription').value;
+      if (launchVal == '') launchVal = "MyTest-10000";
+      // Following line has to be commented when Jenkins worker is on Unix / Linux environemnt
+      // launchVal = "\"" + launchVal + "\""
+      launchVal = encodeURI(launchVal);
+      launchVal = launchVal.replaceAll('&', '%26');
+
+      // Getting the cookie value and cookiepath and url encoding
+      var cookieval = document.getElementById('cookieval').value;
+      cookieval = encodeURI(cookieval);
+      cookieval = cookieval.replaceAll('&', '%26');
+      var cookiepath = document.getElementById('cookiepath').value;
+      cookiepath = encodeURI(cookiepath);
+      cookiepath = cookiepath.replaceAll('&', '%26');
+      var allcookies = document.getElementById('allcookies').value;
+      allcookies = encodeURI(allcookies);
+      allcookies = allcookies.replaceAll('&', '%26');
+
+      // To get the environment selection
+      var selectENV = document.getElementsByName('environment')[0];
+      var optionsENV = select && selectENV.options;
+      var envVal = 'PROD';
+      if (optionsENV[0].selected) envVal = 'PROD';
+      if (optionsENV[1].selected) envVal = 'PREPROD';
+      if (optionsENV[2].selected) envVal = 'STAGE';
+      if (optionsENV[3].selected) envVal = 'DEV';
+      if (optionsENV[4].selected) envVal = 'FEATURE';
+      if (optionsENV[5].selected) envVal = 'ENG';
+      if (optionsENV[6].selected) envVal = 'PRENV';
+      if (optionsENV[7].selected) envVal = 'INT';
+      if (optionsENV[8].selected) envVal = 'INTX';
+      // if (optionsENV[6].selected) envVal = 'PREVIEW';
+      if (optionsENV[9].selected) envVal = 'PINCER';
+
+      // Env is also added to the Train Team name
+      trainTeamName =
+        trainTeamName + '%2D' + envVal + '%2D' + (PC ? 'PC' : 'MOB');
+
+      // To get the Akamai bypass
+      var selectAKM = document.getElementsByName('akamai')[0];
+      var optionsAKM = select && selectAKM.options;
+      var akmVal = 'false';
+      if (optionsAKM[0].selected) akmVal = 'false';
+      if (optionsAKM[1].selected) akmVal = 'true';
+
+      // To get the Varnish bypass
+      var selectVARNISH = document.getElementsByName('varnish')[0];
+      var optionsVarnish = select && selectVARNISH.options;
+      var varnishVal = 'false';
+      if (optionsVarnish[0].selected) varnishVal = 'false';
+      if (optionsVarnish[1].selected) varnishVal = 'true';
+
+      // To get the Retry count
+      var selectRC = document.getElementsByName('retries')[0];
+      var optionsRC = select && selectRC.options;
+      var rcVal = '2';
+      if (optionsRC[0].selected) rcVal = '2';
+      if (optionsRC[1].selected) rcVal = '1';
+
+      // To get the perlgem selection
+      var selectPGM = document.getElementsByName('perlgem')[0];
+      var optionsPGM = select && selectPGM.options;
+      var pgmVal = 'preprod';
+      if (optionsPGM[0].selected) pgmVal = 'preprod';
+      if (optionsPGM[1].selected) pgmVal = 'stage';
+      if (optionsPGM[2].selected) pgmVal = 'dev';
+
+      // To get the perlgem selection
+      var selectAPI = document.getElementsByName('apienv')[0];
+      var optionsAPI = select && selectAPI.options;
+      var apiVal = 'qa';
+      if (optionsAPI[0].selected) apiVal = 'qa';
+      if (optionsAPI[1].selected) apiVal = 'production';
+      if (optionsAPI[2].selected) apiVal = 'uat';
+      if (optionsAPI[3].selected) apiVal = 'integration';
+
+      // Get the Jira Id and Revision Tag
+      var jiraidVal = document.getElementById('jiraid').value;
+      jiraidVal = encodeURI(jiraidVal);
+      jiraidVal = jiraidVal.replaceAll('&', '%26');
+      ncsaNumVal = document.getElementById('ncsaservernumber').value;
+      ncsaNumVal = encodeURI(ncsaNumVal);
+      ncsaNumVal = ncsaNumVal.replaceAll('&', '%26');
+
+      var revtagVal = document.getElementById('revisiontag').value;
+      revtagVal = encodeURI(revtagVal);
+      revtagVal = revtagVal.replaceAll('&', '%26');
+
+      var intxVal = document.getElementById('intx').value;
+      intxVal = encodeURI(intxVal);
+      intxVal = intxVal.replaceAll('&', '%26');
+
+      var selectIntXPGM = document.getElementsByName('intxpgenv')[0];
+      var optionsIntXPGM = selectIntXPGM && selectIntXPGM.options;
+      var intxpgenvVal = 'BRANCHSERVER';
+      if (optionsIntXPGM[0].selected) intxpgenvVal = 'BRANCHSERVER';
+      if (optionsIntXPGM[1].selected) intxpgenvVal = 'STAGE';
+      if (optionsIntXPGM[2].selected) intxpgenvVal = 'DEV';
+
+      var intxpgenv = encodeURI(intxpgenvVal);
+      intxpgenv = intxpgenv.replaceAll('&', '%26');
+
+      var prnumVal = document.getElementById('prnum').value;
+      prnumVal = encodeURI(prnumVal);
+      prnumVal = prnumVal.replaceAll('&', '%26');
+
+      // The approx time to execute is calculated by number of test / number of thread and multiply by 2 min which average time to run
+      // We take the ciel since, when the number of threads is 8, time to exec 1 test or 8 test will be 2 min
+      timeToRun = Math.ceil(matchingSpec / 8) * 2;
+
+      // alltag = alltag.substring(3)
+      // Following line has to be commented when Jenkins worker is on Unix / Linux environemnt
+      // alltag = "\" " + alltag + " \""
+      document.getElementById('tagvalue').innerHTML =
+        ' <p><b>Number of test chosen for execution :' +
+        matchingSpec +
+        '<br> <b > Approximate time to complete execution :' +
+        timeToRun +
+        ' minutes </b>' +
+        '<br></p>';
+      url = 'token=token2105&RP_LAUNCH_DESCRIPTION=';
+      alltag = encodeURI(alltag);
+      alltag = alltag.replaceAll('&', '%26').toUpperCase();
+      pwalltag = encodeURI(pwalltag);
+      pwalltag = pwalltag.replaceAll('&', '%26').toUpperCase();
+
+      // If the Environment is Stage or Feature, RevisionTag is added
+      var selectVal = document.getElementById('environment').value;
+      var addlVal = '';
+      if (
+        selectVal == 'STAGE' ||
+        selectVal == 'FEATURE' ||
+        selectVal == 'DEV' ||
+        selectVal == 'PREVIEW'
+      ) {
+        addlVal = addlVal + '&REVISIONTAG=' + revtagVal + '&APIENV=' + apiVal;
+      }
+
+      // If the Environment is Feature, PerlGem and JiraId are added
+      if (selectVal == 'FEATURE') {
+        addlVal = addlVal + '&JIRAID=' + jiraidVal + '&PERLGEMENV=' + pgmVal;
+      }
+
+      if (selectVal == 'PREVIEW') {
+        addlVal = addlVal + '&JIRAID=' + jiraidVal;
+      }
+
+      // If the Environment is ENG, NCSAServerNumber and JiraId are added
+      if (selectVal == 'ENG') {
+        addlVal =
+          addlVal + '&JIRAID=' + jiraidVal + '&NCSASERVERNUM=' + ncsaNumVal;
+      }
+
+      if (selectVal == 'INTX') {
+        if (intxpgenvVal == 'BRANCHSERVER') {
+          addlVal =
+            addlVal + '&JIRAID=' + jiraidVal + '&INTXPGENV=' + intxpgenv + '&INTX=' + intxVal + '&NCSASERVERNUM=' + ncsaNumVal;
+        } else {
+          addlVal =
+            addlVal + '&INTXPGENV=' + intxpgenv + '&INTX=' + intxVal;
+        }
+      }
+
+      if (selectVal == 'PRENV') {
+        addlVal =
+          addlVal + '&PRNO=' + prnumVal;
+      }
+
+      // The url params are gathered into a string and will be passed to another page which will use
+      // this url to call within a iframe
+      // multiple pass and get with url encode alone is running into issues
+      // hence the parameters are base 64 encoded before we pass to the page which has the iframe
+
+      var selectedBrowser = document.getElementById('browser');
+      var browserParam = {
+        CHROME: false,
+        FIREFOX: false,
+        EDGE: false,
+        SAFARI: false,
+        IPHONESAFARI: false,
+        PIXELCHROME: false,
+      };
+      for (var i = 0; i < selectedBrowser?.options?.length; i++) {
+        if (selectedBrowser[i]?.selected) {
+          browserParam[selectedBrowser[i].value] = true;
+          // browserParam.push(selectedBrowser[i].value);
+        }
+      }
+
+      console.log(browserParam);
+
+      urlParams =
+        url +
+        launchVal +
+        '&RP_LAUNCH_NAME=' +
+        trainTeamName +
+        '&TAGVALUE=' +
+        helixTags +
+        '&TAGS=' +
+        elcelerateTags +
+        '&ENVIRONMENT=' +
+        envVal +
+        '&AKAMAIBYPASS=' +
+        akmVal +
+        '&VARNISHBYPASS=' +
+        varnishVal +
+        '&COOKIEVAL=' +
+        cookieval +
+        '&COOKIEPATH=' +
+        cookiepath +
+        '&COOKIES=' +
+        allcookies +
+        '&RETRYCOUNT=' +
+        rcVal +
+        '&ANNOTATION=' +
+        pTestCaseTag +
+        '&HASPWTEST=' +
+        hasPWTest +
+        '&HASTAIKOTEST=' +
+        hasTaikoTest +
+        '&CHROME=' +
+        browserParam.CHROME +
+        '&FIREFOX=' +
+        browserParam.FIREFOX +
+        '&EDGE=' +
+        browserParam.EDGE +
+        '&SAFARI=' +
+        browserParam.SAFARI +
+        '&IPHONESAFARI=' +
+        browserParam.IPHONESAFARI +
+        '&PIXELCHROME=' +
+        browserParam.PIXELCHROME +
+        //'&ENABLEREPORTPORTAL=' +
+        //hasTaikoTest +
+        //'&ENABLEALLUREREPORT=' +
+        //true +
+        addlVal;
+      console.log(urlParams);
+      encUrlParams = window.btoa(urlParams);
+
+      // The result id is also found and passed in the url
+      var resultId = '';
+      var trainTeamIndex = findTrainTeamIndex();
+      if (trainTeamIndex != -1) {
+        resultId = trainTeam[trainTeamIndex][3];
+      }
+
+      if (
+        new URLSearchParams(window.location.search).get('enablepw') === '1'
+      ) {
+        encUrlParams =
+          './FTTestRun.html?enablepw=1&callParam=' +
+          encUrlParams +
+          '&resultId=' +
+          resultId;
+      } else {
+        encUrlParams =
+          './FTTestRun.html?callParam=' +
+          encUrlParams +
+          '&resultId=' +
+          resultId;
+      }
+      document.getElementById('urlvalue').innerHTML = encUrlParams;
+      document.getElementById('urlvalue').innerHTML.fontcolor('#FFFFFF');
+    }
+
+    function startTest() {
+      genUrl();
+      var testUrl = document.getElementById('urlvalue').innerHTML;
+
+      if (testUrl == '') {
+        alert('Please click Check Script Availability and then start test..');
+      } else {
+        if (matchingSpec == 0) {
+          alert('Test cannot be started with 0 tests');
+        } 
+        //Restriction for running more than 24 tests.
+        else if (matchingSpec > 24) { 
+          alert('Number of tests selected: ' + matchingSpec + '. \n' + 
+          'It is limited to execute only 24 tests at a time. ' + 
+          'Please split the tests into multiple runs of less than or equal to 24 tests.');
+        }
+        else {
+          testUrl = testUrl.replaceAll('&amp;', '&');
+          window.open(testUrl, '_blank');
+        }
+      }
+    }
+
+    function findTrainTeamIndex() {
+      var trainVal = document.getElementById('train').value;
+      var teamVal = document.getElementById('team').value;
+      if (trainVal == 'Select' || teamVal == 'Select') return -1;
+      for (var i = 0; i < trainTeam.length; i++) {
+        if (trainTeam[i][0] == trainVal && trainTeam[i][1] == teamVal)
+          return i;
+      }
+      return -1;
+    }
+
+    function searchValueInTagValuesPW(tagValuesPWArray, searchString) {
+      for (const brandLocale of tagValuesPWArray) {
+        for (const element of brandLocale) {
+          if (element === searchString) {
+            return true; // Found the value
+          }
+        }
+      }
+      return false; // Value not found in any subarray
+    }
+
+    function openPage(pageName, elmnt, check) {
+      var i, tabcontent, tablinks;
+      if (elmnt == 'env' || elmnt == 'oc') {
+        let select = document.getElementsByName('brands')[0];
+        // To get the train and team selection for Launch Name
+        let trainTeamName = '';
+        let teamName = '';
+        let trainName = '';
+        let selectTrain = document.getElementsByName('train')[0];
+        let optionsTrain = select && selectTrain.options;
+        //trainName = optionsTrain[0].value;
+        for (var i = 0; i < optionsTrain.length; i++) {
+          if (optionsTrain[i].selected) trainName = optionsTrain[i].value;
+        }
+
+        if (trainName == 'Select') {
+          alert('Select the Team name');
+          return;
+        }
+        let selectTeam = document.getElementsByName('team')[0];
+        let optionsTeam = select && selectTeam.options;
+        for (var i = 0; i < optionsTeam.length; i++) {
+          if (optionsTeam[i].selected) teamName = optionsTeam[i].value;
+        }
+        //teamName = optionsTeam[0].value;
+        console.log(trainName, teamName);
+
+        if (teamName == 'Select') {
+          alert('Select the Subteam name');
+          return;
+        }
+        var lnchVal = '';
+        lnchVal = document.getElementById('launchdescription').value;
+
+        if (lnchVal == '') {
+          const d = new Date();
+          const timeStamp = getdate(d);
+          // lnchVal = "QAPUITest-" + (d.getMonth() + 1).toString() + d.getDate() + d.getFullYear() + "-" + d.getHours() + d.getMinutes() + d.getSeconds();
+          lnchVal = "QAPUITest-" + timeStamp;
+          document.getElementById('launchdescription').value = lnchVal;
+          document.getElementById('launchdescription').focus = true;
+          // alert('JIRA ID should be entered');
+          // return;
+        }
+      }
+      if (check == 1) {
+        genUrl();
+      }
+      tabcontent = document.getElementsByClassName('tabcontent');
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = 'none';
+      }
+      tablinks = document.getElementsByClassName('tablink');
+      for (i = 0; i < tablinks.length; i++) {
+        //tablinks[i].disabled=true;
+        tablinks[i].style.backgroundColor = 'rgb(209, 212, 220)';
+        tablinks[i].style.fontWeight = '';
+      }
+      //document.getElementById(pageName).style.display = "block";
+      //elmnt.style.backgroundColor = "black";
+      document.getElementById(elmnt).style.backgroundColor = 'white';
+      document.getElementById(elmnt).style.color = 'black';
+      document.getElementById(elmnt).style.fontWeight = 'bold';
+      document.getElementById(pageName).style.display = 'block';
+    }
+
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById('scp').click();
+
+    var brandList = [
+      { value: 'MC', name: 'MAC' },
+      { value: 'CL', name: 'Clinique' },
+      { value: 'OR', name: 'Origins' },
+      { value: 'EL', name: 'EsteeLauder' },
+      { value: 'BB', name: 'BobbiBrown' },
+      { value: 'LM', name: 'Lamer' },
+      { value: 'LS', name: 'LabSeries' },
+      { value: 'AV', name: 'Aveda' },
+      { value: 'JM', name: 'JoMalone' },
+      { value: 'BU', name: 'Bumble' },
+      { value: 'BK', name: 'Kilian' },
+      { value: 'DA', name: 'Darphin' },
+      { value: 'DJ', name: 'DrJart' },
+      { value: 'GG', name: 'GlamGlow' },
+      { value: 'SB', name: 'SmashBox' },
+      { value: 'FM', name: 'FredericMalle' },
+      { value: 'TF', name: 'TooFaced' },
+      { value: 'EB', name: 'Beauty Perks' },
+    ];
+    var selectEle = document.getElementById('brands');
+    function populateBrandList() {
+      brandList.sort((a, b) => (a.name < b.name ? -1 : 1));
+      selectEle.innerText = null;
+      for (var i = 0; i < brandList.length; i++) {
+        var optn = brandList[i];
+        var el = document.createElement('option');
+        el.textContent = optn.name;
+        el.value = optn.value;
+        selectEle.appendChild(el);
+      }
+    }
+    function smokeTest() {
+      var isSmokeTest = document.getElementById('smokeTest');
+      var envElem = document.getElementById('environment');
+      if (isSmokeTest.checked == true) {
+        smokeTestFlag = true;
+        envElem.options[0].selected = true;
+        envElem.disabled = true;
+        document.getElementById('revisiontag').style.display = 'none';
+        document.getElementById('revisiontaglabel').style.display = 'none';
+
+        document.getElementById('apienv').style.display = 'none';
+        document.getElementById('apienvlabel').style.display = 'none';
+
+        document.getElementById('perlgem').style.display = 'none';
+        document.getElementById('perlgemlabel').style.display = 'none';
+
+        document.getElementById('jiraid').style.display = 'none';
+        document.getElementById('jiraidlabel').style.display = 'none';
+
+        document.getElementById('prnum').style.display = 'none';
+        document.getElementById('prnumlabel').style.display = 'none';
+
+        document.getElementById('intx').style.display = 'none';
+        document.getElementById('intxlabel').style.display = 'none';
+
+        document.getElementById('intxpgenv').style.display = 'none';
+        document.getElementById('intxpgenvlabel').style.display = 'none';
+
+        document.getElementById('ncsaservernumber').style.display = 'none';
+        document.getElementById('ncsaservernumberlabel').style.display = 'none';
+      } else {
+        smokeTestFlag = false;
+        envElem.disabled = false;
+      }
+      populateTcGroupName();
+      populateTcName();
+    }
+    let browserList = [
+      { name: 'PC Chrome', value: 'CHROME', device: 'PC' },
+      { name: 'PC Firefox', value: 'FIREFOX', device: 'PC' },
+      { name: 'PC Edge', value: 'EDGE', device: 'PC' },
+      { name: 'MAC Safari', value: 'SAFARI', device: 'PC' },
+      { name: 'Iphone Mobile Safari', value: 'IPHONESAFARI', device: 'MOB' },
+      { name: 'Android Mobile Chrome', value: 'PIXELCHROME', device: 'MOB' },
+    ];
+    function onChangePlatform() {
+      var selectedPlatform = document.getElementById('platform');
+      var platList = [];
+      for (var i = 0; i < selectedPlatform?.options?.length; i++) {
+        if (selectedPlatform[i]?.selected) {
+          platList.push(selectedPlatform[i].value);
+        }
+      }
+      let browserData;
+      if (platList.length === 1) {
+        browserData = browserList.filter((a) => a.device == platList);
+      } else {
+        browserData = browserList;
+      }
+      var selectBrowser = document.getElementById('browser');
+      selectBrowser.innerText = null;
+      for (var i = 0; i < browserData.length; i++) {
+        var optn = browserData[i];
+        var el = document.createElement('option');
+        el.textContent = optn.name;
+        el.value = optn.value;
+        selectBrowser.appendChild(el);
+      }
+      selectBrowser.options[0].selected = true;
+      $('select#browser').multiselect('reload');
+    }
+    function getdate(date) {
+      const month = ('0' + (date.getMonth() + 1)).slice(-2); // Month is zero-based
+      const day = ('0' + date.getDate()).slice(-2);
+      const year = date.getFullYear();
+      const hours = ('0' + date.getHours()).slice(-2);
+      const minutes = ('0' + date.getMinutes()).slice(-2);
+      const seconds = ('0' + date.getSeconds()).slice(-2);
+      const formattedDate = `${month}${day}${year}-${hours}${minutes}${seconds}`;
+      console.log(formattedDate);
+      return formattedDate;
+    }
+  </script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.multiselect.js"></script>
+  <script>
+    // Initialize tooltips using JavaScript
+    var tooltipTriggerList = [].slice.call(
+      document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    );
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl);
+    });
+    $(document).ready(function () {
+      onChangePlatform();
+    });
+  </script>
+</body>
+
+</html>

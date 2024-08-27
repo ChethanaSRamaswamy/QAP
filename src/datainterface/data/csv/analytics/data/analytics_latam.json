@@ -1,0 +1,2340 @@
+[
+    {
+        "brand": "AV-MX",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "MXN",
+                    "tid": "UA-59069007-185",
+                    "cd3": "es",
+                    "cd32": "Aveda MX",
+                    "cd33": "MX",
+                    "cd31": "Aveda",
+                    "cd83": "1",
+                    "cd74": "",
+                    "cd53": "",
+                    "cd9": "original"
+                },
+                "MPP": {
+                    "cd39": "MPP",
+                    "il1nm": "/products"
+                },
+                "productClick": {
+                    "pal": "/products"
+                },
+                "productdetailview": {
+                    "cd39": "QV"
+                },
+                "SPP": {
+                    "cd39": "SPP",
+                    "il1nm": "/product"
+                },
+                "viewCartOverlay": {
+                    "ec": "viewcart"
+                },
+                "productURL": {
+                    "productDetails1": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU34382",
+                    "productDetails2": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU89397",
+                    "productDetails3": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU148887",
+                    "productDetails4": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU33532",
+                    "productDetails5": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU42249"
+                },
+                "productQuantity": {
+                    "pr1qt": "1"
+                },
+                "productValues": [
+                    {
+                        "pr1cd1": "75 ml",
+                        "pr1cd85": "018084973523",
+                        "pr1cd84": "AM0L01",
+                        "pr1id": "PROD47308",
+                        "pr1cd52": "SKU78666",
+                        "pr1cd50": "",
+                        "pr1pr": "20.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "2.5 g",
+                        "pr1cd85": "018084876107",
+                        "pr1cd84": "A6AR10",
+                        "pr1id": "PROD16639",
+                        "pr1cd52": "SKU34359",
+                        "pr1cd50": "990/Plum Mist",
+                        "pr1pr": "20.80",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "8 g",
+                        "pr1cd85": "018084003749",
+                        "pr1cd84": "ARXR03",
+                        "pr1id": "PROD70894",
+                        "pr1cd52": "SKU110151",
+                        "pr1cd50": "03/Juneberry",
+                        "pr1pr": "16.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "8 g",
+                        "pr1cd85": "018084003763",
+                        "pr1cd84": "ARXR05",
+                        "pr1id": "PROD70894",
+                        "pr1cd52": "SKU110152",
+                        "pr1cd50": "05/Cucamelon",
+                        "pr1pr": "16.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "50 ml",
+                        "pr1cd85": "018084021675",
+                        "pr1cd84": "AX8N01",
+                        "pr1id": "PROD77164",
+                        "pr1cd52": "SKU118388",
+                        "pr1cd50": "",
+                        "pr1pr": "40.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    }
+                ],
+                "impressionList": {
+                    "il1pi1ps": "1",
+                    "il1pi1id": "PROD71190",
+                    "il1pi2ps": "2",
+                    "il1pi2id": "PROD80716",
+                    "il1pi3ps": "3",
+                    "il1pi3id": "PROD54392",
+                    "il1pi4ps": "4",
+                    "il1pi4id": "PROD35659",
+                    "il1pi5ps": "5",
+                    "il1pi5id": "PROD80717"
+                },
+                "signin": {
+                    "dt": "checkout | signin",
+                    "pa": "checkout",
+                    "cos": "2"
+                },
+                "shipping": {
+                    "cos": "2"
+                },
+                "purchase": {
+                    "ta": "Aveda"
+                },
+                "userId": {
+                    "uid": ""
+                },
+                "revenue": {
+                    "tr": "20",
+                    "ts": "0",
+                    "tt": ""
+                },
+                "OrderId": {
+                    "ti": "YOUR CONFIRMATION NUMBER IS 35526764."
+                },
+                "misc": {
+                    "qtyXpathPC": "//div[@class='qty-button__item qty-button__item--value']"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "BB-MX",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "MXN",
+                    "tid": "UA-92561429-133",
+                    "cd3": "es",
+                    "cd32": "BobbiBrown MX",
+                    "cd33": "MX",
+                    "cd31": "BobbiBrown",
+                    "cd83": "1",
+                    "cd74": "",
+                    "cd53": "",
+                    "cd9": "original"
+                },
+                "MPP": {
+                    "cd39": "MPP",
+                    "il1nm": "/products"
+                },
+                "productClick": {
+                    "pal": "/products"
+                },
+                "productdetailview": {
+                    "cd39": "QV"
+                },
+                "SPP": {
+                    "cd39": "SPP",
+                    "il1nm": "/product"
+                },
+                "viewCartOverlay": {
+                    "ec": "viewcart"
+                },
+                "productURL": {
+                    "productDetails1": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU171843",
+                    "productDetails2": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU112040",
+                    "productDetails3": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU112040",
+                    "productDetails4": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU112040",
+                    "productDetails5": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU112040"
+                },
+                "productQuantity": {
+                    "pr1qt": "1"
+                },
+                "productValues": [
+                    {
+                        "pr1cd1": "3.8g",
+                        "pr1cd85": "192333057353",
+                        "pr1cd84": "KTJM06",
+                        "pr1id": "PROD86691",
+                        "pr1cd52": "SKU130766",
+                        "pr1cd50": "Red-y to Wear",
+                        "pr1pr": "24.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "3.8g",
+                        "pr1cd85": "192333057308",
+                        "pr1cd84": "KTJM01",
+                        "pr1id": "PROD86691",
+                        "pr1cd52": "SKU130760",
+                        "pr1cd50": "Red Hot",
+                        "pr1pr": "24.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "3.8g",
+                        "pr1cd85": "192333057346",
+                        "pr1cd84": "KTJM05",
+                        "pr1id": "PROD86691",
+                        "pr1cd52": "SKU130765",
+                        "pr1cd50": "Red Carpet",
+                        "pr1pr": "24.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "3.8g",
+                        "pr1cd85": "192333057315",
+                        "pr1cd84": "KTJM02",
+                        "pr1id": "PROD86691",
+                        "pr1cd52": "SKU130761",
+                        "pr1cd50": "Red-Handed",
+                        "pr1pr": "24.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "50ml",
+                        "pr1cd85": "192333066935",
+                        "pr1cd84": "KWW401",
+                        "pr1id": "PROD83690",
+                        "pr1cd52": "SKU126685",
+                        "pr1cd50": "",
+                        "pr1pr": "42.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    }
+                ],
+                "impressionList": {
+                    "il1pi1ps": "1",
+                    "il1pi1id": "PROD85169",
+                    "il1pi2ps": "2",
+                    "il1pi2id": "PROD76702",
+                    "il1pi3ps": "3",
+                    "il1pi3id": "PROD34748",
+                    "il1pi4ps": "4",
+                    "il1pi4id": "PROD5416"
+                },
+                "signin": {
+                    "dt": "checkout | signin",
+                    "pa": "checkout",
+                    "cos": "2"
+                },
+                "shipping": {
+                    "cos": "2"
+                },
+                "purchase": {
+                    "ta": "BobbiBrown"
+                },
+                "userId": {
+                    "uid": ""
+                },
+                "revenue": {
+                    "tr": "24",
+                    "ts": "2.95",
+                    "tt": ""
+                },
+                "OrderId": {
+                    "ti": ""
+                },
+                "misc": {
+                    "qtyXpathPC": "//div[@class='qty-container']/descendant::input[@name='QTY']"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "CL-BR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "BRL",
+                    "tid": "UA-92561429-187",
+                    "cd3": "pt",
+                    "cd32": "Clinique BR",
+                    "cd33": "BR",
+                    "cd31": "Clinique",
+                    "cd83": "1",
+                    "cd74": "",
+                    "cd53": "",
+                    "cd9": "original"
+                },
+                "MPP": {
+                    "cd39": "MPP",
+                    "il1nm": "/products"
+                },
+                "productClick": {
+                    "pal": "/products"
+                },
+                "productdetailview": {
+                    "cd39": "QV"
+                },
+                "SPP": {
+                    "cd39": "SPP",
+                    "il1nm": "/product"
+                },
+                "viewCartOverlay": {
+                    "ec": "viewcart"
+                },
+                "productURL": {
+                    "productDetails1": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU130194",
+                    "productDetails2": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU14126",
+                    "productDetails3": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU14119",
+                    "productDetails4": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU14119",
+                    "productDetails5": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU14119"
+                },
+                "productQuantity": {
+                    "pr1qt": "1"
+                },
+                "productValues": [
+                    {
+                        "pr1cd1": "30 ml",
+                        "pr1cd85": "020714324629",
+                        "pr1cd84": "6MNY03",
+                        "pr1id": "PROD5276",
+                        "pr1cd52": "SKU14119",
+                        "pr1cd50": "CN 28 Ivory",
+                        "pr1pr": "216.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "30 ml",
+                        "pr1cd85": "020714324629",
+                        "pr1cd84": "6MNY03",
+                        "pr1id": "PROD5276",
+                        "pr1cd52": "SKU14119",
+                        "pr1cd50": "CN 28 Ivory",
+                        "pr1pr": "216.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "30 ml",
+                        "pr1cd85": "020714324629",
+                        "pr1cd84": "6MNY03",
+                        "pr1id": "PROD5276",
+                        "pr1cd52": "SKU14119",
+                        "pr1cd50": "CN 28 Ivory",
+                        "pr1pr": "216.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "30 ml",
+                        "pr1cd85": "020714324629",
+                        "pr1cd84": "6MNY03",
+                        "pr1id": "PROD5276",
+                        "pr1cd52": "SKU14119",
+                        "pr1cd50": "CN 28 Ivory",
+                        "pr1pr": "216.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "30 ml",
+                        "pr1cd85": "020714324629",
+                        "pr1cd84": "6MNY03",
+                        "pr1id": "PROD5276",
+                        "pr1cd52": "SKU14119",
+                        "pr1cd50": "CN 28 Ivory",
+                        "pr1pr": "216.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    }
+                ],
+                "impressionList": {
+                    "il1pi1ps": "1",
+                    "il1pi1id": "PROD77812",
+                    "il1pi2ps": "2",
+                    "il1pi2id": "PROD15905",
+                    "il1pi3ps": "3",
+                    "il1pi3id": "PROD55680",
+                    "il1pi4ps": "4",
+                    "il1pi4id": "PROD24845",
+                    "il1pi5ps": "5",
+                    "il1pi5id": "PROD29723"
+                },
+                "signin": {
+                    "dt": "checkout | signin",
+                    "pa": "checkout",
+                    "cos": "2"
+                },
+                "shipping": {
+                    "cos": "2"
+                },
+                "purchase": {
+                    "ta": "Clinique"
+                },
+                "userId": {
+                    "uid": ""
+                },
+                "revenue": {
+                    "tr": 98,
+                    "ts": "0.00",
+                    "tt": 0
+                },
+                "OrderId": {
+                    "ti": ""
+                },
+                "misc": {
+                    "qtyXpathPC": "//div[@class='qty-container']/descendant::input[@name='QTY']"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "CL-CE",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "CLP",
+                    "tid": "UA-59069007-150",
+                    "cd3": "es",
+                    "cd31": "Clinique",
+                    "cd32": "Clinique CL",
+                    "cd33": "CL",
+                    "cd83": "1",
+                    "cd74": "",
+                    "cd53": "",
+                    "cd9": "original"
+                },
+                "MPP": {
+                    "cd39": "MPP",
+                    "il1nm": "/hair-shampoo-conditioner"
+                },
+                "productClick": {
+                    "pal": "/"
+                },
+                "productdetailview": {
+                    "cd39": "QV"
+                },
+                "SPP": {
+                    "cd39": "SPP",
+                    "il1nm": "/product"
+                },
+                "viewCartOverlay": {
+                    "ec": "viewcart"
+                },
+                "productURL": {
+                    "productDetails1": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU14981",
+                    "productDetails2": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU12414",
+                    "productDetails3": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU12414",
+                    "productDetails4": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU12414",
+                    "productDetails5": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU12414"
+                },
+                "productQuantity": {
+                    "pr1qt": "1"
+                },
+                "productValues": [
+                    {
+                        "pr1cd1": "1 oz./30 ml",
+                        "pr1cd85": "716170184159",
+                        "pr1cd84": "EGXR17",
+                        "pr1id": "PROD55680",
+                        "pr1cd52": "SKU88561",
+                        "pr1cd50": "Alabaster (C-004 / 0)",
+                        "pr1pr": "65"
+                    },
+                    {
+                        "pr1cd1": "15ml",
+                        "pr1cd85": "716170254401",
+                        "pr1cd84": "EPGN01",
+                        "pr1id": "PROD7485",
+                        "pr1cd52": "SKU120844",
+                        "pr1cd50": "15ml",
+                        "pr1pr": "25"
+                    },
+                    {
+                        "pr1cd1": "50 ml",
+                        "pr1cd85": "716170264530",
+                        "pr1cd84": "EREP01",
+                        "pr1id": "PROD93885",
+                        "pr1cd52": "SKU140110",
+                        "pr1cd50": "",
+                        "pr1pr": "148"
+                    },
+                    {
+                        "pr1cd1": "15 ml",
+                        "pr1cd85": "716170252292",
+                        "pr1cd84": "EP7P01",
+                        "pr1id": "PROD93883",
+                        "pr1cd52": "SKU140108",
+                        "pr1cd50": "",
+                        "pr1pr": "116"
+                    },
+                    {
+                        "pr1cd1": "15 ml",
+                        "pr1cd85": "716170254586",
+                        "pr1cd84": "EPHC01",
+                        "pr1id": "PROD93884",
+                        "pr1cd52": "SKU140109",
+                        "pr1cd50": "",
+                        "pr1pr": "95"
+                    }
+                ],
+                "impressionList": {
+                    "il1pi1ps": "1",
+                    "il1pi1id": "PROD43303",
+                    "il1pi2ps": "2",
+                    "il1pi2id": "PROD36265",
+                    "il1pi3ps": "3",
+                    "il1pi3id": "PROD48695",
+                    "il1pi4ps": "4",
+                    "il1pi4id": "PROD40822",
+                    "il1pi5ps": "5",
+                    "il1pi5id": "PROD105189"
+                },
+                "signin": {
+                    "dt": "checkout | signin",
+                    "pa": "checkout",
+                    "cos": "2"
+                },
+                "shipping": {
+                    "cos": "2"
+                },
+                "purchase": {
+                    "ta": "Clinique"
+                },
+                "userId": {
+                    "uid": ""
+                },
+                "revenue": {
+                    "tr": "23",
+                    "ts": "Free",
+                    "tt": 0
+                },
+                "OrderId": {
+                    "ti": ""
+                },
+                "misc": {
+                    "qtyXpathPC": "//div[@class='qty-container']/descendant::input[@name='QTY']"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "CL-MX",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "MXN",
+                    "tid": "UA-92561429-188",
+                    "cd3": "es",
+                    "cd32": "Clinique MX",
+                    "cd33": "MX",
+                    "cd31": "Clinique",
+                    "cd83": "1",
+                    "cd74": "",
+                    "cd53": "",
+                    "cd9": "original"
+                },
+                "MPP": {
+                    "cd39": "MPP",
+                    "il1nm": "/"
+                },
+                "productClick": {
+                    "pal": "/"
+                },
+                "productdetailview": {
+                    "cd39": "QV"
+                },
+                "SPP": {
+                    "cd39": "SPP",
+                    "il1nm": "/product"
+                },
+                "viewCartOverlay": {
+                    "ec": "viewcart"
+                },
+                "productURL": {
+                    "productDetails1": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU61550",
+                    "productDetails2": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU153690",
+                    "productDetails3": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU153553",
+                    "productDetails4": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU130195",
+                    "productDetails5": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU128581"
+                },
+                "productQuantity": {
+                    "pr1qt": "1"
+                },
+                "productValues": [
+                    {
+                        "pr1cd1": "30 ml",
+                        "pr1cd85": "020714711924",
+                        "pr1cd84": "Z9FF09",
+                        "pr1id": "PROD34817",
+                        "pr1cd52": "SKU61550",
+                        "pr1cd50": "CN 52 Neutral",
+                        "pr1pr": "899.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "15 ML",
+                        "pr1cd85": "192333111338",
+                        "pr1cd84": "V29401",
+                        "pr1id": "PROD104310",
+                        "pr1cd52": "SKU153690",
+                        "pr1cd50": "",
+                        "pr1pr": "250.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "125ml",
+                        "pr1cd85": "192333066959",
+                        "pr1cd84": "KWW601",
+                        "pr1id": "PROD83690",
+                        "pr1cd52": "SKU126687",
+                        "pr1cd50": "",
+                        "pr1pr": "1999.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "50 ml",
+                        "pr1cd85": "192333101681",
+                        "pr1cd84": "V17E01",
+                        "pr1id": "PROD87057",
+                        "pr1cd52": "SKU130195",
+                        "pr1cd50": "",
+                        "pr1pr": "2549.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "30ml",
+                        "pr1cd85": "192333078334",
+                        "pr1cd84": "KY1951",
+                        "pr1id": "PROD85169",
+                        "pr1cd52": "SKU128581",
+                        "pr1cd50": "WN 54 Honey Wheat",
+                        "pr1pr": "949.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    }
+                ],
+                "impressionList": {
+                    "il1pi1ps": "1",
+                    "il1pi1id": "PROD26651",
+                    "il1pi2ps": "2",
+                    "il1pi2id": "PROD8279"
+                },
+                "signin": {
+                    "dt": "checkout | signin",
+                    "pa": "checkout",
+                    "cos": "2"
+                },
+                "shipping": {
+                    "cos": "2"
+                },
+                "purchase": {
+                    "ta": "Clinique"
+                },
+                "userId": {
+                    "uid": ""
+                },
+                "revenue": {
+                    "tr": "23",
+                    "ts": "Free",
+                    "tt": 0
+                },
+                "OrderId": {
+                    "ti": ""
+                },
+                "misc": {
+                    "qtyXpathPC": "//div[@class='qty-container']/descendant::input[@name='QTY']"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "EL-BR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "BRL",
+                    "tid": "UA-59069007-189",
+                    "cd3": "pt",
+                    "cd32": "Lauder BR",
+                    "cd33": "BR",
+                    "cd31": "Lauder",
+                    "cd83": "1",
+                    "cd74": "",
+                    "cd53": "",
+                    "cd9": "original"
+                },
+                "MPP": {
+                    "cd39": "MPP",
+                    "il1nm": "/products"
+                },
+                "productClick": {
+                    "pal": "/products"
+                },
+                "productdetailview": {
+                    "cd39": "QV"
+                },
+                "SPP": {
+                    "cd39": "SPP",
+                    "il1nm": "/product"
+                },
+                "viewCartOverlay": {
+                    "ec": "viewcart"
+                },
+                "productURL": {
+                    "productDetails1": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU85265",
+                    "productDetails2": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU164643",
+                    "productDetails3": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU47697",
+                    "productDetails4": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU47697",
+                    "productDetails5": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU47697"
+                },
+                "productQuantity": {
+                    "pr1qt": "1"
+                },
+                "productValues": [
+                    {
+                        "pr1cd1": "30ml",
+                        "pr1cd85": "887167351929",
+                        "pr1cd84": "RY9701",
+                        "pr1id": "PROD55184",
+                        "pr1cd52": "SKU85265",
+                        "pr1cd50": "",
+                        "pr1pr": "475.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "50 ml",
+                        "pr1cd85": "887167610620",
+                        "pr1cd84": "GTK001",
+                        "pr1id": "PROD112202",
+                        "pr1cd52": "SKU164643",
+                        "pr1cd50": "",
+                        "pr1pr": "303.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "8ml",
+                        "pr1cd85": "027131964858",
+                        "pr1cd84": "Y9L201",
+                        "pr1id": "PROD25335",
+                        "pr1cd52": "SKU47697",
+                        "pr1cd50": "Extreme Black",
+                        "pr1pr": "172.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "8ml",
+                        "pr1cd85": "027131964858",
+                        "pr1cd84": "Y9L201",
+                        "pr1id": "PROD25335",
+                        "pr1cd52": "SKU47697",
+                        "pr1cd50": "Extreme Black",
+                        "pr1pr": "172.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "8ml",
+                        "pr1cd85": "027131964858",
+                        "pr1cd84": "Y9L201",
+                        "pr1id": "PROD25335",
+                        "pr1cd52": "SKU47697",
+                        "pr1cd50": "Extreme Black",
+                        "pr1pr": "172.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    }
+                ],
+                "impressionList": {
+                    "il1pi1ps": "1",
+                    "il1pi1id": "PROD77491",
+                    "il1pi2ps": "2",
+                    "il1pi2id": "PROD97386"
+                },
+                "signin": {
+                    "dt": "checkout | signin",
+                    "pa": "checkout",
+                    "cos": "2"
+                },
+                "shipping": {
+                    "cos": "2"
+                },
+                "purchase": {
+                    "ta": "Lauder"
+                },
+                "userId": {
+                    "uid": ""
+                },
+                "revenue": {
+                    "tr": 388,
+                    "ts": "Free",
+                    "tt": 0
+                },
+                "OrderId": {
+                    "ti": ""
+                },
+                "misc": {
+                    "qtyXpathPC": "//div[@class='qty-container']/descendant::input[@name='QTY']"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "EL-CE",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "CLP",
+                    "tid": "UA-59069007-180",
+                    "cd3": "es",
+                    "cd32": "Lauder CL",
+                    "cd33": "CL",
+                    "cd31": "Lauder",
+                    "cd83": "1",
+                    "cd74": "",
+                    "cd53": "",
+                    "cd9": "original"
+                },
+                "MPP": {
+                    "cd39": "MPP",
+                    "il1nm": "/product"
+                },
+                "productClick": {
+                    "pal": "/product"
+                },
+                "productdetailview": {
+                    "cd39": "QV"
+                },
+                "SPP": {
+                    "cd39": "SPP",
+                    "il1nm": "/product"
+                },
+                "viewCartOverlay": {
+                    "ec": "viewcart"
+                },
+                "productURL": {
+                    "productDetails1": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU170888",
+                    "productDetails2": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU180541",
+                    "productDetails3": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU121014",
+                    "productDetails4": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU144351",
+                    "productDetails5": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU26253"
+                },
+                "productQuantity": {
+                    "pr1qt": "1"
+                },
+                "productValues": [
+                    {
+                        "pr1cd1": "",
+                        "pr1cd85": "887167666665",
+                        "pr1cd84": "G43R01",
+                        "pr1id": "PROD117120",
+                        "pr1cd52": "SKU170888",
+                        "pr1cd50": "",
+                        "pr1pr": "461500.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "",
+                        "pr1cd85": "887167747241",
+                        "pr1cd84": "G4HD01",
+                        "pr1id": "PROD123623",
+                        "pr1cd52": "SKU180541",
+                        "pr1cd50": "",
+                        "pr1pr": "44900.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "20 ml.",
+                        "pr1cd85": "887167485495",
+                        "pr1cd84": "PG5101",
+                        "pr1id": "PROD77491",
+                        "pr1cd52": "SKU121014",
+                        "pr1cd50": "",
+                        "pr1pr": "31900.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "50 ml.",
+                        "pr1cd85": "887167539532",
+                        "pr1cd84": "PMXX01",
+                        "pr1id": "PROD97386",
+                        "pr1cd52": "SKU144351",
+                        "pr1cd50": "",
+                        "pr1pr": "126900.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "50 ml. Piel Normal",
+                        "pr1cd85": "027131763512",
+                        "pr1cd84": "WFJM01",
+                        "pr1id": "PROD13158",
+                        "pr1cd52": "SKU26253",
+                        "pr1cd50": "",
+                        "pr1pr": "83000.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    }
+                ],
+                "impressionList": {
+                    "il1pi1ps": "1",
+                    "il1pi1id": "PROD83881",
+                    "il1pi2ps": "2",
+                    "il1pi2id": "PROD83883",
+                    "il1pi3ps": "3",
+                    "il1pi3id": "PROD86362",
+                    "il1pi4ps": "4",
+                    "il1pi4id": "PROD86728"
+                },
+                "signin": {
+                    "dt": "checkout | signin",
+                    "pa": "checkout",
+                    "cos": "2"
+                },
+                "shipping": {
+                    "cos": "2"
+                },
+                "purchase": {
+                    "ta": "Lauder"
+                },
+                "userId": {
+                    "uid": ""
+                },
+                "revenue": {
+                    "tr": "37",
+                    "ts": "Free",
+                    "tt": ""
+                },
+                "OrderId": {
+                    "ti": ""
+                },
+                "misc": {
+                    "qtyXpathPC": "//div[@class='qty-container']/descendant::input[@name='QTY']"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "EL-MX",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "MXN",
+                    "tid": "UA-92561429-9",
+                    "cd3": "es",
+                    "cd32": "Lauder MX",
+                    "cd33": "MX",
+                    "cd31": "Lauder",
+                    "cd83": "1",
+                    "cd74": "",
+                    "cd53": "",
+                    "cd9": "original"
+                },
+                "MPP": {
+                    "cd39": "MPP",
+                    "il1nm": "/products"
+                },
+                "productClick": {
+                    "pal": "/products"
+                },
+                "productdetailview": {
+                    "cd39": "MPP"
+                },
+                "SPP": {
+                    "cd39": "SPP",
+                    "il1nm": "/product"
+                },
+                "viewCartOverlay": {
+                    "ec": "viewcart"
+                },
+                "productURL": {
+                    "productDetails1": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU145175",
+                    "productDetails2": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU164643",
+                    "productDetails3": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU145175",
+                    "productDetails4": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU145175",
+                    "productDetails5": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU145175"
+                },
+                "productQuantity": {
+                    "pr1qt": "1"
+                },
+                "productValues": [
+                    {
+                        "pr1cd1": "50 ml",
+                        "pr1cd85": "887167485488",
+                        "pr1cd84": "PG5001",
+                        "pr1id": "PROD77491",
+                        "pr1cd52": "SKU114795",
+                        "pr1cd50": "",
+                        "pr1pr": "2860.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "",
+                        "pr1cd85": "887167548039",
+                        "pr1cd84": "PN0L12",
+                        "pr1id": "PROD88314",
+                        "pr1cd52": "SKU133093",
+                        "pr1cd50": "Love Fever",
+                        "pr1pr": "850.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "",
+                        "pr1cd85": "887167548022",
+                        "pr1cd84": "PN0L11",
+                        "pr1id": "PROD88314",
+                        "pr1cd52": "SKU133089",
+                        "pr1cd50": "Hot Shot",
+                        "pr1pr": "850.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "30ml",
+                        "pr1cd85": "887167539549",
+                        "pr1cd84": "PMXY01",
+                        "pr1id": "PROD97386",
+                        "pr1cd52": "SKU144350",
+                        "pr1cd50": "",
+                        "pr1pr": "2040.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "30 ml",
+                        "pr1cd85": "887167485471",
+                        "pr1cd84": "PG4Y01",
+                        "pr1id": "PROD77491",
+                        "pr1cd52": "SKU118860",
+                        "pr1cd50": "",
+                        "pr1pr": "1990.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    }
+                ],
+                "impressionList": {
+                    "il1pi1ps": 1,
+                    "il1pi1id": "PROD97386",
+                    "il1pi2ps": 2,
+                    "il1pi2id": "PROD97387",
+                    "il1pi3ps": 3,
+                    "il1pi3id": "PROD13158",
+                    "il1pi4ps": 4,
+                    "il1pi4id": "PROD101138",
+                    "il1pi5ps": 5,
+                    "il1pi5id": "PROD99515"
+                },
+                "signin": {
+                    "dt": "checkout | signin",
+                    "pa": "checkout",
+                    "cos": "2"
+                },
+                "shipping": {
+                    "cos": "2"
+                },
+                "purchase": {
+                    "ta": "Lauder"
+                },
+                "userId": {
+                    "uid": ""
+                },
+                "revenue": {
+                    "tr": 108,
+                    "ts": "0.00",
+                    "tt": 0
+                },
+                "OrderId": {
+                    "ti": ""
+                },
+                "misc": {
+                    "qtyXpathPC": "//div[@class='qty-container']/descendant::input[@name='QTY']"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "JM-BR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "BRL",
+                    "tid": "UA-92561429-189",
+                    "cd3": "pt",
+                    "cd32": "JoMalone BR",
+                    "cd33": "BR",
+                    "cd31": "JoMalone",
+                    "cd83": "1",
+                    "cd74": "",
+                    "cd53": "",
+                    "cd9": "original",
+                    "cd91": "Vulcan"
+                },
+                "MPP": {
+                    "cd39": "MPP",
+                    "il1nm": "/"
+                },
+                "productClick": {
+                    "pal": "/"
+                },
+                "productdetailview": {
+                    "cd39": "QV"
+                },
+                "SPP": {
+                    "cd39": "SPP",
+                    "il1nm": "/product"
+                },
+                "viewCartOverlay": {
+                    "ec": "ecommerce"
+                },
+                "productURL": {
+                    "productDetails1": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU86147",
+                    "productDetails2": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU122877",
+                    "productDetails3": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU148275",
+                    "productDetails4": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU172336",
+                    "productDetails5": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU172336"
+                },
+                "productQuantity": {
+                    "pr1qt": "1"
+                },
+                "productValues": [
+                    {
+                        "pr1cd1": "60g",
+                        "pr1cd85": "690251058549",
+                        "pr1cd84": "L71E01",
+                        "pr1id": "PROD52980",
+                        "pr1cd52": "SKU86147",
+                        "pr1cd50": "",
+                        "pr1pr": "285.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "300G",
+                        "pr1cd85": "690251097661",
+                        "pr1cd84": "LCR201",
+                        "pr1id": "PROD80700",
+                        "pr1cd52": "SKU122877",
+                        "pr1cd50": "",
+                        "pr1pr": "1055.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "50ml",
+                        "pr1cd85": "690251135820",
+                        "pr1cd84": "LJN001",
+                        "pr1id": "PROD108999",
+                        "pr1cd52": "SKU172336",
+                        "pr1cd50": "",
+                        "pr1pr": "840.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "50ml",
+                        "pr1cd85": "690251135820",
+                        "pr1cd84": "LJN001",
+                        "pr1id": "PROD108999",
+                        "pr1cd52": "SKU172336",
+                        "pr1cd50": "",
+                        "pr1pr": "840.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "50ml",
+                        "pr1cd85": "690251135820",
+                        "pr1cd84": "LJN001",
+                        "pr1id": "PROD108999",
+                        "pr1cd52": "SKU172336",
+                        "pr1cd50": "",
+                        "pr1pr": "840.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    }
+                ],
+                "impressionList": {
+                    "il1pi1ps": "1",
+                    "il1pi1id": "PROD50300",
+                    "il1pi2ps": "2",
+                    "il1pi2id": "PROD50304",
+                    "il1pi3ps": "3",
+                    "il1pi3id": "PROD53068"
+                },
+                "signin": {
+                    "dt": "checkout | signin",
+                    "pa": "checkout",
+                    "cos": "2"
+                },
+                "shipping": {
+                    "cos": "2"
+                },
+                "purchase": {
+                    "ta": "JoMalone"
+                },
+                "userId": {
+                    "uid": ""
+                },
+                "revenue": {
+                    "tr": "23",
+                    "ts": "Free",
+                    "tt": 0
+                },
+                "OrderId": {
+                    "ti": ""
+                },
+                "misc": {
+                    "qtyXpathPC": "//div[@class='qty-container']/descendant::input[@name='QTY']"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "JM-MX",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "MXN",
+                    "tid": "UA-59069007-212",
+                    "cd3": "es",
+                    "cd32": "JoMalone MX",
+                    "cd33": "MX",
+                    "cd31": "JoMalone",
+                    "cd83": "1",
+                    "cd74": "",
+                    "cd53": "",
+                    "cd9": "original"
+                },
+                "MPP": {
+                    "cd39": "MPP",
+                    "il1nm": "/"
+                },
+                "productClick": {
+                    "pal": "/"
+                },
+                "productdetailview": {
+                    "cd39": "QV"
+                },
+                "SPP": {
+                    "cd39": "SPP",
+                    "il1nm": "/product"
+                },
+                "viewCartOverlay": {
+                    "ec": "ecommerce"
+                },
+                "productURL": {
+                    "productDetails1": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU58015",
+                    "productDetails2": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU172327",
+                    "productDetails3": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU172327",
+                    "productDetails4": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU172327",
+                    "productDetails5": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU172327"
+                },
+                "productQuantity": {
+                    "pr1qt": "1"
+                },
+                "productValues": [
+                    {
+                        "pr1cd1": "100ml",
+                        "pr1cd85": "690251119578",
+                        "pr1cd84": "LGK701",
+                        "pr1id": "PROD90097",
+                        "pr1cd52": "SKU135265",
+                        "pr1cd50": "",
+                        "pr1pr": "118",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "One Size",
+                        "pr1cd85": "000000000956",
+                        "pr1cd84": "JMG956",
+                        "pr1id": "PROD101706",
+                        "pr1cd52": "SKU150112",
+                        "pr1cd50": "",
+                        "pr1pr": "72",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "50ml",
+                        "pr1cd85": "690251058976",
+                        "pr1cd84": "L72L01",
+                        "pr1id": "PROD9943",
+                        "pr1cd52": "SKU86123",
+                        "pr1cd50": "",
+                        "pr1pr": "26",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "100ml",
+                        "pr1cd85": "690251128112",
+                        "pr1cd84": "LHMA01",
+                        "pr1id": "PROD108994",
+                        "pr1cd52": "SKU160206",
+                        "pr1cd50": "",
+                        "pr1pr": "115",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "5x 9ml",
+                        "pr1cd85": "690251124268",
+                        "pr1cd84": "LH5C01",
+                        "pr1id": "PROD107285",
+                        "pr1cd52": "SKU157885",
+                        "pr1cd50": "",
+                        "pr1pr": "98",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    }
+                ],
+                "impressionList": {
+                    "il1pi1ps": 1,
+                    "il1pi1id": "PROD30944",
+                    "il1pi2ps": 2,
+                    "il1pi2id": "PROD26651"
+                },
+                "signin": {
+                    "dt": "checkout | signin",
+                    "pa": "checkout",
+                    "cos": "2"
+                },
+                "shipping": {
+                    "cos": "2"
+                },
+                "purchase": {
+                    "ta": "JoMalone"
+                },
+                "userId": {
+                    "uid": ""
+                },
+                "revenue": {
+                    "tr": "118",
+                    "ts": "0",
+                    "tt": ""
+                },
+                "OrderId": {
+                    "ti": ""
+                },
+                "misc": {
+                    "qtyXpathPC": "//div[@class='qty-container']/descendant::input[@name='QTY']"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "LM-BR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "BRL",
+                    "tid": "UA-92561429-190",
+                    "cd3": "pt",
+                    "cd32": "LaMer BR",
+                    "cd33": "BR",
+                    "cd31": "LaMer",
+                    "cd83": "1",
+                    "cd74": "",
+                    "cd53": "",
+                    "cd9": "original"
+                },
+                "MPP": {
+                    "cd39": "MPP",
+                    "il1nm": "/"
+                },
+                "productClick": {
+                    "pal": "/"
+                },
+                "productdetailview": {
+                    "cd39": "QV"
+                },
+                "SPP": {
+                    "cd39": "SPP",
+                    "il1nm": "/product"
+                },
+                "viewCartOverlay": {
+                    "ec": "ecommerce"
+                },
+                "productURL": {
+                    "productDetails1": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU46405",
+                    "productDetails2": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU26767",
+                    "productDetails3": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU26767",
+                    "productDetails4": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU26767",
+                    "productDetails5": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU26767"
+                },
+                "productQuantity": {
+                    "pr1qt": "1"
+                },
+                "productValues": [
+                    {
+                        "pr1cd1": "30ml",
+                        "pr1cd85": "747930000020",
+                        "pr1cd84": "332802",
+                        "pr1id": "PROD12343",
+                        "pr1cd52": "SKU26767",
+                        "pr1cd50": "",
+                        "pr1pr": "1600.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "30ml",
+                        "pr1cd85": "747930000020",
+                        "pr1cd84": "332802",
+                        "pr1id": "PROD12343",
+                        "pr1cd52": "SKU26767",
+                        "pr1cd50": "",
+                        "pr1pr": "1600.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "30ml",
+                        "pr1cd85": "747930000020",
+                        "pr1cd84": "332802",
+                        "pr1id": "PROD12343",
+                        "pr1cd52": "SKU26767",
+                        "pr1cd50": "",
+                        "pr1pr": "1600.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "30ml",
+                        "pr1cd85": "747930000020",
+                        "pr1cd84": "332802",
+                        "pr1id": "PROD12343",
+                        "pr1cd52": "SKU26767",
+                        "pr1cd50": "",
+                        "pr1pr": "1600.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "30ml",
+                        "pr1cd85": "747930000020",
+                        "pr1cd84": "332802",
+                        "pr1id": "PROD12343",
+                        "pr1cd52": "SKU26767",
+                        "pr1cd50": "",
+                        "pr1pr": "1600.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    }
+                ],
+                "impressionList": {
+                    "il1pi1ps": "1",
+                    "il1pi1id": "PROD74983",
+                    "il1pi2ps": "2",
+                    "il1pi2id": "PROD78364",
+                    "il1pi3ps": "3",
+                    "il1pi3id": "PROD104377"
+                },
+                "signin": {
+                    "dt": "checkout | signin",
+                    "pa": "checkout",
+                    "cos": "2"
+                },
+                "shipping": {
+                    "cos": "2"
+                },
+                "purchase": {
+                    "ta": "LaMer"
+                },
+                "userId": {
+                    "uid": ""
+                },
+                "revenue": {
+                    "tr": 392.95,
+                    "ts": "2.95",
+                    "tt": 0
+                },
+                "OrderId": {
+                    "ti": ""
+                },
+                "misc": {
+                    "qtyXpathPC": "//div[@class='qty-container']/descendant::input[@name='QTY']"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "LM-MX",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "MXN",
+                    "tid": "UA-59069007-131",
+                    "cd3": "es",
+                    "cd32": "LaMer MX",
+                    "cd33": "MX",
+                    "cd31": "LaMer",
+                    "cd83": "1",
+                    "cd74": "",
+                    "cd53": "",
+                    "cd9": "original"
+                },
+                "MPP": {
+                    "cd39": "MPP",
+                    "il1nm": "/"
+                },
+                "productClick": {
+                    "pal": "/"
+                },
+                "productdetailview": {
+                    "cd39": "QV"
+                },
+                "SPP": {
+                    "cd39": "SPP",
+                    "il1nm": "/product"
+                },
+                "viewCartOverlay": {
+                    "ec": "ecommerce"
+                },
+                "productURL": {
+                    "productDetails1": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU101933",
+                    "productDetails2": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU68372",
+                    "productDetails3": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU101933",
+                    "productDetails4": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU101933",
+                    "productDetails5": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU101933"
+                },
+                "productQuantity": {
+                    "pr1qt": "1"
+                },
+                "productValues": [
+                    {
+                        "pr1cd1": "1 oz./30 ml",
+                        "pr1cd85": "716170184159",
+                        "pr1cd84": "EGXR17",
+                        "pr1id": "PROD55680",
+                        "pr1cd52": "SKU88561",
+                        "pr1cd50": "Alabaster (C-004 / 0)",
+                        "pr1pr": "65"
+                    },
+                    {
+                        "pr1cd1": "15ml",
+                        "pr1cd85": "716170254401",
+                        "pr1cd84": "EPGN01",
+                        "pr1id": "PROD7485",
+                        "pr1cd52": "SKU120844",
+                        "pr1cd50": "15ml",
+                        "pr1pr": "25"
+                    },
+                    {
+                        "pr1cd1": "50 ml",
+                        "pr1cd85": "716170264530",
+                        "pr1cd84": "EREP01",
+                        "pr1id": "PROD93885",
+                        "pr1cd52": "SKU140110",
+                        "pr1cd50": "",
+                        "pr1pr": "148"
+                    },
+                    {
+                        "pr1cd1": "15 ml",
+                        "pr1cd85": "716170252292",
+                        "pr1cd84": "EP7P01",
+                        "pr1id": "PROD93883",
+                        "pr1cd52": "SKU140108",
+                        "pr1cd50": "",
+                        "pr1pr": "116"
+                    },
+                    {
+                        "pr1cd1": "15 ml",
+                        "pr1cd85": "716170254586",
+                        "pr1cd84": "EPHC01",
+                        "pr1id": "PROD93884",
+                        "pr1cd52": "SKU140109",
+                        "pr1cd50": "",
+                        "pr1pr": "95"
+                    }
+                ],
+                "impressionList": {
+                    "il1pi1ps": 1,
+                    "il1pi1id": "PROD88515",
+                    "il1pi2ps": 2,
+                    "il1pi2id": "PROD91273",
+                    "il1pi3ps": 3,
+                    "il1pi3id": "PROD91266",
+                    "il1pi4ps": 4,
+                    "il1pi4id": "PROD110835"
+                },
+                "signin": {
+                    "dt": "checkout | signin",
+                    "pa": "checkout",
+                    "cos": "2"
+                },
+                "shipping": {
+                    "cos": "2"
+                },
+                "purchase": {
+                    "ta": "LaMer"
+                },
+                "userId": {
+                    "uid": ""
+                },
+                "revenue": {
+                    "tr": 132,
+                    "ts": "0.00",
+                    "tt": 0
+                },
+                "OrderId": {
+                    "ti": ""
+                },
+                "misc": {
+                    "qtyXpathPC": "//div[@class='qty-container']/descendant::input[@name='QTY']"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-BR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "BRL",
+                    "tid": "UA-92561429-192",
+                    "cd3": "pt",
+                    "cd32": "Mac BR",
+                    "cd33": "BR",
+                    "cd31": "Mac",
+                    "cd83": "1",
+                    "cd74": "",
+                    "cd53": "",
+                    "cd9": "original"
+                },
+                "MPP": {
+                    "cd39": "MPP",
+                    "il1nm": "/product"
+                },
+                "productClick": {
+                    "pal": "/product"
+                },
+                "productdetailview": {
+                    "cd39": "QV"
+                },
+                "SPP": {
+                    "cd39": "SPP",
+                    "il1nm": "/product"
+                },
+                "viewCartOverlay": {
+                    "ec": "ecommerce"
+                },
+                "productURL": {
+                    "productDetails1": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU76727",
+                    "productDetails2": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU3982",
+                    "productDetails3": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU1901",
+                    "productDetails4": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU74254",
+                    "productDetails5": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU21988"
+                },
+                "productQuantity": {
+                    "pr1qt": "1"
+                },
+                "productValues": [
+                    {
+                        "pr1cd1": "0",
+                        "pr1cd85": "651986981892",
+                        "pr1cd84": "39T701",
+                        "pr1id": "PROD63654",
+                        "pr1cd52": "SKU119311",
+                        "pr1cd50": "",
+                        "pr1pr": "22.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "43g",
+                        "pr1cd85": "651986905935",
+                        "pr1cd84": "3A1L01",
+                        "pr1id": "PROD68438",
+                        "pr1cd52": "SKU106896",
+                        "pr1cd50": "",
+                        "pr1pr": "25.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "30ml",
+                        "pr1cd85": "651986701353",
+                        "pr1cd84": "39GF10",
+                        "pr1id": "PROD59029",
+                        "pr1cd52": "SKU94148",
+                        "pr1cd50": "Light Beige",
+                        "pr1pr": "36.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "1.2g",
+                        "pr1cd85": "651986170395",
+                        "pr1cd84": "3CFT05",
+                        "pr1id": "PROD76774",
+                        "pr1cd52": "SKU117892",
+                        "pr1cd50": "Caramel",
+                        "pr1pr": "20.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    },
+                    {
+                        "pr1cd1": "",
+                        "pr1cd85": "651986210671",
+                        "pr1cd84": "3CG004",
+                        "pr1id": "PROD76885",
+                        "pr1cd52": "SKU118023",
+                        "pr1cd50": "Natural Flirt",
+                        "pr1pr": "12.00",
+                        "pr1qt": "1",
+                        "pr1cd55": "no",
+                        "pr1cd56": "0"
+                    }
+                ],
+                "impressionList": {
+                    "il1pi1ps": 1,
+                    "il1pi1id": "PROD30944",
+                    "il1pi2ps": 2,
+                    "il1pi2id": "PROD26651"
+                },
+                "signin": {
+                    "dt": "checkout | signin",
+                    "pa": "checkout",
+                    "cos": "2"
+                },
+                "shipping": {
+                    "cos": "2"
+                },
+                "purchase": {
+                    "ta": "Mac"
+                },
+                "userId": {
+                    "uid": ""
+                },
+                "revenue": {
+                    "tr": "23",
+                    "ts": "Free",
+                    "tt": 0
+                },
+                "OrderId": {
+                    "ti": ""
+                },
+                "misc": {
+                    "qtyXpathPC": "//div[@class='qty-container']/descendant::input[@name='QTY']"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-CE",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "CLP",
+                    "tid": "UA-59069007-114",
+                    "cd3": "es",
+                    "cd32": "Mac CL",
+                    "cd33": "CL",
+                    "cd31": "Mac",
+                    "cd83": "1",
+                    "cd74": "",
+                    "cd53": "",
+                    "cd9": "original"
+                },
+                "MPP": {
+                    "cd39": "MPP",
+                    "il1nm": "/"
+                },
+                "productClick": {
+                    "pal": "/"
+                },
+                "productdetailview": {
+                    "cd39": "QV"
+                },
+                "SPP": {
+                    "cd39": "SPP",
+                    "il1nm": "/product"
+                },
+                "viewCartOverlay": {
+                    "ec": "viewcart"
+                },
+                "productURL": {
+                    "productDetails1": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU114558",
+                    "productDetails2": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU4367",
+                    "productDetails3": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU110272",
+                    "productDetails4": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU110272",
+                    "productDetails5": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU110272"
+                },
+                "productQuantity": {
+                    "pr1qt": "1"
+                },
+                "productValues": [
+                    {
+                        "pr1cd1": "1 oz./30 ml",
+                        "pr1cd85": "716170184159",
+                        "pr1cd84": "EGXR17",
+                        "pr1id": "PROD55680",
+                        "pr1cd52": "SKU88561",
+                        "pr1cd50": "Alabaster (C-004 / 0)",
+                        "pr1pr": "65"
+                    },
+                    {
+                        "pr1cd1": "15ml",
+                        "pr1cd85": "716170254401",
+                        "pr1cd84": "EPGN01",
+                        "pr1id": "PROD7485",
+                        "pr1cd52": "SKU120844",
+                        "pr1cd50": "15ml",
+                        "pr1pr": "25"
+                    },
+                    {
+                        "pr1cd1": "50 ml",
+                        "pr1cd85": "716170264530",
+                        "pr1cd84": "EREP01",
+                        "pr1id": "PROD93885",
+                        "pr1cd52": "SKU140110",
+                        "pr1cd50": "",
+                        "pr1pr": "148"
+                    },
+                    {
+                        "pr1cd1": "15 ml",
+                        "pr1cd85": "716170252292",
+                        "pr1cd84": "EP7P01",
+                        "pr1id": "PROD93883",
+                        "pr1cd52": "SKU140108",
+                        "pr1cd50": "",
+                        "pr1pr": "116"
+                    },
+                    {
+                        "pr1cd1": "15 ml",
+                        "pr1cd85": "716170254586",
+                        "pr1cd84": "EPHC01",
+                        "pr1id": "PROD93884",
+                        "pr1cd52": "SKU140109",
+                        "pr1cd50": "",
+                        "pr1pr": "95"
+                    }
+                ],
+                "impressionList": {
+                    "il1pi1ps": 1,
+                    "il1pi1id": "PROD97512",
+                    "il1pi2ps": 2,
+                    "il1pi2id": "PROD115877",
+                    "il1pi3ps": 3,
+                    "il1pi3id": "PROD46938",
+                    "il1pi4ps": 4,
+                    "il1pi4id": "PROD11226",
+                    "il1pi5ps": 5,
+                    "il1pi5id": "PROD90674"
+                },
+                "signin": {
+                    "dt": "checkout | signin",
+                    "pa": "checkout",
+                    "cos": "2"
+                },
+                "shipping": {
+                    "cos": "2"
+                },
+                "purchase": {
+                    "ta": "Mac"
+                },
+                "userId": {
+                    "uid": ""
+                },
+                "revenue": {
+                    "tr": "23",
+                    "ts": "Free",
+                    "tt": 0
+                },
+                "OrderId": {
+                    "ti": ""
+                },
+                "misc": {
+                    "qtyXpathPC": "//div[@class='qty-container']/descendant::input[@name='QTY']"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "MC-MX",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "MXN",
+                    "tid": "UA-92561429-193",
+                    "cd3": "es",
+                    "cd32": "Mac MX",
+                    "cd33": "MX",
+                    "cd31": "Mac",
+                    "cd83": "1",
+                    "cd74": "",
+                    "cd53": "",
+                    "cd9": "original"
+                },
+                "MPP": {
+                    "cd39": "MPP",
+                    "il1nm": "/products"
+                },
+                "productClick": {
+                    "pal": "/products"
+                },
+                "productdetailview": {
+                    "cd39": "QV"
+                },
+                "SPP": {
+                    "cd39": "SPP",
+                    "il1nm": "/product"
+                },
+                "viewCartOverlay": {
+                    "ec": "viewcart"
+                },
+                "productURL": {
+                    "productDetails1": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU4557",
+                    "productDetails2": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU113656",
+                    "productDetails3": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU3830",
+                    "productDetails4": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU3830",
+                    "productDetails5": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU3830"
+                },
+                "productQuantity": {
+                    "pr1qt": "1"
+                },
+                "productValues": [
+                    {
+                        "pr1cd1": "1 oz./30 ml",
+                        "pr1cd85": "716170184159",
+                        "pr1cd84": "EGXR17",
+                        "pr1id": "PROD55680",
+                        "pr1cd52": "SKU88561",
+                        "pr1cd50": "Alabaster (C-004 / 0)",
+                        "pr1pr": "65"
+                    },
+                    {
+                        "pr1cd1": "15ml",
+                        "pr1cd85": "716170254401",
+                        "pr1cd84": "EPGN01",
+                        "pr1id": "PROD7485",
+                        "pr1cd52": "SKU120844",
+                        "pr1cd50": "15ml",
+                        "pr1pr": "25"
+                    },
+                    {
+                        "pr1cd1": "50 ml",
+                        "pr1cd85": "716170264530",
+                        "pr1cd84": "EREP01",
+                        "pr1id": "PROD93885",
+                        "pr1cd52": "SKU140110",
+                        "pr1cd50": "",
+                        "pr1pr": "148"
+                    },
+                    {
+                        "pr1cd1": "15 ml",
+                        "pr1cd85": "716170252292",
+                        "pr1cd84": "EP7P01",
+                        "pr1id": "PROD93883",
+                        "pr1cd52": "SKU140108",
+                        "pr1cd50": "",
+                        "pr1pr": "116"
+                    },
+                    {
+                        "pr1cd1": "15 ml",
+                        "pr1cd85": "716170254586",
+                        "pr1cd84": "EPHC01",
+                        "pr1id": "PROD93884",
+                        "pr1cd52": "SKU140109",
+                        "pr1cd50": "",
+                        "pr1pr": "95"
+                    }
+                ],
+                "impressionList": {
+                    "il1pi1ps": 1,
+                    "il1pi1id": "PROD116785",
+                    "il1pi2ps": 2,
+                    "il1pi2id": "PROD340",
+                    "il1pi3ps": 3,
+                    "il1pi3id": "PROD1231",
+                    "il1pi4ps": 4,
+                    "il1pi4id": "PROD99811",
+                    "il1pi5ps": 5,
+                    "il1pi5id": "PROD105333"
+                },
+                "signin": {
+                    "dt": "checkout | signin",
+                    "pa": "checkout",
+                    "cos": "2"
+                },
+                "shipping": {
+                    "cos": "2"
+                },
+                "purchase": {
+                    "ta": "Mac"
+                },
+                "userId": {
+                    "uid": ""
+                },
+                "revenue": {
+                    "tr": 44,
+                    "ts": "",
+                    "tt": 0
+                },
+                "OrderId": {
+                    "ti": ""
+                },
+                "misc": {
+                    "qtyXpathPC": "//div[@class='qty-container']/descendant::input[@name='QTY']"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "OR-MX",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "GBP",
+                    "tid": "UA-59069007-10",
+                    "cd3": "en",
+                    "cd31": "Origins",
+                    "cd32": "Origins MX",
+                    "cd33": "MX",
+                    "cd83": "1",
+                    "cd74": "",
+                    "cd53": "",
+                    "cd9": "original"
+                },
+                "MPP": {
+                    "cd39": "MPP",
+                    "il1nm": "/products"
+                },
+                "productClick": {
+                    "pal": "/products"
+                },
+                "productdetailview": {
+                    "cd39": "QV"
+                },
+                "SPP": {
+                    "cd39": "SPP",
+                    "il1nm": "/product"
+                },
+                "viewCartOverlay": {
+                    "ec": "viewcart"
+                },
+                "productURL": {
+                    "productDetails1": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU10772",
+                    "productDetails2": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU60148",
+                    "productDetails3": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU118970",
+                    "productDetails4": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU151332",
+                    "productDetails5": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU174963"
+                },
+                "productQuantity": {
+                    "pr1qt": "1"
+                },
+                "productValues": [
+                    {
+                        "pr1cd1": "1 oz./30 ml",
+                        "pr1cd85": "716170184159",
+                        "pr1cd84": "EGXR17",
+                        "pr1id": "PROD55680",
+                        "pr1cd52": "SKU88561",
+                        "pr1cd50": "Alabaster (C-004 / 0)",
+                        "pr1pr": "65"
+                    },
+                    {
+                        "pr1cd1": "15ml",
+                        "pr1cd85": "716170254401",
+                        "pr1cd84": "EPGN01",
+                        "pr1id": "PROD7485",
+                        "pr1cd52": "SKU120844",
+                        "pr1cd50": "15ml",
+                        "pr1pr": "25"
+                    },
+                    {
+                        "pr1cd1": "50 ml",
+                        "pr1cd85": "716170264530",
+                        "pr1cd84": "EREP01",
+                        "pr1id": "PROD93885",
+                        "pr1cd52": "SKU140110",
+                        "pr1cd50": "",
+                        "pr1pr": "148"
+                    },
+                    {
+                        "pr1cd1": "15 ml",
+                        "pr1cd85": "716170252292",
+                        "pr1cd84": "EP7P01",
+                        "pr1id": "PROD93883",
+                        "pr1cd52": "SKU140108",
+                        "pr1cd50": "",
+                        "pr1pr": "116"
+                    },
+                    {
+                        "pr1cd1": "15 ml",
+                        "pr1cd85": "716170254586",
+                        "pr1cd84": "EPHC01",
+                        "pr1id": "PROD93884",
+                        "pr1cd52": "SKU140109",
+                        "pr1cd50": "",
+                        "pr1pr": "95"
+                    }
+                ],
+                "impressionList": {
+                    "il1pi1ps": 1,
+                    "il1pi1id": "PROD116785",
+                    "il1pi2ps": 2,
+                    "il1pi2id": "PROD340",
+                    "il1pi3ps": 3,
+                    "il1pi3id": "PROD1231",
+                    "il1pi4ps": 4,
+                    "il1pi4id": "PROD99811",
+                    "il1pi5ps": 5,
+                    "il1pi5id": "PROD105333"
+                },
+                "signin": {
+                    "dt": "checkout | signin",
+                    "pa": "checkout",
+                    "cos": "2"
+                },
+                "shipping": {
+                    "cos": "2"
+                },
+                "purchase": {
+                    "ta": "Origins"
+                },
+                "userId": {
+                    "uid": ""
+                },
+                "revenue": {
+                    "tr": 44,
+                    "ts": "",
+                    "tt": 0
+                },
+                "OrderId": {
+                    "ti": ""
+                },
+                "misc": {
+                    "qtyXpathPC": "//div[@class='qty-container']/descendant::input[@name='QTY']"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "TF-BR",
+        "brandSpecs": [
+            {
+                "BrandInfo": {
+                    "cu": "BRL",
+                    "tid": "UA-59069007-184",
+                    "cd3": "pt",
+                    "cd32": "TooFaced BR",
+                    "cd33": "BR",
+                    "cd31": "TooFaced",
+                    "cd83": "1",
+                    "cd74": "",
+                    "cd53": "",
+                    "cd9": "original"
+                },
+                "MPP": {
+                    "cd39": "MPP",
+                    "il1nm": "/products"
+                },
+                "productClick": {
+                    "pal": "/products"
+                },
+                "productdetailview": {
+                    "cd39": "QV"
+                },
+                "SPP": {
+                    "cd39": "SPP",
+                    "il1nm": "/product"
+                },
+                "viewCartOverlay": {
+                    "ec": "viewcart"
+                },
+                "productURL": {
+                    "productDetails1": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU117886",
+                    "productDetails2": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU117887",
+                    "productDetails3": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU118027",
+                    "productDetails4": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU117794",
+                    "productDetails5": "/shared/prodcat/sku_info.tmpl?CATEGORY_ID=&SKU_ID=SKU117886"
+                },
+                "productQuantity": {
+                    "pr1qt": "1"
+                },
+                "productValues": [
+                    {
+                        "pr1cd1": "1 oz./30 ml",
+                        "pr1cd85": "716170184159",
+                        "pr1cd84": "EGXR17",
+                        "pr1id": "PROD55680",
+                        "pr1cd52": "SKU88561",
+                        "pr1cd50": "Alabaster (C-004 / 0)",
+                        "pr1pr": "65"
+                    },
+                    {
+                        "pr1cd1": "15ml",
+                        "pr1cd85": "716170254401",
+                        "pr1cd84": "EPGN01",
+                        "pr1id": "PROD7485",
+                        "pr1cd52": "SKU120844",
+                        "pr1cd50": "15ml",
+                        "pr1pr": "25"
+                    },
+                    {
+                        "pr1cd1": "50 ml",
+                        "pr1cd85": "716170264530",
+                        "pr1cd84": "EREP01",
+                        "pr1id": "PROD93885",
+                        "pr1cd52": "SKU140110",
+                        "pr1cd50": "",
+                        "pr1pr": "148"
+                    },
+                    {
+                        "pr1cd1": "15 ml",
+                        "pr1cd85": "716170252292",
+                        "pr1cd84": "EP7P01",
+                        "pr1id": "PROD93883",
+                        "pr1cd52": "SKU140108",
+                        "pr1cd50": "",
+                        "pr1pr": "116"
+                    },
+                    {
+                        "pr1cd1": "15 ml",
+                        "pr1cd85": "716170254586",
+                        "pr1cd84": "EPHC01",
+                        "pr1id": "PROD93884",
+                        "pr1cd52": "SKU140109",
+                        "pr1cd50": "",
+                        "pr1pr": "95"
+                    }
+                ],
+                "impressionList": {
+                    "il1pi1ps": 1,
+                    "il1pi1id": "PROD116785",
+                    "il1pi2ps": 2,
+                    "il1pi2id": "PROD340",
+                    "il1pi3ps": 3,
+                    "il1pi3id": "PROD1231",
+                    "il1pi4ps": 4,
+                    "il1pi4id": "PROD99811",
+                    "il1pi5ps": 5,
+                    "il1pi5id": "PROD105333"
+                },
+                "signin": {
+                    "dt": "checkout | signin",
+                    "pa": "checkout",
+                    "cos": "2"
+                },
+                "shipping": {
+                    "cos": "2"
+                },
+                "purchase": {
+                    "ta": "TooFaced"
+                },
+                "userId": {
+                    "uid": ""
+                },
+                "revenue": {
+                    "tr": 44,
+                    "ts": "",
+                    "tt": 0
+                },
+                "OrderId": {
+                    "ti": ""
+                },
+                "misc": {
+                    "qtyXpathPC": "//div[@class='qty-container']/descendant::input[@name='QTY']"
+                }
+            }
+        ]
+    }
+]
